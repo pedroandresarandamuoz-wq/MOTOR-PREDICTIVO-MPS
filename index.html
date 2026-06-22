@@ -170,6 +170,24 @@ tr:hover td{background:rgba(88,166,255,.04)}
     <div class="chart-title">Dispersión TPL vs PN</div>
     <div class="ch scatter"><canvas id="cRankScatter"></canvas></div>
   </div>
+
+  <div class="chart-row">
+    <div>
+      <div class="sec">Ranking completo PN — todos los países</div>
+      <div class="tw" style="max-height:400px">
+        <table><thead><tr>
+          <th>#</th><th>País</th><th>ISO</th><th>PN</th><th>TPL</th><th>Grupo</th><th>Proy.</th>
+        </tr></thead><tbody id="tRankingAll"></tbody></table>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec">Ranking TPL — países con menor carga parasitaria</div>
+  <div class="tw" style="max-height:360px;margin-bottom:1rem">
+    <table><thead><tr>
+      <th>#</th><th>País</th><th>TPL</th><th>PN</th><th>Grupo</th>
+    </tr></thead><tbody id="tRankingTPL"></tbody></table>
+  </div>
 </div>
 
 <div id="page-pais" class="page">
@@ -413,6 +431,37 @@ async function loadRanking(){
     document.getElementById('rTop').innerHTML=data.top.map((d,i)=>ri(d,i,'pos')).join('');
     document.getElementById('rBot').innerHTML=data.bottom.map((d,i)=>ri(d,i,'neg')).join('');
     renderRankView(data,ano);
+
+    // Tabla completa ranking
+    const todos = data.todos || [];
+    const tblBody = document.getElementById('tRankingAll');
+    if(tblBody){
+      tblBody.innerHTML = todos.map((r,i)=>`<tr>
+        <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${i+1}</td>
+        <td>${r.nombre}</td>
+        <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${r.iso}</td>
+        <td class="${r.pn>0?'vp':r.pn<0?'vn':'vm'}">${r.pn!=null?(r.pn>=0?'+':'')+r.pn.toFixed(1):'—'}</td>
+        <td class="vm">${r.tpl!=null?r.tpl.toFixed(1):'—'}</td>
+        <td><span class="badge badge-${r.grupo||'A'}">${r.grupo||'A'}</span></td>
+        <td style="font-size:11px;color:${r.proy?'var(--bright)':'var(--muted)'}">${r.proy?'Sí':'—'}</td>
+      </tr>`).join('');
+    }
+
+    // Ranking TPL
+    try {
+      const tplData = await api(`/api/ranking_tpl/${ano}`);
+      const tplBody = document.getElementById('tRankingTPL');
+      if(tplBody){
+        tplBody.innerHTML = tplData.paises.map((r,i)=>`<tr>
+          <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${i+1}</td>
+          <td>${r.nombre}</td>
+          <td class="vm">${r.tpl.toFixed(1)}</td>
+          <td class="${r.pn>0?'vp':r.pn<0?'vn':'vm'}">${r.pn!=null?(r.pn>=0?'+':'')+r.pn.toFixed(1):'—'}</td>
+          <td><span class="badge badge-${r.grupo||'A'}">${r.grupo||'A'}</span></td>
+        </tr>`).join('');
+      }
+    } catch(e){}
+
   } catch(e){ showErr(e); }
 }
 
