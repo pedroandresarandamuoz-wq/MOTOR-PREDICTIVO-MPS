@@ -184,6 +184,29 @@ tr:hover td{background:rgba(88,166,255,.04)}
     <div class="chart-title">Ranking de Carga Parasitaria Total (TPL) — menor es mejor</div>
     <div class="ch"><canvas id="cRankTpl30"></canvas></div>
   </div>
+  <div class="sec">🚨 Alertas de Deterioro Estructural (Evolución vs 2023)</div>
+  
+  <div class="chart-row">
+    <div class="chart-box">
+      <div class="chart-title">Países con mayor deterioro proyectado (Grupo A)</div>
+      <div class="ch tall"><canvas id="cRankEvol"></canvas></div>
+    </div>
+    
+    <div class="tw" style="margin-bottom: 0;">
+      <table>
+        <thead>
+          <tr>
+            <th>País</th>
+            <th>ISO</th>
+            <th>PN 2023</th>
+            <th>PN Seleccionado</th>
+            <th>Δ Evolución</th>
+          </tr>
+        </thead>
+        <tbody id="tEvolucion"></tbody>
+      </table>
+    </div>
+  </div>
 </div>
 
 <div id="page-pais" class="page">
@@ -415,6 +438,55 @@ async function loadRanking(){
       },
       options: { ...DARK, plugins:{ ...DARK.plugins, legend:{display:false} } }
     });
+    
+    // 5. CÁLCULO DE EVOLUCIÓN Y DETERIORO EN TIEMPO REAL
+    try {
+      const base23 = await api('/api/tabla/2023');
+      const actual = await api(`/api/tabla/${ano}`);
+      
+      let alertas = [];
+      for(let p_act of actual.paises) {
+        if(p_act.grupo !== 'A') continue; // Filtramos solo el Grupo A (comparables)
+        
+        let p_base = base23.paises.find(x => x.iso === p_act.iso);
+        
+        // Calculamos el delta de los que tienen datos en ambos años
+        if(p_base && p_base.pn != null && p_act.pn != null) {
+          let delta = p_act.pn - p_base.pn;
+          if(delta < -2) { // Aislamos a los que empeoran
+            alertas.push({ iso: p_act.iso, nombre: p_act.nombre, pn_ant: p_base.pn, pn_act: p_act.pn, delta: delta });
+          }
+        }
+      }
+      
+      // Ordenamos exponiendo primero a los que tienen la mayor caída
+      alertas.sort((a,b) => a.delta - b.delta);
+      const topAlertas = alertas.slice(0, 30);
+
+      // Dibujamos la gráfica de barras de deterioro
+      mkC('cRankEvol', {
+        type: 'bar',
+        data: {
+          labels: topAlertas.map(d=>d.nombre),
+          datasets: [{ label:`Deterioro (Δ)`, data:topAlertas.map(d=>d.delta), backgroundColor:'rgba(248,81,73,.8)', borderRadius:3 }]
+        },
+        options: { ...DARK, indexAxis:'y', plugins:{ ...DARK.plugins, legend:{display:false} } }
+      });
+
+      // Rellenamos la tabla con los números exactos
+      document.getElementById('tEvolucion').innerHTML = topAlertas.length ? topAlertas.map(d=>`
+        <tr>
+          <td>${d.nombre}</td>
+          <td class="vm">${d.iso}</td>
+          <td class="vm">${f1(d.pn_ant)}</td>
+          <td class="vm">${f1(d.pn_act)}</td>
+          <td class="vn" style="color:var(--red); font-weight:bold;">${f1(d.delta)}</td>
+        </tr>
+      `).join('') : '<tr><td colspan="5" class="vm" style="text-align:center;">Sin deterioro relevante</td></tr>';
+
+    } catch(errEvol) {
+      console.log("Omitiendo tabla de evolución por falta de datos base: ", errEvol);
+    }
 
   } catch(e) { 
     showErr(e); 
