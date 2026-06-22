@@ -153,21 +153,22 @@ tr:hover td{background:rgba(88,166,255,.04)}
       <option value="2010">2010</option>
       <option value="2008">2008</option>
     </select>
-    <label style="font-size:13px;color:var(--muted);margin-left:1rem">Vista:</label>
-    <select id="selRankVista" onchange="switchRankView()" style="padding:.3rem .7rem">
-      <option value="bars">Barras</option>
-      <option value="scatter">Dispersión TPL vs PN</option>
-    </select>
   </div>
-  <div class="rank-grid">
-    <div class="rank-panel"><h3>🟢 Top 20 · Mayor Prosperidad Neta</h3><div id="rTop"><div class="loading">cargando…</div></div></div>
-    <div class="rank-panel"><h3>🔴 Bottom 20 · Autofagia Estructural</h3><div id="rBot"><div class="loading">cargando…</div></div></div>
+  
+  <div class="chart-row">
+    <div class="chart-box">
+      <div class="chart-title">🟢 Top 20 · Mayor Prosperidad Neta</div>
+      <div class="ch tall"><canvas id="cRankTop"></canvas></div>
+    </div>
+    <div class="chart-box">
+      <div class="chart-title">🔴 Bottom 20 · Autofagia Estructural</div>
+      <div class="ch tall"><canvas id="cRankBot"></canvas></div>
+    </div>
   </div>
-  <div class="sec">Distribución PN</div>
-  <div id="rankBars" class="chart-box"><div class="ch tall"><canvas id="cRank"></canvas></div></div>
-  <div id="rankScatter" class="chart-box" style="display:none">
-    <div class="chart-title">Dispersión TPL vs PN</div>
-    <div class="ch scatter"><canvas id="cRankScatter"></canvas></div>
+  
+  <div class="sec">Ranking de Carga Parasitaria Total (TPL) — menor es mejor</div>
+  <div class="chart-box" style="margin-bottom:1rem">
+    <div class="ch"><canvas id="cRankTpl"></canvas></div>
   </div>
 </div>
 
