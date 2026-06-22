@@ -170,10 +170,22 @@ def get_ranking(anio: str):
         d=MATRIZ[p][anio]; pn=d.get("PN")
         if pn is None: continue
         filas.append({"iso":p,"nombre":nom(p),"pn":round(pn,2),
-            "tpl":round(d.get("TPL",0),2),"grupo":d.get("grupo"),
-            "proy":d.get("proyectado",False)})
+            "tpl":round(d.get("TPL",0),2) if d.get("TPL") is not None else 0,
+            "grupo":d.get("grupo"),"proy":d.get("proyectado",False)})
+    
     filas.sort(key=lambda x:x["pn"],reverse=True)
-    return resp({"ano":int(anio),"top":filas[:20],"bottom":filas[-20:][::-1],"total":len(filas)})
+    
+    # Ranking TPL (menor es mejor, filtramos valores extremos)
+    tpl_filas = [f for f in filas if f["tpl"] < 500]
+    tpl_filas.sort(key=lambda x:x["tpl"])
+    
+    return resp({
+        "ano":int(anio),
+        "top":filas[:20],
+        "bottom":filas[-20:][::-1], # Invertido para que el peor salga abajo en la gráfica
+        "tpl_top": tpl_filas[:30],
+        "total":len(filas)
+    })
 
 @app.get("/api/tabla/{anio}")
 def get_tabla(anio: str):
