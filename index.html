@@ -346,61 +346,35 @@ async function updateScatter(ano){
 }
 
 // ── RANKING ───────────────────────────────────────────────────────────────
+// ── RANKING ───────────────────────────────────────────────────────────────
 async function loadRanking(){
   try {
     const ano=document.getElementById('selRankAno')?.value||'2026';
     if(!RANK_CACHE[ano]) RANK_CACHE[ano]=await api(`/api/ranking/${ano}`);
     const data=RANK_CACHE[ano];
 
-    const ri=(d,i,cls)=>`<div class="ri">
-      <span class="rn">${i+1}</span>
-      <span style="flex:1">${d.nombre}</span>
-      <span style="font-size:10px;color:var(--muted);margin-right:.4rem">${d.grupo||''}</span>
-      <span class="rv ${cls}">${f1(d.pn)}</span>
-    </div>`;
-    document.getElementById('rTop').innerHTML=data.top.map((d,i)=>ri(d,i,'pos')).join('');
-    document.getElementById('rBot').innerHTML=data.bottom.map((d,i)=>ri(d,i,'neg')).join('');
-    renderRankView(data,ano);
+    // Gráfica Top 20 (Barras horizontales)
+    mkC('cRankTop',{type:'bar',data:{
+      labels:data.top.map(d=>d.nombre),
+      datasets:[{label:`PN ${ano}`,data:data.top.map(d=>d.pn),
+        backgroundColor:'rgba(63,185,80,.8)',borderRadius:3}]
+    },options:{...DARK,indexAxis:'y',plugins:{...DARK.plugins,legend:{display:false}},scales:{x:{...DARK.scales.x},y:{...DARK.scales.y,ticks:{font:{size:10}}}}}});
+
+    // Gráfica Bottom 20 (Barras horizontales)
+    mkC('cRankBot',{type:'bar',data:{
+      labels:data.bottom.map(d=>d.nombre),
+      datasets:[{label:`PN ${ano}`,data:data.bottom.map(d=>d.pn),
+        backgroundColor:'rgba(248,81,73,.8)',borderRadius:3}]
+    },options:{...DARK,indexAxis:'y',plugins:{...DARK.plugins,legend:{display:false}},scales:{x:{...DARK.scales.x},y:{...DARK.scales.y,ticks:{font:{size:10}}}}}});
+
+    // Gráfica TPL Top 30 (Barras verticales)
+    mkC('cRankTpl',{type:'bar',data:{
+      labels:data.tpl_top.map(d=>d.nombre),
+      datasets:[{label:`TPL ${ano}`,data:data.tpl_top.map(d=>d.tpl),
+        backgroundColor:'rgba(210,153,34,.8)',borderRadius:3}]
+    },options:{...DARK,plugins:{...DARK.plugins,legend:{display:false}}}});
+
   } catch(e){ showErr(e); }
-}
-
-function switchRankView(){
-  const ano=document.getElementById('selRankAno')?.value||'2026';
-  if(RANK_CACHE[ano]) renderRankView(RANK_CACHE[ano],ano);
-}
-
-function renderRankView(data,ano){
-  const vista=document.getElementById('selRankVista')?.value||'bars';
-  document.getElementById('rankBars').style.display=vista==='bars'?'':'none';
-  document.getElementById('rankScatter').style.display=vista==='scatter'?'':'none';
-
-  if(vista==='bars'){
-    const disp=[...data.top,...data.bottom];
-    mkC('cRank',{type:'bar',data:{
-      labels:disp.map(d=>d.nombre),
-      datasets:[{label:`PN ${ano}`,data:disp.map(d=>d.pn),
-        backgroundColor:disp.map(d=>d.pn>50?'rgba(63,185,80,.8)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
-        borderRadius:3}]
-    },options:{...DARK,indexAxis:'y',
-      scales:{x:{...DARK.scales.x},y:{...DARK.scales.y,ticks:{...DARK.scales.y.ticks,font:{size:10}}}}}
-    });
-  } else {
-    const todos=[...data.top,...data.bottom];
-    mkC('cRankScatter',{type:'scatter',data:{datasets:[{
-      label:`TPL vs PN ${ano}`,
-      data:todos.map(d=>({x:d.tpl,y:d.pn,n:d.nombre})),
-      backgroundColor:todos.map(d=>d.pn>50?'rgba(63,185,80,.7)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
-      borderColor:'rgba(33,38,45,.8)',borderWidth:1,pointRadius:7
-    }]},options:{...DARK,
-      plugins:{...DARK.plugins,tooltip:{...DARK.plugins.tooltip,callbacks:{
-        label:c=>`${c.raw.n}: PN=${c.raw.y.toFixed(1)} TPL=${c.raw.x.toFixed(1)}`
-      }}},
-      scales:{
-        x:{...DARK.scales.x,title:{display:true,text:'TPL',color:'#8B949E'}},
-        y:{...DARK.scales.y,title:{display:true,text:'PN',color:'#8B949E'}}
-      }
-    }});
-  }
 }
 
 // ── PAÍS ──────────────────────────────────────────────────────────────────
