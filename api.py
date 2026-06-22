@@ -129,27 +129,27 @@ def get_tendencia():
                 "n":len(vals),"proyectado":int(a)>2023})
     return resp(out)
 
-@app.get("/api/global/{año}")
-def get_global(año:str):
-    vals=[MATRIZ[p][año]["PN"] for p in PAISES if año in MATRIZ[p]
-          and MATRIZ[p][año].get("PN") is not None and MATRIZ[p][año].get("grupo")=="A"
-          and -500<=MATRIZ[p][año]["PN"]<=100]
-    return resp({"año":int(año),"n_paises":len([p for p in PAISES if año in MATRIZ[p]]),
+@app.get("/api/global/{anio}")
+def get_global(anio:str):
+    vals=[MATRIZ[p][anio]["PN"] for p in PAISES if año in MATRIZ[p]
+          and MATRIZ[p][anio].get("PN") is not None and MATRIZ[p][anio].get("grupo")=="A"
+          and -500<=MATRIZ[p][anio]["PN"]<=100]
+    return resp({"año":int(anio),"n_paises":len([p for p in PAISES if anio in MATRIZ[p]]),
         "pn_mediana":round(statistics.median(vals),2) if vals else None,
         "pct_positivos":round(sum(1 for v in vals if v>0)/len(vals)*100,1) if vals else None,
         "proyectado":int(año)>2023})
 
-@app.get("/api/scatter/{año}")
-def get_scatter(año:str):
+@app.get("/api/scatter/{anio}")
+def get_scatter(anio:str):
     pts=[]
     for p in PAISES:
-        if año not in MATRIZ[p]: continue
-        d=MATRIZ[p][año]
+        if anio not in MATRIZ[p]: continue
+        d=MATRIZ[p][anio]
         pn=d.get("PN"); tpl=d.get("TPL")
         if pn is None or tpl is None or tpl>1000 or pn<-500: continue
         pts.append({"iso":p,"nombre":nom(p),"pn":round(pn,2),"tpl":round(tpl,2),
             "eri":round(d.get("ERI",0),3),"grupo":d.get("grupo")})
-    return resp({"año":int(año),"puntos":pts})
+    return resp({"año":int(anio),"puntos":pts})
 
 @app.get("/api/pais/{iso}")
 def get_pais(iso:str):
@@ -165,24 +165,24 @@ def get_pais(iso:str):
             "grupo":d.get("grupo"),"proy":d.get("proyectado",False)}
     return resp({"iso":iso,"nombre":nom(iso),"region":reg(iso),"serie":serie})
 
-@app.get("/api/ranking/{año}")
-def get_ranking(año:str):
+@app.get("/api/ranking/{anio}")
+def get_ranking(anio:str):
     filas=[]
     for p in PAISES:
-        if año not in MATRIZ[p]: continue
-        d=MATRIZ[p][año]; pn=d.get("PN")
+        if anio not in MATRIZ[p]: continue
+        d=MATRIZ[p][anio]; pn=d.get("PN")
         if pn is None: continue
         filas.append({"iso":p,"nombre":nom(p),"pn":round(pn,2),
             "tpl":round(d.get("TPL",0),2),"grupo":d.get("grupo"),"proy":d.get("proyectado",False)})
     filas.sort(key=lambda x:x["pn"],reverse=True)
-    return resp({"año":int(año),"top":filas[:20],"bottom":filas[-20:][::-1],"total":len(filas)})
+    return resp({"año":int(anio),"top":filas[:20],"bottom":filas[-20:][::-1],"total":len(filas)})
 
-@app.get("/api/tabla/{año}")
-def get_tabla(año:str):
+@app.get("/api/tabla/{anio}")
+def get_tabla(anio:str):
     filas=[]
     for p in PAISES:
-        if año not in MATRIZ[p]: continue
-        d=MATRIZ[p][año]
+        if anio not in MATRIZ[p]: continue
+        d=MATRIZ[p][anio]
         filas.append({"iso":p,"nombre":nom(p),"region":reg(p),
             "pn":round(d["PN"],2) if d.get("PN") is not None else None,
             "tpl":round(d["TPL"],2) if d.get("TPL") is not None else None,
@@ -192,4 +192,4 @@ def get_tabla(año:str):
             "gt":round(d["G_trans_pct"],2) if d.get("G_trans_pct") is not None else None,
             "grupo":d.get("grupo"),"proy":d.get("proyectado",False)})
     filas.sort(key=lambda x:(x["pn"] or -9999),reverse=True)
-    return resp({"año":int(año),"paises":filas})
+    return resp({"año":int(anio),"paises":filas})
