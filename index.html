@@ -179,7 +179,7 @@ tr:hover td{background:rgba(88,166,255,.04)}
 </div>
 
 <script>
-const API = 'https://corsproxy.io/?url=https://motor-predictivo-mps.onrender.com';
+const API = 'https://motor-predictivo-mps.onrender.com';
 let CHARTS = {};
 let TABLA_DATA = [];
 
@@ -255,7 +255,7 @@ async function loadGlobal(){
 
     // Tendencia
     mkC('cTend',{type:'line',data:{
-      labels:tend.map(t=>t.año),
+      labels:tend.map(t=>t.ano),
       datasets:[{
         label:'Mediana PN',
         data:tend.map(t=>t.mediana),
@@ -281,7 +281,7 @@ async function loadGlobal(){
 
     // Pct positivos
     mkC('cPct',{type:'bar',data:{
-      labels:tend.map(t=>t.año),
+      labels:tend.map(t=>t.ano),
       datasets:[{label:'% PN positiva',data:tend.map(t=>t.pct_pos),
         backgroundColor:tend.map(t=>t.proyectado?'rgba(88,166,255,.3)':'rgba(63,185,80,.5)'),borderRadius:3}]
     },options:DARK});
