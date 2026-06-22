@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MPS — Motor Analítico y Predictivo</title>
+<title>MPS — Motor Predictivo de Prosperidad Sostenible</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -14,85 +14,115 @@
   --mono:'Courier New',monospace;
 }
 body{font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
-nav{position:fixed;top:0;left:0;right:0;z-index:200;height:54px;
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;height:52px;
   display:flex;align-items:center;justify-content:space-between;
-  padding:0 1.5rem;background:rgba(13,17,23,.95);
+  padding:0 1.5rem;background:rgba(13,17,23,.96);
   backdrop-filter:blur(12px);border-bottom:1px solid var(--border)}
-.nav-logo{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--bright);letter-spacing:.06em}
-.nav-tabs{display:flex}
-.nav-tab{padding:0 1rem;height:54px;display:flex;align-items:center;
-  font-size:13px;color:var(--muted);cursor:pointer;
-  border-bottom:2px solid transparent;transition:all .2s;white-space:nowrap}
+.nav-logo{font-family:var(--mono);font-size:13px;font-weight:700;color:var(--bright);letter-spacing:.06em;white-space:nowrap}
+.nav-tabs{display:flex;overflow-x:auto}
+.nav-tab{padding:0 .9rem;height:52px;display:flex;align-items:center;
+  font-size:12px;color:var(--muted);cursor:pointer;white-space:nowrap;
+  border-bottom:2px solid transparent;transition:all .2s}
 .nav-tab:hover{color:var(--text)}
 .nav-tab.active{color:var(--bright);border-bottom-color:var(--bright)}
-.nav-right{font-family:var(--mono);font-size:11px;color:var(--muted)}
-.page{display:none;padding:70px 1.5rem 2rem;max-width:1400px;margin:0 auto}
+.nav-status{font-family:var(--mono);font-size:11px;color:var(--muted);white-space:nowrap;margin-left:.5rem}
+
+/* LAYOUT */
+.page{display:none;padding:64px 1.5rem 2rem;max-width:1400px;margin:0 auto}
 .page.active{display:block}
-.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;margin-bottom:1.5rem}
-.kpi{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1rem 1.2rem;position:relative}
-.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;border-radius:10px 10px 0 0}
+
+/* KPI */
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-bottom:1.2rem}
+.kpi{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.85rem 1rem;position:relative}
+.kpi::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;border-radius:8px 8px 0 0}
 .kpi.blue::before{background:var(--bright)}.kpi.green::before{background:var(--green)}
 .kpi.red::before{background:var(--red)}.kpi.amber::before{background:var(--amber)}
-.kpi-val{font-family:var(--mono);font-size:1.8rem;font-weight:700}
-.kpi.blue .kpi-val{color:var(--bright)}.kpi.green .kpi-val{color:var(--green)}
-.kpi.red .kpi-val{color:var(--red)}.kpi.amber .kpi-val{color:var(--amber)}
-.kpi-lbl{font-size:11px;color:var(--muted);margin-top:3px;text-transform:uppercase;letter-spacing:.05em}
+.kpi.purple::before{background:#A371F7}
+.kv{font-family:var(--mono);font-size:1.6rem;font-weight:700}
+.kpi.blue .kv{color:var(--bright)}.kpi.green .kv{color:var(--green)}
+.kpi.red .kv{color:var(--red)}.kpi.amber .kv{color:var(--amber)}.kpi.purple .kv{color:#A371F7}
+.kl{font-size:11px;color:var(--muted);margin-top:2px;text-transform:uppercase;letter-spacing:.04em}
+
+/* SECTION */
 .sec{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;
-  letter-spacing:.08em;padding:1rem 0 .5rem;border-bottom:1px solid var(--border);margin-bottom:1rem}
+  letter-spacing:.08em;padding:.8rem 0 .4rem;border-bottom:1px solid var(--border);margin-bottom:.8rem}
+
+/* CHARTS */
 .chart-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
-.chart-box{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.2rem}
-.chart-title{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:1rem}
-.ch{height:320px;position:relative}.ch.tall{height:460px}.ch.scatter{height:480px}
-.rank-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
-.rank-panel{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.2rem}
-.rank-panel h3{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.8rem;font-family:var(--mono)}
-.ri{display:flex;align-items:center;gap:.8rem;padding:.45rem 0;border-bottom:1px solid rgba(33,38,45,.7);font-size:13px}
-.ri:last-child{border-bottom:none}
-.rn{font-family:var(--mono);font-size:11px;color:var(--muted);width:18px;flex-shrink:0}
-.rv{font-family:var(--mono);font-size:12px;font-weight:700}
-.rv.pos{color:var(--green)}.rv.neg{color:var(--red)}
-.pais-header{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;margin-bottom:1.5rem}
-select,input{background:var(--surface);border:1px solid var(--border);border-radius:8px;
-  color:var(--text);font-size:13px;padding:.55rem 1rem;cursor:pointer}
+.chart-row.r3{grid-template-columns:1fr 1fr 1fr}
+.chart-box{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1rem}
+.ct{font-size:11px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.8rem}
+.ch{height:280px;position:relative}
+.ch.tall{height:420px}.ch.sc{height:440px}.ch.sm{height:200px}
+
+/* CONTROLS */
+.gc{display:flex;gap:.8rem;flex-wrap:wrap;align-items:center;margin-bottom:1rem}
+.gc label{font-size:12px;color:var(--muted)}
+select,input[type=text]{background:var(--surface);border:1px solid var(--border);
+  border-radius:6px;color:var(--text);font-size:12px;padding:.4rem .8rem;cursor:pointer}
 select:focus,input:focus{outline:none;border-color:var(--bright)}
-.badge{display:inline-block;font-size:11px;padding:3px 10px;border-radius:20px;font-weight:600}
-.badge-A{background:rgba(63,185,80,.15);color:var(--green)}
-.badge-B{background:rgba(210,153,34,.15);color:var(--amber)}
-.badge-C{background:rgba(248,81,73,.15);color:var(--red)}
-.kpi-p{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-bottom:1.2rem}
-.kp{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.8rem 1rem}
-.kp-val{font-family:var(--mono);font-size:1.3rem;font-weight:700}
-.kp-lbl{font-size:11px;color:var(--muted);margin-top:2px}
-.tw{background:var(--surface);border:1px solid var(--border);border-radius:10px;overflow:auto;max-height:70vh;margin-bottom:1rem}
-table{width:100%;border-collapse:collapse;font-size:13px}
-th{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;
-  padding:.5rem .8rem;border-bottom:1px solid var(--border);text-align:left;font-weight:600;
-  position:sticky;top:0;background:var(--surface)}
-td{padding:.45rem .8rem;border-bottom:1px solid rgba(33,38,45,.5)}
+input[type=range]{accent-color:var(--bright)}
+
+/* TABLE */
+.tw{background:var(--surface);border:1px solid var(--border);border-radius:8px;
+  overflow:auto;max-height:380px;margin-bottom:1rem}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;
+  padding:.45rem .7rem;border-bottom:1px solid var(--border);text-align:left;font-weight:600;
+  position:sticky;top:0;background:var(--surface);z-index:1}
+td{padding:.4rem .7rem;border-bottom:1px solid rgba(33,38,45,.5)}
 tr:hover td{background:rgba(88,166,255,.04)}
 .vp{color:var(--green);font-family:var(--mono);font-weight:600}
 .vn{color:var(--red);font-family:var(--mono);font-weight:600}
 .vm{color:var(--muted);font-family:var(--mono)}
-.pb{font-size:10px;color:var(--bright);background:rgba(88,166,255,.1);padding:1px 5px;border-radius:3px;margin-left:4px}
-.gc{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem;align-items:center}
-.nota{background:var(--surface);border-left:3px solid var(--bright);border-radius:0 8px 8px 0;
-  padding:.8rem 1rem;font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:1rem}
+.pb{font-size:9px;color:var(--bright);background:rgba(88,166,255,.1);padding:1px 4px;border-radius:3px;margin-left:3px}
+
+/* BADGE */
+.badge{display:inline-block;font-size:10px;padding:2px 8px;border-radius:20px;font-weight:600}
+.badge-A{background:rgba(63,185,80,.15);color:var(--green)}
+.badge-B{background:rgba(210,153,34,.15);color:var(--amber)}
+.badge-C{background:rgba(248,81,73,.15);color:var(--red)}
+
+/* NOTA */
+.nota{background:var(--surface);border-left:3px solid var(--bright);border-radius:0 6px 6px 0;
+  padding:.7rem .9rem;font-size:12px;color:var(--muted);line-height:1.6;margin-bottom:.8rem}
 .nota strong{color:var(--text)}
-.loading{text-align:center;padding:3rem;color:var(--muted);font-family:var(--mono);font-size:13px}
-.error-box{background:rgba(248,81,73,.08);border:1px solid rgba(248,81,73,.3);border-radius:8px;
-  padding:1rem;color:var(--red);font-size:13px;margin:1rem 0}
-.mg{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:1rem;margin-bottom:1.5rem}
-.fc{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.5rem}
-.ft{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.1em;
-  padding:3px 8px;border-radius:4px;margin-bottom:.6rem}
+.nota.warn{border-left-color:var(--amber)}
+.nota.danger{border-left-color:var(--red)}
+
+/* PAÍS perfil */
+.perfil-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1rem}
+.perfil-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1rem}
+.perfil-card h4{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:.6rem}
+.bar-item{display:flex;align-items:center;gap:.5rem;margin-bottom:.35rem;font-size:11px}
+.bar-label{width:90px;color:var(--muted);flex-shrink:0;text-align:right}
+.bar-track{flex:1;background:rgba(33,38,45,1);border-radius:3px;height:12px;overflow:hidden}
+.bar-fill{height:100%;border-radius:3px;transition:width .4s}
+.bar-val{width:40px;font-family:var(--mono);font-size:10px;color:var(--text)}
+
+/* COMPARADOR */
+.comp-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.comp-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1rem}
+.comp-title{font-size:13px;font-weight:600;margin-bottom:.5rem}
+
+/* METODO */
+.mg{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem;margin-bottom:1.5rem}
+.fc{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem}
+.ft{display:inline-block;font-family:var(--mono);font-size:10px;font-weight:700;letter-spacing:.1em;padding:2px 7px;border-radius:3px;margin-bottom:.5rem}
 .ft-r{background:rgba(248,81,73,.15);color:var(--red)}.ft-a{background:rgba(210,153,34,.15);color:var(--amber)}
 .ft-g{background:rgba(63,185,80,.15);color:var(--green)}.ft-b{background:rgba(88,166,255,.15);color:var(--bright)}
 .ft-p{background:rgba(163,113,247,.15);color:#A371F7}
-.fn{font-size:.95rem;font-weight:600;margin-bottom:.5rem}
+.fn{font-size:.9rem;font-weight:600;margin-bottom:.4rem}
 .fe{font-family:var(--mono);font-size:11px;color:var(--bright);background:rgba(31,111,235,.08);
-  padding:.5rem .7rem;border-radius:6px;margin-bottom:.6rem;line-height:1.6;border-left:2px solid rgba(31,111,235,.3)}
-.fd{font-size:12px;color:var(--muted);line-height:1.6}
-@media(max-width:700px){.chart-row,.rank-grid{grid-template-columns:1fr}.nav-tab{padding:0 .6rem;font-size:12px}}
+  padding:.45rem .6rem;border-radius:5px;margin-bottom:.5rem;line-height:1.6;border-left:2px solid rgba(31,111,235,.3)}
+.fd{font-size:11px;color:var(--muted);line-height:1.6}
+
+@media(max-width:700px){
+  .chart-row,.chart-row.r3,.perfil-grid,.comp-row{grid-template-columns:1fr}
+  .nav-tab{padding:0 .5rem;font-size:11px}
+}
 </style>
 </head>
 <body>
@@ -100,452 +130,428 @@ tr:hover td{background:rgba(88,166,255,.04)}
 <nav>
   <div class="nav-logo">⚖️ MPS</div>
   <div class="nav-tabs">
-    <div class="nav-tab active" onclick="nav('global',this)">🌍 Global</div>
-    <div class="nav-tab" onclick="nav('ranking',this)">🏆 Ranking</div>
-    <div class="nav-tab" onclick="nav('pais',this)">🗺️ País</div>
-    <div class="nav-tab" onclick="nav('tabla',this)">📋 Tabla</div>
-    <div class="nav-tab" onclick="nav('grupos',this)">🧬 Grupos</div>
-    <div class="nav-tab" onclick="nav('metodo',this)">📖 Método</div>
+    <div class="nav-tab active" onclick="goPage('global',this)">🌍 Global</div>
+    <div class="nav-tab" onclick="goPage('pais',this)">🗺️ País</div>
+    <div class="nav-tab" onclick="goPage('comparar',this)">⚖️ Comparar</div>
+    <div class="nav-tab" onclick="goPage('ranking',this)">🏆 Ranking</div>
+    <div class="nav-tab" onclick="goPage('grupos',this)">🧬 Grupos</div>
+    <div class="nav-tab" onclick="goPage('tabla',this)">📋 Tabla</div>
+    <div class="nav-tab" onclick="goPage('metodo',this)">📖 Método</div>
   </div>
-  <div class="nav-right" id="navStatus">conectando…</div>
+  <div class="nav-status" id="navSt">conectando…</div>
 </nav>
 
+<!-- ═══ GLOBAL ═══════════════════════════════════════════════════════════ -->
 <div id="page-global" class="page active">
   <div class="kpi-grid">
-    <div class="kpi blue"><div class="kpi-val" id="kpi-paises">—</div><div class="kpi-lbl">Países</div></div>
-    <div class="kpi blue"><div class="kpi-val">19</div><div class="kpi-lbl">Años (2008-2026)</div></div>
-    <div class="kpi green"><div class="kpi-val" id="kpi-med">—</div><div class="kpi-lbl">PN mediana 2023</div></div>
-    <div class="kpi green"><div class="kpi-val" id="kpi-pos">—</div><div class="kpi-lbl">PN positiva</div></div>
-    <div class="kpi amber"><div class="kpi-val">0.61</div><div class="kpi-lbl">R² validación</div></div>
-    <div class="kpi red"><div class="kpi-val" id="kpi-drain">$0</div><div class="kpi-lbl">Gasto global hoy</div></div>
+    <div class="kpi blue"><div class="kv" id="kp">—</div><div class="kl">Países</div></div>
+    <div class="kpi blue"><div class="kv">19</div><div class="kl">Años (2008-2026)</div></div>
+    <div class="kpi green"><div class="kv" id="km">—</div><div class="kl">PN mediana 2023</div></div>
+    <div class="kpi green"><div class="kv" id="kpos">—</div><div class="kl">PN positiva 2023</div></div>
+    <div class="kpi amber"><div class="kv">0.61</div><div class="kl">R² validación</div></div>
+    <div class="kpi red"><div class="kv">1.18</div><div class="kl">Deadweight loss</div></div>
   </div>
-  <div class="gc" style="margin-bottom:1rem">
-    <label style="font-size:13px;color:var(--muted)">Año scatter:</label>
-    <input type="range" id="sliderAno" min="2008" max="2026" value="2023"
-      style="width:180px;accent-color:var(--bright)" oninput="onSlider(this.value)">
-    <span id="sliderVal" style="font-family:var(--mono);font-size:13px;color:var(--bright);min-width:36px">2023</span>
-    <label style="font-size:13px;color:var(--muted);margin-left:1rem">Grupo:</label>
-    <select id="selGrupo" onchange="onGrupo()" style="padding:.3rem .7rem">
+
+  <div class="sec">Tendencia Prosperidad Neta global — mediana grupo A, 2008-2026</div>
+  <div class="chart-box" style="margin-bottom:1rem"><div class="ch tall"><canvas id="cTend"></canvas></div></div>
+
+  <div class="gc">
+    <label>Año scatter:</label>
+    <input type="range" id="slAno" min="2008" max="2026" value="2023" style="width:160px" oninput="onSlider(this.value)">
+    <span id="slVal" style="font-family:var(--mono);font-size:12px;color:var(--bright);min-width:32px">2023</span>
+    <label style="margin-left:.5rem">Grupo:</label>
+    <select id="selGr" onchange="onSlider(document.getElementById('slAno').value)">
       <option value="all">Todos</option>
       <option value="A">A — Comparables</option>
       <option value="B">B — Drenaje severo</option>
       <option value="C">C — Colapso</option>
     </select>
   </div>
-  <div class="sec">Tendencia PN global (mediana grupo A, 2008-2026)</div>
-  <div class="chart-box" style="margin-bottom:1rem"><div class="ch"><canvas id="cTend"></canvas></div></div>
   <div class="chart-row">
-    <div class="chart-box"><div class="chart-title">Dispersión TPL vs PN · 2023</div><div class="ch scatter"><canvas id="cScatter"></canvas></div></div>
-    <div class="chart-box"><div class="chart-title">% Países PN positiva por año</div><div class="ch"><canvas id="cPct"></canvas></div></div>
+    <div class="chart-box"><div class="ct">TPL vs PN — dispersión países</div><div class="ch sc"><canvas id="cSc"></canvas></div></div>
+    <div class="chart-box"><div class="ct">% Países con PN positiva por año</div><div class="ch sc"><canvas id="cPct"></canvas></div></div>
   </div>
 </div>
 
+<!-- ═══ PAÍS ══════════════════════════════════════════════════════════════ -->
+<div id="page-pais" class="page">
+  <div class="gc">
+    <select id="selP" onchange="loadPais(this.value)" style="min-width:200px"><option>cargando…</option></select>
+    <span class="badge" id="pBadge"></span>
+    <span style="font-size:12px;color:var(--muted)" id="pReg"></span>
+  </div>
+
+  <div class="kpi-grid" id="kpiP"></div>
+  <div id="pNota"></div>
+
+  <div class="sec">Evolución histórica y proyección 2024-2026</div>
+  <div class="chart-row">
+    <div class="chart-box"><div class="ct">Prosperidad Neta (PN)</div><div class="ch"><canvas id="cPN"></canvas></div></div>
+    <div class="chart-box"><div class="ct">Carga Parasitaria Total (TPL)</div><div class="ch"><canvas id="cTPL"></canvas></div></div>
+  </div>
+
+  <div class="sec">Composición del gasto público</div>
+  <div class="chart-row">
+    <div class="chart-box"><div class="ct">G. Consumo · G. Transferencias · Inversión (%PIB)</div><div class="ch"><canvas id="cGasto"></canvas></div></div>
+    <div class="chart-box"><div class="ct">ERI (eficiencia inversión) · C_H (carga oculta)</div><div class="ch"><canvas id="cInst"></canvas></div></div>
+  </div>
+
+  <div class="sec">Desglose de la Carga Oculta (C_H) — año más reciente</div>
+  <div class="perfil-grid">
+    <div class="perfil-card">
+      <h4>Componentes C_H</h4>
+      <div id="barCH"></div>
+    </div>
+    <div class="perfil-card">
+      <h4>Interdependencia exterior</h4>
+      <div id="barInter"></div>
+      <div id="interDetalle" style="margin-top:.8rem;font-size:11px;color:var(--muted);line-height:1.8"></div>
+    </div>
+  </div>
+
+  <div class="sec">Prosperidad Sostenible (PS) y Subsidio Exterior (S_E)</div>
+  <div class="chart-box" style="margin-bottom:1rem"><div class="ch"><canvas id="cPS"></canvas></div></div>
+
+  <div class="sec">Serie histórica completa</div>
+  <div class="tw">
+    <table><thead><tr>
+      <th>Año</th><th>PN</th><th>TPL</th><th>C_H</th><th>ERI</th>
+      <th>G.Cons%</th><th>G.Trans%</th><th>PS</th><th>S_E</th><th>Grupo</th>
+    </tr></thead><tbody id="tP"></tbody></table>
+  </div>
+</div>
+
+<!-- ═══ COMPARAR ══════════════════════════════════════════════════════════ -->
+<div id="page-comparar" class="page">
+  <div class="nota">Selecciona dos países para comparar su evolución de PN, TPL y C_H desde 2008 hasta 2026.</div>
+  <div class="gc">
+    <label>País 1:</label>
+    <select id="selC1" onchange="loadComparar()" style="min-width:160px"></select>
+    <label>País 2:</label>
+    <select id="selC2" onchange="loadComparar()" style="min-width:160px"></select>
+  </div>
+  <div class="comp-row" id="compKPIs"></div>
+  <div class="chart-row">
+    <div class="chart-box"><div class="ct">Prosperidad Neta (PN)</div><div class="ch tall"><canvas id="cCPN"></canvas></div></div>
+    <div class="chart-box"><div class="ct">Carga Parasitaria Total (TPL)</div><div class="ch tall"><canvas id="cCTPL"></canvas></div></div>
+  </div>
+  <div class="chart-row">
+    <div class="chart-box"><div class="ct">Carga Oculta (C_H)</div><div class="ch"><canvas id="cCCH"></canvas></div></div>
+    <div class="chart-box"><div class="ct">ERI — Efectividad inversión</div><div class="ch"><canvas id="cCERI"></canvas></div></div>
+  </div>
+</div>
+
+<!-- ═══ RANKING ═══════════════════════════════════════════════════════════ -->
 <div id="page-ranking" class="page">
-  <div class="nota">Ranking PN por año, grupo A. Mayor PN = mayor prosperidad privada real.</div>
-  <div class="gc" style="margin-bottom:1rem">
-    <label style="font-size:13px;color:var(--muted)">Año:</label>
-    <select id="selRankAno" onchange="loadRanking()" style="padding:.3rem .7rem">
-      <option value="2026" selected>2026 (proyección)</option>
-      <option value="2025">2025 (proyección)</option>
-      <option value="2024">2024 (proyección)</option>
+  <div class="gc">
+    <label>Año:</label>
+    <select id="selRA" onchange="loadRanking()">
+      <option value="2026" selected>2026 (proy.)</option>
+      <option value="2025">2025 (proy.)</option>
+      <option value="2024">2024 (proy.)</option>
       <option value="2023">2023</option>
       <option value="2020">2020</option>
       <option value="2015">2015</option>
       <option value="2010">2010</option>
       <option value="2008">2008</option>
     </select>
-    <label style="font-size:13px;color:var(--muted);margin-left:1rem">Vista:</label>
-    <select id="selRankVista" onchange="switchRankView()" style="padding:.3rem .7rem">
+    <label>Vista:</label>
+    <select id="selRV" onchange="switchRV()">
       <option value="bars">Barras</option>
-      <option value="scatter">Dispersión TPL vs PN</option>
+      <option value="scatter">Dispersión TPL/PN</option>
     </select>
   </div>
-  <div class="rank-grid">
-    <div class="rank-panel"><h3>🟢 Top 20 · Mayor Prosperidad Neta</h3><div id="rTop"><div class="loading">cargando…</div></div></div>
-    <div class="rank-panel"><h3>🔴 Bottom 20 · Autofagia Estructural</h3><div id="rBot"><div class="loading">cargando…</div></div></div>
-  </div>
-  <div class="sec">Distribución PN</div>
-  <div id="rankBars" class="chart-box"><div class="ch tall"><canvas id="cRank"></canvas></div></div>
-  <div id="rankScatter" class="chart-box" style="display:none">
-    <div class="chart-title">Dispersión TPL vs PN</div>
-    <div class="ch scatter"><canvas id="cRankScatter"></canvas></div>
-  </div>
 
-  <div class="chart-row">
-    <div>
-      <div class="sec">Ranking completo PN — todos los países</div>
-      <div class="tw" style="max-height:400px">
-        <table><thead><tr>
-          <th>#</th><th>País</th><th>ISO</th><th>PN</th><th>TPL</th><th>Grupo</th><th>Proy.</th>
-        </tr></thead><tbody id="tRankingAll"></tbody></table>
-      </div>
+  <div class="chart-row" id="rankLists">
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1rem">
+      <div class="ct">🟢 Top 20 — Mayor Prosperidad Neta</div>
+      <div id="rTop"></div>
+    </div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1rem">
+      <div class="ct">🔴 Bottom 20 — Autofagia Estructural</div>
+      <div id="rBot"></div>
     </div>
   </div>
 
+  <div id="rankBars" class="chart-box" style="margin-bottom:1rem">
+    <div class="ct">Distribución PN — top y bottom</div>
+    <div class="ch tall"><canvas id="cRank"></canvas></div>
+  </div>
+  <div id="rankScatter" class="chart-box" style="display:none;margin-bottom:1rem">
+    <div class="ct">Dispersión TPL vs PN</div>
+    <div class="ch sc"><canvas id="cRSc"></canvas></div>
+  </div>
+
   <div class="sec">Ranking TPL — países con menor carga parasitaria</div>
-  <div class="tw" style="max-height:360px;margin-bottom:1rem">
+  <div class="tw" style="margin-bottom:1rem">
+    <table><thead><tr><th>#</th><th>País</th><th>TPL</th><th>PN</th><th>Grupo</th></tr></thead>
+    <tbody id="tTPL"></tbody></table>
+  </div>
+
+  <div class="sec">Tabla completa — todos los países ordenados por PN</div>
+  <div class="tw">
     <table><thead><tr>
-      <th>#</th><th>País</th><th>TPL</th><th>PN</th><th>Grupo</th>
-    </tr></thead><tbody id="tRankingTPL"></tbody></table>
+      <th>#</th><th>País</th><th>ISO</th><th>PN</th><th>TPL</th><th>C_H</th><th>ERI</th><th>Grupo</th><th>Proy.</th>
+    </tr></thead><tbody id="tRAll"></tbody></table>
   </div>
 </div>
 
-<div id="page-pais" class="page">
-  <div class="pais-header">
-    <select id="selPais" onchange="loadPais(this.value)"><option>cargando…</option></select>
-    <span class="badge" id="pBadge"></span>
-    <span style="font-size:13px;color:var(--muted)" id="pRegion"></span>
-  </div>
-  <div class="kpi-p" id="kpiPais"></div>
-  <div id="pNota"></div>
-  <div class="chart-row">
-    <div class="chart-box"><div class="chart-title">Prosperidad Neta (PN)</div><div class="ch"><canvas id="cPN"></canvas></div></div>
-    <div class="chart-box"><div class="chart-title">Carga Parasitaria Total (TPL)</div><div class="ch"><canvas id="cTPL"></canvas></div></div>
-  </div>
-  <div class="chart-row">
-    <div class="chart-box"><div class="chart-title">Composición gasto público (%PIB)</div><div class="ch"><canvas id="cGasto"></canvas></div></div>
-    <div class="chart-box"><div class="chart-title">ERI · C_H institucional</div><div class="ch"><canvas id="cInst"></canvas></div></div>
-  </div>
-  <div class="sec">Serie histórica completa</div>
-  <div class="tw"><table><thead><tr><th>Año</th><th>PN</th><th>TPL</th><th>ERI</th><th>C_H</th><th>G.Cons%</th><th>G.Trans%</th><th>PS</th></tr></thead><tbody id="tPais"></tbody></table></div>
-</div>
-
-<div id="page-tabla" class="page">
-  <div class="gc">
-    <input id="sBox" placeholder="Buscar país o ISO…" oninput="filterT()" style="width:220px">
-    <select id="sYear" onchange="filterT()"></select>
-    <span style="font-size:13px;color:var(--muted)" id="tCount"></span>
-  </div>
-  <div class="tw"><table><thead><tr><th>País</th><th>ISO</th><th>PN</th><th>TPL</th><th>ERI</th><th>C_H</th><th>G.Cons%</th><th>G.Trans%</th><th>Grupo</th><th>Proy.</th></tr></thead><tbody id="tGlobal"></tbody></table></div>
-</div>
-
-
+<!-- ═══ GRUPOS ════════════════════════════════════════════════════════════ -->
 <div id="page-grupos" class="page">
-  <div class="gc" style="margin-bottom:1rem">
-    <label style="font-size:13px;color:var(--muted)">Año:</label>
-    <select id="selGruposAno" onchange="loadGrupos()" style="padding:.3rem .7rem">
+  <div class="gc">
+    <label>Año:</label>
+    <select id="selGA" onchange="loadGrupos()">
       <option value="2026">2026 (proy.)</option>
-      <option value="2025">2025 (proy.)</option>
-      <option value="2024">2024 (proy.)</option>
       <option value="2023" selected>2023</option>
       <option value="2020">2020</option>
       <option value="2015">2015</option>
       <option value="2010">2010</option>
       <option value="2008">2008</option>
     </select>
-    <label style="font-size:13px;color:var(--muted);margin-left:1rem">Grupo detalle:</label>
-    <select id="selGrupoDetalle" onchange="renderGrupoTabla()" style="padding:.3rem .7rem">
-      <option value="A">A — Comparables</option>
-      <option value="B">B — Drenaje severo</option>
-      <option value="C">C — Colapso institucional</option>
+    <label>Detalle:</label>
+    <select id="selGD" onchange="renderGT()">
+      <option value="A">Grupo A — Comparables</option>
+      <option value="B">Grupo B — Drenaje severo</option>
+      <option value="C">Grupo C — Colapso institucional</option>
     </select>
   </div>
 
-  <div class="kpi-grid" id="kpiGrupos" style="margin-bottom:1rem"></div>
+  <div class="kpi-grid" id="kpiGr"></div>
 
   <div class="chart-row">
-    <div class="chart-box">
-      <div class="chart-title">Distribución por grupo</div>
-      <div class="ch"><canvas id="cGrupoPie"></canvas></div>
-    </div>
-    <div class="chart-box">
-      <div class="chart-title">ERI vs C_H — eficiencia vs fricción institucional</div>
-      <div class="ch"><canvas id="cGrupoERI"></canvas></div>
-    </div>
+    <div class="chart-box"><div class="ct">Distribución por grupo</div><div class="ch"><canvas id="cPie"></canvas></div></div>
+    <div class="chart-box"><div class="ct">ERI vs C_H — eficiencia vs fricción institucional</div><div class="ch sc"><canvas id="cERI"></canvas></div></div>
   </div>
 
   <div class="sec">🚨 Alertas de deterioro proyectado (Grupo A)</div>
-  <div class="nota" id="alertasResumen"></div>
-  <div class="tw" style="max-height:280px;margin-bottom:1rem">
+  <div class="nota" id="alRes"></div>
+  <div class="tw" style="max-height:260px;margin-bottom:1rem">
     <table><thead><tr>
-      <th>País</th><th>ISO</th><th>Año</th><th>PN anterior</th><th>PN proyectada</th><th>Δ</th><th>Tipo</th>
-    </tr></thead><tbody id="tAlertas"></tbody></table>
+      <th>País</th><th>Año</th><th>PN ant.</th><th>PN proy.</th><th>Δ</th><th>Tipo</th>
+    </tr></thead><tbody id="tAl"></tbody></table>
   </div>
 
-  <div class="sec" id="secGrupoDetalle">Países Grupo A</div>
+  <div class="sec" id="secGT">Países Grupo A</div>
   <div class="tw">
-    <table><thead><tr>
-      <th>País</th><th>Región</th><th>PN</th><th>TPL</th><th>ERI</th><th>C_H</th>
-    </tr></thead><tbody id="tGrupoDetalle"></tbody></table>
+    <table><thead><tr><th>País</th><th>Región</th><th>PN</th><th>TPL</th><th>ERI</th><th>C_H</th></tr></thead>
+    <tbody id="tGT"></tbody></table>
   </div>
 </div>
 
-<div id="page-metodo" class="page">
-  <div class="nota"><strong>Premisa:</strong> El PIB contabiliza el gasto público como positivo — circularidad estadística. El MPS lo invierte: el gasto estatal es siempre un coste sobre la economía privada. R² = 0.61 entre TPL y ln(PIBpc) sobre 163 países.</div>
-  <div class="mg">
-    <div class="fc"><span class="ft ft-r">C_H</span><div class="fn">Carga Oculta</div><div class="fe">C_H = (carga_bruta/10)^(1.85−WJP/10)<br>carga_bruta = Σ(10−indicador)×10</div><p class="fd">Fricción institucional invisible. El exponente amplifica geométricamente el daño cuando el estado de derecho es débil.</p></div>
-    <div class="fc"><span class="ft ft-a">ERI</span><div class="fn">Efectividad Real Inversión</div><div class="fe">ERI = Inversión_pública% / C_H</div><p class="fd">ERI &gt; 1: la inversión supera la corrupción institucional. Mitiga la TPL proporcionalmente.</p></div>
-    <div class="fc"><span class="ft ft-r">TPL</span><div class="fn">Carga Parasitaria Total</div><div class="fe">[G_cons^(2−WGI) + √G_trans + C_H]<br>× (1 − ERI_norm × 0.5)</div><p class="fd">Suma del coste estatal, transferencias y fricción oculta. El exponente (2−WGI) amplifica si el gobierno es destructivo neto.</p></div>
-    <div class="fc"><span class="ft ft-g">PN</span><div class="fn">Prosperidad Neta</div><div class="fe">PN = 100 − (TPL × 1.18)</div><p class="fd">Stock de prosperidad privada tras descontar el estado. 1.18 = deadweight loss. PN positiva = economía viable. Negativa = hipoteca generacional.</p></div>
-    <div class="fc"><span class="ft ft-b">PS</span><div class="fn">Prosperidad Sostenible</div><div class="fe">PS = PN + S_E%<br>S_E = ((Imp−Exp)+ODA+Remesas)/PIB</div><p class="fd">Corrige por subsidio exterior. S_E positivo = dependencia. S_E negativo = país donante neto.</p></div>
-    <div class="fc"><span class="ft ft-p">Grupos</span><div class="fn">Clasificación</div><div class="fe">A: PN &gt; −500 · B: −5000 a −500 · C: &lt; −5000</div><p class="fd">A: análisis comparativo. B: hipoteca generacional. C: colapso institucional — cadáveres que caminan.</p></div>
+<!-- ═══ TABLA ═════════════════════════════════════════════════════════════ -->
+<div id="page-tabla" class="page">
+  <div class="gc">
+    <input type="text" id="sTB" placeholder="Buscar país o ISO…" oninput="filterTB()" style="width:200px">
+    <select id="sTBY" onchange="loadTB()"></select>
+    <select id="sTBG" onchange="filterTB()">
+      <option value="all">Todos los grupos</option>
+      <option value="A">Grupo A</option>
+      <option value="B">Grupo B</option>
+      <option value="C">Grupo C</option>
+    </select>
+    <span style="font-size:12px;color:var(--muted)" id="tBCount"></span>
   </div>
-  <div class="nota"><strong>Proyecciones 2024-2026:</strong> Regresión lineal sobre 2008-2023 para variables fiscales. Media móvil últimos 3 años para variables institucionales. IC al 80%.<br><strong>PN extremas negativas:</strong> No son errores — son la foto real de estados con gobernanza destructiva neta.<br><strong>Autor:</strong> Pedro Andrés Aranda Muñoz · CC BY 4.0 · 2026</div>
+  <div class="tw" style="max-height:75vh">
+    <table><thead><tr>
+      <th>País</th><th>ISO</th><th>Región</th><th>PN</th><th>TPL</th>
+      <th>C_H</th><th>ERI</th><th>G.Cons%</th><th>G.Trans%</th><th>Grupo</th><th>Proy.</th>
+    </tr></thead><tbody id="tBBody"></tbody></table>
+  </div>
+</div>
+
+<!-- ═══ MÉTODO ════════════════════════════════════════════════════════════ -->
+<div id="page-metodo" class="page">
+  <div class="nota"><strong>Premisa:</strong> El PIB contabiliza el gasto público como positivo — circularidad estadística. El MPS lo invierte: cada euro del estado es un coste sobre la economía privada. R² = 0.61 entre TPL y ln(PIBpc) sobre 163 países. Autor: <strong>Pedro Andrés Aranda Muñoz</strong> · CC BY 4.0 · 2026</div>
+  <div class="mg">
+    <div class="fc"><span class="ft ft-r">C_H</span><div class="fn">Carga Oculta</div>
+      <div class="fe">C_H = (carga_bruta/10)^(1.85−WJP/10)<br>carga = Σ(10−indicador)×10<br>[IIJ, WJP, Fraser REG, SOE, FISCAL]</div>
+      <p class="fd">Fricción institucional invisible. El exponente amplifica el daño geométricamente cuando el estado de derecho es débil.</p></div>
+    <div class="fc"><span class="ft ft-a">ERI</span><div class="fn">Efectividad Real Inversión</div>
+      <div class="fe">ERI = Inversión_pública% / C_H</div>
+      <p class="fd">ERI &gt; 1: la inversión supera la corrupción. Mitiga la TPL proporcionalmente.</p></div>
+    <div class="fc"><span class="ft ft-r">TPL</span><div class="fn">Carga Parasitaria Total</div>
+      <div class="fe">[G_cons^(2−WGI) + √G_trans + C_H]<br>× (1 − ERI_norm × 0.5)</div>
+      <p class="fd">El coste total del aparato estatal sobre la economía privada.</p></div>
+    <div class="fc"><span class="ft ft-g">PN</span><div class="fn">Prosperidad Neta</div>
+      <div class="fe">PN = 100 − (TPL × 1.18)</div>
+      <p class="fd">Stock privado tras descontar el estado. 1.18 = deadweight loss. Positiva = viable. Negativa = hipoteca generacional.</p></div>
+    <div class="fc"><span class="ft ft-b">PS / S_E</span><div class="fn">Prosperidad Sostenible</div>
+      <div class="fe">PS = PN + S_E%<br>S_E = ((Imp−Exp)+ODA+Remesas)/PIB</div>
+      <p class="fd">Corrige por subsidio exterior. S_E positivo = dependencia externa. Negativo = país donante neto.</p></div>
+    <div class="fc"><span class="ft ft-p">Grupos A/B/C</span><div class="fn">Clasificación estructural</div>
+      <div class="fe">A: PN &gt; −500 (148 países)<br>B: −5.000 a −500<br>C: PN &lt; −5.000</div>
+      <p class="fd">A: análisis comparativo. B: hipoteca visible. C: colapso institucional.</p></div>
+  </div>
+  <div class="nota" style="margin-top:.5rem"><strong>Proyecciones 2024-2026:</strong> Regresión lineal sobre 2008-2023 para variables fiscales. Media móvil 3 años para variables institucionales. IC al 80%.<br><strong>PN extremas negativas:</strong> No son errores — son la foto real de estados con gobernanza destructiva neta. El modelo no tiene techo porque el parasitismo tampoco lo tiene.</div>
+  <div class="sec" style="margin-top:1rem">Fuentes de datos</div>
+  <div class="mg" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))">
+    <div class="fc" style="padding:.8rem"><div style="font-family:var(--mono);font-size:10px;color:var(--bright);margin-bottom:3px">G_cons% / G_trans%</div><div class="fd">FMI — Government Expenditure</div></div>
+    <div class="fc" style="padding:.8rem"><div style="font-family:var(--mono);font-size:10px;color:var(--bright);margin-bottom:3px">WGI</div><div class="fd">Banco Mundial — Governance Indicators</div></div>
+    <div class="fc" style="padding:.8rem"><div style="font-family:var(--mono);font-size:10px;color:var(--bright);margin-bottom:3px">IIJ / CPI</div><div class="fd">Fraser + Transparency International</div></div>
+    <div class="fc" style="padding:.8rem"><div style="font-family:var(--mono);font-size:10px;color:var(--bright);margin-bottom:3px">WJP_ROL</div><div class="fd">World Justice Project</div></div>
+    <div class="fc" style="padding:.8rem"><div style="font-family:var(--mono);font-size:10px;color:var(--bright);margin-bottom:3px">Fraser REG/SOE/FISCAL</div><div class="fd">Fraser Institute — Economic Freedom</div></div>
+    <div class="fc" style="padding:.8rem"><div style="font-family:var(--mono);font-size:10px;color:var(--bright);margin-bottom:3px">S_E</div><div class="fd">FMI BPM6 / Banco Mundial Net ODA</div></div>
+  </div>
 </div>
 
 <script>
-const API = 'https://motor-predictivo-mps.onrender.com';
-let CHARTS = {};
-let TABLA_DATA = [];
-let TEND_DATA = null;
-let SCATTER_CACHE = {};
-let RANK_CACHE = {};
+const API='https://motor-predictivo-mps.onrender.com';
+let C={}, TB_DATA=[], TEND=null, SC_CACHE={}, RK_CACHE={}, GR_CACHE={}, AL=null, PAISES_LIST=[];
 
-const f1 = v => v!=null ? (v>=0?'+':'')+v.toFixed(1) : '—';
-const f3 = v => v!=null ? v.toFixed(3) : '—';
-const fx = v => v!=null ? v.toFixed(1) : '—';
-const cPN = v => !v&&v!==0?'vm':v>0?'vp':'vn';
+// ── Utilidades ────────────────────────────────────────────────────────────
+const f1=v=>v!=null?(v>=0?'+':'')+v.toFixed(1):'—';
+const f2=v=>v!=null?v.toFixed(2):'—';
+const f3=v=>v!=null?v.toFixed(3):'—';
+const fx=v=>v!=null?v.toFixed(1):'—';
+const cPN=v=>v==null?'vm':v>0?'vp':'vn';
 
-const DARK = {
+const DK={
   plugins:{legend:{labels:{color:'#8B949E',font:{size:11}}},
-    tooltip:{backgroundColor:'#161B22',borderColor:'#21262D',borderWidth:1,titleColor:'#E6EDF3',bodyColor:'#8B949E'}},
+    tooltip:{backgroundColor:'#161B22',borderColor:'#21262D',borderWidth:1,
+             titleColor:'#E6EDF3',bodyColor:'#8B949E'}},
   scales:{x:{grid:{color:'#21262D'},ticks:{color:'#8B949E',font:{size:11}}},
           y:{grid:{color:'#21262D'},ticks:{color:'#8B949E',font:{size:11}}}},
-  responsive:true,maintainAspectRatio:false,animation:{duration:400}
+  responsive:true,maintainAspectRatio:false,animation:{duration:300}
 };
 
 function mkC(id,cfg){
-  if(CHARTS[id]) CHARTS[id].destroy();
-  const c=document.getElementById(id);
-  if(!c) return;
-  CHARTS[id]=new Chart(c,cfg);
+  if(C[id]) C[id].destroy();
+  const el=document.getElementById(id);
+  if(!el) return;
+  C[id]=new Chart(el,cfg);
 }
 
-async function api(path){
-  const r=await fetch(API+path);
-  if(!r.ok) throw new Error(`${r.status} ${path}`);
+async function api(p){
+  const r=await fetch(API+p);
+  if(!r.ok) throw new Error(`${r.status} ${p}`);
   return r.json();
 }
 
-function showErr(msg){ console.error(msg); }
-
-// Drain counter
-const t0=Date.now(), GPS=1330963;
-(function tick(){
-  const v=(Date.now()-t0)/1000*GPS;
-  const s=v>=1e12?'$'+(v/1e12).toFixed(3)+'T':v>=1e9?'$'+(v/1e9).toFixed(2)+'B':'$'+(v/1e6).toFixed(1)+'M';
-  document.getElementById('kpi-drain').textContent=s;
-  requestAnimationFrame(tick);
-})();
-
-// Navegación
+// ── Nav ───────────────────────────────────────────────────────────────────
 const LOADED={};
-function nav(id,el){
+function goPage(id,el){
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
   document.querySelectorAll('.nav-tab').forEach(t=>t.classList.remove('active'));
   document.getElementById('page-'+id).classList.add('active');
   el.classList.add('active');
-  if(!LOADED[id]){
-    LOADED[id]=true;
-    if(id==='ranking') loadRanking();
+  if(!LOADED[id]){LOADED[id]=true;
     if(id==='pais') initPais();
-    if(id==='tabla') initTabla();
+    if(id==='comparar') initComparar();
+    if(id==='ranking') loadRanking();
     if(id==='grupos') loadGrupos();
+    if(id==='tabla') initTabla();
   }
 }
 
 // ── GLOBAL ────────────────────────────────────────────────────────────────
 async function loadGlobal(){
-  try {
-    const [tend, g23] = await Promise.all([
-      api('/api/tendencia'),
-      api('/api/global/2023'),
-    ]);
-    TEND_DATA = tend;
+  try{
+    const [tend,g23]=await Promise.all([api('/api/tendencia'),api('/api/global/2023')]);
+    TEND=tend;
+    document.getElementById('navSt').textContent=`${g23.n_paises} países · OK`;
+    document.getElementById('kp').textContent=g23.n_paises;
+    document.getElementById('km').textContent=f1(g23.pn_mediana);
+    document.getElementById('kpos').textContent=(g23.pct_positivos||0).toFixed(0)+'%';
 
-    document.getElementById('navStatus').textContent=`${g23.n_paises} países · OK`;
-    document.getElementById('kpi-paises').textContent=g23.n_paises;
-    document.getElementById('kpi-med').textContent=(g23.pn_mediana>=0?'+':'')+g23.pn_mediana?.toFixed(1);
-    document.getElementById('kpi-pos').textContent=g23.pct_positivos?.toFixed(0)+'%';
-
-    // Tendencia
     mkC('cTend',{type:'line',data:{
       labels:tend.map(t=>t.ano),
-      datasets:[{
-        label:'Mediana PN',data:tend.map(t=>t.mediana),
-        borderColor:'#58A6FF',backgroundColor:'rgba(88,166,255,.06)',
-        borderWidth:2.5,pointRadius:4,fill:true,
-        segment:{borderDash:ctx=>tend[ctx.p1DataIndex]?.proyectado?[5,4]:undefined}
-      },{label:'Cero',data:tend.map(()=>0),
-        borderColor:'rgba(248,81,73,.3)',borderWidth:1,borderDash:[4,4],pointRadius:0}]
-    },options:DARK});
+      datasets:[
+        {label:'Mediana PN',data:tend.map(t=>t.mediana),
+         borderColor:'#58A6FF',backgroundColor:'rgba(88,166,255,.06)',
+         borderWidth:2.5,pointRadius:4,fill:true,
+         segment:{borderDash:ctx=>tend[ctx.p1DataIndex]?.proyectado?[5,4]:undefined}},
+        {label:'Cero',data:tend.map(()=>0),
+         borderColor:'rgba(248,81,73,.3)',borderWidth:1,borderDash:[4,4],pointRadius:0}
+      ]
+    },options:DK});
 
     mkC('cPct',{type:'bar',data:{
       labels:tend.map(t=>t.ano),
       datasets:[{label:'% PN positiva',data:tend.map(t=>t.pct_pos),
-        backgroundColor:tend.map(t=>t.proyectado?'rgba(88,166,255,.3)':'rgba(63,185,80,.5)'),borderRadius:3}]
-    },options:DARK});
+        backgroundColor:tend.map(t=>t.proyectado?'rgba(88,166,255,.3)':'rgba(63,185,80,.5)'),
+        borderRadius:3}]
+    },options:DK});
 
-    await updateScatter('2023');
-  } catch(e){ showErr(e); document.getElementById('navStatus').textContent='error API'; }
+    await onSlider('2023');
+  }catch(e){console.error(e);document.getElementById('navSt').textContent='error API';}
 }
 
 async function onSlider(val){
-  document.getElementById('sliderVal').textContent=val;
-  await updateScatter(val);
-}
-
-async function onGrupo(){
-  const val=document.getElementById('sliderAno').value;
-  await updateScatter(val);
-}
-
-async function updateScatter(ano){
-  try {
-    if(!SCATTER_CACHE[ano]) SCATTER_CACHE[ano]=await api(`/api/scatter/${ano}`);
-    const sc=SCATTER_CACHE[ano];
-    const grupo=document.getElementById('selGrupo')?.value||'all';
-    let pts=sc.puntos;
-    if(grupo!=='all') pts=pts.filter(d=>d.grupo===grupo);
-
-    mkC('cScatter',{type:'scatter',data:{datasets:[{
-      label:`Países ${ano}`,
-      data:pts.map(d=>({x:d.tpl,y:d.pn,n:d.nombre,g:d.grupo})),
-      backgroundColor:pts.map(d=>d.pn>50?'rgba(63,185,80,.7)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
-      borderColor:'rgba(33,38,45,.8)',borderWidth:1,pointRadius:6
-    }]},options:{...DARK,
-      plugins:{...DARK.plugins,tooltip:{...DARK.plugins.tooltip,callbacks:{
-        label:c=>`${c.raw.n} [${c.raw.g||'?'}]: PN=${c.raw.y.toFixed(1)} TPL=${c.raw.x.toFixed(1)}`
-      }}},
-      scales:{
-        x:{...DARK.scales.x,title:{display:true,text:'TPL',color:'#8B949E'}},
-        y:{...DARK.scales.y,title:{display:true,text:'PN',color:'#8B949E'}}
-      }
-    }});
-  } catch(e){ showErr(e); }
-}
-
-// ── RANKING ───────────────────────────────────────────────────────────────
-async function loadRanking(){
-  try {
-    const ano=document.getElementById('selRankAno')?.value||'2026';
-    if(!RANK_CACHE[ano]) RANK_CACHE[ano]=await api(`/api/ranking/${ano}`);
-    const data=RANK_CACHE[ano];
-
-    const ri=(d,i,cls)=>`<div class="ri">
-      <span class="rn">${i+1}</span>
-      <span style="flex:1">${d.nombre}</span>
-      <span style="font-size:10px;color:var(--muted);margin-right:.4rem">${d.grupo||''}</span>
-      <span class="rv ${cls}">${f1(d.pn)}</span>
-    </div>`;
-    document.getElementById('rTop').innerHTML=data.top.map((d,i)=>ri(d,i,'pos')).join('');
-    document.getElementById('rBot').innerHTML=data.bottom.map((d,i)=>ri(d,i,'neg')).join('');
-    renderRankView(data,ano);
-
-    // Tabla completa ranking
-    const todos = data.todos || [];
-    const tblBody = document.getElementById('tRankingAll');
-    if(tblBody){
-      tblBody.innerHTML = todos.map((r,i)=>`<tr>
-        <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${i+1}</td>
-        <td>${r.nombre}</td>
-        <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${r.iso}</td>
-        <td class="${r.pn>0?'vp':r.pn<0?'vn':'vm'}">${r.pn!=null?(r.pn>=0?'+':'')+r.pn.toFixed(1):'—'}</td>
-        <td class="vm">${r.tpl!=null?r.tpl.toFixed(1):'—'}</td>
-        <td><span class="badge badge-${r.grupo||'A'}">${r.grupo||'A'}</span></td>
-        <td style="font-size:11px;color:${r.proy?'var(--bright)':'var(--muted)'}">${r.proy?'Sí':'—'}</td>
-      </tr>`).join('');
-    }
-
-    // Ranking TPL
-    try {
-      const tplData = await api(`/api/ranking_tpl/${ano}`);
-      const tplBody = document.getElementById('tRankingTPL');
-      if(tplBody){
-        tplBody.innerHTML = tplData.paises.map((r,i)=>`<tr>
-          <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${i+1}</td>
-          <td>${r.nombre}</td>
-          <td class="vm">${r.tpl.toFixed(1)}</td>
-          <td class="${r.pn>0?'vp':r.pn<0?'vn':'vm'}">${r.pn!=null?(r.pn>=0?'+':'')+r.pn.toFixed(1):'—'}</td>
-          <td><span class="badge badge-${r.grupo||'A'}">${r.grupo||'A'}</span></td>
-        </tr>`).join('');
-      }
-    } catch(e){}
-
-  } catch(e){ showErr(e); }
-}
-
-function switchRankView(){
-  const ano=document.getElementById('selRankAno')?.value||'2026';
-  if(RANK_CACHE[ano]) renderRankView(RANK_CACHE[ano],ano);
-}
-
-function renderRankView(data,ano){
-  const vista=document.getElementById('selRankVista')?.value||'bars';
-  document.getElementById('rankBars').style.display=vista==='bars'?'':'none';
-  document.getElementById('rankScatter').style.display=vista==='scatter'?'':'none';
-
-  if(vista==='bars'){
-    const disp=[...data.top,...data.bottom];
-    mkC('cRank',{type:'bar',data:{
-      labels:disp.map(d=>d.nombre),
-      datasets:[{label:`PN ${ano}`,data:disp.map(d=>d.pn),
-        backgroundColor:disp.map(d=>d.pn>50?'rgba(63,185,80,.8)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
-        borderRadius:3}]
-    },options:{...DARK,indexAxis:'y',
-      scales:{x:{...DARK.scales.x},y:{...DARK.scales.y,ticks:{...DARK.scales.y.ticks,font:{size:10}}}}}
-    });
-  } else {
-    const todos=[...data.top,...data.bottom];
-    mkC('cRankScatter',{type:'scatter',data:{datasets:[{
-      label:`TPL vs PN ${ano}`,
-      data:todos.map(d=>({x:d.tpl,y:d.pn,n:d.nombre})),
-      backgroundColor:todos.map(d=>d.pn>50?'rgba(63,185,80,.7)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
-      borderColor:'rgba(33,38,45,.8)',borderWidth:1,pointRadius:7
-    }]},options:{...DARK,
-      plugins:{...DARK.plugins,tooltip:{...DARK.plugins.tooltip,callbacks:{
-        label:c=>`${c.raw.n}: PN=${c.raw.y.toFixed(1)} TPL=${c.raw.x.toFixed(1)}`
-      }}},
-      scales:{
-        x:{...DARK.scales.x,title:{display:true,text:'TPL',color:'#8B949E'}},
-        y:{...DARK.scales.y,title:{display:true,text:'PN',color:'#8B949E'}}
-      }
-    }});
-  }
+  document.getElementById('slVal').textContent=val;
+  document.getElementById('slAno').value=val;
+  if(!SC_CACHE[val]) SC_CACHE[val]=await api(`/api/scatter/${val}`);
+  const sc=SC_CACHE[val];
+  const gr=document.getElementById('selGr').value;
+  let pts=sc.puntos;
+  if(gr!=='all') pts=pts.filter(d=>d.grupo===gr);
+  mkC('cSc',{type:'scatter',data:{datasets:[{
+    label:`${val}`,
+    data:pts.map(d=>({x:d.tpl,y:d.pn,n:d.nombre,g:d.grupo})),
+    backgroundColor:pts.map(d=>d.pn>50?'rgba(63,185,80,.7)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
+    borderColor:'rgba(33,38,45,.8)',borderWidth:1,pointRadius:6
+  }]},options:{...DK,
+    plugins:{...DK.plugins,tooltip:{...DK.plugins.tooltip,callbacks:{
+      label:c=>`${c.raw.n} [${c.raw.g}]: PN=${c.raw.y?.toFixed(1)} TPL=${c.raw.x?.toFixed(1)}`
+    }}},
+    scales:{x:{...DK.scales.x,title:{display:true,text:'TPL',color:'#8B949E'}},
+            y:{...DK.scales.y,title:{display:true,text:'PN',color:'#8B949E'}}}
+  }});
 }
 
 // ── PAÍS ──────────────────────────────────────────────────────────────────
 const NOTAS={
-  ARG:'Quiebre estructural 2024: las reformas Milei rompen la inercia histórica. El modelo proyecta deterioro por extrapolación, pero el shock fiscal real detiene la autofagia.',
-  UKR:'Contracción de G_cons por destrucción institucional de guerra. Proyección con cautela.',
-  LBY:'Cleptocracia total. Los valores extremos son el resultado correcto del modelo.',
-  NOR:'Estado del bienestar con renta petrolera. La PN negativa refleja gestión de renta del recurso, no drenaje parasitario puro.',
+  ARG:'Quiebre estructural 2024: reformas Milei rompen inercia histórica. Proyección por extrapolación — el shock fiscal real detiene la autofagia.',
+  UKR:'Contracción G_cons por destrucción institucional de guerra. Proyección con cautela.',
+  LBY:'Cleptocracia total. PN extrema es resultado correcto del modelo.',
+  NOR:'Estado del bienestar con renta petrolera. PN negativa refleja gestión de renta del recurso.',
   LUX:'G_trans incluye redistribución supranacional UE que infla el denominador.',
-  CHN:'Aparato estatal masivo + índice SOE elevan la TPL. Inversión pública penaliza adicionalmente.',
+  CHN:'Aparato estatal masivo + SOE elevan TPL. Inversión pública penaliza adicionalmente.',
+  KWT:'Petroestado puro — PN negativa por circularidad de renta petrolera redistribuida como gasto público.',
+  QAT:'Petroestado en transición institucional — alta C_H pese a mejoras en transparencia.',
+  BRN:'Circularidad total: estado gestiona renta petrolera sin economía privada real.',
 };
 
 async function initPais(){
-  try {
+  try{
     const lista=await api('/api/paises');
-    const sel=document.getElementById('selPais');
+    PAISES_LIST=lista;
+    const sel=document.getElementById('selP');
     sel.innerHTML=lista.map(p=>`<option value="${p.iso}" ${p.iso==='ESP'?'selected':''}>${p.nombre} (${p.iso})</option>`).join('');
+    // Rellenar comparar también
+    ['selC1','selC2'].forEach((id,i)=>{
+      const s=document.getElementById(id);
+      if(s) s.innerHTML=lista.map(p=>`<option value="${p.iso}" ${(i===0&&p.iso==='ESP')||(i===1&&p.iso==='USA')?'selected':''}>${p.nombre} (${p.iso})</option>`).join('');
+    });
     loadPais('ESP');
-  } catch(e){ showErr(e); }
+  }catch(e){console.error(e);}
 }
 
 async function loadPais(iso){
-  try {
+  try{
     const d=await api(`/api/pais/${iso}`);
     const anos=Object.keys(d.serie).sort();
-    const d23=d.serie['2023']||{};
+    const ultimo=anos.filter(a=>!d.serie[a].proy).pop()||anos[0];
+    const du=d.serie[ultimo]||{};
     const d26=d.serie['2026']||{};
-    const grupo=d23.grupo||'A';
+    const grupo=du.grupo||'A';
 
     document.getElementById('pBadge').textContent='Grupo '+grupo;
     document.getElementById('pBadge').className='badge badge-'+grupo;
-    document.getElementById('pRegion').textContent=d.region||'';
+    document.getElementById('pReg').textContent=d.region||'';
 
-    const delta=d26.pn!=null&&d23.pn!=null?d26.pn-d23.pn:null;
-    document.getElementById('kpiPais').innerHTML=[
-      ['PN 2023',f1(d23.pn),d23.pn>0?'#3FB950':d23.pn>-100?'#D29922':'#F85149'],
-      ['PN 2026',f1(d26.pn),d26.pn>0?'#3FB950':'#F85149'],
-      ['Δ 2023→26',delta!=null?f1(delta)+'pts':'—',delta>0?'#3FB950':'#F85149'],
-      ['TPL 2023',fx(d23.tpl),'#D29922'],
-      ['ERI 2023',f3(d23.eri),'#58A6FF'],
-      ['C_H 2023',fx(d23.ch),'#F85149'],
-    ].map(([l,v,c])=>`<div class="kp"><div class="kp-val" style="color:${c}">${v}</div><div class="kp-lbl">${l}</div></div>`).join('');
+    const delta=d26.pn!=null&&du.pn!=null?d26.pn-du.pn:null;
+    document.getElementById('kpiP').innerHTML=[
+      ['PN '+ultimo,      f1(du.pn),   du.pn>0?'green':du.pn>-100?'amber':'red'],
+      ['PN 2026 (proy.)', f1(d26.pn),  d26.pn>0?'green':'red'],
+      ['Δ →2026',         delta!=null?f1(delta)+'pts':'—', delta>0?'green':'red'],
+      ['TPL '+ultimo,     fx(du.tpl),  'amber'],
+      ['C_H '+ultimo,     fx(du.ch),   'red'],
+      ['ERI '+ultimo,     f3(du.eri),  'blue'],
+      ['PS '+ultimo,      f1(du.ps),   du.ps>0?'green':'red'],
+      ['S_E '+ultimo,     f1(du.se),   'purple'],
+    ].map(([l,v,c])=>`<div class="kpi ${c}"><div class="kv" style="font-size:1.3rem">${v}</div><div class="kl">${l}</div></div>`).join('');
 
-    document.getElementById('pNota').innerHTML=NOTAS[iso]?`<div class="nota">⚠️ <strong>Nota:</strong> ${NOTAS[iso]}</div>`:'';
+    document.getElementById('pNota').innerHTML=NOTAS[iso]?`<div class="nota warn">⚠️ <strong>Nota metodológica:</strong> ${NOTAS[iso]}</div>`:'';
 
     const af=anos.filter(a=>d.serie[a].pn!=null);
     const lbs=af.map(Number);
@@ -554,213 +560,354 @@ async function loadPais(iso){
     const seg=ctx=>isProy[ctx.p1DataIndex]?[5,4]:undefined;
 
     mkC('cPN',{type:'line',data:{labels:lbs,datasets:[
-      {label:'PN',data:get('pn'),borderColor:'#3FB950',backgroundColor:'rgba(63,185,80,.06)',borderWidth:2.5,pointRadius:3,fill:true,segment:{borderDash:seg}},
+      {label:'PN',data:get('pn'),borderColor:'#3FB950',backgroundColor:'rgba(63,185,80,.06)',
+       borderWidth:2.5,pointRadius:3,fill:true,segment:{borderDash:seg}},
       {label:'Cero',data:lbs.map(()=>0),borderColor:'rgba(248,81,73,.3)',borderWidth:1,borderDash:[4,4],pointRadius:0}
-    ]},options:DARK});
+    ]},options:DK});
 
     mkC('cTPL',{type:'line',data:{labels:lbs,datasets:[
-      {label:'TPL',data:get('tpl'),borderColor:'#F85149',backgroundColor:'rgba(248,81,73,.06)',borderWidth:2.5,pointRadius:3,fill:true,segment:{borderDash:seg}}
-    ]},options:DARK});
+      {label:'TPL',data:get('tpl'),borderColor:'#F85149',backgroundColor:'rgba(248,81,73,.06)',
+       borderWidth:2.5,pointRadius:3,fill:true,segment:{borderDash:seg}}
+    ]},options:DK});
 
     mkC('cGasto',{type:'line',data:{labels:lbs,datasets:[
       {label:'G.Consumo%',data:get('gc'),borderColor:'#58A6FF',borderWidth:2,pointRadius:3},
-      {label:'G.Trans%',data:get('gt'),borderColor:'#D29922',borderWidth:2,pointRadius:3},
+      {label:'G.Trans%',  data:get('gt'),borderColor:'#D29922',borderWidth:2,pointRadius:3},
       {label:'Inversión%',data:get('inv'),borderColor:'#3FB950',borderWidth:2,pointRadius:3},
-    ]},options:DARK});
+    ]},options:DK});
 
     mkC('cInst',{type:'line',data:{labels:lbs,datasets:[
-      {label:'ERI',data:get('eri'),borderColor:'#3FB950',borderWidth:2,pointRadius:3},
+      {label:'ERI',      data:get('eri'),borderColor:'#3FB950',borderWidth:2,pointRadius:3},
       {label:'C_H (÷10)',data:get('ch').map(v=>v!=null?v/10:null),borderColor:'#F85149',borderWidth:2,pointRadius:3},
-    ]},options:DARK});
+    ]},options:DK});
 
-    document.getElementById('tPais').innerHTML=[...anos].reverse().map(a=>{
+    mkC('cPS',{type:'line',data:{labels:lbs,datasets:[
+      {label:'PS (Prosperidad Sostenible)',data:get('ps'),borderColor:'#A371F7',borderWidth:2,pointRadius:3,fill:false},
+      {label:'PN (Prosperidad Neta)',      data:get('pn'),borderColor:'#3FB950',borderWidth:1.5,borderDash:[4,3],pointRadius:2},
+      {label:'Cero',data:lbs.map(()=>0),borderColor:'rgba(248,81,73,.3)',borderWidth:1,borderDash:[4,4],pointRadius:0}
+    ]},options:DK});
+
+    // Desglose C_H del año más reciente con datos institucionales
+    const ch_comp=du.ch_comp||{};
+    const compKeys=['integridad','juridico','regulacion','soe','fiscal'];
+    const compLabels=['Integridad (IIJ)','Est. Derecho (WJP)','Regulación (Fraser)','SOE (Fraser)','Fiscal (Fraser)'];
+    const maxComp=Math.max(...compKeys.map(k=>ch_comp[k]||0),1);
+    document.getElementById('barCH').innerHTML=compKeys.map((k,i)=>{
+      const v=ch_comp[k]||0;
+      const pct=Math.round(v/maxComp*100);
+      const col=v>60?'#F85149':v>40?'#D29922':'#58A6FF';
+      return `<div class="bar-item">
+        <span class="bar-label">${compLabels[i]}</span>
+        <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${col}"></div></div>
+        <span class="bar-val">${v.toFixed(1)}</span>
+      </div>`;
+    }).join('');
+
+    // Interdependencia
+    const inter=du.inter||{};
+    const interItems=[
+      ['Tech Export%', inter.tech_exp_pct, '#58A6FF', 100],
+      ['Energía Import%', inter.energy_imp_pct, '#D29922', 100],
+      ['Remesas%PIB', inter.remesas_pct, '#A371F7', 5],
+      ['ODA%PIB', inter.oda_pct, '#3FB950', 5],
+    ];
+    document.getElementById('barInter').innerHTML=interItems.map(([l,v,col,max])=>{
+      if(v==null) return '';
+      const pct=Math.min(Math.round(Math.abs(v)/(max)*100),100);
+      return `<div class="bar-item">
+        <span class="bar-label">${l}</span>
+        <div class="bar-track"><div class="bar-fill" style="width:${pct}%;background:${col}"></div></div>
+        <span class="bar-val">${v.toFixed(1)}</span>
+      </div>`;
+    }).join('');
+
+    const bal=inter.bal_comercial;
+    const exp=inter.exportaciones;
+    const imp=inter.importaciones;
+    document.getElementById('interDetalle').innerHTML=
+      `Balance comercial: <strong style="color:${bal>0?'var(--green)':'var(--red)'}">${bal!=null?f2(bal)+'%PIB':'N/D'}</strong><br>
+       Exportaciones: <strong>${exp!=null?exp.toFixed(1)+'B$':'N/D'}</strong> · 
+       Importaciones: <strong>${imp!=null?imp.toFixed(1)+'B$':'N/D'}</strong>`;
+
+    // Tabla histórica
+    document.getElementById('tP').innerHTML=[...anos].reverse().map(a=>{
       const s=d.serie[a];
-      const p=s.proy?'<span class="pb">PROY</span>':'';
+      const p=s.proy?'<span class="pb">P</span>':'';
       return `<tr><td>${a}${p}</td>
         <td class="${cPN(s.pn)}">${f1(s.pn)}</td>
-        <td class="vm">${fx(s.tpl)}</td><td class="vm">${f3(s.eri)}</td>
-        <td class="vm">${fx(s.ch)}</td><td class="vm">${fx(s.gc)}</td>
+        <td class="vm">${fx(s.tpl)}</td>
+        <td class="vm">${fx(s.ch)}</td>
+        <td class="vm">${f3(s.eri)}</td>
+        <td class="vm">${fx(s.gc)}</td>
         <td class="vm">${fx(s.gt)}</td>
-        <td class="${cPN(s.ps)}">${f1(s.ps)}</td></tr>`;
+        <td class="${cPN(s.ps)}">${f1(s.ps)}</td>
+        <td class="${s.se>0?'vp':s.se<0?'vn':'vm'}">${f1(s.se)}</td>
+        <td><span class="badge badge-${s.grupo||'A'}">${s.grupo||'A'}</span></td>
+      </tr>`;
     }).join('');
-  } catch(e){ showErr(e); }
+  }catch(e){console.error(e);}
 }
 
-// ── TABLA GLOBAL ──────────────────────────────────────────────────────────
-async function initTabla(){
-  const sy=document.getElementById('sYear');
-  for(let a=2026;a>=2008;a--){
-    const o=document.createElement('option');
-    o.value=a;o.textContent=a+(a>2023?' (proy.)':'');
-    if(a===2023)o.selected=true;
-    sy.appendChild(o);
+// ── COMPARAR ──────────────────────────────────────────────────────────────
+async function initComparar(){
+  if(PAISES_LIST.length===0){
+    const lista=await api('/api/paises');
+    PAISES_LIST=lista;
+    ['selC1','selC2'].forEach((id,i)=>{
+      const s=document.getElementById(id);
+      if(s) s.innerHTML=lista.map(p=>`<option value="${p.iso}" ${(i===0&&p.iso==='ESP')||(i===1&&p.iso==='USA')?'selected':''}>${p.nombre} (${p.iso})</option>`).join('');
+    });
   }
-  await loadTabla(2023);
+  loadComparar();
 }
 
-async function loadTabla(ano){
-  try {
-    const data=await api(`/api/tabla/${ano}`);
-    TABLA_DATA=data.paises;
-    renderTabla();
-  } catch(e){ showErr(e); }
+async function loadComparar(){
+  try{
+    const iso1=document.getElementById('selC1').value;
+    const iso2=document.getElementById('selC2').value;
+    const data=await api(`/api/comparar/${iso1}/${iso2}/2023`);
+    const d1=data[iso1], d2=data[iso2];
+    if(!d1||!d2) return;
+
+    const anos=Object.keys(d1.serie||{}).sort();
+    const lbs=anos.map(Number);
+
+    // KPIs comparativos
+    const u1=d1.serie[anos.filter(a=>!d1.serie[a].proy).pop()]||{};
+    const u2=d2.serie[anos.filter(a=>!d2.serie[a].proy).pop()]||{};
+    document.getElementById('compKPIs').innerHTML=[
+      [d1.nombre, u1, '#58A6FF'],
+      [d2.nombre, u2, '#3FB950'],
+    ].map(([n,u,col])=>`<div class="comp-card">
+      <div class="comp-title" style="color:${col}">${n}</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:.4rem;font-size:12px">
+        <div><div class="${cPN(u.pn)}" style="font-size:1.2rem;font-family:var(--mono)">${f1(u.pn)}</div><div class="kl">PN</div></div>
+        <div><div class="vm" style="font-size:1.2rem;font-family:var(--mono)">${fx(u.tpl)}</div><div class="kl">TPL</div></div>
+        <div><div class="vn" style="font-size:1.1rem;font-family:var(--mono)">${fx(u.ch)}</div><div class="kl">C_H</div></div>
+        <div><div class="vm" style="font-size:1.1rem;font-family:var(--mono)">${f3(u.eri)}</div><div class="kl">ERI</div></div>
+      </div>
+    </div>`).join('');
+
+    const colors=['#58A6FF','#3FB950'];
+    const isos=[iso1,iso2];
+    for(const [chartId,key,label] of [
+      ['cCPN','pn','Prosperidad Neta (PN)'],
+      ['cCTPL','tpl','Carga Parasitaria Total (TPL)'],
+      ['cCCH','ch','Carga Oculta (C_H)'],
+      ['cCERI','eri','Efectividad Inversión (ERI)'],
+    ]){
+      mkC(chartId,{type:'line',data:{
+        labels:lbs,
+        datasets:isos.map((iso,i)=>({
+          label:data[iso].nombre,
+          data:anos.map(a=>(data[iso].serie[a]||{})[key]),
+          borderColor:colors[i],backgroundColor:'transparent',
+          borderWidth:2,pointRadius:3,
+          segment:{borderDash:ctx=>(data[iso].serie[anos[ctx.p1DataIndex]]||{}).proy?[5,4]:undefined}
+        }))
+      },options:DK});
+    }
+  }catch(e){console.error(e);}
 }
 
-function filterT(){
-  const ano=document.getElementById('sYear').value;
-  if(!TABLA_DATA.length||TABLA_DATA[0]?.ano!==parseInt(ano)){
-    loadTabla(ano); return;
+// ── RANKING ───────────────────────────────────────────────────────────────
+async function loadRanking(){
+  try{
+    const ano=document.getElementById('selRA').value;
+    if(!RK_CACHE[ano]) RK_CACHE[ano]=await api(`/api/ranking/${ano}`);
+    const data=RK_CACHE[ano];
+
+    const ri=(d,i,cls)=>`<div style="display:flex;align-items:center;gap:.6rem;padding:.35rem 0;border-bottom:1px solid rgba(33,38,45,.7);font-size:12px">
+      <span style="font-family:var(--mono);font-size:10px;color:var(--muted);width:18px">${i+1}</span>
+      <span style="flex:1">${d.nombre}</span>
+      <span class="badge badge-${d.grupo||'A'}" style="font-size:9px">${d.grupo||'A'}</span>
+      <span style="font-family:var(--mono);font-size:12px;font-weight:700" class="${cls}">${f1(d.pn)}</span>
+    </div>`;
+    document.getElementById('rTop').innerHTML=data.top.map((d,i)=>ri(d,i,'vp')).join('');
+    document.getElementById('rBot').innerHTML=data.bottom.map((d,i)=>ri(d,i,'vn')).join('');
+
+    renderRV(data,ano);
+
+    // Tabla completa
+    document.getElementById('tRAll').innerHTML=(data.todos||[]).map((r,i)=>`<tr>
+      <td class="vm">${i+1}</td>
+      <td>${r.nombre}</td>
+      <td style="font-family:var(--mono);font-size:10px;color:var(--muted)">${r.iso}</td>
+      <td class="${cPN(r.pn)}">${f1(r.pn)}</td>
+      <td class="vm">${fx(r.tpl)}</td>
+      <td class="vm">${fx(r.ch)}</td>
+      <td class="vm">${f3(r.eri)}</td>
+      <td><span class="badge badge-${r.grupo||'A'}">${r.grupo||'A'}</span></td>
+      <td style="font-size:10px;color:${r.proy?'var(--bright)':'var(--muted)'}">${r.proy?'Sí':'—'}</td>
+    </tr>`).join('');
+
+    // Ranking TPL
+    const tpl=await api(`/api/ranking_tpl/${ano}`);
+    document.getElementById('tTPL').innerHTML=(tpl.paises||[]).map((r,i)=>`<tr>
+      <td class="vm">${i+1}</td>
+      <td>${r.nombre}</td>
+      <td class="vm">${fx(r.tpl)}</td>
+      <td class="${cPN(r.pn)}">${f1(r.pn)}</td>
+      <td><span class="badge badge-${r.grupo||'A'}">${r.grupo||'A'}</span></td>
+    </tr>`).join('');
+
+  }catch(e){console.error(e);}
+}
+
+function switchRV(){ const ano=document.getElementById('selRA').value; if(RK_CACHE[ano]) renderRV(RK_CACHE[ano],ano); }
+
+function renderRV(data,ano){
+  const v=document.getElementById('selRV').value;
+  document.getElementById('rankBars').style.display=v==='bars'?'':'none';
+  document.getElementById('rankScatter').style.display=v==='scatter'?'':'none';
+  if(v==='bars'){
+    const disp=[...data.top,...data.bottom];
+    mkC('cRank',{type:'bar',data:{
+      labels:disp.map(d=>d.nombre),
+      datasets:[{label:`PN ${ano}`,data:disp.map(d=>d.pn),
+        backgroundColor:disp.map(d=>d.pn>50?'rgba(63,185,80,.8)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
+        borderRadius:3}]
+    },options:{...DK,indexAxis:'y',
+      scales:{x:{...DK.scales.x},y:{...DK.scales.y,ticks:{...DK.scales.y.ticks,font:{size:10}}}}}
+    });
+  }else{
+    const todos=[...data.top,...data.bottom];
+    mkC('cRSc',{type:'scatter',data:{datasets:[{label:`TPL vs PN ${ano}`,
+      data:todos.map(d=>({x:d.tpl,y:d.pn,n:d.nombre})),
+      backgroundColor:todos.map(d=>d.pn>50?'rgba(63,185,80,.7)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
+      borderColor:'rgba(33,38,45,.8)',borderWidth:1,pointRadius:7
+    }]},options:{...DK,
+      plugins:{...DK.plugins,tooltip:{...DK.plugins.tooltip,callbacks:{
+        label:c=>`${c.raw.n}: PN=${c.raw.y?.toFixed(1)} TPL=${c.raw.x?.toFixed(1)}`
+      }}},
+      scales:{x:{...DK.scales.x,title:{display:true,text:'TPL',color:'#8B949E'}},
+              y:{...DK.scales.y,title:{display:true,text:'PN',color:'#8B949E'}}}
+    }});
   }
-  renderTabla();
 }
 
-document.addEventListener('DOMContentLoaded',()=>{
-  document.getElementById('sYear')?.addEventListener('change',()=>loadTabla(document.getElementById('sYear').value));
-});
-
-function renderTabla(){
-  const q=document.getElementById('sBox').value.toLowerCase();
-  const rows=TABLA_DATA.filter(r=>!q||r.nombre.toLowerCase().includes(q)||r.iso.toLowerCase().includes(q));
-  document.getElementById('tCount').textContent=`${rows.length} países`;
-  document.getElementById('tGlobal').innerHTML=rows.map(r=>`<tr>
-    <td>${r.nombre}</td>
-    <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${r.iso}</td>
-    <td class="${cPN(r.pn)}">${f1(r.pn)}</td>
-    <td class="vm">${fx(r.tpl)}</td><td class="vm">${f3(r.eri)}</td>
-    <td class="vm">${fx(r.ch)}</td><td class="vm">${fx(r.gc)}</td>
-    <td class="vm">${fx(r.gt)}</td>
-    <td><span class="badge badge-${r.grupo||'A'}">${r.grupo||'A'}</span></td>
-    <td style="font-size:11px;color:${r.proy?'var(--bright)':'var(--muted)'}">${r.proy?'Sí':'—'}</td>
-  </tr>`).join('');
-}
-
-// ── GRUPOS Y ALERTAS ─────────────────────────────────────────────────────
-let GRUPOS_CACHE = {};
-let ALERTAS_DATA = null;
-
+// ── GRUPOS ────────────────────────────────────────────────────────────────
 async function loadGrupos(){
-  try {
-    const anio = document.getElementById('selGruposAno')?.value || '2023';
-    if(!GRUPOS_CACHE[anio]) GRUPOS_CACHE[anio] = await api(`/api/grupos/${anio}`);
-    const data = GRUPOS_CACHE[anio];
+  try{
+    const ano=document.getElementById('selGA').value;
+    if(!GR_CACHE[ano]) GR_CACHE[ano]=await api(`/api/grupos/${ano}`);
+    const data=GR_CACHE[ano];
+    const {A,B,C}=data.counts;
 
-    // KPIs
-    const {A,B,C} = data.counts;
-    document.getElementById('kpiGrupos').innerHTML = [
+    document.getElementById('kpiGr').innerHTML=[
       ['Grupo A','Comparables',A,'green'],
       ['Grupo B','Drenaje severo',B,'amber'],
       ['Grupo C','Colapso',C,'red'],
       ['Total','Países',A+B+C,'blue'],
-    ].map(([t,l,v,c])=>`<div class="kpi ${c}"><div class="kpi-val">${v}</div><div class="kpi-lbl">${t} — ${l}</div></div>`).join('');
+    ].map(([t,l,v,c])=>`<div class="kpi ${c}"><div class="kv">${v}</div><div class="kl">${t} — ${l}</div></div>`).join('');
 
-    // Pie chart
-    mkC('cGrupoPie',{type:'doughnut',data:{
+    mkC('cPie',{type:'doughnut',data:{
       labels:['Grupo A','Grupo B','Grupo C'],
       datasets:[{data:[A,B,C],
         backgroundColor:['rgba(63,185,80,.7)','rgba(210,153,34,.7)','rgba(248,81,73,.7)'],
         borderColor:'#21262D',borderWidth:2}]
-    },options:{...DARK,
-      plugins:{...DARK.plugins,legend:{...DARK.plugins.legend,position:'bottom'}},
+    },options:{...DK,
+      plugins:{...DK.plugins,legend:{...DK.plugins.legend,position:'bottom'}},
       scales:{x:{display:false},y:{display:false}}
     }});
 
-    // ERI vs C_H scatter
-    const todos = [...data.grupos.A,...data.grupos.B,...data.grupos.C]
+    const todos=[...data.grupos.A,...data.grupos.B,...data.grupos.C]
       .filter(d=>d.eri!=null&&d.ch!=null&&d.ch<200&&d.eri<5);
-    mkC('cGrupoERI',{type:'scatter',data:{datasets:[{
-      label:'Países',
+    mkC('cERI',{type:'scatter',data:{datasets:[{label:'Países',
       data:todos.map(d=>({x:d.ch,y:d.eri,n:d.nombre,g:d.grupo||'A',pn:d.pn})),
-      backgroundColor:todos.map(d=>
-        d.grupo==='A'?'rgba(63,185,80,.7)':d.grupo==='B'?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
+      backgroundColor:todos.map(d=>d.grupo==='A'?'rgba(63,185,80,.7)':d.grupo==='B'?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
       borderColor:'rgba(33,38,45,.8)',borderWidth:1,pointRadius:5
-    }]},options:{...DARK,
-      plugins:{...DARK.plugins,tooltip:{...DARK.plugins.tooltip,callbacks:{
-        label:c=>`${c.raw.n} [${c.raw.g}]: ERI=${c.raw.y.toFixed(2)} C_H=${c.raw.x.toFixed(1)} PN=${(c.raw.pn||0).toFixed(1)}`
+    }]},options:{...DK,
+      plugins:{...DK.plugins,tooltip:{...DK.plugins.tooltip,callbacks:{
+        label:c=>`${c.raw.n} [${c.raw.g}]: ERI=${c.raw.y?.toFixed(2)} C_H=${c.raw.x?.toFixed(1)} PN=${(c.raw.pn||0).toFixed(1)}`
       }}},
       scales:{
-        x:{...DARK.scales.x,title:{display:true,text:'C_H (Carga oculta)',color:'#8B949E'}},
-        y:{...DARK.scales.y,title:{display:true,text:'ERI (Eficiencia inversión)',color:'#8B949E'}}
+        x:{...DK.scales.x,title:{display:true,text:'C_H',color:'#8B949E'}},
+        y:{...DK.scales.y,title:{display:true,text:'ERI',color:'#8B949E'}}
       }
     }});
 
     // Alertas
-    if(!ALERTAS_DATA) {
-      try { ALERTAS_DATA = await api('/api/alertas'); } catch(e){ ALERTAS_DATA={alertas:[]}; }
-    }
-    const al = ALERTAS_DATA.alertas || [];
-    document.getElementById('alertasResumen').innerHTML =
-      `<strong>Total alertas proyectadas Grupo A:</strong> ${ALERTAS_DATA.grupo_a||0} países con caída >10pts de PN`;
-    document.getElementById('tAlertas').innerHTML = al.slice(0,20).map(a=>{
-      const pais = a.pais || a.iso || '';
-      const delta = a.delta || 0;
-      return `<tr>
-        <td>${nom(pais)}</td>
-        <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${pais}</td>
-        <td>${a.ano||a.año||''}</td>
-        <td class="vm">${(a.pn_ant||0).toFixed(1)}</td>
-        <td class="vn">${(a.pn_act||0).toFixed(1)}</td>
-        <td class="vn">${delta.toFixed(1)}</td>
-        <td style="font-size:11px;color:${delta<-25?'var(--red)':'var(--amber)'}">${a.tipo||'DETERIORO'}</td>
-      </tr>`;
-    }).join('');
+    if(!AL) { try{ AL=await api('/api/alertas'); }catch(e){ AL={alertas:[],grupo_a:0}; } }
+    document.getElementById('alRes').innerHTML=
+      `<strong>Alertas proyectadas grupo A:</strong> ${AL.grupo_a||0} países con caída &gt;10 pts PN`;
+    document.getElementById('tAl').innerHTML=(AL.alertas||[]).map(a=>`<tr>
+      <td>${a.nombre||a.pais}</td>
+      <td>${a.ano}</td>
+      <td class="vm">${f1(a.pn_ant)}</td>
+      <td class="vn">${f1(a.pn_act)}</td>
+      <td class="vn">${f1(a.delta)}</td>
+      <td style="font-size:10px;color:${(a.delta||0)<-25?'var(--red)':'var(--amber)'}">${a.tipo||'DETERIORO'}</td>
+    </tr>`).join('');
 
-    renderGrupoTabla();
-  } catch(e){ showErr(e); }
+    renderGT();
+  }catch(e){console.error(e);}
 }
 
-function nom(iso){ 
-  const N={"AFG":"Afganistan","AGO":"Angola","ALB":"Albania","ARE":"Emiratos","ARG":"Argentina",
-    "ARM":"Armenia","AUS":"Australia","AUT":"Austria","AZE":"Azerbaiyan","BDI":"Burundi",
-    "BEL":"Belgica","BFA":"Burkina Faso","BGD":"Bangla","BGR":"Bulgaria","BHR":"Barein",
-    "BIH":"Bosnia","BLR":"Bielorrusia","BOL":"Bolivia","BRA":"Brasil","BRB":"Barbados",
-    "BRN":"Brunei","BTN":"Butan","BWA":"Botsuana","CAF":"R.Centroafricana","CAN":"Canada",
-    "CHE":"Suiza","CHL":"Chile","CHN":"China","CMR":"Camerun","COD":"R.D.Congo",
-    "COG":"Congo","COL":"Colombia","CRI":"Costa Rica","CUB":"Cuba","CYP":"Chipre",
-    "CZE":"Rep.Checa","DEU":"Alemania","DJI":"Yibuti","DNK":"Dinamarca","DOM":"R.Dominicana",
-    "DZA":"Argelia","ECU":"Ecuador","EGY":"Egipto","ESP":"Espana","EST":"Estonia",
-    "ETH":"Etiopia","FIN":"Finlandia","FJI":"Fiyi","FRA":"Francia","GAB":"Gabon",
-    "GBR":"Reino Unido","GEO":"Georgia","GHA":"Ghana","GIN":"Guinea","GMB":"Gambia",
-    "GRC":"Grecia","GTM":"Guatemala","HKG":"Hong Kong","HND":"Honduras","HRV":"Croacia",
-    "HTI":"Haiti","HUN":"Hungria","IDN":"Indonesia","IND":"India","IRL":"Irlanda",
-    "IRN":"Iran","IRQ":"Irak","ISL":"Islandia","ISR":"Israel","ITA":"Italia",
-    "JAM":"Jamaica","JOR":"Jordania","JPN":"Japon","KAZ":"Kazajistan","KEN":"Kenia",
-    "KOR":"Corea del Sur","KWT":"Kuwait","LAO":"Laos","LBN":"Libano","LBR":"Liberia",
-    "LBY":"Libia","LSO":"Lesoto","LTU":"Lituania","LUX":"Luxemburgo","LVA":"Letonia",
-    "MAR":"Marruecos","MDA":"Moldavia","MDG":"Madagascar","MEX":"Mexico","MLI":"Mali",
-    "MMR":"Myanmar","MNE":"Montenegro","MNG":"Mongolia","MOZ":"Mozambique","MRT":"Mauritania",
-    "MUS":"Mauricio","MYS":"Malasia","NAM":"Namibia","NER":"Niger","NGA":"Nigeria",
-    "NIC":"Nicaragua","NLD":"Paises Bajos","NOR":"Noruega","NPL":"Nepal","NZL":"Nueva Zelanda",
-    "OMN":"Oman","PAK":"Pakistan","PAN":"Panama","PER":"Peru","PHL":"Filipinas",
-    "POL":"Polonia","PRY":"Paraguay","QAT":"Qatar","ROU":"Rumania","RUS":"Rusia",
-    "RWA":"Ruanda","SAU":"Arabia Saudi","SDN":"Sudan","SEN":"Senegal","SGP":"Singapur",
-    "SLE":"Sierra Leona","SLV":"El Salvador","SOM":"Somalia","SRB":"Serbia",
-    "SSD":"Sudan del Sur","SVK":"Eslovaquia","SVN":"Eslovenia","SWE":"Suecia",
-    "SYR":"Siria","TCD":"Chad","TGO":"Togo","THA":"Tailandia","TJK":"Tayikistan",
-    "TLS":"Timor Oriental","TTO":"Trinidad","TUN":"Tunez","TUR":"Turquia","TWN":"Taiwan",
-    "TZA":"Tanzania","UGA":"Uganda","UKR":"Ucrania","URY":"Uruguay","USA":"EE.UU.",
-    "UZB":"Uzbekistan","VEN":"Venezuela","VNM":"Vietnam","YEM":"Yemen",
-    "ZAF":"Sudafrica","ZMB":"Zambia","ZWE":"Zimbabue"};
-  return N[iso]||iso;
-}
-
-function renderGrupoTabla(){
-  const g = document.getElementById('selGrupoDetalle')?.value || 'A';
-  const anio = document.getElementById('selGruposAno')?.value || '2023';
-  if(!GRUPOS_CACHE[anio]) return;
-  const data = GRUPOS_CACHE[anio].grupos[g] || [];
-  document.getElementById('secGrupoDetalle').textContent = `Países Grupo ${g} — ${data.length} países`;
-  document.getElementById('tGrupoDetalle').innerHTML = data.map(r=>`<tr>
+function renderGT(){
+  const g=document.getElementById('selGD').value;
+  const ano=document.getElementById('selGA').value;
+  if(!GR_CACHE[ano]) return;
+  const rows=GR_CACHE[ano].grupos[g]||[];
+  document.getElementById('secGT').textContent=`Países Grupo ${g} — ${rows.length} países`;
+  document.getElementById('tGT').innerHTML=rows.map(r=>`<tr>
     <td>${r.nombre}</td>
-    <td style="font-size:11px;color:var(--muted)">${r.region||''}</td>
-    <td class="${r.pn>0?'vp':r.pn<0?'vn':'vm'}">${r.pn!=null?(r.pn>=0?'+':'')+r.pn.toFixed(1):'—'}</td>
-    <td class="vm">${r.tpl!=null?r.tpl.toFixed(1):'—'}</td>
-    <td class="vm">${r.eri!=null?r.eri.toFixed(3):'—'}</td>
-    <td class="vm">${r.ch!=null?r.ch.toFixed(1):'—'}</td>
+    <td style="font-size:10px;color:var(--muted)">${r.region||''}</td>
+    <td class="${cPN(r.pn)}">${f1(r.pn)}</td>
+    <td class="vm">${fx(r.tpl)}</td>
+    <td class="vm">${f3(r.eri)}</td>
+    <td class="vm">${fx(r.ch)}</td>
+  </tr>`).join('');
+}
+
+// ── TABLA ─────────────────────────────────────────────────────────────────
+async function initTabla(){
+  const sy=document.getElementById('sTBY');
+  for(let a=2026;a>=2008;a--){
+    const o=document.createElement('option');
+    o.value=a; o.textContent=a+(a>2023?' (proy.)':'');
+    if(a===2023) o.selected=true;
+    sy.appendChild(o);
+  }
+  await loadTB();
+}
+
+async function loadTB(){
+  const ano=document.getElementById('sTBY').value;
+  try{
+    const data=await api(`/api/tabla/${ano}`);
+    TB_DATA=data.paises;
+    filterTB();
+  }catch(e){console.error(e);}
+}
+
+function filterTB(){
+  const q=document.getElementById('sTB').value.toLowerCase();
+  const g=document.getElementById('sTBG').value;
+  const rows=TB_DATA.filter(r=>{
+    const mQ=!q||r.nombre.toLowerCase().includes(q)||r.iso.toLowerCase().includes(q);
+    const mG=g==='all'||r.grupo===g;
+    return mQ&&mG;
+  });
+  document.getElementById('tBCount').textContent=`${rows.length} países`;
+  document.getElementById('tBBody').innerHTML=rows.map(r=>`<tr>
+    <td>${r.nombre}</td>
+    <td style="font-family:var(--mono);font-size:10px;color:var(--muted)">${r.iso}</td>
+    <td style="font-size:10px;color:var(--muted)">${r.region||''}</td>
+    <td class="${cPN(r.pn)}">${f1(r.pn)}</td>
+    <td class="vm">${fx(r.tpl)}</td>
+    <td class="vm">${fx(r.ch)}</td>
+    <td class="vm">${f3(r.eri)}</td>
+    <td class="vm">${fx(r.gc)}</td>
+    <td class="vm">${fx(r.gt)}</td>
+    <td><span class="badge badge-${r.grupo||'A'}">${r.grupo||'A'}</span></td>
+    <td style="font-size:10px;color:${r.proy?'var(--bright)':'var(--muted)'}">${r.proy?'Sí':'—'}</td>
   </tr>`).join('');
 }
 
 // ── INIT ──────────────────────────────────────────────────────────────────
 loadGlobal();
+initPais();
 </script>
 </body>
 </html>
