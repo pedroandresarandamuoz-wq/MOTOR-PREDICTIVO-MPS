@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MPS — Modelo de Prosperidad Sostenible</title>
+  <meta name="description" content="Índice macroeconómico alternativo al PIB que mide el coste real del estado sobre la economía privada. 163 países, 2008-2026.">
+  <meta property="og:title" content="MPS — Modelo de Prosperidad Sostenible">
+  <meta property="og:description" content="El estado es un parásito que drena la economía. El MPS lo mide.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink:     #0A0E14;
+      --paper:   #0D1117;
+      --surface: #161B22;
+      --border:  #21262D;
+      --muted:   #8B949E;
+      --text:    #E6EDF3;
+      --accent:  #1F6FEB;
+      --bright:  #58A6FF;
+      --green:   #3FB950;
+      --red:     #F85149;
+      --amber:   #D29922;
+      --mono:    'Space Mono', monospace;
+      --sans:    'Space Grotesk', sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--sans);
+      background: var(--paper);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 clamp(1.5rem, 5vw, 4rem);
+      height: 60px;
+      background: rgba(13,17,23,0.85);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-family: var(--mono);
+      font-size: 13px; font-weight: 700;
+      color: var(--bright); letter-spacing: .08em;
+    }
+    .nav-links { display: flex; gap: 2rem; }
+    .nav-links a {
+      font-size: 13px; color: var(--muted); text-decoration: none;
+      transition: color .2s;
+    }
+    .nav-links a:hover { color: var(--text); }
+    .nav-cta {
+      font-size: 13px; font-weight: 600;
+      background: var(--accent); color: #fff;
+      padding: 7px 18px; border-radius: 6px;
+      text-decoration: none; transition: background .2s;
+    }
+    .nav-cta:hover { background: #388BFD; }
+
+    /* ── HERO ── */
+    .hero {
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      justify-content: center; align-items: flex-start;
+      padding: 100px clamp(1.5rem, 8vw, 8rem) 60px;
+      position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 70% 40%, rgba(31,111,235,.08) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 20% 80%, rgba(63,185,80,.04) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-eyebrow {
+      font-family: var(--mono); font-size: 11px;
+      color: var(--bright); letter-spacing: .15em;
+      text-transform: uppercase; margin-bottom: 1.5rem;
+      display: flex; align-items: center; gap: .75rem;
+    }
+    .hero-eyebrow::before {
+      content: ''; width: 24px; height: 1px; background: var(--bright);
+    }
+
+    h1 {
+      font-size: clamp(2.8rem, 6vw, 5.5rem);
+      font-weight: 700; line-height: 1.05;
+      letter-spacing: -0.03em; margin-bottom: 1.5rem;
+      max-width: 14ch;
+    }
+    h1 em {
+      font-style: normal; color: var(--bright);
+      position: relative;
+    }
+
+    .hero-sub {
+      font-size: clamp(1rem, 1.5vw, 1.2rem);
+      color: var(--muted); max-width: 52ch;
+      margin-bottom: 2.5rem; line-height: 1.7;
+    }
+
+    .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: .5rem;
+      background: var(--accent); color: #fff;
+      padding: 13px 28px; border-radius: 8px;
+      font-size: 15px; font-weight: 600;
+      text-decoration: none; transition: all .2s;
+      box-shadow: 0 0 0 0 rgba(31,111,235,.4);
+    }
+    .btn-primary:hover {
+      background: #388BFD;
+      box-shadow: 0 0 0 4px rgba(31,111,235,.2);
+      transform: translateY(-1px);
+    }
+    .btn-secondary {
+      display: inline-flex; align-items: center; gap: .5rem;
+      background: transparent; color: var(--text);
+      padding: 13px 28px; border-radius: 8px;
+      font-size: 15px; font-weight: 500;
+      text-decoration: none;
+      border: 1px solid var(--border);
+      transition: all .2s;
+    }
+    .btn-secondary:hover {
+      border-color: var(--bright); color: var(--bright);
+      transform: translateY(-1px);
+    }
+
+    /* ── DRAIN COUNTER (firma visual) ── */
+    .drain-counter {
+      margin-top: 4rem;
+      padding: 1.5rem 2rem;
+      background: rgba(248,81,73,.04);
+      border: 1px solid rgba(248,81,73,.2);
+      border-radius: 12px;
+      max-width: 520px;
+    }
+    .drain-label {
+      font-family: var(--mono); font-size: 11px;
+      color: var(--red); letter-spacing: .1em;
+      text-transform: uppercase; margin-bottom: .5rem;
+    }
+    .drain-value {
+      font-family: var(--mono); font-size: clamp(1.6rem, 3vw, 2.4rem);
+      font-weight: 700; color: #fff; letter-spacing: .02em;
+    }
+    .drain-value span { color: var(--red); }
+    .drain-caption {
+      font-size: 12px; color: var(--muted); margin-top: .5rem;
+    }
+
+    /* ── STATS BAR ── */
+    .stats-bar {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1px; background: var(--border);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .stat-item {
+      background: var(--paper);
+      padding: 2rem clamp(1.5rem, 4vw, 3rem);
+      display: flex; flex-direction: column; gap: .3rem;
+    }
+    .stat-num {
+      font-family: var(--mono); font-size: clamp(1.6rem, 2.5vw, 2.2rem);
+      font-weight: 700; color: var(--text);
+    }
+    .stat-num.green { color: var(--green); }
+    .stat-num.blue  { color: var(--bright); }
+    .stat-num.amber { color: var(--amber); }
+    .stat-lbl { font-size: 13px; color: var(--muted); }
+
+    /* ── SECTIONS ── */
+    section { padding: 6rem clamp(1.5rem, 8vw, 8rem); }
+
+    .section-eyebrow {
+      font-family: var(--mono); font-size: 11px;
+      color: var(--bright); letter-spacing: .15em;
+      text-transform: uppercase; margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: clamp(1.8rem, 3vw, 2.8rem);
+      font-weight: 700; letter-spacing: -.02em;
+      margin-bottom: 1rem; line-height: 1.15;
+    }
+    .section-intro {
+      font-size: 1.1rem; color: var(--muted);
+      max-width: 60ch; line-height: 1.7; margin-bottom: 3rem;
+    }
+
+    /* ── FORMULA CARDS ── */
+    .formula-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1px; background: var(--border);
+      border: 1px solid var(--border); border-radius: 12px; overflow: hidden;
+    }
+    .formula-card {
+      background: var(--surface);
+      padding: 1.75rem 2rem;
+      transition: background .2s;
+    }
+    .formula-card:hover { background: #1C2128; }
+    .formula-tag {
+      font-family: var(--mono); font-size: 10px;
+      letter-spacing: .12em; text-transform: uppercase;
+      margin-bottom: .75rem; display: inline-block;
+      padding: 3px 8px; border-radius: 4px;
+    }
+    .formula-tag.red    { background: rgba(248,81,73,.15);  color: var(--red); }
+    .formula-tag.amber  { background: rgba(210,153,34,.15); color: var(--amber); }
+    .formula-tag.green  { background: rgba(63,185,80,.15);  color: var(--green); }
+    .formula-tag.blue   { background: rgba(88,166,255,.15); color: var(--bright); }
+    .formula-tag.purple { background: rgba(163,113,247,.15);color: #A371F7; }
+
+    .formula-name {
+      font-size: 1rem; font-weight: 600; margin-bottom: .5rem;
+    }
+    .formula-eq {
+      font-family: var(--mono); font-size: 12px;
+      color: var(--bright); background: rgba(31,111,235,.08);
+      padding: .6rem .8rem; border-radius: 6px;
+      margin-bottom: .75rem; line-height: 1.6;
+      border-left: 2px solid rgba(31,111,235,.3);
+    }
+    .formula-desc { font-size: 13px; color: var(--muted); line-height: 1.6; }
+
+    /* ── GRUPOS ── */
+    .grupos-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem; margin-top: 2rem;
+    }
+    .grupo-card {
+      padding: 2rem; border-radius: 12px;
+      border: 1px solid var(--border);
+      position: relative; overflow: hidden;
+    }
+    .grupo-card::before {
+      content: ''; position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+    }
+    .grupo-a::before { background: var(--green); }
+    .grupo-b::before { background: var(--amber); }
+    .grupo-c::before { background: var(--red); }
+    .grupo-badge {
+      font-family: var(--mono); font-size: 11px;
+      font-weight: 700; letter-spacing: .1em;
+      margin-bottom: .75rem;
+    }
+    .grupo-a .grupo-badge { color: var(--green); }
+    .grupo-b .grupo-badge { color: var(--amber); }
+    .grupo-c .grupo-badge { color: var(--red); }
+    .grupo-range {
+      font-size: 1.5rem; font-weight: 700;
+      font-family: var(--mono); margin-bottom: .5rem;
+    }
+    .grupo-desc { font-size: 13px; color: var(--muted); line-height: 1.6; }
+
+    /* ── RESULTADOS ── */
+    .results-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 2rem; margin-top: 2rem;
+    }
+    @media (max-width: 768px) { .results-grid { grid-template-columns: 1fr; } }
+
+    .result-panel {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 12px; padding: 2rem; overflow: hidden;
+    }
+    .result-panel h3 {
+      font-size: 14px; font-weight: 600; color: var(--muted);
+      text-transform: uppercase; letter-spacing: .08em;
+      margin-bottom: 1.5rem;
+      font-family: var(--mono);
+    }
+    .rank-row {
+      display: flex; align-items: center; gap: 1rem;
+      padding: .6rem 0;
+      border-bottom: 1px solid rgba(33,38,45,.8);
+    }
+    .rank-row:last-child { border-bottom: none; }
+    .rank-num {
+      font-family: var(--mono); font-size: 11px;
+      color: var(--muted); width: 20px; flex-shrink: 0;
+    }
+    .rank-name { font-size: 14px; flex: 1; }
+    .rank-val {
+      font-family: var(--mono); font-size: 13px;
+      font-weight: 700;
+    }
+    .rank-val.pos { color: var(--green); }
+    .rank-val.neg { color: var(--red); }
+
+    /* ── FUENTES ── */
+    .sources-grid {
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1rem; margin-top: 2rem;
+    }
+    .source-item {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 8px; padding: 1.25rem 1.5rem;
+    }
+    .source-var {
+      font-family: var(--mono); font-size: 11px;
+      color: var(--bright); margin-bottom: .4rem; letter-spacing: .05em;
+    }
+    .source-name { font-size: 13px; color: var(--muted); }
+
+    /* ── CTA FINAL ── */
+    .cta-section {
+      text-align: center;
+      background: linear-gradient(180deg, var(--paper) 0%, rgba(31,111,235,.04) 50%, var(--paper) 100%);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .cta-section h2 { margin-bottom: .75rem; }
+    .cta-section p { color: var(--muted); margin-bottom: 2rem; font-size: 1.05rem; }
+    .cta-section .hero-actions { justify-content: center; }
+
+    /* ── FOOTER ── */
+    footer {
+      padding: 2.5rem clamp(1.5rem, 8vw, 8rem);
+      border-top: 1px solid var(--border);
+      display: flex; justify-content: space-between; align-items: center;
+      flex-wrap: wrap; gap: 1rem;
+    }
+    .footer-left { font-size: 13px; color: var(--muted); }
+    .footer-left strong { color: var(--text); }
+    .footer-links { display: flex; gap: 1.5rem; }
+    .footer-links a {
+      font-size: 13px; color: var(--muted);
+      text-decoration: none; transition: color .2s;
+    }
+    .footer-links a:hover { color: var(--bright); }
+    .cc-badge {
+      font-family: var(--mono); font-size: 11px;
+      color: var(--muted); letter-spacing: .05em;
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      height: 1px; background: var(--border);
+      margin: 0 clamp(1.5rem, 8vw, 8rem);
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .results-grid { grid-template-columns: 1fr; }
+      footer { flex-direction: column; text-align: center; }
+    }
+
+    /* ── SCROLL REVEAL ── */
+    .reveal {
+      opacity: 0; transform: translateY(20px);
+      transition: opacity .6s ease, transform .6s ease;
+    }
+    .reveal.visible { opacity: 1; transform: none; }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">⚖️ MPS</div>
+  <div class="nav-links">
+    <a href="#modelo">Modelo</a>
+    <a href="#formulas">Fórmulas</a>
+    <a href="#resultados">Resultados</a>
+    <a href="#fuentes">Datos</a>
+  </div>
+  <a href="https://pedroandresarandamuoz-wq.streamlit.app" class="nav-cta" target="_blank">
+    Abrir Motor ↗
+  </a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-eyebrow">Motor Analítico y Predictivo · 163 países · 2008-2026</div>
+  <h1>El estado drena la economía.<br><em>El MPS lo mide.</em></h1>
+  <p class="hero-sub">
+    El Modelo de Prosperidad Sostenible es un índice macroeconómico alternativo al PIB
+    que cuantifica el coste real del aparato estatal sobre la riqueza privada,
+    incluyendo la corrupción, la ineficiencia institucional y la circularidad de las transferencias.
+  </p>
+  <div class="hero-actions">
+    <a href="https://pedroandresarandamuoz-wq.streamlit.app" class="btn-primary" target="_blank">
+      ⚡ Abrir el motor predictivo
+    </a>
+    <a href="https://github.com/pedroandresarandamuoz-wq/MOTOR-PREDICTIVO-MPS" class="btn-secondary" target="_blank">
+      ⌥ Ver código fuente
+    </a>
+  </div>
+
+  <!-- DRAIN COUNTER -->
+  <div class="drain-counter">
+    <div class="drain-label">▶ Gasto público global desde que abriste esta página</div>
+    <div class="drain-value" id="drainValue"><span>$</span><span id="counter">0</span></div>
+    <div class="drain-caption">
+      Basado en gasto público mundial estimado de ~$42 billones/año
+      (FMI WEO 2023). Actualizado en tiempo real.
+    </div>
+  </div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stat-item">
+    <div class="stat-num blue">163</div>
+    <div class="stat-lbl">países analizados</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num blue">19</div>
+    <div class="stat-lbl">años de serie (2008-2026)</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num green">0.61</div>
+    <div class="stat-lbl">R² TPL vs ln(PIBpc)</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num green">0.71</div>
+    <div class="stat-lbl">R² modelo segmentado</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num amber">7</div>
+    <div class="stat-lbl">variables de cálculo</div>
+  </div>
+  <div class="stat-item">
+    <div class="stat-num amber">1.18</div>
+    <div class="stat-lbl">coeficiente deadweight loss</div>
+  </div>
+</div>
+
+<!-- MODELO -->
+<section id="modelo">
+  <div class="section-eyebrow">El modelo</div>
+  <h2>Por qué el PIB miente</h2>
+  <p class="section-intro">
+    El PIB genera <strong>circularidad estadística</strong>: contabiliza el gasto público como actividad
+    económica positiva, haciendo que el estado aparezca como generador de riqueza cuando en realidad
+    la extrae. El MPS invierte esta lógica.
+  </p>
+
+  <div class="grupos-grid reveal">
+    <div class="grupo-card grupo-a">
+      <div class="grupo-badge">GRUPO A · ECONOMÍAS COMPARABLES</div>
+      <div class="grupo-range" style="color:var(--green)">PN > −500</div>
+      <p class="grupo-desc">
+        148 países donde el modelo opera normalmente. Núcleo del análisis cuantitativo
+        y comparativo entre naciones.
+      </p>
+    </div>
+    <div class="grupo-card grupo-b">
+      <div class="grupo-badge">GRUPO B · DRENAJE SEVERO</div>
+      <div class="grupo-range" style="color:var(--amber)">−5.000 a −500</div>
+      <p class="grupo-desc">
+        Economías con hipoteca generacional visible. Petroestados, estados rentistas
+        y economías capturadas por el aparato público.
+      </p>
+    </div>
+    <div class="grupo-card grupo-c">
+      <div class="grupo-badge">GRUPO C · COLAPSO INSTITUCIONAL</div>
+      <div class="grupo-range" style="color:var(--red)">PN < −5.000</div>
+      <p class="grupo-desc">
+        Cadáveres que caminan. Estados donde el parasitismo no tiene techo
+        y el modelo los identifica matemáticamente como tal.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FÓRMULAS -->
+<section id="formulas">
+  <div class="section-eyebrow">Fórmulas</div>
+  <h2>Arquitectura del modelo</h2>
+  <p class="section-intro">
+    Cada variable tiene justificación teórica y fuente de datos verificable.
+    La cadena causal es: fricción institucional → carga parasitaria → prosperidad neta.
+  </p>
+
+  <div class="formula-grid reveal">
+    <div class="formula-card">
+      <span class="formula-tag red">C_H</span>
+      <div class="formula-name">Carga Oculta</div>
+      <div class="formula-eq">
+        C_H = (Σfrición / 10) ^ (1.85 − WJP/10)
+      </div>
+      <p class="formula-desc">
+        Fricción institucional invisible: corrupción, inseguridad jurídica,
+        exceso regulatorio. El exponente dinámico amplifica geométricamente
+        el daño cuando el estado de derecho es débil.
+      </p>
+    </div>
+    <div class="formula-card">
+      <span class="formula-tag amber">ERI</span>
+      <div class="formula-name">Efectividad Real de la Inversión</div>
+      <div class="formula-eq">
+        ERI = Inversión_pública% / C_H
+      </div>
+      <p class="formula-desc">
+        Ratio entre lo que el estado invierte y su propio nivel de corrupción.
+        ERI &gt; 1 indica que la inversión supera la fricción institucional.
+      </p>
+    </div>
+    <div class="formula-card">
+      <span class="formula-tag red">TPL</span>
+      <div class="formula-name">Carga Parasitaria Total</div>
+      <div class="formula-eq">
+        TPL = [G_cons^(2−WGI) + √G_trans + C_H]<br>
+              × (1 − ERI_norm × 0.5)
+      </div>
+      <p class="formula-desc">
+        Suma del coste del aparato estatal, las transferencias y la fricción oculta,
+        mitigada por la eficiencia inversora. El exponente <em>(2−WGI)</em> amplifica
+        el daño cuando el gobierno es destructivo neto.
+      </p>
+    </div>
+    <div class="formula-card">
+      <span class="formula-tag green">PN</span>
+      <div class="formula-name">Prosperidad Neta</div>
+      <div class="formula-eq">
+        PN = 100 − (TPL × 1.18)
+      </div>
+      <p class="formula-desc">
+        Stock de prosperidad privada tras descontar el estado.
+        El coeficiente 1.18 captura el deadweight loss:
+        por cada euro extraído, la economía pierde 18 céntimos adicionales.
+      </p>
+    </div>
+    <div class="formula-card">
+      <span class="formula-tag blue">PS</span>
+      <div class="formula-name">Prosperidad Sostenible</div>
+      <div class="formula-eq">
+        PS = PN + S_E%<br>
+        S_E = ((Imp − Exp) + ODA + Remesas) / PIB
+      </div>
+      <p class="formula-desc">
+        Corrige por subsidio exterior neto. Países dependientes de flujos externos
+        tienen prosperidad artificialmente sostenida. Los donantes netos, como EEUU
+        o Alemania, sostienen a otros con su propio esfuerzo productivo.
+      </p>
+    </div>
+    <div class="formula-card">
+      <span class="formula-tag purple">VNA</span>
+      <div class="formula-name">Valor Nominal Ajustado</div>
+      <div class="formula-eq">
+        VNA = PIB_nominal × (PSA / 100)
+      </div>
+      <p class="formula-desc">
+        La prosperidad real en términos absolutos: lo que quedaría del PIB
+        si eliminásemos la ilusión estadística del gasto público.
+        El verdadero sustituto del PIB per cápita.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- RESULTADOS -->
+<section id="resultados">
+  <div class="section-eyebrow">Resultados 2026</div>
+  <h2>Quién genera prosperidad real</h2>
+  <p class="section-intro">
+    Proyección inercial basada en tendencias 2008-2023.
+    Los países que lideran son aquellos con estado pequeño, bajo y eficiente.
+    Los que colapsan tienen en común el exceso de transferencias y la captura institucional.
+  </p>
+
+  <div class="results-grid reveal">
+    <div class="result-panel">
+      <h3>🟢 Top 10 Prosperidad Neta</h3>
+      <div class="rank-row"><span class="rank-num">1</span><span class="rank-name">Taiwán</span><span class="rank-val pos">+83.4</span></div>
+      <div class="rank-row"><span class="rank-num">2</span><span class="rank-name">Suiza</span><span class="rank-val pos">+80.2</span></div>
+      <div class="rank-row"><span class="rank-num">3</span><span class="rank-name">Singapur</span><span class="rank-val pos">+78.9</span></div>
+      <div class="rank-row"><span class="rank-num">4</span><span class="rank-name">Hong Kong</span><span class="rank-val pos">+76.1</span></div>
+      <div class="rank-row"><span class="rank-num">5</span><span class="rank-name">EE.UU.</span><span class="rank-val pos">+72.3</span></div>
+      <div class="rank-row"><span class="rank-num">6</span><span class="rank-name">Irlanda</span><span class="rank-val pos">+68.7</span></div>
+      <div class="rank-row"><span class="rank-num">7</span><span class="rank-name">Nueva Zelanda</span><span class="rank-val pos">+65.4</span></div>
+      <div class="rank-row"><span class="rank-num">8</span><span class="rank-name">Australia</span><span class="rank-val pos">+61.2</span></div>
+      <div class="rank-row"><span class="rank-num">9</span><span class="rank-name">Corea del Sur</span><span class="rank-val pos">+59.8</span></div>
+      <div class="rank-row"><span class="rank-num">10</span><span class="rank-name">Canadá</span><span class="rank-val pos">+57.1</span></div>
+    </div>
+    <div class="result-panel">
+      <h3>🔴 Bottom 10 (autofagia)</h3>
+      <div class="rank-row"><span class="rank-num">1</span><span class="rank-name">Francia</span><span class="rank-val neg">−198.4</span></div>
+      <div class="rank-row"><span class="rank-num">2</span><span class="rank-name">Países Bajos</span><span class="rank-val neg">−241.7</span></div>
+      <div class="rank-row"><span class="rank-num">3</span><span class="rank-name">Bélgica</span><span class="rank-val neg">−253.1</span></div>
+      <div class="rank-row"><span class="rank-num">4</span><span class="rank-name">Italia</span><span class="rank-val neg">−271.6</span></div>
+      <div class="rank-row"><span class="rank-num">5</span><span class="rank-name">Alemania</span><span class="rank-val neg">−289.3</span></div>
+      <div class="rank-row"><span class="rank-num">6</span><span class="rank-name">Austria</span><span class="rank-val neg">−312.4</span></div>
+      <div class="rank-row"><span class="rank-num">7</span><span class="rank-name">Noruega</span><span class="rank-val neg">−334.8</span></div>
+      <div class="rank-row"><span class="rank-num">8</span><span class="rank-name">Suecia</span><span class="rank-val neg">−358.2</span></div>
+      <div class="rank-row"><span class="rank-num">9</span><span class="rank-name">Finlandia</span><span class="rank-val neg">−371.9</span></div>
+      <div class="rank-row"><span class="rank-num">10</span><span class="rank-name">Dinamarca</span><span class="rank-val neg">−389.4</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- FUENTES -->
+<section id="fuentes">
+  <div class="section-eyebrow">Fuentes de datos</div>
+  <h2>Anclado a la realidad</h2>
+  <p class="section-intro">
+    Todos los indicadores provienen de las máximas autoridades estadísticas internacionales.
+    El modelo es reproducible y verificable.
+  </p>
+
+  <div class="sources-grid reveal">
+    <div class="source-item">
+      <div class="source-var">G_cons%</div>
+      <div class="source-name">FMI — Government Final Consumption Expenditure (% PIB)</div>
+    </div>
+    <div class="source-item">
+      <div class="source-var">G_trans%</div>
+      <div class="source-name">Banco Mundial — Social Protection & Labor Transfers</div>
+    </div>
+    <div class="source-item">
+      <div class="source-var">WGI</div>
+      <div class="source-name">Banco Mundial — Worldwide Governance Indicators</div>
+    </div>
+    <div class="source-item">
+      <div class="source-var">IIJ (CPI)</div>
+      <div class="source-name">Fraser Institute + Transparency International CPI</div>
+    </div>
+    <div class="source-item">
+      <div class="source-var">WJP_ROL</div>
+      <div class="source-name">World Justice Project — Rule of Law Index</div>
+    </div>
+    <div class="source-item">
+      <div class="source-var">Fraser REG/SOE/FISCAL</div>
+      <div class="source-name">Fraser Institute — Economic Freedom of the World</div>
+    </div>
+    <div class="source-item">
+      <div class="source-var">S_E</div>
+      <div class="source-name">FMI BPM6 (avanzadas) / Banco Mundial Net ODA (desarrollo)</div>
+    </div>
+    <div class="source-item">
+      <div class="source-var">PIB nominal</div>
+      <div class="source-name">FMI — World Economic Outlook Database</div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="cta-section">
+  <div class="section-eyebrow" style="justify-content:center;display:flex">Acceso abierto</div>
+  <h2>Explora el motor predictivo</h2>
+  <p>163 países. 19 años de serie. Proyecciones hasta 2026.<br>Código abierto bajo licencia CC BY 4.0.</p>
+  <div class="hero-actions">
+    <a href="https://pedroandresarandamuoz-wq.streamlit.app" class="btn-primary" target="_blank">
+      ⚡ Abrir el motor
+    </a>
+    <a href="https://github.com/pedroandresarandamuoz-wq/MOTOR-PREDICTIVO-MPS" class="btn-secondary" target="_blank">
+      ⌥ GitHub
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-left">
+    <strong>Pedro Andrés Aranda Muñoz</strong> · Modelo de Prosperidad Sostenible v1.0 · 2026
+  </div>
+  <div class="footer-links">
+    <a href="https://github.com/pedroandresarandamuoz-wq/MOTOR-PREDICTIVO-MPS">GitHub</a>
+    <a href="#formulas">Metodología</a>
+    <a href="#fuentes">Fuentes</a>
+  </div>
+  <div class="cc-badge">CC BY 4.0</div>
+</footer>
+
+<script>
+  // ── DRAIN COUNTER ──────────────────────────────────────────────────────────
+  // Gasto público mundial: ~42 billones USD/año
+  // Por segundo: 42,000,000,000,000 / (365.25 * 24 * 3600) = ~1,330,963 USD/s
+  const GASTO_POR_SEGUNDO = 1330963;
+  const startTime = Date.now();
+
+  function formatDrain(usd) {
+    if (usd >= 1e12) return (usd / 1e12).toFixed(3) + ' T';
+    if (usd >= 1e9)  return (usd / 1e9).toFixed(3) + ' B';
+    if (usd >= 1e6)  return (usd / 1e6).toFixed(2) + ' M';
+    return usd.toLocaleString('es-ES');
+  }
+
+  function updateCounter() {
+    const elapsed = (Date.now() - startTime) / 1000;
+    const total = elapsed * GASTO_POR_SEGUNDO;
+    document.getElementById('counter').textContent = formatDrain(total);
+    requestAnimationFrame(updateCounter);
+  }
+  updateCounter();
+
+  // ── SCROLL REVEAL ─────────────────────────────────────────────────────────
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
