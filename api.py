@@ -173,7 +173,8 @@ def get_ranking(anio: str):
             "tpl":round(d.get("TPL",0),2),"grupo":d.get("grupo"),
             "proy":d.get("proyectado",False)})
     filas.sort(key=lambda x:x["pn"],reverse=True)
-    return resp({"ano":int(anio),"top":filas[:20],"bottom":filas[-20:][::-1],"total":len(filas)})
+    return resp({"ano":int(anio),"top":filas[:20],"bottom":filas[-20:][::-1],
+                 "todos":filas,"total":len(filas)})
 
 @app.get("/api/tabla/{anio}")
 def get_tabla(anio: str):
@@ -223,3 +224,18 @@ def get_grupos(anio: str):
         grupos[g].sort(key=lambda x:(x["pn"] or -9999),reverse=True)
     return resp({"anio":int(anio),"grupos":grupos,
                  "counts":{"A":len(grupos["A"]),"B":len(grupos["B"]),"C":len(grupos["C"])}})
+
+@app.get("/api/ranking_tpl/{anio}")
+def get_ranking_tpl(anio: str):
+    filas=[]
+    for p in PAISES:
+        if anio not in MATRIZ[p]: continue
+        d=MATRIZ[p][anio]
+        tpl=d.get("TPL")
+        pn=d.get("PN")
+        if tpl is None or tpl>500: continue
+        filas.append({"iso":p,"nombre":nom(p),"tpl":round(tpl,2),
+            "pn":round(pn,2) if pn is not None else None,
+            "grupo":d.get("grupo"),"proy":d.get("proyectado",False)})
+    filas.sort(key=lambda x:x["tpl"])
+    return resp({"ano":int(anio),"paises":filas[:30]})
