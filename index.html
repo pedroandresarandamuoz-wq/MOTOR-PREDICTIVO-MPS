@@ -358,31 +358,40 @@ async function updateScatter(ano){
 }
 
 // ── RANKING ───────────────────────────────────────────────────────────────
-// ── RANKING ───────────────────────────────────────────────────────────────
 async function loadRanking(){
   try {
     const ano=document.getElementById('selRankAno')?.value||'2026';
     if(!RANK_CACHE[ano]) RANK_CACHE[ano]=await api(`/api/ranking/${ano}`);
     const data=RANK_CACHE[ano];
 
-    // Gráfica Top 20 (Barras horizontales)
+    // 1. RECUPERAR TUS LISTAS DE TEXTO
+    const ri=(d,i,cls)=>`<div class="ri">
+      <span class="rn">${i+1}</span>
+      <span style="flex:1">${d.nombre}</span>
+      <span style="font-size:10px;color:var(--muted);margin-right:.4rem">${d.grupo||''}</span>
+      <span class="rv ${cls}">${f1(d.pn)}</span>
+    </div>`;
+    document.getElementById('rTop').innerHTML=data.top.map((d,i)=>ri(d,i,'pos')).join('');
+    document.getElementById('rBot').innerHTML=data.bottom.map((d,i)=>ri(d,i,'neg')).join('');
+
+    // 2. DIBUJAR LAS GRÁFICAS DE BARRAS
     mkC('cRankTop',{type:'bar',data:{
       labels:data.top.map(d=>d.nombre),
       datasets:[{label:`PN ${ano}`,data:data.top.map(d=>d.pn),
         backgroundColor:'rgba(63,185,80,.8)',borderRadius:3}]
     },options:{...DARK,indexAxis:'y',plugins:{...DARK.plugins,legend:{display:false}},scales:{x:{...DARK.scales.x},y:{...DARK.scales.y,ticks:{font:{size:10}}}}}});
 
-    // Gráfica Bottom 20 (Barras horizontales)
     mkC('cRankBot',{type:'bar',data:{
       labels:data.bottom.map(d=>d.nombre),
       datasets:[{label:`PN ${ano}`,data:data.bottom.map(d=>d.pn),
         backgroundColor:'rgba(248,81,73,.8)',borderRadius:3}]
     },options:{...DARK,indexAxis:'y',plugins:{...DARK.plugins,legend:{display:false}},scales:{x:{...DARK.scales.x},y:{...DARK.scales.y,ticks:{font:{size:10}}}}}});
 
-    // Gráfica TPL Top 30 (Barras verticales)
+    // 3. DIBUJAR TPL (Con escudo anti-cuelgues por si la API va con retraso)
+    const tplData = data.tpl_top || []; 
     mkC('cRankTpl',{type:'bar',data:{
-      labels:data.tpl_top.map(d=>d.nombre),
-      datasets:[{label:`TPL ${ano}`,data:data.tpl_top.map(d=>d.tpl),
+      labels:tplData.map(d=>d.nombre),
+      datasets:[{label:`TPL ${ano}`,data:tplData.map(d=>d.tpl),
         backgroundColor:'rgba(210,153,34,.8)',borderRadius:3}]
     },options:{...DARK,plugins:{...DARK.plugins,legend:{display:false}}}});
 
