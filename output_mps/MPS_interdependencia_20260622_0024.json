@@ -1,0 +1,7433 @@
+{
+  "2023": {
+    "HKG": {
+      "dep_energia_pct": 171.85,
+      "dep_remesas_pct": 0.12,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -20.94,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.7231,
+      "grupo": "A"
+    },
+    "SGP": {
+      "dep_energia_pct": 83.57,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 10.47,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.3745,
+      "grupo": "A"
+    },
+    "NZL": {
+      "dep_energia_pct": 19.77,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -3.27,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.7225,
+      "grupo": "A"
+    },
+    "CHE": {
+      "dep_energia_pct": 40.85,
+      "dep_remesas_pct": 0.39,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 6.1,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 4.2654,
+      "grupo": "A"
+    },
+    "USA": {
+      "dep_energia_pct": 11.61,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -4.21,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.7059,
+      "grupo": "A"
+    },
+    "IRL": {
+      "dep_energia_pct": 26.55,
+      "dep_remesas_pct": 0.1,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 10.97,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 3.1499,
+      "grupo": "A"
+    },
+    "AUS": {
+      "dep_energia_pct": 16.6,
+      "dep_remesas_pct": 0.09,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 4.69,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.9674,
+      "grupo": "A"
+    },
+    "TWN": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.471,
+      "grupo": "A"
+    },
+    "DNK": {
+      "dep_energia_pct": 29.71,
+      "dep_remesas_pct": 0.38,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 2.07,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.6129,
+      "grupo": "A"
+    },
+    "NLD": {
+      "dep_energia_pct": 56.98,
+      "dep_remesas_pct": 0.38,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 6.2,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.1422,
+      "grupo": "A"
+    },
+    "CAN": {
+      "dep_energia_pct": 25.7,
+      "dep_remesas_pct": 0.04,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 0.41,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.2861,
+      "grupo": "A"
+    },
+    "LUX": {
+      "dep_energia_pct": 29.38,
+      "dep_remesas_pct": 2.84,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -10.94,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.9034,
+      "grupo": "A"
+    },
+    "GBR": {
+      "dep_energia_pct": 23.14,
+      "dep_remesas_pct": 0.13,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -7.91,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.7244,
+      "grupo": "A"
+    },
+    "CRI": {
+      "dep_energia_pct": 26.03,
+      "dep_remesas_pct": 0.77,
+      "dep_oda_pct": 0.17,
+      "balance_comercial": -5.09,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7185,
+      "grupo": "A"
+    },
+    "FIN": {
+      "dep_energia_pct": 28.17,
+      "dep_remesas_pct": 0.25,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.18,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.7896,
+      "grupo": "A"
+    },
+    "DEU": {
+      "dep_energia_pct": 32.59,
+      "dep_remesas_pct": 0.46,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 5.23,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.0302,
+      "grupo": "A"
+    },
+    "JPN": {
+      "dep_energia_pct": 17.84,
+      "dep_remesas_pct": 0.11,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.8,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 3.4929,
+      "grupo": "A"
+    },
+    "MLT": {
+      "dep_energia_pct": 37.11,
+      "dep_remesas_pct": 0.07,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -21.78,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.4751,
+      "grupo": "A"
+    },
+    "EST": {
+      "dep_energia_pct": 56.52,
+      "dep_remesas_pct": 1.17,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -8.03,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 2.3438,
+      "grupo": "A"
+    },
+    "CYP": {
+      "dep_energia_pct": 40.66,
+      "dep_remesas_pct": 1.81,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -26.03,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.1391,
+      "grupo": "A"
+    },
+    "MUS": {
+      "dep_energia_pct": 44.64,
+      "dep_remesas_pct": 2.24,
+      "dep_oda_pct": 0.67,
+      "balance_comercial": -31.46,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.9735,
+      "grupo": "A"
+    },
+    "ESP": {
+      "dep_energia_pct": 28.96,
+      "dep_remesas_pct": 0.34,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -3.02,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.5539,
+      "grupo": "A"
+    },
+    "ISL": {
+      "dep_energia_pct": 29.9,
+      "dep_remesas_pct": 0.7,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -8.41,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 2.5597,
+      "grupo": "A"
+    },
+    "PRT": {
+      "dep_energia_pct": 38.89,
+      "dep_remesas_pct": 0.59,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -10.29,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.4502,
+      "grupo": "A"
+    },
+    "GEO": {
+      "dep_energia_pct": 50.72,
+      "dep_remesas_pct": 13.65,
+      "dep_oda_pct": 1.19,
+      "balance_comercial": -30.94,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6268,
+      "grupo": "A"
+    },
+    "CHL": {
+      "dep_energia_pct": 25.39,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 2.31,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.7642,
+      "grupo": "A"
+    },
+    "PAN": {
+      "dep_energia_pct": 17.33,
+      "dep_remesas_pct": 0.62,
+      "dep_oda_pct": 0.49,
+      "balance_comercial": -13.31,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.4146,
+      "grupo": "A"
+    },
+    "GTM": {
+      "dep_energia_pct": 29.01,
+      "dep_remesas_pct": 19.14,
+      "dep_oda_pct": 0.43,
+      "balance_comercial": -15.35,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6753,
+      "grupo": "A"
+    },
+    "CZE": {
+      "dep_energia_pct": 66.34,
+      "dep_remesas_pct": 1.24,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 7.08,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.0785,
+      "grupo": "A"
+    },
+    "LVA": {
+      "dep_energia_pct": 57.38,
+      "dep_remesas_pct": 2.89,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -9.37,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.2415,
+      "grupo": "A"
+    },
+    "BEL": {
+      "dep_energia_pct": 61.9,
+      "dep_remesas_pct": 2.25,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.9,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.1469,
+      "grupo": "A"
+    },
+    "SYC": {
+      "dep_energia_pct": 67.12,
+      "dep_remesas_pct": 0.52,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -42.06,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5871,
+      "grupo": "A"
+    },
+    "AUT": {
+      "dep_energia_pct": 42.41,
+      "dep_remesas_pct": 0.63,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.57,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.4944,
+      "grupo": "A"
+    },
+    "LTU": {
+      "dep_energia_pct": 60.68,
+      "dep_remesas_pct": 1.22,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -7.26,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.0895,
+      "grupo": "A"
+    },
+    "ALB": {
+      "dep_energia_pct": 36.9,
+      "dep_remesas_pct": 8.67,
+      "dep_oda_pct": 1.54,
+      "balance_comercial": -18.28,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4284,
+      "grupo": "A"
+    },
+    "MYS": {
+      "dep_energia_pct": 66.42,
+      "dep_remesas_pct": 0.43,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 11.74,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.057,
+      "grupo": "A"
+    },
+    "SWE": {
+      "dep_energia_pct": 33.38,
+      "dep_remesas_pct": 0.67,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 0.74,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.025,
+      "grupo": "A"
+    },
+    "KOR": {
+      "dep_energia_pct": 34.83,
+      "dep_remesas_pct": 0.39,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.58,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.3625,
+      "grupo": "A"
+    },
+    "ARM": {
+      "dep_energia_pct": 51.57,
+      "dep_remesas_pct": 6.4,
+      "dep_oda_pct": 0.85,
+      "balance_comercial": -16.4,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6083,
+      "grupo": "A"
+    },
+    "ISR": {
+      "dep_energia_pct": 17.94,
+      "dep_remesas_pct": 0.19,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -6.44,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.39,
+      "grupo": "A"
+    },
+    "JAM": {
+      "dep_energia_pct": 35.45,
+      "dep_remesas_pct": 16.81,
+      "dep_oda_pct": 0.4,
+      "balance_comercial": -26.1,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2068,
+      "grupo": "A"
+    },
+    "JOR": {
+      "dep_energia_pct": 50.32,
+      "dep_remesas_pct": 8.53,
+      "dep_oda_pct": 5.55,
+      "balance_comercial": -25.68,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7715,
+      "grupo": "A"
+    },
+    "BHR": {
+      "dep_energia_pct": 33.24,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -6.38,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.251,
+      "grupo": "A"
+    },
+    "CPV": {
+      "dep_energia_pct": 70.23,
+      "dep_remesas_pct": 12.63,
+      "dep_oda_pct": 4.06,
+      "balance_comercial": -58.98,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5796,
+      "grupo": "A"
+    },
+    "FRA": {
+      "dep_energia_pct": 26.31,
+      "dep_remesas_pct": 1.2,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -4.7,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.619,
+      "grupo": "A"
+    },
+    "ITA": {
+      "dep_energia_pct": 27.63,
+      "dep_remesas_pct": 0.52,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 1.59,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.8414,
+      "grupo": "A"
+    },
+    "DOM": {
+      "dep_energia_pct": 26.02,
+      "dep_remesas_pct": 8.82,
+      "dep_oda_pct": 0.55,
+      "balance_comercial": -16.11,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7377,
+      "grupo": "A"
+    },
+    "NOR": {
+      "dep_energia_pct": 20.08,
+      "dep_remesas_pct": 0.2,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 16.61,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.0382,
+      "grupo": "A"
+    },
+    "SVK": {
+      "dep_energia_pct": 86.36,
+      "dep_remesas_pct": 2.04,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 1.41,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.7597,
+      "grupo": "A"
+    },
+    "ROU": {
+      "dep_energia_pct": 37.95,
+      "dep_remesas_pct": 2.87,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -9.01,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.9622,
+      "grupo": "A"
+    },
+    "PER": {
+      "dep_energia_pct": 19.54,
+      "dep_remesas_pct": 1.67,
+      "dep_oda_pct": 0.22,
+      "balance_comercial": 4.57,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4964,
+      "grupo": "A"
+    },
+    "ARE": {
+      "dep_energia_pct": 90.03,
+      "dep_remesas_pct": 0.36,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 19.08,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.0517,
+      "grupo": "A"
+    },
+    "MNE": {
+      "dep_energia_pct": 53.84,
+      "dep_remesas_pct": 10.53,
+      "dep_oda_pct": 1.21,
+      "balance_comercial": -44.39,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6451,
+      "grupo": "A"
+    },
+    "URY": {
+      "dep_energia_pct": 16.01,
+      "dep_remesas_pct": 0.17,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -4.22,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.7501,
+      "grupo": "A"
+    },
+    "GRC": {
+      "dep_energia_pct": 36.47,
+      "dep_remesas_pct": 0.22,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -13.81,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3699,
+      "grupo": "A"
+    },
+    "BGR": {
+      "dep_energia_pct": 52.38,
+      "dep_remesas_pct": 2.24,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -5.51,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4366,
+      "grupo": "A"
+    },
+    "THA": {
+      "dep_energia_pct": 55.92,
+      "dep_remesas_pct": 1.88,
+      "dep_oda_pct": 0.02,
+      "balance_comercial": -0.66,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.0783,
+      "grupo": "A"
+    },
+    "BRN": {
+      "dep_energia_pct": 49.58,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 24.88,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.458,
+      "grupo": "C"
+    },
+    "SLV": {
+      "dep_energia_pct": 46.22,
+      "dep_remesas_pct": 24.48,
+      "dep_oda_pct": 1.47,
+      "balance_comercial": -27.03,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2897,
+      "grupo": "A"
+    },
+    "PRY": {
+      "dep_energia_pct": 37.42,
+      "dep_remesas_pct": 2.16,
+      "dep_oda_pct": 0.52,
+      "balance_comercial": -9.89,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4418,
+      "grupo": "A"
+    },
+    "HUN": {
+      "dep_energia_pct": 70.65,
+      "dep_remesas_pct": 2.41,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 3.73,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.672,
+      "grupo": "A"
+    },
+    "PHL": {
+      "dep_energia_pct": 30.63,
+      "dep_remesas_pct": 8.95,
+      "dep_oda_pct": 0.42,
+      "balance_comercial": -13.78,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.8628,
+      "grupo": "A"
+    },
+    "SVN": {
+      "dep_energia_pct": 89.08,
+      "dep_remesas_pct": 1.33,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -3.15,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.7695,
+      "grupo": "A"
+    },
+    "HND": {
+      "dep_energia_pct": 41.86,
+      "dep_remesas_pct": 26.1,
+      "dep_oda_pct": 1.6,
+      "balance_comercial": -20.98,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3986,
+      "grupo": "A"
+    },
+    "IDN": {
+      "dep_energia_pct": 16.27,
+      "dep_remesas_pct": 1.06,
+      "dep_oda_pct": 0.08,
+      "balance_comercial": 2.66,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.6883,
+      "grupo": "A"
+    },
+    "SAU": {
+      "dep_energia_pct": 16.98,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 9.28,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.1495,
+      "grupo": "A"
+    },
+    "HRV": {
+      "dep_energia_pct": 49.7,
+      "dep_remesas_pct": 7.1,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -20.88,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4279,
+      "grupo": "A"
+    },
+    "GMB": {
+      "dep_energia_pct": 102.75,
+      "dep_remesas_pct": 21.61,
+      "dep_oda_pct": 14.43,
+      "balance_comercial": -99.25,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6513,
+      "grupo": "A"
+    },
+    "BWA": {
+      "dep_energia_pct": 33.06,
+      "dep_remesas_pct": 0.36,
+      "dep_oda_pct": 1.47,
+      "balance_comercial": -4.71,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.752,
+      "grupo": "A"
+    },
+    "MEX": {
+      "dep_energia_pct": 33.67,
+      "dep_remesas_pct": 3.68,
+      "dep_oda_pct": 0.03,
+      "balance_comercial": -0.53,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4231,
+      "grupo": "A"
+    },
+    "BHS": {
+      "dep_energia_pct": 27.42,
+      "dep_remesas_pct": 0.41,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -22.83,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2415,
+      "grupo": "A"
+    },
+    "UGA": {
+      "dep_energia_pct": 24.15,
+      "dep_remesas_pct": 3.1,
+      "dep_oda_pct": 4.63,
+      "balance_comercial": -11.23,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4195,
+      "grupo": "A"
+    },
+    "BTN": {
+      "dep_energia_pct": 42.81,
+      "dep_remesas_pct": 3.58,
+      "dep_oda_pct": 5.21,
+      "balance_comercial": -28.35,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.2065,
+      "grupo": "A"
+    },
+    "KAZ": {
+      "dep_energia_pct": 23.36,
+      "dep_remesas_pct": 0.12,
+      "dep_oda_pct": 0.03,
+      "balance_comercial": 6.71,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.5995,
+      "grupo": "A"
+    },
+    "MNG": {
+      "dep_energia_pct": 45.52,
+      "dep_remesas_pct": 2.24,
+      "dep_oda_pct": 1.28,
+      "balance_comercial": 29.19,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.4072,
+      "grupo": "A"
+    },
+    "POL": {
+      "dep_energia_pct": 45.71,
+      "dep_remesas_pct": 1.05,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 1.3,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5258,
+      "grupo": "A"
+    },
+    "KHM": {
+      "dep_energia_pct": 57.66,
+      "dep_remesas_pct": 6.57,
+      "dep_oda_pct": 3.74,
+      "balance_comercial": -6.46,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.468,
+      "grupo": "A"
+    },
+    "BRB": {
+      "dep_energia_pct": 29.66,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -23.07,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5872,
+      "grupo": "A"
+    },
+    "MKD": {
+      "dep_energia_pct": 76.02,
+      "dep_remesas_pct": 2.92,
+      "dep_oda_pct": 2.61,
+      "balance_comercial": -19.28,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5215,
+      "grupo": "A"
+    },
+    "QAT": {
+      "dep_energia_pct": 14.46,
+      "dep_remesas_pct": 0.66,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 30.52,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.131,
+      "grupo": "B"
+    },
+    "KEN": {
+      "dep_energia_pct": 17.31,
+      "dep_remesas_pct": 3.93,
+      "dep_oda_pct": 2.41,
+      "balance_comercial": -10.65,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.356,
+      "grupo": "A"
+    },
+    "TTO": {
+      "dep_energia_pct": 36.59,
+      "dep_remesas_pct": 0.81,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -5.18,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5723,
+      "grupo": "A"
+    },
+    "OMN": {
+      "dep_energia_pct": 36.52,
+      "dep_remesas_pct": 0.04,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 19.06,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.688,
+      "grupo": "B"
+    },
+    "ZAF": {
+      "dep_energia_pct": 28.08,
+      "dep_remesas_pct": 0.21,
+      "dep_oda_pct": 0.4,
+      "balance_comercial": 0.91,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.2821,
+      "grupo": "A"
+    },
+    "MDA": {
+      "dep_energia_pct": 51.9,
+      "dep_remesas_pct": 12.04,
+      "dep_oda_pct": 6.29,
+      "balance_comercial": -27.68,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4013,
+      "grupo": "A"
+    },
+    "IND": {
+      "dep_energia_pct": 18.47,
+      "dep_remesas_pct": 3.29,
+      "dep_oda_pct": 0.07,
+      "balance_comercial": -6.62,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7983,
+      "grupo": "A"
+    },
+    "BRA": {
+      "dep_energia_pct": 11.53,
+      "dep_remesas_pct": 0.2,
+      "dep_oda_pct": 0.03,
+      "balance_comercial": 3.97,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4371,
+      "grupo": "A"
+    },
+    "KGZ": {
+      "dep_energia_pct": 82.45,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 2.9,
+      "balance_comercial": -60.15,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3931,
+      "grupo": "A"
+    },
+    "SRB": {
+      "dep_energia_pct": 48.96,
+      "dep_remesas_pct": 7.1,
+      "dep_oda_pct": 0.71,
+      "balance_comercial": -10.93,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.449,
+      "grupo": "A"
+    },
+    "NPL": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 26.22,
+      "dep_oda_pct": 2.86,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.6517,
+      "grupo": "A"
+    },
+    "KWT": {
+      "dep_energia_pct": 22.67,
+      "dep_remesas_pct": 0.01,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 28.11,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.5438,
+      "grupo": "B"
+    },
+    "NIC": {
+      "dep_energia_pct": 61.28,
+      "dep_remesas_pct": 26.18,
+      "dep_oda_pct": 3.27,
+      "balance_comercial": -19.84,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.144,
+      "grupo": "A"
+    },
+    "BIH": {
+      "dep_energia_pct": 55.63,
+      "dep_remesas_pct": 10.23,
+      "dep_oda_pct": 1.12,
+      "balance_comercial": -22.18,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3946,
+      "grupo": "A"
+    },
+    "COL": {
+      "dep_energia_pct": 17.14,
+      "dep_remesas_pct": 2.76,
+      "dep_oda_pct": 0.28,
+      "balance_comercial": -3.55,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3287,
+      "grupo": "A"
+    },
+    "MAR": {
+      "dep_energia_pct": 48.38,
+      "dep_remesas_pct": 8.05,
+      "dep_oda_pct": 0.53,
+      "balance_comercial": -19.3,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6024,
+      "grupo": "A"
+    },
+    "NAM": {
+      "dep_energia_pct": 58.83,
+      "dep_remesas_pct": 0.68,
+      "dep_oda_pct": 2.19,
+      "balance_comercial": -14.3,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4955,
+      "grupo": "A"
+    },
+    "RWA": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 3.61,
+      "dep_oda_pct": 9.68,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.3513,
+      "grupo": "A"
+    },
+    "BEN": {
+      "dep_energia_pct": 19.85,
+      "dep_remesas_pct": 1.72,
+      "dep_oda_pct": 5.26,
+      "balance_comercial": -14.5,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5802,
+      "grupo": "A"
+    },
+    "TJK": {
+      "dep_energia_pct": 34.71,
+      "dep_remesas_pct": 37.84,
+      "dep_oda_pct": 4.34,
+      "balance_comercial": -24.41,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2366,
+      "grupo": "A"
+    },
+    "ECU": {
+      "dep_energia_pct": 25.5,
+      "dep_remesas_pct": 4.5,
+      "dep_oda_pct": 0.46,
+      "balance_comercial": 0.19,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3089,
+      "grupo": "A"
+    },
+    "SOM": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 20.82,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.0839,
+      "grupo": "A"
+    },
+    "BFA": {
+      "dep_energia_pct": 29.24,
+      "dep_remesas_pct": 2.91,
+      "dep_oda_pct": 7.14,
+      "balance_comercial": -7.07,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3764,
+      "grupo": "A"
+    },
+    "TZA": {
+      "dep_energia_pct": 19.13,
+      "dep_remesas_pct": 1.57,
+      "dep_oda_pct": 3.87,
+      "balance_comercial": -9.92,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5543,
+      "grupo": "A"
+    },
+    "ZMB": {
+      "dep_energia_pct": 36.72,
+      "dep_remesas_pct": 0.89,
+      "dep_oda_pct": 5.16,
+      "balance_comercial": 1.11,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.1354,
+      "grupo": "A"
+    },
+    "MOZ": {
+      "dep_energia_pct": 48.24,
+      "dep_remesas_pct": 1.22,
+      "dep_oda_pct": 13.99,
+      "balance_comercial": -8.68,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1663,
+      "grupo": "A"
+    },
+    "VNM": {
+      "dep_energia_pct": 75.01,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.19,
+      "balance_comercial": 6.37,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.4638,
+      "grupo": "A"
+    },
+    "SEN": {
+      "dep_energia_pct": 38.7,
+      "dep_remesas_pct": 10.64,
+      "dep_oda_pct": 6.06,
+      "balance_comercial": -21.38,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7395,
+      "grupo": "A"
+    },
+    "CHN": {
+      "dep_energia_pct": 13.99,
+      "dep_remesas_pct": 0.16,
+      "dep_oda_pct": -0.0,
+      "balance_comercial": 4.5,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5699,
+      "grupo": "A"
+    },
+    "LBR": {
+      "dep_energia_pct": 49.28,
+      "dep_remesas_pct": 21.64,
+      "dep_oda_pct": 12.82,
+      "balance_comercial": -45.78,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1034,
+      "grupo": "A"
+    },
+    "DJI": {
+      "dep_energia_pct": 135.82,
+      "dep_remesas_pct": 1.5,
+      "dep_oda_pct": 5.7,
+      "balance_comercial": -13.09,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1296,
+      "grupo": "B"
+    },
+    "MRT": {
+      "dep_energia_pct": 44.91,
+      "dep_remesas_pct": 1.56,
+      "dep_oda_pct": 3.91,
+      "balance_comercial": -7.01,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3149,
+      "grupo": "A"
+    },
+    "PNG": {
+      "dep_energia_pct": 20.03,
+      "dep_remesas_pct": 0.04,
+      "dep_oda_pct": 2.24,
+      "balance_comercial": 12.2,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1469,
+      "grupo": "A"
+    },
+    "CIV": {
+      "dep_energia_pct": 23.33,
+      "dep_remesas_pct": 1.62,
+      "dep_oda_pct": 2.94,
+      "balance_comercial": -0.61,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4106,
+      "grupo": "A"
+    },
+    "FJI": {
+      "dep_energia_pct": 56.61,
+      "dep_remesas_pct": 8.75,
+      "dep_oda_pct": 3.47,
+      "balance_comercial": -37.12,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1251,
+      "grupo": "A"
+    },
+    "TGO": {
+      "dep_energia_pct": 31.06,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 6.27,
+      "balance_comercial": -16.23,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3274,
+      "grupo": "A"
+    },
+    "BOL": {
+      "dep_energia_pct": 21.95,
+      "dep_remesas_pct": 2.77,
+      "dep_oda_pct": 1.46,
+      "balance_comercial": -1.09,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1164,
+      "grupo": "A"
+    },
+    "MDG": {
+      "dep_energia_pct": 30.35,
+      "dep_remesas_pct": 1.96,
+      "dep_oda_pct": 7.9,
+      "balance_comercial": -9.66,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1759,
+      "grupo": "A"
+    },
+    "BLZ": {
+      "dep_energia_pct": 43.93,
+      "dep_remesas_pct": 4.9,
+      "dep_oda_pct": 1.04,
+      "balance_comercial": -35.61,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1677,
+      "grupo": "B"
+    },
+    "TLS": {
+      "dep_energia_pct": 43.73,
+      "dep_remesas_pct": 9.28,
+      "dep_oda_pct": 12.5,
+      "balance_comercial": -35.86,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1309,
+      "grupo": "C"
+    },
+    "LSO": {
+      "dep_energia_pct": 81.29,
+      "dep_remesas_pct": 22.65,
+      "dep_oda_pct": 8.14,
+      "balance_comercial": -42.1,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2875,
+      "grupo": "B"
+    },
+    "NGA": {
+      "dep_energia_pct": 13.35,
+      "dep_remesas_pct": 4.01,
+      "dep_oda_pct": 0.74,
+      "balance_comercial": 0.02,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1721,
+      "grupo": "A"
+    },
+    "TUN": {
+      "dep_energia_pct": 53.79,
+      "dep_remesas_pct": 5.96,
+      "dep_oda_pct": 2.54,
+      "balance_comercial": -12.22,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2828,
+      "grupo": "A"
+    },
+    "GIN": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 2.22,
+      "dep_oda_pct": 2.37,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1092,
+      "grupo": "A"
+    },
+    "NER": {
+      "dep_energia_pct": 18.86,
+      "dep_remesas_pct": 3.74,
+      "dep_oda_pct": 7.68,
+      "balance_comercial": -16.06,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2268,
+      "grupo": "A"
+    },
+    "BGD": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 5.05,
+      "dep_oda_pct": 1.3,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.3722,
+      "grupo": "A"
+    },
+    "GHA": {
+      "dep_energia_pct": 20.35,
+      "dep_remesas_pct": 3.05,
+      "dep_oda_pct": 1.95,
+      "balance_comercial": 0.6,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.2408,
+      "grupo": "A"
+    },
+    "LKA": {
+      "dep_energia_pct": 19.57,
+      "dep_remesas_pct": 7.19,
+      "dep_oda_pct": 0.99,
+      "balance_comercial": -5.18,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4372,
+      "grupo": "A"
+    },
+    "AZE": {
+      "dep_energia_pct": 23.86,
+      "dep_remesas_pct": 2.64,
+      "dep_oda_pct": 0.17,
+      "balance_comercial": 22.95,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1817,
+      "grupo": "B"
+    },
+    "MLI": {
+      "dep_energia_pct": 25.86,
+      "dep_remesas_pct": 4.21,
+      "dep_oda_pct": 5.21,
+      "balance_comercial": -9.71,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2693,
+      "grupo": "A"
+    },
+    "LAO": {
+      "dep_energia_pct": 44.66,
+      "dep_remesas_pct": 1.81,
+      "dep_oda_pct": 3.25,
+      "balance_comercial": -6.52,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1375,
+      "grupo": "A"
+    },
+    "CMR": {
+      "dep_energia_pct": 17.0,
+      "dep_remesas_pct": 1.61,
+      "dep_oda_pct": 1.93,
+      "balance_comercial": -6.82,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2465,
+      "grupo": "A"
+    },
+    "PAK": {
+      "dep_energia_pct": 14.85,
+      "dep_remesas_pct": 7.89,
+      "dep_oda_pct": 1.18,
+      "balance_comercial": -6.32,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2205,
+      "grupo": "A"
+    },
+    "SLE": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 4.57,
+      "dep_oda_pct": 7.76,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.2951,
+      "grupo": "A"
+    },
+    "COM": {
+      "dep_energia_pct": 20.59,
+      "dep_remesas_pct": 23.03,
+      "dep_oda_pct": 12.54,
+      "balance_comercial": -18.44,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0897,
+      "grupo": "A"
+    },
+    "SUR": {
+      "dep_energia_pct": 48.87,
+      "dep_remesas_pct": 4.23,
+      "dep_oda_pct": 1.25,
+      "balance_comercial": 17.67,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.344,
+      "grupo": "A"
+    },
+    "GUY": {
+      "dep_energia_pct": 30.91,
+      "dep_remesas_pct": 3.22,
+      "dep_oda_pct": 0.83,
+      "balance_comercial": 32.99,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.4486,
+      "grupo": "C"
+    },
+    "TUR": {
+      "dep_energia_pct": 31.72,
+      "dep_remesas_pct": 0.09,
+      "dep_oda_pct": 0.14,
+      "balance_comercial": -9.32,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.9788,
+      "grupo": "A"
+    },
+    "SWZ": {
+      "dep_energia_pct": 44.11,
+      "dep_remesas_pct": 1.73,
+      "dep_oda_pct": 2.39,
+      "balance_comercial": 1.23,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1119,
+      "grupo": "B"
+    },
+    "IRQ": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.43,
+      "dep_oda_pct": 0.75,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1119,
+      "grupo": "B"
+    },
+    "GNB": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 9.61,
+      "dep_oda_pct": 8.88,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.1127,
+      "grupo": "A"
+    },
+    "GAB": {
+      "dep_energia_pct": 21.75,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.27,
+      "balance_comercial": 43.73,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1378,
+      "grupo": "A"
+    },
+    "LBN": {
+      "dep_energia_pct": 90.26,
+      "dep_remesas_pct": 33.35,
+      "dep_oda_pct": 8.7,
+      "balance_comercial": -67.54,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0231,
+      "grupo": "A"
+    },
+    "UKR": {
+      "dep_energia_pct": 35.07,
+      "dep_remesas_pct": 8.26,
+      "dep_oda_pct": 21.48,
+      "balance_comercial": -15.11,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1221,
+      "grupo": "A"
+    },
+    "AGO": {
+      "dep_energia_pct": 14.65,
+      "dep_remesas_pct": 0.01,
+      "dep_oda_pct": 0.14,
+      "balance_comercial": 22.22,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.0897,
+      "grupo": "A"
+    },
+    "MWI": {
+      "dep_energia_pct": 23.5,
+      "dep_remesas_pct": 1.35,
+      "dep_oda_pct": 12.96,
+      "balance_comercial": -16.28,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1716,
+      "grupo": "A"
+    },
+    "RUS": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.13,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.237,
+      "grupo": "A"
+    },
+    "EGY": {
+      "dep_energia_pct": 21.27,
+      "dep_remesas_pct": 4.93,
+      "dep_oda_pct": 0.12,
+      "balance_comercial": -10.52,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.278,
+      "grupo": "A"
+    },
+    "YEM": {
+      "dep_energia_pct": 186594302016.1,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 414649169921.88,
+      "balance_comercial": -139620811369.9,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.005,
+      "grupo": "A"
+    },
+    "COD": {
+      "dep_energia_pct": 36.55,
+      "dep_remesas_pct": 4.72,
+      "dep_oda_pct": 6.22,
+      "balance_comercial": 3.15,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.2274,
+      "grupo": "A"
+    },
+    "BDI": {
+      "dep_energia_pct": 34.46,
+      "dep_remesas_pct": 5.7,
+      "dep_oda_pct": 18.12,
+      "balance_comercial": -28.12,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.154,
+      "grupo": "A"
+    },
+    "ETH": {
+      "dep_energia_pct": 12.55,
+      "dep_remesas_pct": 0.4,
+      "dep_oda_pct": 3.98,
+      "balance_comercial": -10.44,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1805,
+      "grupo": "A"
+    },
+    "CAF": {
+      "dep_energia_pct": 29.05,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 28.86,
+      "balance_comercial": -24.62,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0871,
+      "grupo": "A"
+    },
+    "COG": {
+      "dep_energia_pct": 30.66,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 2.46,
+      "balance_comercial": 31.11,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.246,
+      "grupo": "A"
+    },
+    "TCD": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 6.2,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.1364,
+      "grupo": "A"
+    },
+    "LBY": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.82,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.053,
+      "grupo": "C"
+    },
+    "SYR": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 920627734375.0,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.007,
+      "grupo": "A"
+    },
+    "ARG": {
+      "dep_energia_pct": 11.35,
+      "dep_remesas_pct": 0.16,
+      "dep_oda_pct": 0.04,
+      "balance_comercial": -1.07,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.2853,
+      "grupo": "A"
+    },
+    "MMR": {
+      "dep_energia_pct": 24.63,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 1.71,
+      "balance_comercial": -2.53,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.0024,
+      "grupo": "A"
+    },
+    "IRN": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.05,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1794,
+      "grupo": "A"
+    },
+    "DZA": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.75,
+      "dep_oda_pct": 0.08,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3982,
+      "grupo": "B"
+    },
+    "SDN": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 3.48,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.01,
+      "grupo": "A"
+    },
+    "ZWE": {
+      "dep_energia_pct": 25.65,
+      "dep_remesas_pct": 9.2,
+      "dep_oda_pct": 2.21,
+      "balance_comercial": -5.51,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0442,
+      "grupo": "A"
+    },
+    "VEN": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.4,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.009,
+      "grupo": "B"
+    }
+  },
+  "2024": {
+    "HKG": {
+      "dep_energia_pct": 174.56,
+      "dep_remesas_pct": 0.11,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -14.08,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.9118,
+      "grupo": "A"
+    },
+    "SGP": {
+      "dep_energia_pct": 84.26,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 10.36,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.2847,
+      "grupo": "A"
+    },
+    "NZL": {
+      "dep_energia_pct": 19.29,
+      "dep_remesas_pct": 0.19,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -2.2,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.925,
+      "grupo": "A"
+    },
+    "CHE": {
+      "dep_energia_pct": 41.0,
+      "dep_remesas_pct": 0.39,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 6.35,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 4.2712,
+      "grupo": "A"
+    },
+    "USA": {
+      "dep_energia_pct": 12.04,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -4.57,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.7139,
+      "grupo": "A"
+    },
+    "IRL": {
+      "dep_energia_pct": 24.83,
+      "dep_remesas_pct": 0.08,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 13.08,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 4.2915,
+      "grupo": "A"
+    },
+    "AUS": {
+      "dep_energia_pct": 16.37,
+      "dep_remesas_pct": 0.08,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 4.57,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.7173,
+      "grupo": "A"
+    },
+    "TWN": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4676,
+      "grupo": "A"
+    },
+    "DNK": {
+      "dep_energia_pct": 29.69,
+      "dep_remesas_pct": 0.4,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 1.55,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.6137,
+      "grupo": "A"
+    },
+    "NLD": {
+      "dep_energia_pct": 60.26,
+      "dep_remesas_pct": 0.42,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 6.93,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.247,
+      "grupo": "A"
+    },
+    "CAN": {
+      "dep_energia_pct": 25.84,
+      "dep_remesas_pct": 0.05,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.1,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.3119,
+      "grupo": "A"
+    },
+    "LUX": {
+      "dep_energia_pct": 28.68,
+      "dep_remesas_pct": 2.88,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -10.81,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 2.0535,
+      "grupo": "A"
+    },
+    "GBR": {
+      "dep_energia_pct": 23.12,
+      "dep_remesas_pct": 0.11,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -7.61,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.8063,
+      "grupo": "A"
+    },
+    "CRI": {
+      "dep_energia_pct": 24.46,
+      "dep_remesas_pct": 0.75,
+      "dep_oda_pct": 0.18,
+      "balance_comercial": -5.66,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7373,
+      "grupo": "A"
+    },
+    "FIN": {
+      "dep_energia_pct": 28.8,
+      "dep_remesas_pct": 0.21,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -2.06,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 3.0504,
+      "grupo": "A"
+    },
+    "DEU": {
+      "dep_energia_pct": 33.3,
+      "dep_remesas_pct": 0.48,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 5.11,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.0676,
+      "grupo": "A"
+    },
+    "JPN": {
+      "dep_energia_pct": 16.96,
+      "dep_remesas_pct": 0.13,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.19,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 3.529,
+      "grupo": "A"
+    },
+    "MLT": {
+      "dep_energia_pct": 39.69,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -22.73,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.6439,
+      "grupo": "A"
+    },
+    "EST": {
+      "dep_energia_pct": 61.09,
+      "dep_remesas_pct": 1.45,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -6.69,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 2.5652,
+      "grupo": "A"
+    },
+    "CYP": {
+      "dep_energia_pct": 38.82,
+      "dep_remesas_pct": 1.56,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -21.54,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.935,
+      "grupo": "A"
+    },
+    "MUS": {
+      "dep_energia_pct": 41.46,
+      "dep_remesas_pct": 2.67,
+      "dep_oda_pct": 0.66,
+      "balance_comercial": -28.85,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.8645,
+      "grupo": "A"
+    },
+    "ESP": {
+      "dep_energia_pct": 30.73,
+      "dep_remesas_pct": 0.33,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.69,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.4501,
+      "grupo": "A"
+    },
+    "ISL": {
+      "dep_energia_pct": 29.0,
+      "dep_remesas_pct": 0.74,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -8.49,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 2.3963,
+      "grupo": "A"
+    },
+    "PRT": {
+      "dep_energia_pct": 40.46,
+      "dep_remesas_pct": 0.56,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -8.43,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.3909,
+      "grupo": "A"
+    },
+    "GEO": {
+      "dep_energia_pct": 53.2,
+      "dep_remesas_pct": 14.05,
+      "dep_oda_pct": 1.52,
+      "balance_comercial": -31.42,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6625,
+      "grupo": "A"
+    },
+    "CHL": {
+      "dep_energia_pct": 26.58,
+      "dep_remesas_pct": 0.02,
+      "dep_oda_pct": 0.02,
+      "balance_comercial": 0.39,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.7474,
+      "grupo": "A"
+    },
+    "PAN": {
+      "dep_energia_pct": 20.65,
+      "dep_remesas_pct": 0.69,
+      "dep_oda_pct": 0.49,
+      "balance_comercial": -14.17,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.3353,
+      "grupo": "A"
+    },
+    "GTM": {
+      "dep_energia_pct": 27.71,
+      "dep_remesas_pct": 17.06,
+      "dep_oda_pct": 0.44,
+      "balance_comercial": -13.24,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6105,
+      "grupo": "A"
+    },
+    "CZE": {
+      "dep_energia_pct": 75.24,
+      "dep_remesas_pct": 1.7,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 7.14,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.9997,
+      "grupo": "A"
+    },
+    "LVA": {
+      "dep_energia_pct": 60.9,
+      "dep_remesas_pct": 2.87,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -7.68,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.1204,
+      "grupo": "A"
+    },
+    "BEL": {
+      "dep_energia_pct": 60.58,
+      "dep_remesas_pct": 2.38,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.69,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.1921,
+      "grupo": "A"
+    },
+    "SYC": {
+      "dep_energia_pct": 70.04,
+      "dep_remesas_pct": 0.75,
+      "dep_oda_pct": 0.78,
+      "balance_comercial": -30.94,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4723,
+      "grupo": "A"
+    },
+    "AUT": {
+      "dep_energia_pct": 43.09,
+      "dep_remesas_pct": 0.64,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -2.14,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.5719,
+      "grupo": "A"
+    },
+    "LTU": {
+      "dep_energia_pct": 66.88,
+      "dep_remesas_pct": 1.2,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -5.82,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.1066,
+      "grupo": "A"
+    },
+    "ALB": {
+      "dep_energia_pct": 39.65,
+      "dep_remesas_pct": 8.38,
+      "dep_oda_pct": 1.89,
+      "balance_comercial": -18.89,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4364,
+      "grupo": "A"
+    },
+    "MYS": {
+      "dep_energia_pct": 62.88,
+      "dep_remesas_pct": 0.43,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 11.02,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.0671,
+      "grupo": "A"
+    },
+    "SWE": {
+      "dep_energia_pct": 30.99,
+      "dep_remesas_pct": 0.56,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.58,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.1359,
+      "grupo": "A"
+    },
+    "KOR": {
+      "dep_energia_pct": 30.89,
+      "dep_remesas_pct": 0.37,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 1.43,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.3617,
+      "grupo": "A"
+    },
+    "ARM": {
+      "dep_energia_pct": 43.01,
+      "dep_remesas_pct": 8.68,
+      "dep_oda_pct": 1.14,
+      "balance_comercial": -14.62,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.362,
+      "grupo": "A"
+    },
+    "ISR": {
+      "dep_energia_pct": 17.86,
+      "dep_remesas_pct": 0.24,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -5.89,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.4441,
+      "grupo": "A"
+    },
+    "JAM": {
+      "dep_energia_pct": 33.36,
+      "dep_remesas_pct": 18.77,
+      "dep_oda_pct": 0.46,
+      "balance_comercial": -24.89,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1863,
+      "grupo": "A"
+    },
+    "JOR": {
+      "dep_energia_pct": 45.69,
+      "dep_remesas_pct": 9.64,
+      "dep_oda_pct": 5.33,
+      "balance_comercial": -25.6,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6395,
+      "grupo": "A"
+    },
+    "BHR": {
+      "dep_energia_pct": 35.47,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.42,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.3434,
+      "grupo": "A"
+    },
+    "CPV": {
+      "dep_energia_pct": 66.75,
+      "dep_remesas_pct": 13.96,
+      "dep_oda_pct": 4.55,
+      "balance_comercial": -57.13,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4983,
+      "grupo": "A"
+    },
+    "FRA": {
+      "dep_energia_pct": 25.71,
+      "dep_remesas_pct": 1.25,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -4.8,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.6599,
+      "grupo": "A"
+    },
+    "ITA": {
+      "dep_energia_pct": 27.64,
+      "dep_remesas_pct": 0.56,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 2.94,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.7295,
+      "grupo": "A"
+    },
+    "DOM": {
+      "dep_energia_pct": 23.56,
+      "dep_remesas_pct": 9.43,
+      "dep_oda_pct": 0.59,
+      "balance_comercial": -12.38,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.752,
+      "grupo": "A"
+    },
+    "NOR": {
+      "dep_energia_pct": 20.31,
+      "dep_remesas_pct": 0.17,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 13.03,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.3465,
+      "grupo": "A"
+    },
+    "SVK": {
+      "dep_energia_pct": 92.42,
+      "dep_remesas_pct": 2.31,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.31,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.8285,
+      "grupo": "A"
+    },
+    "ROU": {
+      "dep_energia_pct": 40.82,
+      "dep_remesas_pct": 3.61,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -8.55,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.8899,
+      "grupo": "A"
+    },
+    "PER": {
+      "dep_energia_pct": 20.18,
+      "dep_remesas_pct": 1.47,
+      "dep_oda_pct": 0.22,
+      "balance_comercial": 1.49,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5506,
+      "grupo": "A"
+    },
+    "ARE": {
+      "dep_energia_pct": 80.19,
+      "dep_remesas_pct": 0.38,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 22.01,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.898,
+      "grupo": "A"
+    },
+    "MNE": {
+      "dep_energia_pct": 51.21,
+      "dep_remesas_pct": 12.69,
+      "dep_oda_pct": 1.46,
+      "balance_comercial": -42.42,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6721,
+      "grupo": "A"
+    },
+    "URY": {
+      "dep_energia_pct": 14.15,
+      "dep_remesas_pct": 0.16,
+      "dep_oda_pct": 0.06,
+      "balance_comercial": -1.51,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.6754,
+      "grupo": "A"
+    },
+    "GRC": {
+      "dep_energia_pct": 40.39,
+      "dep_remesas_pct": 0.04,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -12.19,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2903,
+      "grupo": "A"
+    },
+    "BGR": {
+      "dep_energia_pct": 55.85,
+      "dep_remesas_pct": 2.53,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -3.89,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3856,
+      "grupo": "A"
+    },
+    "THA": {
+      "dep_energia_pct": 50.05,
+      "dep_remesas_pct": 1.76,
+      "dep_oda_pct": 0.02,
+      "balance_comercial": 0.89,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.1597,
+      "grupo": "A"
+    },
+    "BRN": {
+      "dep_energia_pct": 55.67,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 10.92,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.5654,
+      "grupo": "C"
+    },
+    "SLV": {
+      "dep_energia_pct": 46.01,
+      "dep_remesas_pct": 24.02,
+      "dep_oda_pct": 1.55,
+      "balance_comercial": -25.34,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3354,
+      "grupo": "A"
+    },
+    "PRY": {
+      "dep_energia_pct": 33.36,
+      "dep_remesas_pct": 2.18,
+      "dep_oda_pct": 0.5,
+      "balance_comercial": -8.89,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5003,
+      "grupo": "A"
+    },
+    "HUN": {
+      "dep_energia_pct": 77.88,
+      "dep_remesas_pct": 2.88,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 2.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.7953,
+      "grupo": "A"
+    },
+    "PHL": {
+      "dep_energia_pct": 31.34,
+      "dep_remesas_pct": 9.24,
+      "dep_oda_pct": 0.41,
+      "balance_comercial": -13.55,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.9034,
+      "grupo": "A"
+    },
+    "SVN": {
+      "dep_energia_pct": 86.61,
+      "dep_remesas_pct": 1.51,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.06,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.6856,
+      "grupo": "A"
+    },
+    "HND": {
+      "dep_energia_pct": 37.55,
+      "dep_remesas_pct": 24.97,
+      "dep_oda_pct": 1.73,
+      "balance_comercial": -19.22,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4256,
+      "grupo": "A"
+    },
+    "IDN": {
+      "dep_energia_pct": 15.53,
+      "dep_remesas_pct": 0.96,
+      "dep_oda_pct": 0.09,
+      "balance_comercial": 1.99,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.7664,
+      "grupo": "A"
+    },
+    "SAU": {
+      "dep_energia_pct": 16.24,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 8.7,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.0062,
+      "grupo": "A"
+    },
+    "HRV": {
+      "dep_energia_pct": 53.11,
+      "dep_remesas_pct": 8.11,
+      "dep_oda_pct": 0.22,
+      "balance_comercial": -19.57,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3952,
+      "grupo": "A"
+    },
+    "GMB": {
+      "dep_energia_pct": 56.64,
+      "dep_remesas_pct": 23.8,
+      "dep_oda_pct": 16.44,
+      "balance_comercial": -54.67,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7391,
+      "grupo": "A"
+    },
+    "BWA": {
+      "dep_energia_pct": 37.96,
+      "dep_remesas_pct": 0.32,
+      "dep_oda_pct": 1.43,
+      "balance_comercial": -2.35,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.6329,
+      "grupo": "A"
+    },
+    "MEX": {
+      "dep_energia_pct": 38.79,
+      "dep_remesas_pct": 3.93,
+      "dep_oda_pct": 0.03,
+      "balance_comercial": -0.37,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4036,
+      "grupo": "A"
+    },
+    "BHS": {
+      "dep_energia_pct": 25.74,
+      "dep_remesas_pct": 0.48,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -22.25,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2375,
+      "grupo": "A"
+    },
+    "UGA": {
+      "dep_energia_pct": 21.75,
+      "dep_remesas_pct": 3.13,
+      "dep_oda_pct": 4.92,
+      "balance_comercial": -11.27,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.439,
+      "grupo": "A"
+    },
+    "BTN": {
+      "dep_energia_pct": 42.53,
+      "dep_remesas_pct": 3.16,
+      "dep_oda_pct": 4.99,
+      "balance_comercial": -30.68,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.2209,
+      "grupo": "A"
+    },
+    "KAZ": {
+      "dep_energia_pct": 16.53,
+      "dep_remesas_pct": 0.23,
+      "dep_oda_pct": 0.04,
+      "balance_comercial": 9.85,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.5452,
+      "grupo": "A"
+    },
+    "MNG": {
+      "dep_energia_pct": 45.03,
+      "dep_remesas_pct": 2.77,
+      "dep_oda_pct": 1.41,
+      "balance_comercial": 27.07,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.3557,
+      "grupo": "A"
+    },
+    "POL": {
+      "dep_energia_pct": 48.46,
+      "dep_remesas_pct": 0.97,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 0.59,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5794,
+      "grupo": "A"
+    },
+    "KHM": {
+      "dep_energia_pct": 62.69,
+      "dep_remesas_pct": 6.76,
+      "dep_oda_pct": 3.57,
+      "balance_comercial": -15.55,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4864,
+      "grupo": "A"
+    },
+    "BRB": {
+      "dep_energia_pct": 28.19,
+      "dep_remesas_pct": 3.06,
+      "dep_oda_pct": 0.23,
+      "balance_comercial": -21.37,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6033,
+      "grupo": "A"
+    },
+    "MKD": {
+      "dep_energia_pct": 80.32,
+      "dep_remesas_pct": 2.97,
+      "dep_oda_pct": 2.84,
+      "balance_comercial": -19.44,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6144,
+      "grupo": "A"
+    },
+    "QAT": {
+      "dep_energia_pct": 16.86,
+      "dep_remesas_pct": 0.47,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 26.61,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.1827,
+      "grupo": "C"
+    },
+    "KEN": {
+      "dep_energia_pct": 16.71,
+      "dep_remesas_pct": 3.45,
+      "dep_oda_pct": 2.13,
+      "balance_comercial": -10.91,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4214,
+      "grupo": "A"
+    },
+    "TTO": {
+      "dep_energia_pct": 26.14,
+      "dep_remesas_pct": 0.85,
+      "dep_oda_pct": 0.02,
+      "balance_comercial": 1.45,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5469,
+      "grupo": "A"
+    },
+    "OMN": {
+      "dep_energia_pct": 34.36,
+      "dep_remesas_pct": 0.04,
+      "dep_oda_pct": 0.01,
+      "balance_comercial": 15.13,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.6832,
+      "grupo": "B"
+    },
+    "ZAF": {
+      "dep_energia_pct": 24.79,
+      "dep_remesas_pct": 0.21,
+      "dep_oda_pct": 0.39,
+      "balance_comercial": 3.72,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.2512,
+      "grupo": "A"
+    },
+    "MDA": {
+      "dep_energia_pct": 51.19,
+      "dep_remesas_pct": 13.19,
+      "dep_oda_pct": 6.97,
+      "balance_comercial": -26.34,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4612,
+      "grupo": "A"
+    },
+    "IND": {
+      "dep_energia_pct": 17.38,
+      "dep_remesas_pct": 2.98,
+      "dep_oda_pct": 0.07,
+      "balance_comercial": -5.72,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.753,
+      "grupo": "A"
+    },
+    "BRA": {
+      "dep_energia_pct": 12.49,
+      "dep_remesas_pct": 0.22,
+      "dep_oda_pct": 0.04,
+      "balance_comercial": 3.22,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4045,
+      "grupo": "A"
+    },
+    "KGZ": {
+      "dep_energia_pct": 67.17,
+      "dep_remesas_pct": 28.06,
+      "dep_oda_pct": 3.64,
+      "balance_comercial": -45.85,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3893,
+      "grupo": "A"
+    },
+    "SRB": {
+      "dep_energia_pct": 54.36,
+      "dep_remesas_pct": 7.42,
+      "dep_oda_pct": 0.88,
+      "balance_comercial": -11.44,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4471,
+      "grupo": "A"
+    },
+    "NPL": {
+      "dep_energia_pct": 36.83,
+      "dep_remesas_pct": 24.69,
+      "dep_oda_pct": 2.74,
+      "balance_comercial": -34.08,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7894,
+      "grupo": "A"
+    },
+    "KWT": {
+      "dep_energia_pct": 26.34,
+      "dep_remesas_pct": 0.13,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 18.91,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.6359,
+      "grupo": "B"
+    },
+    "NIC": {
+      "dep_energia_pct": 63.0,
+      "dep_remesas_pct": 18.68,
+      "dep_oda_pct": 3.51,
+      "balance_comercial": -17.89,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1451,
+      "grupo": "A"
+    },
+    "BIH": {
+      "dep_energia_pct": 55.85,
+      "dep_remesas_pct": 10.04,
+      "dep_oda_pct": 1.29,
+      "balance_comercial": -19.05,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3631,
+      "grupo": "A"
+    },
+    "COL": {
+      "dep_energia_pct": 18.5,
+      "dep_remesas_pct": 2.66,
+      "dep_oda_pct": 0.3,
+      "balance_comercial": -5.78,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3646,
+      "grupo": "A"
+    },
+    "MAR": {
+      "dep_energia_pct": 45.2,
+      "dep_remesas_pct": 7.12,
+      "dep_oda_pct": 0.55,
+      "balance_comercial": -17.2,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5888,
+      "grupo": "A"
+    },
+    "NAM": {
+      "dep_energia_pct": 56.15,
+      "dep_remesas_pct": 0.54,
+      "dep_oda_pct": 2.08,
+      "balance_comercial": -16.91,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3034,
+      "grupo": "A"
+    },
+    "RWA": {
+      "dep_energia_pct": 35.01,
+      "dep_remesas_pct": 3.39,
+      "dep_oda_pct": 10.41,
+      "balance_comercial": -21.54,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3907,
+      "grupo": "B"
+    },
+    "BEN": {
+      "dep_energia_pct": 21.13,
+      "dep_remesas_pct": 1.48,
+      "dep_oda_pct": 5.63,
+      "balance_comercial": -15.37,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5236,
+      "grupo": "A"
+    },
+    "TJK": {
+      "dep_energia_pct": 40.33,
+      "dep_remesas_pct": 34.48,
+      "dep_oda_pct": 4.94,
+      "balance_comercial": -26.88,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.293,
+      "grupo": "A"
+    },
+    "ECU": {
+      "dep_energia_pct": 22.02,
+      "dep_remesas_pct": 3.51,
+      "dep_oda_pct": 0.45,
+      "balance_comercial": 1.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3167,
+      "grupo": "A"
+    },
+    "SOM": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 20.84,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.0835,
+      "grupo": "A"
+    },
+    "BFA": {
+      "dep_energia_pct": 27.74,
+      "dep_remesas_pct": 3.23,
+      "dep_oda_pct": 7.12,
+      "balance_comercial": -2.85,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.3567,
+      "grupo": "A"
+    },
+    "TZA": {
+      "dep_energia_pct": 15.89,
+      "dep_remesas_pct": 0.99,
+      "dep_oda_pct": 3.83,
+      "balance_comercial": -7.45,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5442,
+      "grupo": "A"
+    },
+    "ZMB": {
+      "dep_energia_pct": 34.39,
+      "dep_remesas_pct": 0.8,
+      "dep_oda_pct": 5.34,
+      "balance_comercial": 5.83,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.135,
+      "grupo": "A"
+    },
+    "MOZ": {
+      "dep_energia_pct": 59.86,
+      "dep_remesas_pct": 1.37,
+      "dep_oda_pct": 16.21,
+      "balance_comercial": -19.84,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1671,
+      "grupo": "A"
+    },
+    "VNM": {
+      "dep_energia_pct": 80.63,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.19,
+      "balance_comercial": 4.94,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4458,
+      "grupo": "A"
+    },
+    "SEN": {
+      "dep_energia_pct": 37.01,
+      "dep_remesas_pct": 11.04,
+      "dep_oda_pct": 6.46,
+      "balance_comercial": -18.59,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.8027,
+      "grupo": "A"
+    },
+    "CHN": {
+      "dep_energia_pct": 13.64,
+      "dep_remesas_pct": 0.15,
+      "dep_oda_pct": -0.0,
+      "balance_comercial": 3.88,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5859,
+      "grupo": "A"
+    },
+    "LBR": {
+      "dep_energia_pct": 49.47,
+      "dep_remesas_pct": 19.78,
+      "dep_oda_pct": 13.13,
+      "balance_comercial": -44.69,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1083,
+      "grupo": "A"
+    },
+    "DJI": {
+      "dep_energia_pct": 133.9,
+      "dep_remesas_pct": 1.77,
+      "dep_oda_pct": 5.46,
+      "balance_comercial": -10.01,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.138,
+      "grupo": "B"
+    },
+    "MRT": {
+      "dep_energia_pct": 47.47,
+      "dep_remesas_pct": 1.42,
+      "dep_oda_pct": 4.27,
+      "balance_comercial": -12.75,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3396,
+      "grupo": "A"
+    },
+    "PNG": {
+      "dep_energia_pct": 15.18,
+      "dep_remesas_pct": 0.04,
+      "dep_oda_pct": 2.21,
+      "balance_comercial": 21.87,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1452,
+      "grupo": "A"
+    },
+    "CIV": {
+      "dep_energia_pct": 20.48,
+      "dep_remesas_pct": 0.99,
+      "dep_oda_pct": 3.07,
+      "balance_comercial": 0.26,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.437,
+      "grupo": "A"
+    },
+    "FJI": {
+      "dep_energia_pct": 50.52,
+      "dep_remesas_pct": 7.93,
+      "dep_oda_pct": 3.41,
+      "balance_comercial": -32.32,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.12,
+      "grupo": "A"
+    },
+    "TGO": {
+      "dep_energia_pct": 28.81,
+      "dep_remesas_pct": 6.6,
+      "dep_oda_pct": 6.78,
+      "balance_comercial": -15.04,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3388,
+      "grupo": "A"
+    },
+    "BOL": {
+      "dep_energia_pct": 20.76,
+      "dep_remesas_pct": 2.56,
+      "dep_oda_pct": 1.33,
+      "balance_comercial": -1.31,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.129,
+      "grupo": "A"
+    },
+    "MDG": {
+      "dep_energia_pct": 29.7,
+      "dep_remesas_pct": 2.62,
+      "dep_oda_pct": 8.05,
+      "balance_comercial": -7.32,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1421,
+      "grupo": "A"
+    },
+    "BLZ": {
+      "dep_energia_pct": 43.72,
+      "dep_remesas_pct": 4.92,
+      "dep_oda_pct": 1.14,
+      "balance_comercial": -35.03,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1706,
+      "grupo": "B"
+    },
+    "TLS": {
+      "dep_energia_pct": 27.53,
+      "dep_remesas_pct": 4.64,
+      "dep_oda_pct": 8.84,
+      "balance_comercial": -14.59,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0899,
+      "grupo": "C"
+    },
+    "LSO": {
+      "dep_energia_pct": 77.81,
+      "dep_remesas_pct": 19.29,
+      "dep_oda_pct": 7.2,
+      "balance_comercial": -39.24,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2766,
+      "grupo": "B"
+    },
+    "NGA": {
+      "dep_energia_pct": 9.13,
+      "dep_remesas_pct": 3.36,
+      "dep_oda_pct": 0.58,
+      "balance_comercial": -2.34,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1744,
+      "grupo": "A"
+    },
+    "TUN": {
+      "dep_energia_pct": 51.38,
+      "dep_remesas_pct": 5.7,
+      "dep_oda_pct": 2.74,
+      "balance_comercial": -14.97,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2884,
+      "grupo": "A"
+    },
+    "GIN": {
+      "dep_energia_pct": 20.87,
+      "dep_remesas_pct": 1.77,
+      "dep_oda_pct": 2.77,
+      "balance_comercial": -6.58,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1187,
+      "grupo": "A"
+    },
+    "NER": {
+      "dep_energia_pct": 20.09,
+      "dep_remesas_pct": 3.52,
+      "dep_oda_pct": 7.86,
+      "balance_comercial": -16.5,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2587,
+      "grupo": "A"
+    },
+    "BGD": {
+      "dep_energia_pct": 20.57,
+      "dep_remesas_pct": 4.79,
+      "dep_oda_pct": 1.19,
+      "balance_comercial": -8.88,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3641,
+      "grupo": "A"
+    },
+    "GHA": {
+      "dep_energia_pct": 20.26,
+      "dep_remesas_pct": 4.6,
+      "dep_oda_pct": 1.83,
+      "balance_comercial": 2.13,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4592,
+      "grupo": "A"
+    },
+    "LKA": {
+      "dep_energia_pct": 20.56,
+      "dep_remesas_pct": 7.07,
+      "dep_oda_pct": 0.84,
+      "balance_comercial": -6.87,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6489,
+      "grupo": "A"
+    },
+    "AZE": {
+      "dep_energia_pct": 24.89,
+      "dep_remesas_pct": 3.32,
+      "dep_oda_pct": 0.21,
+      "balance_comercial": 12.28,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1965,
+      "grupo": "B"
+    },
+    "MLI": {
+      "dep_energia_pct": 25.03,
+      "dep_remesas_pct": 4.88,
+      "dep_oda_pct": 5.24,
+      "balance_comercial": -7.75,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3184,
+      "grupo": "A"
+    },
+    "LAO": {
+      "dep_energia_pct": 35.99,
+      "dep_remesas_pct": 1.51,
+      "dep_oda_pct": 2.44,
+      "balance_comercial": 2.79,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1372,
+      "grupo": "A"
+    },
+    "CMR": {
+      "dep_energia_pct": 16.19,
+      "dep_remesas_pct": 1.2,
+      "dep_oda_pct": 1.99,
+      "balance_comercial": -5.88,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2511,
+      "grupo": "A"
+    },
+    "PAK": {
+      "dep_energia_pct": 16.58,
+      "dep_remesas_pct": 8.2,
+      "dep_oda_pct": 1.03,
+      "balance_comercial": -9.34,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2352,
+      "grupo": "A"
+    },
+    "SLE": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 3.23,
+      "dep_oda_pct": 6.62,
+      "balance_comercial": 1.58,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.2237,
+      "grupo": "A"
+    },
+    "COM": {
+      "dep_energia_pct": 20.89,
+      "dep_remesas_pct": 21.28,
+      "dep_oda_pct": 12.69,
+      "balance_comercial": -17.38,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0813,
+      "grupo": "A"
+    },
+    "SUR": {
+      "dep_energia_pct": 47.57,
+      "dep_remesas_pct": 4.56,
+      "dep_oda_pct": 1.26,
+      "balance_comercial": 22.02,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.2999,
+      "grupo": "A"
+    },
+    "GUY": {
+      "dep_energia_pct": 36.71,
+      "dep_remesas_pct": 4.43,
+      "dep_oda_pct": 1.23,
+      "balance_comercial": 58.87,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.3759,
+      "grupo": "C"
+    },
+    "TUR": {
+      "dep_energia_pct": 33.07,
+      "dep_remesas_pct": 0.06,
+      "dep_oda_pct": 0.17,
+      "balance_comercial": -7.63,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.9946,
+      "grupo": "A"
+    },
+    "SWZ": {
+      "dep_energia_pct": 40.41,
+      "dep_remesas_pct": 2.66,
+      "dep_oda_pct": 2.31,
+      "balance_comercial": 3.97,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1097,
+      "grupo": "B"
+    },
+    "IRQ": {
+      "dep_energia_pct": 7.59,
+      "dep_remesas_pct": 0.47,
+      "dep_oda_pct": 0.77,
+      "balance_comercial": 4.02,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1139,
+      "grupo": "B"
+    },
+    "GNB": {
+      "dep_energia_pct": 10.75,
+      "dep_remesas_pct": 10.37,
+      "dep_oda_pct": 9.32,
+      "balance_comercial": 4.64,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.1112,
+      "grupo": "A"
+    },
+    "GAB": {
+      "dep_energia_pct": 24.68,
+      "dep_remesas_pct": 0.12,
+      "dep_oda_pct": 0.28,
+      "balance_comercial": 27.84,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.131,
+      "grupo": "A"
+    },
+    "LBN": {
+      "dep_energia_pct": 50.94,
+      "dep_remesas_pct": 19.51,
+      "dep_oda_pct": 5.11,
+      "balance_comercial": -39.41,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0457,
+      "grupo": "A"
+    },
+    "UKR": {
+      "dep_energia_pct": 34.16,
+      "dep_remesas_pct": 11.58,
+      "dep_oda_pct": 25.06,
+      "balance_comercial": -6.32,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1042,
+      "grupo": "A"
+    },
+    "AGO": {
+      "dep_energia_pct": 13.15,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.16,
+      "balance_comercial": 20.14,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1025,
+      "grupo": "A"
+    },
+    "MWI": {
+      "dep_energia_pct": 22.64,
+      "dep_remesas_pct": 2.28,
+      "dep_oda_pct": 14.07,
+      "balance_comercial": -15.68,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.193,
+      "grupo": "A"
+    },
+    "RUS": {
+      "dep_energia_pct": 13.42,
+      "dep_remesas_pct": 0.4,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 7.94,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.2289,
+      "grupo": "A"
+    },
+    "EGY": {
+      "dep_energia_pct": 20.98,
+      "dep_remesas_pct": 7.14,
+      "dep_oda_pct": 0.11,
+      "balance_comercial": -11.72,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2976,
+      "grupo": "A"
+    },
+    "YEM": {
+      "dep_energia_pct": 5.78,
+      "dep_remesas_pct": 20.52,
+      "dep_oda_pct": 12.44,
+      "balance_comercial": -5.78,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0,
+      "grupo": "A"
+    },
+    "COD": {
+      "dep_energia_pct": 25.51,
+      "dep_remesas_pct": 4.05,
+      "dep_oda_pct": 6.47,
+      "balance_comercial": 11.89,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.2135,
+      "grupo": "A"
+    },
+    "BDI": {
+      "dep_energia_pct": 30.54,
+      "dep_remesas_pct": 4.35,
+      "dep_oda_pct": 16.36,
+      "balance_comercial": -25.5,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1573,
+      "grupo": "A"
+    },
+    "ETH": {
+      "dep_energia_pct": 14.25,
+      "dep_remesas_pct": 0.45,
+      "dep_oda_pct": 4.13,
+      "balance_comercial": -11.83,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2934,
+      "grupo": "A"
+    },
+    "CAF": {
+      "dep_energia_pct": 28.58,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 31.11,
+      "balance_comercial": -24.66,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1121,
+      "grupo": "A"
+    },
+    "COG": {
+      "dep_energia_pct": 26.46,
+      "dep_remesas_pct": 0.17,
+      "dep_oda_pct": 2.56,
+      "balance_comercial": 18.49,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.2312,
+      "grupo": "A"
+    },
+    "TCD": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 6.7,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.1454,
+      "grupo": "A"
+    },
+    "LBY": {
+      "dep_energia_pct": 30.09,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.84,
+      "balance_comercial": 11.39,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.0349,
+      "grupo": "C"
+    },
+    "SYR": {
+      "dep_energia_pct": 8154.46,
+      "dep_remesas_pct": 2304.89,
+      "dep_oda_pct": 5791.47,
+      "balance_comercial": -8154.46,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0,
+      "grupo": "A"
+    },
+    "ARG": {
+      "dep_energia_pct": 11.17,
+      "dep_remesas_pct": 0.13,
+      "dep_oda_pct": 0.04,
+      "balance_comercial": 0.2,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.2431,
+      "grupo": "A"
+    },
+    "MMR": {
+      "dep_energia_pct": 26.78,
+      "dep_remesas_pct": 5.65,
+      "dep_oda_pct": 1.47,
+      "balance_comercial": -2.99,
+      "tipos": [
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.0013,
+      "grupo": "A"
+    },
+    "IRN": {
+      "dep_energia_pct": 11.37,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.06,
+      "balance_comercial": 2.13,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1748,
+      "grupo": "A"
+    },
+    "DZA": {
+      "dep_energia_pct": 29.16,
+      "dep_remesas_pct": 1.15,
+      "dep_oda_pct": 0.1,
+      "balance_comercial": -24.77,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4501,
+      "grupo": "B"
+    },
+    "SDN": {
+      "dep_energia_pct": 28.8,
+      "dep_remesas_pct": 1.41,
+      "dep_oda_pct": 4.37,
+      "balance_comercial": -27.56,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0059,
+      "grupo": "A"
+    },
+    "ZWE": {
+      "dep_energia_pct": 17.06,
+      "dep_remesas_pct": 5.83,
+      "dep_oda_pct": 1.73,
+      "balance_comercial": -2.89,
+      "tipos": [
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.0518,
+      "grupo": "A"
+    },
+    "VEN": {
+      "dep_energia_pct": 7030604856140.95,
+      "dep_remesas_pct": 27206666666.67,
+      "dep_oda_pct": 40529507446.29,
+      "balance_comercial": 7232815985620.0,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.0013,
+      "grupo": "B"
+    }
+  },
+  "2025": {
+    "HKG": {
+      "dep_energia_pct": 173.77,
+      "dep_remesas_pct": 0.11,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -13.91,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.8529,
+      "grupo": "A"
+    },
+    "SGP": {
+      "dep_energia_pct": 82.55,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 10.25,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.2325,
+      "grupo": "A"
+    },
+    "NZL": {
+      "dep_energia_pct": 19.19,
+      "dep_remesas_pct": 0.19,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -2.28,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.9587,
+      "grupo": "A"
+    },
+    "CHE": {
+      "dep_energia_pct": 41.22,
+      "dep_remesas_pct": 0.39,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 6.54,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 4.2588,
+      "grupo": "A"
+    },
+    "USA": {
+      "dep_energia_pct": 11.97,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -4.56,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.7401,
+      "grupo": "A"
+    },
+    "IRL": {
+      "dep_energia_pct": 24.67,
+      "dep_remesas_pct": 0.07,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 12.85,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 4.4133,
+      "grupo": "A"
+    },
+    "AUS": {
+      "dep_energia_pct": 16.36,
+      "dep_remesas_pct": 0.08,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 4.83,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.6726,
+      "grupo": "A"
+    },
+    "TWN": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4716,
+      "grupo": "A"
+    },
+    "DNK": {
+      "dep_energia_pct": 29.83,
+      "dep_remesas_pct": 0.4,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 1.4,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.6475,
+      "grupo": "A"
+    },
+    "NLD": {
+      "dep_energia_pct": 60.77,
+      "dep_remesas_pct": 0.43,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 6.96,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.2581,
+      "grupo": "A"
+    },
+    "CAN": {
+      "dep_energia_pct": 25.87,
+      "dep_remesas_pct": 0.04,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.11,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.3135,
+      "grupo": "A"
+    },
+    "LUX": {
+      "dep_energia_pct": 28.2,
+      "dep_remesas_pct": 2.88,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -10.66,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 2.0423,
+      "grupo": "A"
+    },
+    "GBR": {
+      "dep_energia_pct": 23.06,
+      "dep_remesas_pct": 0.11,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -7.65,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.8205,
+      "grupo": "A"
+    },
+    "CRI": {
+      "dep_energia_pct": 23.98,
+      "dep_remesas_pct": 0.72,
+      "dep_oda_pct": 0.17,
+      "balance_comercial": -5.35,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7211,
+      "grupo": "A"
+    },
+    "FIN": {
+      "dep_energia_pct": 28.84,
+      "dep_remesas_pct": 0.19,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -2.2,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 3.0684,
+      "grupo": "A"
+    },
+    "DEU": {
+      "dep_energia_pct": 33.49,
+      "dep_remesas_pct": 0.49,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 5.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.0875,
+      "grupo": "A"
+    },
+    "JPN": {
+      "dep_energia_pct": 17.31,
+      "dep_remesas_pct": 0.14,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.29,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 3.5541,
+      "grupo": "A"
+    },
+    "MLT": {
+      "dep_energia_pct": 38.81,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -22.73,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.655,
+      "grupo": "A"
+    },
+    "EST": {
+      "dep_energia_pct": 60.6,
+      "dep_remesas_pct": 1.43,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -6.66,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 2.5807,
+      "grupo": "A"
+    },
+    "CYP": {
+      "dep_energia_pct": 39.18,
+      "dep_remesas_pct": 1.49,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -21.32,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.9293,
+      "grupo": "A"
+    },
+    "MUS": {
+      "dep_energia_pct": 41.42,
+      "dep_remesas_pct": 2.8,
+      "dep_oda_pct": 0.65,
+      "balance_comercial": -29.23,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.8422,
+      "grupo": "A"
+    },
+    "ESP": {
+      "dep_energia_pct": 31.31,
+      "dep_remesas_pct": 0.35,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.48,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.4406,
+      "grupo": "A"
+    },
+    "ISL": {
+      "dep_energia_pct": 28.96,
+      "dep_remesas_pct": 0.73,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -8.82,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 2.4468,
+      "grupo": "A"
+    },
+    "PRT": {
+      "dep_energia_pct": 41.0,
+      "dep_remesas_pct": 0.58,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -8.36,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.3921,
+      "grupo": "A"
+    },
+    "GEO": {
+      "dep_energia_pct": 53.53,
+      "dep_remesas_pct": 14.24,
+      "dep_oda_pct": 1.47,
+      "balance_comercial": -31.39,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6677,
+      "grupo": "A"
+    },
+    "CHL": {
+      "dep_energia_pct": 26.5,
+      "dep_remesas_pct": 0.02,
+      "dep_oda_pct": 0.02,
+      "balance_comercial": 0.3,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.73,
+      "grupo": "A"
+    },
+    "PAN": {
+      "dep_energia_pct": 19.51,
+      "dep_remesas_pct": 0.67,
+      "dep_oda_pct": 0.47,
+      "balance_comercial": -13.97,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.3224,
+      "grupo": "A"
+    },
+    "GTM": {
+      "dep_energia_pct": 27.56,
+      "dep_remesas_pct": 17.31,
+      "dep_oda_pct": 0.43,
+      "balance_comercial": -13.26,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6123,
+      "grupo": "A"
+    },
+    "CZE": {
+      "dep_energia_pct": 75.87,
+      "dep_remesas_pct": 1.75,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 7.21,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.0024,
+      "grupo": "A"
+    },
+    "LVA": {
+      "dep_energia_pct": 61.5,
+      "dep_remesas_pct": 2.73,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -7.43,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.1052,
+      "grupo": "A"
+    },
+    "BEL": {
+      "dep_energia_pct": 60.15,
+      "dep_remesas_pct": 2.39,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.75,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.2052,
+      "grupo": "A"
+    },
+    "SYC": {
+      "dep_energia_pct": 62.35,
+      "dep_remesas_pct": 0.72,
+      "dep_oda_pct": 0.75,
+      "balance_comercial": -26.66,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4399,
+      "grupo": "A"
+    },
+    "AUT": {
+      "dep_energia_pct": 43.35,
+      "dep_remesas_pct": 0.63,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -2.19,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.5978,
+      "grupo": "A"
+    },
+    "LTU": {
+      "dep_energia_pct": 66.88,
+      "dep_remesas_pct": 1.08,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -5.74,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.1136,
+      "grupo": "A"
+    },
+    "ALB": {
+      "dep_energia_pct": 39.69,
+      "dep_remesas_pct": 8.18,
+      "dep_oda_pct": 1.84,
+      "balance_comercial": -18.58,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4264,
+      "grupo": "A"
+    },
+    "MYS": {
+      "dep_energia_pct": 62.93,
+      "dep_remesas_pct": 0.42,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 11.01,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.0677,
+      "grupo": "A"
+    },
+    "SWE": {
+      "dep_energia_pct": 31.1,
+      "dep_remesas_pct": 0.54,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.73,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.1584,
+      "grupo": "A"
+    },
+    "KOR": {
+      "dep_energia_pct": 30.72,
+      "dep_remesas_pct": 0.37,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 1.33,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.3635,
+      "grupo": "A"
+    },
+    "ARM": {
+      "dep_energia_pct": 43.32,
+      "dep_remesas_pct": 8.3,
+      "dep_oda_pct": 1.1,
+      "balance_comercial": -14.17,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3245,
+      "grupo": "A"
+    },
+    "ISR": {
+      "dep_energia_pct": 17.61,
+      "dep_remesas_pct": 0.24,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -6.08,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.4597,
+      "grupo": "A"
+    },
+    "JAM": {
+      "dep_energia_pct": 32.76,
+      "dep_remesas_pct": 18.97,
+      "dep_oda_pct": 0.45,
+      "balance_comercial": -24.47,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1879,
+      "grupo": "A"
+    },
+    "JOR": {
+      "dep_energia_pct": 45.09,
+      "dep_remesas_pct": 9.46,
+      "dep_oda_pct": 5.16,
+      "balance_comercial": -25.18,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6134,
+      "grupo": "A"
+    },
+    "BHR": {
+      "dep_energia_pct": 34.44,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.32,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.3523,
+      "grupo": "A"
+    },
+    "CPV": {
+      "dep_energia_pct": 68.69,
+      "dep_remesas_pct": 14.32,
+      "dep_oda_pct": 4.5,
+      "balance_comercial": -58.92,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4573,
+      "grupo": "A"
+    },
+    "FRA": {
+      "dep_energia_pct": 25.92,
+      "dep_remesas_pct": 1.29,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -4.92,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.6678,
+      "grupo": "A"
+    },
+    "ITA": {
+      "dep_energia_pct": 28.12,
+      "dep_remesas_pct": 0.57,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 3.16,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.7338,
+      "grupo": "A"
+    },
+    "DOM": {
+      "dep_energia_pct": 23.35,
+      "dep_remesas_pct": 9.52,
+      "dep_oda_pct": 0.57,
+      "balance_comercial": -12.22,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7575,
+      "grupo": "A"
+    },
+    "NOR": {
+      "dep_energia_pct": 20.46,
+      "dep_remesas_pct": 0.17,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 13.13,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.3491,
+      "grupo": "A"
+    },
+    "SVK": {
+      "dep_energia_pct": 93.46,
+      "dep_remesas_pct": 2.32,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.41,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.8186,
+      "grupo": "A"
+    },
+    "ROU": {
+      "dep_energia_pct": 40.96,
+      "dep_remesas_pct": 3.72,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -8.58,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.8801,
+      "grupo": "A"
+    },
+    "PER": {
+      "dep_energia_pct": 20.0,
+      "dep_remesas_pct": 1.47,
+      "dep_oda_pct": 0.22,
+      "balance_comercial": 1.58,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5423,
+      "grupo": "A"
+    },
+    "ARE": {
+      "dep_energia_pct": 81.13,
+      "dep_remesas_pct": 0.37,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 22.57,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.8914,
+      "grupo": "A"
+    },
+    "MNE": {
+      "dep_energia_pct": 50.82,
+      "dep_remesas_pct": 12.83,
+      "dep_oda_pct": 1.43,
+      "balance_comercial": -42.15,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6753,
+      "grupo": "A"
+    },
+    "URY": {
+      "dep_energia_pct": 13.89,
+      "dep_remesas_pct": 0.16,
+      "dep_oda_pct": 0.05,
+      "balance_comercial": -1.37,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.6581,
+      "grupo": "A"
+    },
+    "GRC": {
+      "dep_energia_pct": 42.45,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -12.06,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2857,
+      "grupo": "A"
+    },
+    "BGR": {
+      "dep_energia_pct": 55.8,
+      "dep_remesas_pct": 2.51,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -3.52,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3735,
+      "grupo": "A"
+    },
+    "THA": {
+      "dep_energia_pct": 49.81,
+      "dep_remesas_pct": 1.78,
+      "dep_oda_pct": 0.01,
+      "balance_comercial": 0.89,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.1577,
+      "grupo": "A"
+    },
+    "BRN": {
+      "dep_energia_pct": 58.95,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 8.14,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.5747,
+      "grupo": "C"
+    },
+    "SLV": {
+      "dep_energia_pct": 46.0,
+      "dep_remesas_pct": 24.28,
+      "dep_oda_pct": 1.5,
+      "balance_comercial": -25.5,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3406,
+      "grupo": "A"
+    },
+    "PRY": {
+      "dep_energia_pct": 33.4,
+      "dep_remesas_pct": 2.21,
+      "dep_oda_pct": 0.49,
+      "balance_comercial": -8.87,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5016,
+      "grupo": "A"
+    },
+    "HUN": {
+      "dep_energia_pct": 78.39,
+      "dep_remesas_pct": 2.93,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 1.82,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.812,
+      "grupo": "A"
+    },
+    "PHL": {
+      "dep_energia_pct": 31.54,
+      "dep_remesas_pct": 9.21,
+      "dep_oda_pct": 0.4,
+      "balance_comercial": -13.9,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.916,
+      "grupo": "A"
+    },
+    "SVN": {
+      "dep_energia_pct": 88.49,
+      "dep_remesas_pct": 1.57,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.95,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.6781,
+      "grupo": "A"
+    },
+    "HND": {
+      "dep_energia_pct": 37.35,
+      "dep_remesas_pct": 25.3,
+      "dep_oda_pct": 1.67,
+      "balance_comercial": -19.11,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4215,
+      "grupo": "A"
+    },
+    "IDN": {
+      "dep_energia_pct": 15.36,
+      "dep_remesas_pct": 0.96,
+      "dep_oda_pct": 0.08,
+      "balance_comercial": 2.02,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.7661,
+      "grupo": "A"
+    },
+    "SAU": {
+      "dep_energia_pct": 16.06,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 7.99,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.9969,
+      "grupo": "A"
+    },
+    "HRV": {
+      "dep_energia_pct": 54.17,
+      "dep_remesas_pct": 8.37,
+      "dep_oda_pct": 0.22,
+      "balance_comercial": -19.78,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3968,
+      "grupo": "A"
+    },
+    "GMB": {
+      "dep_energia_pct": 58.64,
+      "dep_remesas_pct": 24.7,
+      "dep_oda_pct": 16.03,
+      "balance_comercial": -56.8,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7695,
+      "grupo": "A"
+    },
+    "BWA": {
+      "dep_energia_pct": 37.18,
+      "dep_remesas_pct": 0.33,
+      "dep_oda_pct": 1.4,
+      "balance_comercial": -2.02,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.6204,
+      "grupo": "A"
+    },
+    "MEX": {
+      "dep_energia_pct": 39.41,
+      "dep_remesas_pct": 4.04,
+      "dep_oda_pct": 0.03,
+      "balance_comercial": -0.37,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4017,
+      "grupo": "A"
+    },
+    "BHS": {
+      "dep_energia_pct": 25.48,
+      "dep_remesas_pct": 0.5,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -22.15,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2325,
+      "grupo": "A"
+    },
+    "UGA": {
+      "dep_energia_pct": 21.84,
+      "dep_remesas_pct": 3.13,
+      "dep_oda_pct": 4.76,
+      "balance_comercial": -11.24,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4352,
+      "grupo": "A"
+    },
+    "BTN": {
+      "dep_energia_pct": 42.43,
+      "dep_remesas_pct": 3.27,
+      "dep_oda_pct": 4.82,
+      "balance_comercial": -31.17,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.198,
+      "grupo": "A"
+    },
+    "KAZ": {
+      "dep_energia_pct": 16.29,
+      "dep_remesas_pct": 0.23,
+      "dep_oda_pct": 0.03,
+      "balance_comercial": 9.33,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.5464,
+      "grupo": "A"
+    },
+    "MNG": {
+      "dep_energia_pct": 45.33,
+      "dep_remesas_pct": 2.76,
+      "dep_oda_pct": 1.35,
+      "balance_comercial": 28.77,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.3441,
+      "grupo": "A"
+    },
+    "POL": {
+      "dep_energia_pct": 49.03,
+      "dep_remesas_pct": 0.93,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 0.76,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5749,
+      "grupo": "A"
+    },
+    "KHM": {
+      "dep_energia_pct": 63.38,
+      "dep_remesas_pct": 6.85,
+      "dep_oda_pct": 3.4,
+      "balance_comercial": -15.9,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4965,
+      "grupo": "A"
+    },
+    "BRB": {
+      "dep_energia_pct": 28.11,
+      "dep_remesas_pct": 3.09,
+      "dep_oda_pct": 0.23,
+      "balance_comercial": -21.38,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6049,
+      "grupo": "A"
+    },
+    "MKD": {
+      "dep_energia_pct": 81.26,
+      "dep_remesas_pct": 2.93,
+      "dep_oda_pct": 2.77,
+      "balance_comercial": -19.25,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6232,
+      "grupo": "A"
+    },
+    "QAT": {
+      "dep_energia_pct": 17.03,
+      "dep_remesas_pct": 0.48,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 25.59,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.1912,
+      "grupo": "C"
+    },
+    "KEN": {
+      "dep_energia_pct": 16.45,
+      "dep_remesas_pct": 3.5,
+      "dep_oda_pct": 2.04,
+      "balance_comercial": -10.78,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4172,
+      "grupo": "A"
+    },
+    "TTO": {
+      "dep_energia_pct": 25.32,
+      "dep_remesas_pct": 0.88,
+      "dep_oda_pct": 0.02,
+      "balance_comercial": 0.27,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5345,
+      "grupo": "A"
+    },
+    "OMN": {
+      "dep_energia_pct": 34.48,
+      "dep_remesas_pct": 0.04,
+      "dep_oda_pct": 0.01,
+      "balance_comercial": 14.77,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.6702,
+      "grupo": "B"
+    },
+    "ZAF": {
+      "dep_energia_pct": 24.92,
+      "dep_remesas_pct": 0.21,
+      "dep_oda_pct": 0.38,
+      "balance_comercial": 4.11,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.2435,
+      "grupo": "A"
+    },
+    "MDA": {
+      "dep_energia_pct": 50.88,
+      "dep_remesas_pct": 12.79,
+      "dep_oda_pct": 6.7,
+      "balance_comercial": -26.02,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4553,
+      "grupo": "A"
+    },
+    "IND": {
+      "dep_energia_pct": 17.21,
+      "dep_remesas_pct": 2.96,
+      "dep_oda_pct": 0.06,
+      "balance_comercial": -5.65,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7375,
+      "grupo": "A"
+    },
+    "BRA": {
+      "dep_energia_pct": 12.78,
+      "dep_remesas_pct": 0.22,
+      "dep_oda_pct": 0.04,
+      "balance_comercial": 3.48,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3939,
+      "grupo": "A"
+    },
+    "KGZ": {
+      "dep_energia_pct": 67.12,
+      "dep_remesas_pct": 28.06,
+      "dep_oda_pct": 3.49,
+      "balance_comercial": -45.99,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3922,
+      "grupo": "A"
+    },
+    "SRB": {
+      "dep_energia_pct": 55.14,
+      "dep_remesas_pct": 7.38,
+      "dep_oda_pct": 0.86,
+      "balance_comercial": -11.21,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4551,
+      "grupo": "A"
+    },
+    "NPL": {
+      "dep_energia_pct": 37.08,
+      "dep_remesas_pct": 24.73,
+      "dep_oda_pct": 2.62,
+      "balance_comercial": -34.38,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7969,
+      "grupo": "A"
+    },
+    "KWT": {
+      "dep_energia_pct": 27.02,
+      "dep_remesas_pct": 0.14,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 17.5,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.6429,
+      "grupo": "B"
+    },
+    "NIC": {
+      "dep_energia_pct": 63.6,
+      "dep_remesas_pct": 19.15,
+      "dep_oda_pct": 3.4,
+      "balance_comercial": -17.85,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1409,
+      "grupo": "A"
+    },
+    "BIH": {
+      "dep_energia_pct": 55.81,
+      "dep_remesas_pct": 9.95,
+      "dep_oda_pct": 1.26,
+      "balance_comercial": -18.56,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3645,
+      "grupo": "A"
+    },
+    "COL": {
+      "dep_energia_pct": 18.7,
+      "dep_remesas_pct": 2.74,
+      "dep_oda_pct": 0.3,
+      "balance_comercial": -6.11,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3582,
+      "grupo": "A"
+    },
+    "MAR": {
+      "dep_energia_pct": 45.66,
+      "dep_remesas_pct": 7.18,
+      "dep_oda_pct": 0.54,
+      "balance_comercial": -17.1,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5837,
+      "grupo": "A"
+    },
+    "NAM": {
+      "dep_energia_pct": 55.97,
+      "dep_remesas_pct": 0.54,
+      "dep_oda_pct": 2.06,
+      "balance_comercial": -17.45,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2927,
+      "grupo": "A"
+    },
+    "RWA": {
+      "dep_energia_pct": 35.48,
+      "dep_remesas_pct": 3.45,
+      "dep_oda_pct": 10.02,
+      "balance_comercial": -21.72,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3953,
+      "grupo": "B"
+    },
+    "BEN": {
+      "dep_energia_pct": 21.13,
+      "dep_remesas_pct": 1.47,
+      "dep_oda_pct": 5.45,
+      "balance_comercial": -15.33,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5443,
+      "grupo": "A"
+    },
+    "TJK": {
+      "dep_energia_pct": 40.19,
+      "dep_remesas_pct": 34.4,
+      "dep_oda_pct": 4.8,
+      "balance_comercial": -26.53,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.299,
+      "grupo": "A"
+    },
+    "ECU": {
+      "dep_energia_pct": 21.81,
+      "dep_remesas_pct": 3.52,
+      "dep_oda_pct": 0.43,
+      "balance_comercial": 1.15,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3141,
+      "grupo": "A"
+    },
+    "SOM": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 19.92,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.0885,
+      "grupo": "A"
+    },
+    "BFA": {
+      "dep_energia_pct": 27.84,
+      "dep_remesas_pct": 3.28,
+      "dep_oda_pct": 6.89,
+      "balance_comercial": -2.54,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.3515,
+      "grupo": "A"
+    },
+    "TZA": {
+      "dep_energia_pct": 15.55,
+      "dep_remesas_pct": 1.0,
+      "dep_oda_pct": 3.67,
+      "balance_comercial": -7.21,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5499,
+      "grupo": "A"
+    },
+    "ZMB": {
+      "dep_energia_pct": 34.56,
+      "dep_remesas_pct": 0.83,
+      "dep_oda_pct": 5.26,
+      "balance_comercial": 6.15,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1305,
+      "grupo": "A"
+    },
+    "MOZ": {
+      "dep_energia_pct": 61.05,
+      "dep_remesas_pct": 1.4,
+      "dep_oda_pct": 15.93,
+      "balance_comercial": -19.94,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1678,
+      "grupo": "A"
+    },
+    "VNM": {
+      "dep_energia_pct": 81.09,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.18,
+      "balance_comercial": 5.21,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.4424,
+      "grupo": "A"
+    },
+    "SEN": {
+      "dep_energia_pct": 37.21,
+      "dep_remesas_pct": 11.13,
+      "dep_oda_pct": 6.27,
+      "balance_comercial": -18.56,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.8308,
+      "grupo": "A"
+    },
+    "CHN": {
+      "dep_energia_pct": 13.46,
+      "dep_remesas_pct": 0.15,
+      "dep_oda_pct": -0.0,
+      "balance_comercial": 3.9,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5826,
+      "grupo": "A"
+    },
+    "LBR": {
+      "dep_energia_pct": 50.91,
+      "dep_remesas_pct": 20.08,
+      "dep_oda_pct": 12.7,
+      "balance_comercial": -46.4,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1118,
+      "grupo": "A"
+    },
+    "DJI": {
+      "dep_energia_pct": 135.19,
+      "dep_remesas_pct": 1.75,
+      "dep_oda_pct": 5.21,
+      "balance_comercial": -9.78,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1406,
+      "grupo": "B"
+    },
+    "MRT": {
+      "dep_energia_pct": 47.79,
+      "dep_remesas_pct": 1.49,
+      "dep_oda_pct": 4.14,
+      "balance_comercial": -12.94,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3468,
+      "grupo": "A"
+    },
+    "PNG": {
+      "dep_energia_pct": 14.13,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 2.13,
+      "balance_comercial": 23.18,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1483,
+      "grupo": "A"
+    },
+    "CIV": {
+      "dep_energia_pct": 20.42,
+      "dep_remesas_pct": 1.0,
+      "dep_oda_pct": 2.95,
+      "balance_comercial": 0.03,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4453,
+      "grupo": "A"
+    },
+    "FJI": {
+      "dep_energia_pct": 50.2,
+      "dep_remesas_pct": 8.1,
+      "dep_oda_pct": 3.34,
+      "balance_comercial": -32.37,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.123,
+      "grupo": "A"
+    },
+    "TGO": {
+      "dep_energia_pct": 28.66,
+      "dep_remesas_pct": 6.61,
+      "dep_oda_pct": 6.56,
+      "balance_comercial": -15.0,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3444,
+      "grupo": "A"
+    },
+    "BOL": {
+      "dep_energia_pct": 20.49,
+      "dep_remesas_pct": 2.5,
+      "dep_oda_pct": 1.28,
+      "balance_comercial": -1.53,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1298,
+      "grupo": "A"
+    },
+    "MDG": {
+      "dep_energia_pct": 29.84,
+      "dep_remesas_pct": 2.6,
+      "dep_oda_pct": 7.87,
+      "balance_comercial": -7.01,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1381,
+      "grupo": "A"
+    },
+    "BLZ": {
+      "dep_energia_pct": 43.75,
+      "dep_remesas_pct": 4.96,
+      "dep_oda_pct": 1.11,
+      "balance_comercial": -35.51,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.173,
+      "grupo": "B"
+    },
+    "TLS": {
+      "dep_energia_pct": 27.39,
+      "dep_remesas_pct": 4.56,
+      "dep_oda_pct": 8.41,
+      "balance_comercial": -13.87,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0737,
+      "grupo": "B"
+    },
+    "LSO": {
+      "dep_energia_pct": 79.48,
+      "dep_remesas_pct": 18.93,
+      "dep_oda_pct": 7.15,
+      "balance_comercial": -40.21,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2729,
+      "grupo": "B"
+    },
+    "NGA": {
+      "dep_energia_pct": 9.11,
+      "dep_remesas_pct": 3.28,
+      "dep_oda_pct": 0.56,
+      "balance_comercial": -3.02,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1788,
+      "grupo": "A"
+    },
+    "TUN": {
+      "dep_energia_pct": 51.59,
+      "dep_remesas_pct": 5.81,
+      "dep_oda_pct": 2.75,
+      "balance_comercial": -15.1,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2766,
+      "grupo": "A"
+    },
+    "GIN": {
+      "dep_energia_pct": 20.59,
+      "dep_remesas_pct": 1.8,
+      "dep_oda_pct": 2.64,
+      "balance_comercial": -6.56,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1162,
+      "grupo": "A"
+    },
+    "NER": {
+      "dep_energia_pct": 20.09,
+      "dep_remesas_pct": 3.6,
+      "dep_oda_pct": 7.58,
+      "balance_comercial": -16.79,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2565,
+      "grupo": "A"
+    },
+    "BGD": {
+      "dep_energia_pct": 20.45,
+      "dep_remesas_pct": 4.7,
+      "dep_oda_pct": 1.13,
+      "balance_comercial": -8.87,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3687,
+      "grupo": "A"
+    },
+    "GHA": {
+      "dep_energia_pct": 20.04,
+      "dep_remesas_pct": 4.62,
+      "dep_oda_pct": 1.75,
+      "balance_comercial": 2.23,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.458,
+      "grupo": "A"
+    },
+    "LKA": {
+      "dep_energia_pct": 20.36,
+      "dep_remesas_pct": 7.03,
+      "dep_oda_pct": 0.82,
+      "balance_comercial": -6.69,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6573,
+      "grupo": "A"
+    },
+    "AZE": {
+      "dep_energia_pct": 25.64,
+      "dep_remesas_pct": 3.37,
+      "dep_oda_pct": 0.21,
+      "balance_comercial": 11.14,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1944,
+      "grupo": "B"
+    },
+    "MLI": {
+      "dep_energia_pct": 24.97,
+      "dep_remesas_pct": 4.89,
+      "dep_oda_pct": 5.07,
+      "balance_comercial": -7.64,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3187,
+      "grupo": "A"
+    },
+    "LAO": {
+      "dep_energia_pct": 36.31,
+      "dep_remesas_pct": 1.52,
+      "dep_oda_pct": 2.34,
+      "balance_comercial": 3.19,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1337,
+      "grupo": "A"
+    },
+    "CMR": {
+      "dep_energia_pct": 16.14,
+      "dep_remesas_pct": 1.23,
+      "dep_oda_pct": 1.93,
+      "balance_comercial": -5.83,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2509,
+      "grupo": "A"
+    },
+    "PAK": {
+      "dep_energia_pct": 16.53,
+      "dep_remesas_pct": 8.34,
+      "dep_oda_pct": 1.0,
+      "balance_comercial": -9.39,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2333,
+      "grupo": "A"
+    },
+    "SLE": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 3.36,
+      "dep_oda_pct": 6.48,
+      "balance_comercial": 1.36,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.2145,
+      "grupo": "A"
+    },
+    "COM": {
+      "dep_energia_pct": 21.02,
+      "dep_remesas_pct": 21.89,
+      "dep_oda_pct": 12.44,
+      "balance_comercial": -17.41,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0783,
+      "grupo": "A"
+    },
+    "SUR": {
+      "dep_energia_pct": 48.73,
+      "dep_remesas_pct": 5.0,
+      "dep_oda_pct": 1.29,
+      "balance_comercial": 23.46,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.2857,
+      "grupo": "A"
+    },
+    "GUY": {
+      "dep_energia_pct": 36.49,
+      "dep_remesas_pct": 4.31,
+      "dep_oda_pct": 1.16,
+      "balance_comercial": 60.79,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.3901,
+      "grupo": "C"
+    },
+    "TUR": {
+      "dep_energia_pct": 33.6,
+      "dep_remesas_pct": 0.04,
+      "dep_oda_pct": 0.16,
+      "balance_comercial": -7.56,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.0089,
+      "grupo": "A"
+    },
+    "SWZ": {
+      "dep_energia_pct": 40.12,
+      "dep_remesas_pct": 2.7,
+      "dep_oda_pct": 2.29,
+      "balance_comercial": 4.44,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1113,
+      "grupo": "B"
+    },
+    "IRQ": {
+      "dep_energia_pct": 7.88,
+      "dep_remesas_pct": 0.48,
+      "dep_oda_pct": 0.75,
+      "balance_comercial": 2.04,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1171,
+      "grupo": "B"
+    },
+    "GNB": {
+      "dep_energia_pct": 10.75,
+      "dep_remesas_pct": 10.56,
+      "dep_oda_pct": 8.97,
+      "balance_comercial": 4.67,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.1133,
+      "grupo": "A"
+    },
+    "GAB": {
+      "dep_energia_pct": 24.45,
+      "dep_remesas_pct": 0.12,
+      "dep_oda_pct": 0.28,
+      "balance_comercial": 27.71,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1244,
+      "grupo": "A"
+    },
+    "LBN": {
+      "dep_energia_pct": 51.65,
+      "dep_remesas_pct": 19.77,
+      "dep_oda_pct": 5.21,
+      "balance_comercial": -39.83,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0222,
+      "grupo": "A"
+    },
+    "UKR": {
+      "dep_energia_pct": 33.43,
+      "dep_remesas_pct": 12.06,
+      "dep_oda_pct": 24.97,
+      "balance_comercial": -6.31,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0996,
+      "grupo": "A"
+    },
+    "AGO": {
+      "dep_energia_pct": 12.39,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.17,
+      "balance_comercial": 19.26,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.0932,
+      "grupo": "A"
+    },
+    "MWI": {
+      "dep_energia_pct": 22.42,
+      "dep_remesas_pct": 2.39,
+      "dep_oda_pct": 13.78,
+      "balance_comercial": -15.79,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.19,
+      "grupo": "A"
+    },
+    "RUS": {
+      "dep_energia_pct": 13.32,
+      "dep_remesas_pct": 0.4,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 7.76,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.2297,
+      "grupo": "A"
+    },
+    "EGY": {
+      "dep_energia_pct": 20.79,
+      "dep_remesas_pct": 7.18,
+      "dep_oda_pct": 0.11,
+      "balance_comercial": -11.6,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2977,
+      "grupo": "A"
+    },
+    "YEM": {
+      "dep_energia_pct": 3.87,
+      "dep_remesas_pct": 21.54,
+      "dep_oda_pct": 12.41,
+      "balance_comercial": -3.87,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.0,
+      "grupo": "A"
+    },
+    "COD": {
+      "dep_energia_pct": 26.5,
+      "dep_remesas_pct": 4.12,
+      "dep_oda_pct": 6.18,
+      "balance_comercial": 11.95,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.2181,
+      "grupo": "A"
+    },
+    "BDI": {
+      "dep_energia_pct": 30.65,
+      "dep_remesas_pct": 4.48,
+      "dep_oda_pct": 15.83,
+      "balance_comercial": -25.71,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1599,
+      "grupo": "A"
+    },
+    "ETH": {
+      "dep_energia_pct": 13.93,
+      "dep_remesas_pct": 0.42,
+      "dep_oda_pct": 3.92,
+      "balance_comercial": -11.54,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2904,
+      "grupo": "A"
+    },
+    "CAF": {
+      "dep_energia_pct": 29.74,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 30.78,
+      "balance_comercial": -25.85,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1162,
+      "grupo": "A"
+    },
+    "COG": {
+      "dep_energia_pct": 24.96,
+      "dep_remesas_pct": 0.16,
+      "dep_oda_pct": 2.55,
+      "balance_comercial": 18.48,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.2133,
+      "grupo": "A"
+    },
+    "TCD": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 6.63,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.1443,
+      "grupo": "A"
+    },
+    "LBY": {
+      "dep_energia_pct": 31.73,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.88,
+      "balance_comercial": 9.05,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.0328,
+      "grupo": "C"
+    },
+    "SYR": {
+      "dep_energia_pct": 1269097535700.0,
+      "dep_remesas_pct": 381267619666.67,
+      "dep_oda_pct": 920627734375.0,
+      "balance_comercial": -1269097535700.0,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0,
+      "grupo": "A"
+    },
+    "ARG": {
+      "dep_energia_pct": 11.08,
+      "dep_remesas_pct": 0.13,
+      "dep_oda_pct": 0.04,
+      "balance_comercial": 0.11,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.2424,
+      "grupo": "A"
+    },
+    "MMR": {
+      "dep_energia_pct": 27.13,
+      "dep_remesas_pct": 5.87,
+      "dep_oda_pct": 1.43,
+      "balance_comercial": -3.05,
+      "tipos": [
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.0001,
+      "grupo": "A"
+    },
+    "IRN": {
+      "dep_energia_pct": 11.42,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.06,
+      "balance_comercial": 1.38,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1759,
+      "grupo": "A"
+    },
+    "DZA": {
+      "dep_energia_pct": 29.54,
+      "dep_remesas_pct": 1.21,
+      "dep_oda_pct": 0.09,
+      "balance_comercial": -27.04,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4488,
+      "grupo": "B"
+    },
+    "SDN": {
+      "dep_energia_pct": 30.14,
+      "dep_remesas_pct": 1.37,
+      "dep_oda_pct": 4.58,
+      "balance_comercial": -30.14,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0,
+      "grupo": "A"
+    },
+    "ZWE": {
+      "dep_energia_pct": 16.59,
+      "dep_remesas_pct": 5.71,
+      "dep_oda_pct": 1.64,
+      "balance_comercial": -2.52,
+      "tipos": [
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.0518,
+      "grupo": "A"
+    },
+    "VEN": {
+      "dep_energia_pct": 7216550622172.38,
+      "dep_remesas_pct": 28218333333.33,
+      "dep_oda_pct": 40529507446.29,
+      "balance_comercial": 7509452152240.0,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.0,
+      "grupo": "B"
+    }
+  },
+  "2026": {
+    "HKG": {
+      "dep_energia_pct": 173.03,
+      "dep_remesas_pct": 0.11,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -13.74,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.794,
+      "grupo": "A"
+    },
+    "SGP": {
+      "dep_energia_pct": 80.95,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 10.15,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.1804,
+      "grupo": "A"
+    },
+    "NZL": {
+      "dep_energia_pct": 19.1,
+      "dep_remesas_pct": 0.18,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -2.36,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.9924,
+      "grupo": "A"
+    },
+    "CHE": {
+      "dep_energia_pct": 41.44,
+      "dep_remesas_pct": 0.38,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 6.73,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 4.2463,
+      "grupo": "A"
+    },
+    "USA": {
+      "dep_energia_pct": 11.92,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -4.56,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.7663,
+      "grupo": "A"
+    },
+    "IRL": {
+      "dep_energia_pct": 24.52,
+      "dep_remesas_pct": 0.07,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 12.64,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 4.5351,
+      "grupo": "A"
+    },
+    "AUS": {
+      "dep_energia_pct": 16.36,
+      "dep_remesas_pct": 0.07,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 5.08,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.6279,
+      "grupo": "A"
+    },
+    "TWN": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4755,
+      "grupo": "A"
+    },
+    "DNK": {
+      "dep_energia_pct": 29.97,
+      "dep_remesas_pct": 0.41,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 1.27,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.6813,
+      "grupo": "A"
+    },
+    "NLD": {
+      "dep_energia_pct": 61.27,
+      "dep_remesas_pct": 0.43,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 6.99,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.2693,
+      "grupo": "A"
+    },
+    "CAN": {
+      "dep_energia_pct": 25.9,
+      "dep_remesas_pct": 0.04,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.13,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.3151,
+      "grupo": "A"
+    },
+    "LUX": {
+      "dep_energia_pct": 27.74,
+      "dep_remesas_pct": 2.88,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -10.52,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 2.0311,
+      "grupo": "A"
+    },
+    "GBR": {
+      "dep_energia_pct": 23.01,
+      "dep_remesas_pct": 0.1,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -7.69,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.8347,
+      "grupo": "A"
+    },
+    "CRI": {
+      "dep_energia_pct": 23.53,
+      "dep_remesas_pct": 0.7,
+      "dep_oda_pct": 0.17,
+      "balance_comercial": -5.06,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.705,
+      "grupo": "A"
+    },
+    "FIN": {
+      "dep_energia_pct": 28.88,
+      "dep_remesas_pct": 0.17,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -2.33,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 3.0864,
+      "grupo": "A"
+    },
+    "DEU": {
+      "dep_energia_pct": 33.67,
+      "dep_remesas_pct": 0.49,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 4.89,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.1075,
+      "grupo": "A"
+    },
+    "JPN": {
+      "dep_energia_pct": 17.66,
+      "dep_remesas_pct": 0.15,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.39,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 3.5793,
+      "grupo": "A"
+    },
+    "MLT": {
+      "dep_energia_pct": 37.99,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -22.72,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.6662,
+      "grupo": "A"
+    },
+    "EST": {
+      "dep_energia_pct": 60.13,
+      "dep_remesas_pct": 1.41,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -6.63,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 2.5963,
+      "grupo": "A"
+    },
+    "CYP": {
+      "dep_energia_pct": 39.54,
+      "dep_remesas_pct": 1.43,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -21.1,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.9236,
+      "grupo": "A"
+    },
+    "MUS": {
+      "dep_energia_pct": 41.38,
+      "dep_remesas_pct": 2.93,
+      "dep_oda_pct": 0.64,
+      "balance_comercial": -29.59,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.8199,
+      "grupo": "A"
+    },
+    "ESP": {
+      "dep_energia_pct": 31.88,
+      "dep_remesas_pct": 0.36,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.27,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.431,
+      "grupo": "A"
+    },
+    "ISL": {
+      "dep_energia_pct": 28.93,
+      "dep_remesas_pct": 0.72,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -9.12,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 2.4974,
+      "grupo": "A"
+    },
+    "PRT": {
+      "dep_energia_pct": 41.53,
+      "dep_remesas_pct": 0.6,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -8.29,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.3934,
+      "grupo": "A"
+    },
+    "GEO": {
+      "dep_energia_pct": 53.84,
+      "dep_remesas_pct": 14.42,
+      "dep_oda_pct": 1.43,
+      "balance_comercial": -31.36,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.673,
+      "grupo": "A"
+    },
+    "CHL": {
+      "dep_energia_pct": 26.43,
+      "dep_remesas_pct": 0.02,
+      "dep_oda_pct": 0.02,
+      "balance_comercial": 0.22,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.7126,
+      "grupo": "A"
+    },
+    "PAN": {
+      "dep_energia_pct": 18.45,
+      "dep_remesas_pct": 0.66,
+      "dep_oda_pct": 0.45,
+      "balance_comercial": -13.78,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.3094,
+      "grupo": "A"
+    },
+    "GTM": {
+      "dep_energia_pct": 27.42,
+      "dep_remesas_pct": 17.55,
+      "dep_oda_pct": 0.41,
+      "balance_comercial": -13.28,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.614,
+      "grupo": "A"
+    },
+    "CZE": {
+      "dep_energia_pct": 76.48,
+      "dep_remesas_pct": 1.8,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 7.27,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.005,
+      "grupo": "A"
+    },
+    "LVA": {
+      "dep_energia_pct": 62.09,
+      "dep_remesas_pct": 2.59,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -7.2,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.09,
+      "grupo": "A"
+    },
+    "BEL": {
+      "dep_energia_pct": 59.73,
+      "dep_remesas_pct": 2.4,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.81,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.2183,
+      "grupo": "A"
+    },
+    "SYC": {
+      "dep_energia_pct": 55.17,
+      "dep_remesas_pct": 0.69,
+      "dep_oda_pct": 0.73,
+      "balance_comercial": -22.67,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4076,
+      "grupo": "A"
+    },
+    "AUT": {
+      "dep_energia_pct": 43.6,
+      "dep_remesas_pct": 0.62,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -2.23,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.6237,
+      "grupo": "A"
+    },
+    "LTU": {
+      "dep_energia_pct": 66.88,
+      "dep_remesas_pct": 0.96,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -5.67,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.1207,
+      "grupo": "A"
+    },
+    "ALB": {
+      "dep_energia_pct": 39.73,
+      "dep_remesas_pct": 8.0,
+      "dep_oda_pct": 1.79,
+      "balance_comercial": -18.3,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4163,
+      "grupo": "A"
+    },
+    "MYS": {
+      "dep_energia_pct": 62.98,
+      "dep_remesas_pct": 0.42,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 11.0,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.0682,
+      "grupo": "A"
+    },
+    "SWE": {
+      "dep_energia_pct": 31.22,
+      "dep_remesas_pct": 0.52,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.87,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.1808,
+      "grupo": "A"
+    },
+    "KOR": {
+      "dep_energia_pct": 30.56,
+      "dep_remesas_pct": 0.36,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 1.24,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 2.3654,
+      "grupo": "A"
+    },
+    "ARM": {
+      "dep_energia_pct": 43.61,
+      "dep_remesas_pct": 7.96,
+      "dep_oda_pct": 1.07,
+      "balance_comercial": -13.75,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.287,
+      "grupo": "A"
+    },
+    "ISR": {
+      "dep_energia_pct": 17.37,
+      "dep_remesas_pct": 0.24,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -6.25,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.4754,
+      "grupo": "A"
+    },
+    "JAM": {
+      "dep_energia_pct": 32.19,
+      "dep_remesas_pct": 19.17,
+      "dep_oda_pct": 0.44,
+      "balance_comercial": -24.06,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1895,
+      "grupo": "A"
+    },
+    "JOR": {
+      "dep_energia_pct": 44.53,
+      "dep_remesas_pct": 9.28,
+      "dep_oda_pct": 4.99,
+      "balance_comercial": -24.79,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5873,
+      "grupo": "A"
+    },
+    "BHR": {
+      "dep_energia_pct": 33.46,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -1.22,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.3612,
+      "grupo": "A"
+    },
+    "CPV": {
+      "dep_energia_pct": 70.59,
+      "dep_remesas_pct": 14.68,
+      "dep_oda_pct": 4.45,
+      "balance_comercial": -60.67,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4162,
+      "grupo": "A"
+    },
+    "FRA": {
+      "dep_energia_pct": 26.13,
+      "dep_remesas_pct": 1.32,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -5.03,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.6757,
+      "grupo": "A"
+    },
+    "ITA": {
+      "dep_energia_pct": 28.6,
+      "dep_remesas_pct": 0.59,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 3.39,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.738,
+      "grupo": "A"
+    },
+    "DOM": {
+      "dep_energia_pct": 23.15,
+      "dep_remesas_pct": 9.6,
+      "dep_oda_pct": 0.55,
+      "balance_comercial": -12.07,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7631,
+      "grupo": "A"
+    },
+    "NOR": {
+      "dep_energia_pct": 20.61,
+      "dep_remesas_pct": 0.17,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 13.24,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 2.3518,
+      "grupo": "A"
+    },
+    "SVK": {
+      "dep_energia_pct": 94.47,
+      "dep_remesas_pct": 2.34,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.5,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.8086,
+      "grupo": "A"
+    },
+    "ROU": {
+      "dep_energia_pct": 41.09,
+      "dep_remesas_pct": 3.83,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -8.61,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.8704,
+      "grupo": "A"
+    },
+    "PER": {
+      "dep_energia_pct": 19.84,
+      "dep_remesas_pct": 1.46,
+      "dep_oda_pct": 0.21,
+      "balance_comercial": 1.67,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5339,
+      "grupo": "A"
+    },
+    "ARE": {
+      "dep_energia_pct": 82.02,
+      "dep_remesas_pct": 0.36,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 23.1,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.8849,
+      "grupo": "A"
+    },
+    "MNE": {
+      "dep_energia_pct": 50.45,
+      "dep_remesas_pct": 12.96,
+      "dep_oda_pct": 1.39,
+      "balance_comercial": -41.88,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6785,
+      "grupo": "A"
+    },
+    "URY": {
+      "dep_energia_pct": 13.63,
+      "dep_remesas_pct": 0.15,
+      "dep_oda_pct": 0.05,
+      "balance_comercial": -1.24,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.6408,
+      "grupo": "A"
+    },
+    "GRC": {
+      "dep_energia_pct": 44.71,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -11.92,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2811,
+      "grupo": "A"
+    },
+    "BGR": {
+      "dep_energia_pct": 55.74,
+      "dep_remesas_pct": 2.49,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -3.18,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3614,
+      "grupo": "A"
+    },
+    "THA": {
+      "dep_energia_pct": 49.59,
+      "dep_remesas_pct": 1.8,
+      "dep_oda_pct": 0.01,
+      "balance_comercial": 0.88,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 1.1557,
+      "grupo": "A"
+    },
+    "BRN": {
+      "dep_energia_pct": 62.29,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 5.31,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.584,
+      "grupo": "C"
+    },
+    "SLV": {
+      "dep_energia_pct": 45.98,
+      "dep_remesas_pct": 24.52,
+      "dep_oda_pct": 1.46,
+      "balance_comercial": -25.66,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3459,
+      "grupo": "A"
+    },
+    "PRY": {
+      "dep_energia_pct": 33.43,
+      "dep_remesas_pct": 2.24,
+      "dep_oda_pct": 0.48,
+      "balance_comercial": -8.84,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.503,
+      "grupo": "A"
+    },
+    "HUN": {
+      "dep_energia_pct": 78.89,
+      "dep_remesas_pct": 2.98,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 1.64,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.8286,
+      "grupo": "A"
+    },
+    "PHL": {
+      "dep_energia_pct": 31.72,
+      "dep_remesas_pct": 9.18,
+      "dep_oda_pct": 0.38,
+      "balance_comercial": -14.23,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.9287,
+      "grupo": "A"
+    },
+    "SVN": {
+      "dep_energia_pct": 90.32,
+      "dep_remesas_pct": 1.63,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -0.84,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.6706,
+      "grupo": "A"
+    },
+    "HND": {
+      "dep_energia_pct": 37.17,
+      "dep_remesas_pct": 25.62,
+      "dep_oda_pct": 1.61,
+      "balance_comercial": -19.01,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4174,
+      "grupo": "A"
+    },
+    "IDN": {
+      "dep_energia_pct": 15.21,
+      "dep_remesas_pct": 0.96,
+      "dep_oda_pct": 0.08,
+      "balance_comercial": 2.06,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.7658,
+      "grupo": "A"
+    },
+    "SAU": {
+      "dep_energia_pct": 15.88,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 7.33,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.9875,
+      "grupo": "A"
+    },
+    "HRV": {
+      "dep_energia_pct": 55.2,
+      "dep_remesas_pct": 8.64,
+      "dep_oda_pct": 0.22,
+      "balance_comercial": -19.98,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3984,
+      "grupo": "A"
+    },
+    "GMB": {
+      "dep_energia_pct": 60.54,
+      "dep_remesas_pct": 25.55,
+      "dep_oda_pct": 15.64,
+      "balance_comercial": -58.82,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.7999,
+      "grupo": "A"
+    },
+    "BWA": {
+      "dep_energia_pct": 36.43,
+      "dep_remesas_pct": 0.33,
+      "dep_oda_pct": 1.36,
+      "balance_comercial": -1.71,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.608,
+      "grupo": "A"
+    },
+    "MEX": {
+      "dep_energia_pct": 40.0,
+      "dep_remesas_pct": 4.15,
+      "dep_oda_pct": 0.03,
+      "balance_comercial": -0.36,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3999,
+      "grupo": "A"
+    },
+    "BHS": {
+      "dep_energia_pct": 25.24,
+      "dep_remesas_pct": 0.51,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": -22.05,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2275,
+      "grupo": "A"
+    },
+    "UGA": {
+      "dep_energia_pct": 21.93,
+      "dep_remesas_pct": 3.12,
+      "dep_oda_pct": 4.6,
+      "balance_comercial": -11.21,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4315,
+      "grupo": "A"
+    },
+    "BTN": {
+      "dep_energia_pct": 42.33,
+      "dep_remesas_pct": 3.37,
+      "dep_oda_pct": 4.67,
+      "balance_comercial": -31.63,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.175,
+      "grupo": "A"
+    },
+    "KAZ": {
+      "dep_energia_pct": 16.06,
+      "dep_remesas_pct": 0.23,
+      "dep_oda_pct": 0.03,
+      "balance_comercial": 8.82,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.5475,
+      "grupo": "A"
+    },
+    "MNG": {
+      "dep_energia_pct": 45.61,
+      "dep_remesas_pct": 2.76,
+      "dep_oda_pct": 1.3,
+      "balance_comercial": 30.34,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.3324,
+      "grupo": "A"
+    },
+    "POL": {
+      "dep_energia_pct": 49.57,
+      "dep_remesas_pct": 0.89,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 0.93,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5704,
+      "grupo": "A"
+    },
+    "KHM": {
+      "dep_energia_pct": 64.01,
+      "dep_remesas_pct": 6.93,
+      "dep_oda_pct": 3.25,
+      "balance_comercial": -16.21,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5067,
+      "grupo": "A"
+    },
+    "BRB": {
+      "dep_energia_pct": 28.03,
+      "dep_remesas_pct": 3.12,
+      "dep_oda_pct": 0.23,
+      "balance_comercial": -21.38,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6065,
+      "grupo": "A"
+    },
+    "MKD": {
+      "dep_energia_pct": 82.15,
+      "dep_remesas_pct": 2.88,
+      "dep_oda_pct": 2.7,
+      "balance_comercial": -19.07,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.632,
+      "grupo": "A"
+    },
+    "QAT": {
+      "dep_energia_pct": 17.18,
+      "dep_remesas_pct": 0.49,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 24.61,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 1.1998,
+      "grupo": "C"
+    },
+    "KEN": {
+      "dep_energia_pct": 16.21,
+      "dep_remesas_pct": 3.54,
+      "dep_oda_pct": 1.95,
+      "balance_comercial": -10.66,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4131,
+      "grupo": "A"
+    },
+    "TTO": {
+      "dep_energia_pct": 24.5,
+      "dep_remesas_pct": 0.91,
+      "dep_oda_pct": 0.02,
+      "balance_comercial": -0.92,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5222,
+      "grupo": "A"
+    },
+    "OMN": {
+      "dep_energia_pct": 34.6,
+      "dep_remesas_pct": 0.04,
+      "dep_oda_pct": 0.01,
+      "balance_comercial": 14.43,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.6573,
+      "grupo": "B"
+    },
+    "ZAF": {
+      "dep_energia_pct": 25.05,
+      "dep_remesas_pct": 0.21,
+      "dep_oda_pct": 0.38,
+      "balance_comercial": 4.5,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.2359,
+      "grupo": "A"
+    },
+    "MDA": {
+      "dep_energia_pct": 50.59,
+      "dep_remesas_pct": 12.43,
+      "dep_oda_pct": 6.45,
+      "balance_comercial": -25.73,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4495,
+      "grupo": "A"
+    },
+    "IND": {
+      "dep_energia_pct": 17.05,
+      "dep_remesas_pct": 2.95,
+      "dep_oda_pct": 0.06,
+      "balance_comercial": -5.59,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.722,
+      "grupo": "A"
+    },
+    "BRA": {
+      "dep_energia_pct": 13.08,
+      "dep_remesas_pct": 0.23,
+      "dep_oda_pct": 0.04,
+      "balance_comercial": 3.75,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3833,
+      "grupo": "A"
+    },
+    "KGZ": {
+      "dep_energia_pct": 67.07,
+      "dep_remesas_pct": 28.05,
+      "dep_oda_pct": 3.36,
+      "balance_comercial": -46.12,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3951,
+      "grupo": "A"
+    },
+    "SRB": {
+      "dep_energia_pct": 55.89,
+      "dep_remesas_pct": 7.34,
+      "dep_oda_pct": 0.84,
+      "balance_comercial": -10.99,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.463,
+      "grupo": "A"
+    },
+    "NPL": {
+      "dep_energia_pct": 37.3,
+      "dep_remesas_pct": 24.77,
+      "dep_oda_pct": 2.51,
+      "balance_comercial": -34.65,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.8045,
+      "grupo": "A"
+    },
+    "KWT": {
+      "dep_energia_pct": 27.69,
+      "dep_remesas_pct": 0.15,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 16.11,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.6499,
+      "grupo": "B"
+    },
+    "NIC": {
+      "dep_energia_pct": 64.17,
+      "dep_remesas_pct": 19.59,
+      "dep_oda_pct": 3.3,
+      "balance_comercial": -17.82,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1367,
+      "grupo": "A"
+    },
+    "BIH": {
+      "dep_energia_pct": 55.78,
+      "dep_remesas_pct": 9.87,
+      "dep_oda_pct": 1.23,
+      "balance_comercial": -18.08,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.366,
+      "grupo": "A"
+    },
+    "COL": {
+      "dep_energia_pct": 18.9,
+      "dep_remesas_pct": 2.82,
+      "dep_oda_pct": 0.29,
+      "balance_comercial": -6.43,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3518,
+      "grupo": "A"
+    },
+    "MAR": {
+      "dep_energia_pct": 46.12,
+      "dep_remesas_pct": 7.24,
+      "dep_oda_pct": 0.53,
+      "balance_comercial": -17.0,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5786,
+      "grupo": "A"
+    },
+    "NAM": {
+      "dep_energia_pct": 55.81,
+      "dep_remesas_pct": 0.54,
+      "dep_oda_pct": 2.03,
+      "balance_comercial": -17.97,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2821,
+      "grupo": "A"
+    },
+    "RWA": {
+      "dep_energia_pct": 35.91,
+      "dep_remesas_pct": 3.51,
+      "dep_oda_pct": 9.66,
+      "balance_comercial": -21.89,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3999,
+      "grupo": "B"
+    },
+    "BEN": {
+      "dep_energia_pct": 21.13,
+      "dep_remesas_pct": 1.45,
+      "dep_oda_pct": 5.28,
+      "balance_comercial": -15.29,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.565,
+      "grupo": "A"
+    },
+    "TJK": {
+      "dep_energia_pct": 40.07,
+      "dep_remesas_pct": 34.32,
+      "dep_oda_pct": 4.66,
+      "balance_comercial": -26.2,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.305,
+      "grupo": "A"
+    },
+    "ECU": {
+      "dep_energia_pct": 21.61,
+      "dep_remesas_pct": 3.53,
+      "dep_oda_pct": 0.42,
+      "balance_comercial": 1.29,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.3115,
+      "grupo": "A"
+    },
+    "SOM": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 19.07,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.0935,
+      "grupo": "A"
+    },
+    "BFA": {
+      "dep_energia_pct": 27.93,
+      "dep_remesas_pct": 3.33,
+      "dep_oda_pct": 6.66,
+      "balance_comercial": -2.26,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.3463,
+      "grupo": "A"
+    },
+    "TZA": {
+      "dep_energia_pct": 15.24,
+      "dep_remesas_pct": 1.01,
+      "dep_oda_pct": 3.53,
+      "balance_comercial": -6.99,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.5555,
+      "grupo": "A"
+    },
+    "ZMB": {
+      "dep_energia_pct": 34.73,
+      "dep_remesas_pct": 0.87,
+      "dep_oda_pct": 5.18,
+      "balance_comercial": 6.47,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.126,
+      "grupo": "A"
+    },
+    "MOZ": {
+      "dep_energia_pct": 62.21,
+      "dep_remesas_pct": 1.42,
+      "dep_oda_pct": 15.66,
+      "balance_comercial": -20.05,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1685,
+      "grupo": "A"
+    },
+    "VNM": {
+      "dep_energia_pct": 81.51,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.17,
+      "balance_comercial": 5.46,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.439,
+      "grupo": "A"
+    },
+    "SEN": {
+      "dep_energia_pct": 37.41,
+      "dep_remesas_pct": 11.21,
+      "dep_oda_pct": 6.08,
+      "balance_comercial": -18.54,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.859,
+      "grupo": "A"
+    },
+    "CHN": {
+      "dep_energia_pct": 13.3,
+      "dep_remesas_pct": 0.15,
+      "dep_oda_pct": -0.0,
+      "balance_comercial": 3.91,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.5793,
+      "grupo": "A"
+    },
+    "LBR": {
+      "dep_energia_pct": 52.25,
+      "dep_remesas_pct": 20.35,
+      "dep_oda_pct": 12.3,
+      "balance_comercial": -48.01,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1153,
+      "grupo": "A"
+    },
+    "DJI": {
+      "dep_energia_pct": 136.36,
+      "dep_remesas_pct": 1.74,
+      "dep_oda_pct": 4.97,
+      "balance_comercial": -9.56,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1431,
+      "grupo": "B"
+    },
+    "MRT": {
+      "dep_energia_pct": 48.09,
+      "dep_remesas_pct": 1.56,
+      "dep_oda_pct": 4.02,
+      "balance_comercial": -13.11,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.354,
+      "grupo": "A"
+    },
+    "PNG": {
+      "dep_energia_pct": 13.16,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 2.06,
+      "balance_comercial": 24.4,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1513,
+      "grupo": "A"
+    },
+    "CIV": {
+      "dep_energia_pct": 20.37,
+      "dep_remesas_pct": 1.01,
+      "dep_oda_pct": 2.84,
+      "balance_comercial": -0.18,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4535,
+      "grupo": "A"
+    },
+    "FJI": {
+      "dep_energia_pct": 49.88,
+      "dep_remesas_pct": 8.27,
+      "dep_oda_pct": 3.26,
+      "balance_comercial": -32.42,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1261,
+      "grupo": "A"
+    },
+    "TGO": {
+      "dep_energia_pct": 28.51,
+      "dep_remesas_pct": 6.61,
+      "dep_oda_pct": 6.35,
+      "balance_comercial": -14.97,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3501,
+      "grupo": "A"
+    },
+    "BOL": {
+      "dep_energia_pct": 20.24,
+      "dep_remesas_pct": 2.44,
+      "dep_oda_pct": 1.22,
+      "balance_comercial": -1.73,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1307,
+      "grupo": "B"
+    },
+    "MDG": {
+      "dep_energia_pct": 29.98,
+      "dep_remesas_pct": 2.57,
+      "dep_oda_pct": 7.7,
+      "balance_comercial": -6.71,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1341,
+      "grupo": "A"
+    },
+    "BLZ": {
+      "dep_energia_pct": 43.78,
+      "dep_remesas_pct": 5.0,
+      "dep_oda_pct": 1.09,
+      "balance_comercial": -35.96,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1754,
+      "grupo": "B"
+    },
+    "TLS": {
+      "dep_energia_pct": 27.27,
+      "dep_remesas_pct": 4.48,
+      "dep_oda_pct": 8.03,
+      "balance_comercial": -13.22,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0576,
+      "grupo": "B"
+    },
+    "LSO": {
+      "dep_energia_pct": 81.14,
+      "dep_remesas_pct": 18.56,
+      "dep_oda_pct": 7.11,
+      "balance_comercial": -41.17,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2692,
+      "grupo": "B"
+    },
+    "NGA": {
+      "dep_energia_pct": 9.09,
+      "dep_remesas_pct": 3.21,
+      "dep_oda_pct": 0.55,
+      "balance_comercial": -3.66,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1832,
+      "grupo": "A"
+    },
+    "TUN": {
+      "dep_energia_pct": 51.8,
+      "dep_remesas_pct": 5.92,
+      "dep_oda_pct": 2.75,
+      "balance_comercial": -15.22,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2648,
+      "grupo": "A"
+    },
+    "GIN": {
+      "dep_energia_pct": 20.35,
+      "dep_remesas_pct": 1.83,
+      "dep_oda_pct": 2.52,
+      "balance_comercial": -6.54,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1136,
+      "grupo": "A"
+    },
+    "NER": {
+      "dep_energia_pct": 20.08,
+      "dep_remesas_pct": 3.67,
+      "dep_oda_pct": 7.32,
+      "balance_comercial": -17.06,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2543,
+      "grupo": "A"
+    },
+    "BGD": {
+      "dep_energia_pct": 20.35,
+      "dep_remesas_pct": 4.63,
+      "dep_oda_pct": 1.07,
+      "balance_comercial": -8.86,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3734,
+      "grupo": "A"
+    },
+    "GHA": {
+      "dep_energia_pct": 19.83,
+      "dep_remesas_pct": 4.64,
+      "dep_oda_pct": 1.69,
+      "balance_comercial": 2.32,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.4568,
+      "grupo": "A"
+    },
+    "LKA": {
+      "dep_energia_pct": 20.17,
+      "dep_remesas_pct": 6.98,
+      "dep_oda_pct": 0.8,
+      "balance_comercial": -6.52,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.6658,
+      "grupo": "A"
+    },
+    "AZE": {
+      "dep_energia_pct": 26.38,
+      "dep_remesas_pct": 3.42,
+      "dep_oda_pct": 0.21,
+      "balance_comercial": 10.02,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1924,
+      "grupo": "B"
+    },
+    "MLI": {
+      "dep_energia_pct": 24.91,
+      "dep_remesas_pct": 4.89,
+      "dep_oda_pct": 4.91,
+      "balance_comercial": -7.54,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.3191,
+      "grupo": "A"
+    },
+    "LAO": {
+      "dep_energia_pct": 36.6,
+      "dep_remesas_pct": 1.53,
+      "dep_oda_pct": 2.25,
+      "balance_comercial": 3.57,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1302,
+      "grupo": "A"
+    },
+    "CMR": {
+      "dep_energia_pct": 16.09,
+      "dep_remesas_pct": 1.26,
+      "dep_oda_pct": 1.88,
+      "balance_comercial": -5.78,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2507,
+      "grupo": "A"
+    },
+    "PAK": {
+      "dep_energia_pct": 16.49,
+      "dep_remesas_pct": 8.48,
+      "dep_oda_pct": 0.97,
+      "balance_comercial": -9.42,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2313,
+      "grupo": "A"
+    },
+    "SLE": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 3.49,
+      "dep_oda_pct": 6.34,
+      "balance_comercial": 1.16,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.2052,
+      "grupo": "A"
+    },
+    "COM": {
+      "dep_energia_pct": 21.15,
+      "dep_remesas_pct": 22.47,
+      "dep_oda_pct": 12.21,
+      "balance_comercial": -17.45,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0754,
+      "grupo": "A"
+    },
+    "SUR": {
+      "dep_energia_pct": 49.95,
+      "dep_remesas_pct": 5.47,
+      "dep_oda_pct": 1.32,
+      "balance_comercial": 24.96,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.2716,
+      "grupo": "A"
+    },
+    "GUY": {
+      "dep_energia_pct": 36.3,
+      "dep_remesas_pct": 4.2,
+      "dep_oda_pct": 1.1,
+      "balance_comercial": 62.51,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.4043,
+      "grupo": "C"
+    },
+    "TUR": {
+      "dep_energia_pct": 34.12,
+      "dep_remesas_pct": 0.03,
+      "dep_oda_pct": 0.16,
+      "balance_comercial": -7.48,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 1.0232,
+      "grupo": "A"
+    },
+    "SWZ": {
+      "dep_energia_pct": 39.84,
+      "dep_remesas_pct": 2.74,
+      "dep_oda_pct": 2.26,
+      "balance_comercial": 4.9,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1129,
+      "grupo": "B"
+    },
+    "IRQ": {
+      "dep_energia_pct": 8.15,
+      "dep_remesas_pct": 0.5,
+      "dep_oda_pct": 0.73,
+      "balance_comercial": 0.16,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1202,
+      "grupo": "B"
+    },
+    "GNB": {
+      "dep_energia_pct": 10.75,
+      "dep_remesas_pct": 10.73,
+      "dep_oda_pct": 8.65,
+      "balance_comercial": 4.7,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.1154,
+      "grupo": "A"
+    },
+    "GAB": {
+      "dep_energia_pct": 24.22,
+      "dep_remesas_pct": 0.12,
+      "dep_oda_pct": 0.27,
+      "balance_comercial": 27.58,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1178,
+      "grupo": "A"
+    },
+    "LBN": {
+      "dep_energia_pct": 52.38,
+      "dep_remesas_pct": 20.05,
+      "dep_oda_pct": 5.32,
+      "balance_comercial": -40.27,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0,
+      "grupo": "A"
+    },
+    "UKR": {
+      "dep_energia_pct": 32.71,
+      "dep_remesas_pct": 12.53,
+      "dep_oda_pct": 24.88,
+      "balance_comercial": -6.31,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0949,
+      "grupo": "A"
+    },
+    "AGO": {
+      "dep_energia_pct": 11.61,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.17,
+      "balance_comercial": 18.36,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.0839,
+      "grupo": "A"
+    },
+    "MWI": {
+      "dep_energia_pct": 22.21,
+      "dep_remesas_pct": 2.49,
+      "dep_oda_pct": 13.5,
+      "balance_comercial": -15.89,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.187,
+      "grupo": "A"
+    },
+    "RUS": {
+      "dep_energia_pct": 13.21,
+      "dep_remesas_pct": 0.4,
+      "dep_oda_pct": 0.0,
+      "balance_comercial": 7.58,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.2306,
+      "grupo": "A"
+    },
+    "EGY": {
+      "dep_energia_pct": 20.62,
+      "dep_remesas_pct": 7.21,
+      "dep_oda_pct": 0.1,
+      "balance_comercial": -11.5,
+      "tipos": [
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2977,
+      "grupo": "A"
+    },
+    "YEM": {
+      "dep_energia_pct": 1.97,
+      "dep_remesas_pct": 22.57,
+      "dep_oda_pct": 12.38,
+      "balance_comercial": -1.97,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.0,
+      "grupo": "A"
+    },
+    "COD": {
+      "dep_energia_pct": 27.41,
+      "dep_remesas_pct": 4.19,
+      "dep_oda_pct": 5.92,
+      "balance_comercial": 12.0,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.2227,
+      "grupo": "A"
+    },
+    "BDI": {
+      "dep_energia_pct": 30.76,
+      "dep_remesas_pct": 4.6,
+      "dep_oda_pct": 15.33,
+      "balance_comercial": -25.9,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1625,
+      "grupo": "A"
+    },
+    "ETH": {
+      "dep_energia_pct": 13.63,
+      "dep_remesas_pct": 0.4,
+      "dep_oda_pct": 3.73,
+      "balance_comercial": -11.27,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.2875,
+      "grupo": "A"
+    },
+    "CAF": {
+      "dep_energia_pct": 30.87,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 30.47,
+      "balance_comercial": -27.02,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.1203,
+      "grupo": "A"
+    },
+    "COG": {
+      "dep_energia_pct": 23.47,
+      "dep_remesas_pct": 0.15,
+      "dep_oda_pct": 2.53,
+      "balance_comercial": 18.46,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.1954,
+      "grupo": "A"
+    },
+    "TCD": {
+      "dep_energia_pct": 0.0,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 6.57,
+      "balance_comercial": 0.0,
+      "tipos": [
+        "DEPENDIENTE_AID"
+      ],
+      "ERI": 0.1432,
+      "grupo": "A"
+    },
+    "LBY": {
+      "dep_energia_pct": 33.55,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.93,
+      "balance_comercial": 6.45,
+      "tipos": [
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.0308,
+      "grupo": "C"
+    },
+    "SYR": {
+      "dep_energia_pct": 1241938851600.0,
+      "dep_remesas_pct": 396143861166.67,
+      "dep_oda_pct": 920627734375.0,
+      "balance_comercial": -1241938851600.0,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0,
+      "grupo": "A"
+    },
+    "ARG": {
+      "dep_energia_pct": 10.99,
+      "dep_remesas_pct": 0.13,
+      "dep_oda_pct": 0.04,
+      "balance_comercial": 0.01,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.2417,
+      "grupo": "A"
+    },
+    "MMR": {
+      "dep_energia_pct": 27.46,
+      "dep_remesas_pct": 6.08,
+      "dep_oda_pct": 1.4,
+      "balance_comercial": -3.12,
+      "tipos": [
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.0,
+      "grupo": "A"
+    },
+    "IRN": {
+      "dep_energia_pct": 11.47,
+      "dep_remesas_pct": 0.0,
+      "dep_oda_pct": 0.06,
+      "balance_comercial": 0.61,
+      "tipos": [
+        "EQUILIBRADO"
+      ],
+      "ERI": 0.1771,
+      "grupo": "A"
+    },
+    "DZA": {
+      "dep_energia_pct": 29.91,
+      "dep_remesas_pct": 1.27,
+      "dep_oda_pct": 0.09,
+      "balance_comercial": -29.29,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.4475,
+      "grupo": "B"
+    },
+    "SDN": {
+      "dep_energia_pct": 31.62,
+      "dep_remesas_pct": 1.31,
+      "dep_oda_pct": 4.82,
+      "balance_comercial": -31.62,
+      "tipos": [
+        "DEFICIT_COMERCIAL"
+      ],
+      "ERI": 0.0,
+      "grupo": "A"
+    },
+    "ZWE": {
+      "dep_energia_pct": 16.17,
+      "dep_remesas_pct": 5.61,
+      "dep_oda_pct": 1.56,
+      "balance_comercial": -2.18,
+      "tipos": [
+        "DEPENDIENTE_REMESAS"
+      ],
+      "ERI": 0.0519,
+      "grupo": "A"
+    },
+    "VEN": {
+      "dep_energia_pct": 7402496388203.81,
+      "dep_remesas_pct": 29230000000.0,
+      "dep_oda_pct": 40529507446.29,
+      "balance_comercial": 7786088318860.0,
+      "tipos": [
+        "DEPENDIENTE_AID",
+        "DEPENDIENTE_REMESAS",
+        "SUPERAVIT_COMERCIAL"
+      ],
+      "ERI": 0.0,
+      "grupo": "B"
+    }
+  }
+}

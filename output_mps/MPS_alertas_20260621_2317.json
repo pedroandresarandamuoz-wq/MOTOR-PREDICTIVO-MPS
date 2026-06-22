@@ -1,0 +1,6275 @@
+[
+  {
+    "pais": "LBY",
+    "año": "2011",
+    "pn_ant": -138190.67,
+    "pn_act": -3430374.03,
+    "delta": -3292183.36,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBY",
+    "año": "2024",
+    "pn_ant": -1304714.11,
+    "pn_act": -3149586.49,
+    "delta": -1844872.39,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "LBY",
+    "año": "2019",
+    "pn_ant": -852584.57,
+    "pn_act": -2248845.26,
+    "delta": -1396260.68,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBY",
+    "año": "2015",
+    "pn_ant": -1379945.02,
+    "pn_act": -2707009.93,
+    "delta": -1327064.9,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBY",
+    "año": "2020",
+    "pn_ant": -2248845.26,
+    "pn_act": -3362310.64,
+    "delta": -1113465.39,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBY",
+    "año": "2014",
+    "pn_ant": -457006.58,
+    "pn_act": -1379945.02,
+    "delta": -922938.44,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBY",
+    "año": "2023",
+    "pn_ant": -683547.79,
+    "pn_act": -1304714.11,
+    "delta": -621166.31,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBY",
+    "año": "2026",
+    "pn_ant": -3516468.65,
+    "pn_act": -3914304.43,
+    "delta": -397835.79,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "LBY",
+    "año": "2025",
+    "pn_ant": -3149586.49,
+    "pn_act": -3516468.65,
+    "delta": -366882.15,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "LBY",
+    "año": "2013",
+    "pn_ant": -222427.59,
+    "pn_act": -457006.58,
+    "delta": -234578.99,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TLS",
+    "año": "2012",
+    "pn_ant": -192196.5,
+    "pn_act": -327045.77,
+    "delta": -134849.27,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBY",
+    "año": "2009",
+    "pn_ant": -30649.07,
+    "pn_act": -163626.38,
+    "delta": -132977.31,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TLS",
+    "año": "2023",
+    "pn_ant": -53845.4,
+    "pn_act": -183609.94,
+    "delta": -129764.55,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TLS",
+    "año": "2017",
+    "pn_ant": -81307.36,
+    "pn_act": -186380.45,
+    "delta": -105073.09,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BRN",
+    "año": "2009",
+    "pn_ant": -41067.22,
+    "pn_act": -123241.35,
+    "delta": -82174.13,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TLS",
+    "año": "2022",
+    "pn_ant": -2496.42,
+    "pn_act": -53845.4,
+    "delta": -51348.98,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TLS",
+    "año": "2009",
+    "pn_ant": -827770.89,
+    "pn_act": -871585.89,
+    "delta": -43815.0,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BRN",
+    "año": "2014",
+    "pn_ant": -21837.44,
+    "pn_act": -54239.82,
+    "delta": -32402.38,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DJI",
+    "año": "2009",
+    "pn_ant": -6855.62,
+    "pn_act": -20146.71,
+    "delta": -13291.08,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TLS",
+    "año": "2014",
+    "pn_ant": -73640.79,
+    "pn_act": -85274.04,
+    "delta": -11633.25,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BRN",
+    "año": "2016",
+    "pn_ant": -44987.32,
+    "pn_act": -54584.09,
+    "delta": -9596.77,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BRN",
+    "año": "2023",
+    "pn_ant": -16247.65,
+    "pn_act": -23761.07,
+    "delta": -7513.42,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TLS",
+    "año": "2015",
+    "pn_ant": -85274.04,
+    "pn_act": -92542.16,
+    "delta": -7268.12,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TLS",
+    "año": "2018",
+    "pn_ant": -186380.45,
+    "pn_act": -193417.57,
+    "delta": -7037.11,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DZA",
+    "año": "2011",
+    "pn_ant": -1753.63,
+    "pn_act": -7573.39,
+    "delta": -5819.76,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BRN",
+    "año": "2024",
+    "pn_ant": -23761.07,
+    "pn_act": -29104.16,
+    "delta": -5343.09,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "BRN",
+    "año": "2019",
+    "pn_ant": -24103.9,
+    "pn_act": -29116.83,
+    "delta": -5012.92,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BWA",
+    "año": "2009",
+    "pn_ant": -6972.44,
+    "pn_act": -11099.96,
+    "delta": -4127.52,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "QAT",
+    "año": "2015",
+    "pn_ant": -966.11,
+    "pn_act": -4869.04,
+    "delta": -3902.92,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "QAT",
+    "año": "2023",
+    "pn_ant": -788.33,
+    "pn_act": -4574.71,
+    "delta": -3786.38,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AGO",
+    "año": "2013",
+    "pn_ant": -334.66,
+    "pn_act": -3973.56,
+    "delta": -3638.9,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SAU",
+    "año": "2015",
+    "pn_ant": -1514.18,
+    "pn_act": -4131.13,
+    "delta": -2616.95,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GIN",
+    "año": "2013",
+    "pn_ant": -768.11,
+    "pn_act": -3360.62,
+    "delta": -2592.51,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "QAT",
+    "año": "2020",
+    "pn_ant": -3768.1,
+    "pn_act": -6130.29,
+    "delta": -2362.19,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2014",
+    "pn_ant": -3308.3,
+    "pn_act": -5550.56,
+    "delta": -2242.25,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRQ",
+    "año": "2011",
+    "pn_ant": -2082.03,
+    "pn_act": -4210.03,
+    "delta": -2128.0,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2024",
+    "pn_ant": -2200.57,
+    "pn_act": -4281.11,
+    "delta": -2080.53,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "LSO",
+    "año": "2016",
+    "pn_ant": -784.83,
+    "pn_act": -2609.86,
+    "delta": -1825.02,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DZA",
+    "año": "2015",
+    "pn_ant": -2099.79,
+    "pn_act": -3889.19,
+    "delta": -1789.4,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRQ",
+    "año": "2019",
+    "pn_ant": -604.15,
+    "pn_act": -2276.68,
+    "delta": -1672.54,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GIN",
+    "año": "2017",
+    "pn_ant": -118.69,
+    "pn_act": -1758.23,
+    "delta": -1639.54,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DJI",
+    "año": "2015",
+    "pn_ant": -4389.67,
+    "pn_act": -5855.82,
+    "delta": -1466.15,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DJI",
+    "año": "2010",
+    "pn_ant": -20146.71,
+    "pn_act": -21588.21,
+    "delta": -1441.5,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GIN",
+    "año": "2015",
+    "pn_ant": -3764.18,
+    "pn_act": -5193.18,
+    "delta": -1429.0,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2016",
+    "pn_ant": -6584.97,
+    "pn_act": -7883.99,
+    "delta": -1299.02,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2016",
+    "pn_ant": -719.21,
+    "pn_act": -2017.86,
+    "delta": -1298.65,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LSO",
+    "año": "2018",
+    "pn_ant": -463.12,
+    "pn_act": -1761.73,
+    "delta": -1298.6,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DJI",
+    "año": "2018",
+    "pn_ant": -2190.04,
+    "pn_act": -3484.3,
+    "delta": -1294.26,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LSO",
+    "año": "2019",
+    "pn_ant": -1761.73,
+    "pn_act": -3024.13,
+    "delta": -1262.41,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2019",
+    "pn_ant": -3881.52,
+    "pn_act": -5128.27,
+    "delta": -1246.75,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2018",
+    "pn_ant": -2664.82,
+    "pn_act": -3881.52,
+    "delta": -1216.7,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2020",
+    "pn_ant": -5128.27,
+    "pn_act": -6342.27,
+    "delta": -1214.0,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BLZ",
+    "año": "2020",
+    "pn_ant": -618.43,
+    "pn_act": -1826.78,
+    "delta": -1208.35,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWZ",
+    "año": "2020",
+    "pn_ant": -330.34,
+    "pn_act": -1524.82,
+    "delta": -1194.48,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2013",
+    "pn_ant": -2138.69,
+    "pn_act": -3308.3,
+    "delta": -1169.61,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LSO",
+    "año": "2012",
+    "pn_ant": -711.41,
+    "pn_act": -1879.2,
+    "delta": -1167.79,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DJI",
+    "año": "2012",
+    "pn_ant": -22341.36,
+    "pn_act": -23507.58,
+    "delta": -1166.22,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2021",
+    "pn_ant": -3602.67,
+    "pn_act": -4763.11,
+    "delta": -1160.44,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "QAT",
+    "año": "2019",
+    "pn_ant": -2646.12,
+    "pn_act": -3768.1,
+    "delta": -1121.98,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNE",
+    "año": "2015",
+    "pn_ant": -258.65,
+    "pn_act": -1310.39,
+    "delta": -1051.74,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2015",
+    "pn_ant": -5550.56,
+    "pn_act": -6584.97,
+    "delta": -1034.41,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AZE",
+    "año": "2020",
+    "pn_ant": -204.19,
+    "pn_act": -1208.76,
+    "delta": -1004.57,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRQ",
+    "año": "2023",
+    "pn_ant": -1295.64,
+    "pn_act": -2238.57,
+    "delta": -942.93,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BRN",
+    "año": "2026",
+    "pn_ant": -30028.54,
+    "pn_act": -30967.5,
+    "delta": -938.96,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "BRN",
+    "año": "2025",
+    "pn_ant": -29104.16,
+    "pn_act": -30028.54,
+    "delta": -924.39,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "IRQ",
+    "año": "2020",
+    "pn_ant": -2276.68,
+    "pn_act": -3188.01,
+    "delta": -911.33,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DZA",
+    "año": "2009",
+    "pn_ant": -2054.72,
+    "pn_act": -2934.3,
+    "delta": -879.58,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2011",
+    "pn_ant": -926.92,
+    "pn_act": -1800.46,
+    "delta": -873.55,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BRN",
+    "año": "2020",
+    "pn_ant": -29116.83,
+    "pn_act": -29989.39,
+    "delta": -872.57,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BWA",
+    "año": "2014",
+    "pn_ant": -100.17,
+    "pn_act": -970.17,
+    "delta": -870.0,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DZA",
+    "año": "2014",
+    "pn_ant": -1247.27,
+    "pn_act": -2099.79,
+    "delta": -852.52,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWZ",
+    "año": "2016",
+    "pn_ant": -1116.37,
+    "pn_act": -1916.02,
+    "delta": -799.65,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BLZ",
+    "año": "2017",
+    "pn_ant": -471.44,
+    "pn_act": -1260.19,
+    "delta": -788.75,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DJI",
+    "año": "2011",
+    "pn_ant": -21588.21,
+    "pn_act": -22341.36,
+    "delta": -753.15,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2018",
+    "pn_ant": -2701.13,
+    "pn_act": -3452.51,
+    "delta": -751.37,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KWT",
+    "año": "2020",
+    "pn_ant": -520.54,
+    "pn_act": -1225.75,
+    "delta": -705.21,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BLZ",
+    "año": "2010",
+    "pn_ant": -142.94,
+    "pn_act": -839.31,
+    "delta": -696.36,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2017",
+    "pn_ant": -2017.86,
+    "pn_act": -2701.13,
+    "delta": -683.27,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SAU",
+    "año": "2012",
+    "pn_ant": -821.87,
+    "pn_act": -1493.62,
+    "delta": -671.74,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SYC",
+    "año": "2015",
+    "pn_ant": -276.42,
+    "pn_act": -946.4,
+    "delta": -669.98,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BIH",
+    "año": "2010",
+    "pn_ant": -345.26,
+    "pn_act": -1004.56,
+    "delta": -659.3,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2023",
+    "pn_ant": -1544.83,
+    "pn_act": -2200.57,
+    "delta": -655.75,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GRC",
+    "año": "2013",
+    "pn_ant": -78.35,
+    "pn_act": -724.86,
+    "delta": -646.51,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BRN",
+    "año": "2013",
+    "pn_ant": -21197.76,
+    "pn_act": -21837.44,
+    "delta": -639.67,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DZA",
+    "año": "2012",
+    "pn_ant": -7573.39,
+    "pn_act": -8190.67,
+    "delta": -617.28,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "RUS",
+    "año": "2009",
+    "pn_ant": -215.81,
+    "pn_act": -820.93,
+    "delta": -605.12,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "QAT",
+    "año": "2009",
+    "pn_ant": -685.62,
+    "pn_act": -1220.03,
+    "delta": -534.41,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GIN",
+    "año": "2009",
+    "pn_ant": -128.7,
+    "pn_act": -661.69,
+    "delta": -532.99,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NOR",
+    "año": "2020",
+    "pn_ant": -421.87,
+    "pn_act": -952.49,
+    "delta": -530.62,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NLD",
+    "año": "2009",
+    "pn_ant": -195.17,
+    "pn_act": -715.14,
+    "delta": -519.97,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2013",
+    "pn_ant": -997.24,
+    "pn_act": -1494.36,
+    "delta": -497.12,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWZ",
+    "año": "2015",
+    "pn_ant": -635.54,
+    "pn_act": -1116.37,
+    "delta": -480.83,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DZA",
+    "año": "2019",
+    "pn_ant": -320.3,
+    "pn_act": -793.1,
+    "delta": -472.8,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "QAT",
+    "año": "2024",
+    "pn_ant": -4574.71,
+    "pn_act": -5031.18,
+    "delta": -456.47,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "LSO",
+    "año": "2010",
+    "pn_ant": -423.6,
+    "pn_act": -869.97,
+    "delta": -446.37,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GRC",
+    "año": "2015",
+    "pn_ant": -394.2,
+    "pn_act": -838.74,
+    "delta": -444.54,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2009",
+    "pn_ant": -179.82,
+    "pn_act": -616.23,
+    "delta": -436.4,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NLD",
+    "año": "2020",
+    "pn_ant": -179.78,
+    "pn_act": -613.69,
+    "delta": -433.91,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LSO",
+    "año": "2020",
+    "pn_ant": -3024.13,
+    "pn_act": -3456.65,
+    "delta": -432.52,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BLZ",
+    "año": "2024",
+    "pn_ant": -1124.32,
+    "pn_act": -1541.71,
+    "delta": -417.39,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "GUY",
+    "año": "2024",
+    "pn_ant": -5074.15,
+    "pn_act": -5487.64,
+    "delta": -413.5,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "SAU",
+    "año": "2009",
+    "pn_ant": -101.2,
+    "pn_act": -512.69,
+    "delta": -411.49,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GIN",
+    "año": "2014",
+    "pn_ant": -3360.62,
+    "pn_act": -3764.18,
+    "delta": -403.56,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DNK",
+    "año": "2009",
+    "pn_ant": -187.61,
+    "pn_act": -588.34,
+    "delta": -400.74,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2009",
+    "pn_ant": -494.78,
+    "pn_act": -888.16,
+    "delta": -393.37,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SAU",
+    "año": "2010",
+    "pn_ant": -512.69,
+    "pn_act": -897.45,
+    "delta": -384.76,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FRA",
+    "año": "2020",
+    "pn_ant": -168.29,
+    "pn_act": -551.57,
+    "delta": -383.27,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNE",
+    "año": "2020",
+    "pn_ant": -290.03,
+    "pn_act": -667.74,
+    "delta": -377.71,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "UKR",
+    "año": "2022",
+    "pn_ant": -47.87,
+    "pn_act": -409.12,
+    "delta": -361.25,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GIN",
+    "año": "2010",
+    "pn_ant": -661.69,
+    "pn_act": -1021.87,
+    "delta": -360.18,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BEL",
+    "año": "2020",
+    "pn_ant": -153.16,
+    "pn_act": -506.4,
+    "delta": -353.24,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "QAT",
+    "año": "2013",
+    "pn_ant": -553.25,
+    "pn_act": -904.46,
+    "delta": -351.21,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LUX",
+    "año": "2020",
+    "pn_ant": -49.06,
+    "pn_act": -393.07,
+    "delta": -344.01,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2012",
+    "pn_ant": -1800.46,
+    "pn_act": -2138.69,
+    "delta": -338.23,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2026",
+    "pn_ant": -5805.8,
+    "pn_act": -6133.74,
+    "delta": -327.94,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "COG",
+    "año": "2011",
+    "pn_ant": -228.79,
+    "pn_act": -550.67,
+    "delta": -321.88,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2025",
+    "pn_ant": -5487.64,
+    "pn_act": -5805.8,
+    "delta": -318.16,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "ZWE",
+    "año": "2016",
+    "pn_ant": -187.65,
+    "pn_act": -503.16,
+    "delta": -315.51,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HRV",
+    "año": "2020",
+    "pn_ant": -63.85,
+    "pn_act": -375.47,
+    "delta": -311.62,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "OMN",
+    "año": "2010",
+    "pn_ant": -616.23,
+    "pn_act": -926.92,
+    "delta": -310.69,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MOZ",
+    "año": "2016",
+    "pn_ant": -296.91,
+    "pn_act": -605.13,
+    "delta": -308.22,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "QAT",
+    "año": "2026",
+    "pn_ant": -5318.27,
+    "pn_act": -5615.72,
+    "delta": -297.45,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "OMN",
+    "año": "2026",
+    "pn_ant": -4563.63,
+    "pn_act": -4858.92,
+    "delta": -295.28,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "LSO",
+    "año": "2009",
+    "pn_ant": -129.64,
+    "pn_act": -423.6,
+    "delta": -293.96,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "QAT",
+    "año": "2025",
+    "pn_ant": -5031.18,
+    "pn_act": -5318.27,
+    "delta": -287.09,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "OMN",
+    "año": "2025",
+    "pn_ant": -4281.11,
+    "pn_act": -4563.63,
+    "delta": -282.53,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "KWT",
+    "año": "2010",
+    "pn_ant": -126.87,
+    "pn_act": -403.43,
+    "delta": -276.56,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FIN",
+    "año": "2020",
+    "pn_ant": -105.01,
+    "pn_act": -374.79,
+    "delta": -269.77,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SAU",
+    "año": "2018",
+    "pn_ant": -204.5,
+    "pn_act": -473.54,
+    "delta": -269.05,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BIH",
+    "año": "2009",
+    "pn_ant": -79.17,
+    "pn_act": -345.26,
+    "delta": -266.09,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNG",
+    "año": "2016",
+    "pn_ant": -1.96,
+    "pn_act": -264.71,
+    "delta": -262.74,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2014",
+    "pn_ant": -1494.36,
+    "pn_act": -1749.94,
+    "delta": -255.58,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SYC",
+    "año": "2014",
+    "pn_ant": -23.34,
+    "pn_act": -276.42,
+    "delta": -253.08,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GRC",
+    "año": "2020",
+    "pn_ant": -56.88,
+    "pn_act": -309.25,
+    "delta": -252.36,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BDI",
+    "año": "2010",
+    "pn_ant": -133.37,
+    "pn_act": -384.68,
+    "delta": -251.31,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWZ",
+    "año": "2014",
+    "pn_ant": -384.25,
+    "pn_act": -635.54,
+    "delta": -251.29,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "VEN",
+    "año": "2009",
+    "pn_ant": -898.76,
+    "pn_act": -1147.64,
+    "delta": -248.88,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SAU",
+    "año": "2020",
+    "pn_ant": -477.46,
+    "pn_act": -723.13,
+    "delta": -245.67,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AUT",
+    "año": "2020",
+    "pn_ant": -45.67,
+    "pn_act": -288.51,
+    "delta": -242.84,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TTO",
+    "año": "2014",
+    "pn_ant": -139.73,
+    "pn_act": -372.21,
+    "delta": -232.49,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GIN",
+    "año": "2012",
+    "pn_ant": -537.49,
+    "pn_act": -768.11,
+    "delta": -230.62,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWZ",
+    "año": "2024",
+    "pn_ant": -732.04,
+    "pn_act": -960.03,
+    "delta": -227.99,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "GUY",
+    "año": "2023",
+    "pn_ant": -4848.63,
+    "pn_act": -5074.15,
+    "delta": -225.52,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GEO",
+    "año": "2009",
+    "pn_ant": -7.62,
+    "pn_act": -233.03,
+    "delta": -225.41,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AGO",
+    "año": "2010",
+    "pn_ant": -140.09,
+    "pn_act": -360.49,
+    "delta": -220.4,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNE",
+    "año": "2017",
+    "pn_ant": -18.58,
+    "pn_act": -229.09,
+    "delta": -210.51,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KWT",
+    "año": "2023",
+    "pn_ant": -493.02,
+    "pn_act": -702.81,
+    "delta": -209.8,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NLD",
+    "año": "2010",
+    "pn_ant": -715.14,
+    "pn_act": -922.67,
+    "delta": -207.53,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GRC",
+    "año": "2017",
+    "pn_ant": -335.85,
+    "pn_act": -541.77,
+    "delta": -205.92,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ISL",
+    "año": "2009",
+    "pn_ant": 20.21,
+    "pn_act": -185.1,
+    "delta": -205.31,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NOR",
+    "año": "2023",
+    "pn_ant": -108.95,
+    "pn_act": -314.11,
+    "delta": -205.16,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "COM",
+    "año": "2013",
+    "pn_ant": -474.65,
+    "pn_act": -668.76,
+    "delta": -194.11,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SAU",
+    "año": "2014",
+    "pn_ant": -1321.68,
+    "pn_act": -1514.18,
+    "delta": -192.5,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNE",
+    "año": "2014",
+    "pn_ant": -68.08,
+    "pn_act": -258.65,
+    "delta": -190.57,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWE",
+    "año": "2020",
+    "pn_ant": -229.54,
+    "pn_act": -419.56,
+    "delta": -190.02,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DZA",
+    "año": "2020",
+    "pn_ant": -793.1,
+    "pn_act": -982.5,
+    "delta": -189.4,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ISR",
+    "año": "2020",
+    "pn_ant": -10.84,
+    "pn_act": -199.88,
+    "delta": -189.04,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KWT",
+    "año": "2024",
+    "pn_ant": -702.81,
+    "pn_act": -890.65,
+    "delta": -187.84,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "GUY",
+    "año": "2020",
+    "pn_ant": -3416.88,
+    "pn_act": -3602.67,
+    "delta": -185.79,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "COM",
+    "año": "2015",
+    "pn_ant": -474.85,
+    "pn_act": -659.11,
+    "delta": -184.26,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "VNM",
+    "año": "2010",
+    "pn_ant": -1.47,
+    "pn_act": -183.65,
+    "delta": -182.18,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KWT",
+    "año": "2015",
+    "pn_ant": -339.6,
+    "pn_act": -517.33,
+    "delta": -177.73,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NOR",
+    "año": "2019",
+    "pn_ant": -244.33,
+    "pn_act": -421.87,
+    "delta": -177.53,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SYC",
+    "año": "2018",
+    "pn_ant": -417.79,
+    "pn_act": -592.92,
+    "delta": -175.12,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FIN",
+    "año": "2009",
+    "pn_ant": -22.13,
+    "pn_act": -195.8,
+    "delta": -173.67,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NOR",
+    "año": "2009",
+    "pn_ant": -23.36,
+    "pn_act": -196.76,
+    "delta": -173.4,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LUX",
+    "año": "2023",
+    "pn_ant": -103.4,
+    "pn_act": -275.51,
+    "delta": -172.11,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FJI",
+    "año": "2020",
+    "pn_ant": -241.99,
+    "pn_act": -412.61,
+    "delta": -170.63,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KGZ",
+    "año": "2020",
+    "pn_ant": -151.01,
+    "pn_act": -321.14,
+    "delta": -170.12,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DZA",
+    "año": "2023",
+    "pn_ant": -722.79,
+    "pn_act": -892.12,
+    "delta": -169.33,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWE",
+    "año": "2009",
+    "pn_ant": -142.18,
+    "pn_act": -310.85,
+    "delta": -168.68,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KWT",
+    "año": "2014",
+    "pn_ant": -172.42,
+    "pn_act": -339.6,
+    "delta": -167.18,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BOL",
+    "año": "2020",
+    "pn_ant": -361.02,
+    "pn_act": -526.93,
+    "delta": -165.91,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "VNM",
+    "año": "2012",
+    "pn_ant": -158.96,
+    "pn_act": -323.88,
+    "delta": -164.92,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "RWA",
+    "año": "2021",
+    "pn_ant": -373.31,
+    "pn_act": -534.56,
+    "delta": -161.25,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SVN",
+    "año": "2020",
+    "pn_ant": 37.7,
+    "pn_act": -122.66,
+    "delta": -160.35,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KWT",
+    "año": "2019",
+    "pn_ant": -360.77,
+    "pn_act": -520.54,
+    "delta": -159.77,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MOZ",
+    "año": "2014",
+    "pn_ant": -127.88,
+    "pn_act": -284.78,
+    "delta": -156.9,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWE",
+    "año": "2023",
+    "pn_ant": -115.96,
+    "pn_act": -264.68,
+    "delta": -148.72,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AZE",
+    "año": "2023",
+    "pn_ant": -436.33,
+    "pn_act": -584.41,
+    "delta": -148.09,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HUN",
+    "año": "2015",
+    "pn_ant": -97.11,
+    "pn_act": -242.52,
+    "delta": -145.41,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DNK",
+    "año": "2010",
+    "pn_ant": -588.34,
+    "pn_act": -732.49,
+    "delta": -144.14,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWZ",
+    "año": "2013",
+    "pn_ant": -240.52,
+    "pn_act": -384.25,
+    "delta": -143.74,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BOL",
+    "año": "2015",
+    "pn_ant": -237.89,
+    "pn_act": -376.62,
+    "delta": -138.73,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FRA",
+    "año": "2009",
+    "pn_ant": -53.89,
+    "pn_act": -192.58,
+    "delta": -138.69,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CPV",
+    "año": "2013",
+    "pn_ant": 8.18,
+    "pn_act": -128.95,
+    "delta": -137.13,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "YEM",
+    "año": "2009",
+    "pn_ant": -128.14,
+    "pn_act": -260.79,
+    "delta": -132.65,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARE",
+    "año": "2020",
+    "pn_ant": -184.05,
+    "pn_act": -316.13,
+    "delta": -132.08,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2010",
+    "pn_ant": -888.16,
+    "pn_act": -1019.46,
+    "delta": -131.31,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARE",
+    "año": "2017",
+    "pn_ant": -20.97,
+    "pn_act": -148.43,
+    "delta": -127.47,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MMR",
+    "año": "2021",
+    "pn_ant": -73.4,
+    "pn_act": -199.71,
+    "delta": -126.31,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FJI",
+    "año": "2019",
+    "pn_ant": -117.98,
+    "pn_act": -241.99,
+    "delta": -124.01,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GIN",
+    "año": "2024",
+    "pn_ant": -156.22,
+    "pn_act": -280.04,
+    "delta": -123.82,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "EGY",
+    "año": "2009",
+    "pn_ant": -9.14,
+    "pn_act": -131.37,
+    "delta": -122.23,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "COG",
+    "año": "2014",
+    "pn_ant": -26.08,
+    "pn_act": -146.54,
+    "delta": -120.46,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "EST",
+    "año": "2009",
+    "pn_ant": 44.26,
+    "pn_act": -72.93,
+    "delta": -117.18,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LUX",
+    "año": "2009",
+    "pn_ant": 24.51,
+    "pn_act": -92.56,
+    "delta": -117.07,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BEL",
+    "año": "2009",
+    "pn_ant": -90.86,
+    "pn_act": -204.39,
+    "delta": -113.53,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "RWA",
+    "año": "2024",
+    "pn_ant": -418.9,
+    "pn_act": -532.35,
+    "delta": -113.45,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "LSO",
+    "año": "2024",
+    "pn_ant": -1573.26,
+    "pn_act": -1686.41,
+    "delta": -113.15,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "DJI",
+    "año": "2022",
+    "pn_ant": -508.3,
+    "pn_act": -621.35,
+    "delta": -113.05,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "RWA",
+    "año": "2017",
+    "pn_ant": -78.99,
+    "pn_act": -191.44,
+    "delta": -112.44,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TTO",
+    "año": "2009",
+    "pn_ant": -126.02,
+    "pn_act": -238.18,
+    "delta": -112.16,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "RUS",
+    "año": "2020",
+    "pn_ant": -108.63,
+    "pn_act": -218.79,
+    "delta": -110.16,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FRA",
+    "año": "2012",
+    "pn_ant": -147.36,
+    "pn_act": -257.46,
+    "delta": -110.1,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AGO",
+    "año": "2011",
+    "pn_ant": -360.49,
+    "pn_act": -469.45,
+    "delta": -108.96,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AZE",
+    "año": "2009",
+    "pn_ant": -116.95,
+    "pn_act": -225.83,
+    "delta": -108.88,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GRC",
+    "año": "2009",
+    "pn_ant": -3.76,
+    "pn_act": -111.66,
+    "delta": -107.9,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "RWA",
+    "año": "2019",
+    "pn_ant": -204.67,
+    "pn_act": -312.32,
+    "delta": -107.65,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ZWE",
+    "año": "2021",
+    "pn_ant": -204.73,
+    "pn_act": -312.12,
+    "delta": -107.39,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BLZ",
+    "año": "2016",
+    "pn_ant": -364.5,
+    "pn_act": -471.44,
+    "delta": -106.94,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GAB",
+    "año": "2010",
+    "pn_ant": 10.92,
+    "pn_act": -95.58,
+    "delta": -106.5,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GNB",
+    "año": "2020",
+    "pn_ant": -149.41,
+    "pn_act": -255.86,
+    "delta": -106.45,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BHS",
+    "año": "2020",
+    "pn_ant": -34.35,
+    "pn_act": -139.68,
+    "delta": -105.33,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NOR",
+    "año": "2016",
+    "pn_ant": -218.96,
+    "pn_act": -322.92,
+    "delta": -103.97,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CHN",
+    "año": "2009",
+    "pn_ant": -430.61,
+    "pn_act": -532.37,
+    "delta": -101.76,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNE",
+    "año": "2009",
+    "pn_ant": -376.38,
+    "pn_act": -472.87,
+    "delta": -96.49,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "VEN",
+    "año": "2013",
+    "pn_ant": -1020.8,
+    "pn_act": -1116.99,
+    "delta": -96.19,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CAN",
+    "año": "2020",
+    "pn_ant": 57.52,
+    "pn_act": -37.46,
+    "delta": -94.98,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FRA",
+    "año": "2023",
+    "pn_ant": -276.8,
+    "pn_act": -371.54,
+    "delta": -94.74,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FIN",
+    "año": "2013",
+    "pn_ant": -216.85,
+    "pn_act": -308.51,
+    "delta": -91.66,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NOR",
+    "año": "2015",
+    "pn_ant": -128.59,
+    "pn_act": -218.96,
+    "delta": -90.37,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DEU",
+    "año": "2020",
+    "pn_ant": 7.12,
+    "pn_act": -83.22,
+    "delta": -90.33,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWZ",
+    "año": "2009",
+    "pn_ant": -583.57,
+    "pn_act": -673.51,
+    "delta": -89.94,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ESP",
+    "año": "2020",
+    "pn_ant": 44.47,
+    "pn_act": -45.37,
+    "delta": -89.85,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SRB",
+    "año": "2020",
+    "pn_ant": -12.91,
+    "pn_act": -101.36,
+    "delta": -88.45,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KGZ",
+    "año": "2015",
+    "pn_ant": -77.43,
+    "pn_act": -165.7,
+    "delta": -88.28,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SYC",
+    "año": "2009",
+    "pn_ant": -39.53,
+    "pn_act": -127.77,
+    "delta": -88.24,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DNK",
+    "año": "2020",
+    "pn_ant": -53.55,
+    "pn_act": -141.38,
+    "delta": -87.83,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MOZ",
+    "año": "2010",
+    "pn_ant": -110.58,
+    "pn_act": -197.78,
+    "delta": -87.21,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARE",
+    "año": "2013",
+    "pn_ant": 33.77,
+    "pn_act": -53.11,
+    "delta": -86.88,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2022",
+    "pn_ant": -4763.11,
+    "pn_act": -4848.63,
+    "delta": -85.51,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TJK",
+    "año": "2009",
+    "pn_ant": -146.59,
+    "pn_act": -231.56,
+    "delta": -84.97,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "QAT",
+    "año": "2012",
+    "pn_ant": -468.97,
+    "pn_act": -553.25,
+    "delta": -84.29,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "VEN",
+    "año": "2018",
+    "pn_ant": -858.48,
+    "pn_act": -941.83,
+    "delta": -83.34,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CAF",
+    "año": "2014",
+    "pn_ant": -179.17,
+    "pn_act": -260.41,
+    "delta": -81.24,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LAO",
+    "año": "2013",
+    "pn_ant": -201.68,
+    "pn_act": -282.84,
+    "delta": -81.16,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CZE",
+    "año": "2020",
+    "pn_ant": 34.15,
+    "pn_act": -46.23,
+    "delta": -80.39,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "PRT",
+    "año": "2010",
+    "pn_ant": -24.37,
+    "pn_act": -104.64,
+    "delta": -80.26,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FIN",
+    "año": "2012",
+    "pn_ant": -136.88,
+    "pn_act": -216.85,
+    "delta": -79.97,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BTN",
+    "año": "2021",
+    "pn_ant": -21.02,
+    "pn_act": -100.98,
+    "delta": -79.96,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AZE",
+    "año": "2010",
+    "pn_ant": -225.83,
+    "pn_act": -305.25,
+    "delta": -79.42,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GNB",
+    "año": "2014",
+    "pn_ant": -166.37,
+    "pn_act": -245.15,
+    "delta": -78.78,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HRV",
+    "año": "2009",
+    "pn_ant": -6.81,
+    "pn_act": -84.2,
+    "delta": -77.39,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "POL",
+    "año": "2023",
+    "pn_ant": 13.17,
+    "pn_act": -63.59,
+    "delta": -76.75,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DZA",
+    "año": "2024",
+    "pn_ant": -892.12,
+    "pn_act": -966.51,
+    "delta": -74.39,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "MYS",
+    "año": "2009",
+    "pn_ant": -20.85,
+    "pn_act": -93.91,
+    "delta": -73.06,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GIN",
+    "año": "2020",
+    "pn_ant": -223.17,
+    "pn_act": -295.39,
+    "delta": -72.22,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "VNM",
+    "año": "2013",
+    "pn_ant": -323.88,
+    "pn_act": -395.36,
+    "delta": -71.48,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CHN",
+    "año": "2020",
+    "pn_ant": -319.77,
+    "pn_act": -390.86,
+    "delta": -71.09,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "EGY",
+    "año": "2013",
+    "pn_ant": -40.08,
+    "pn_act": -111.06,
+    "delta": -70.98,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MRT",
+    "año": "2022",
+    "pn_ant": -106.19,
+    "pn_act": -176.78,
+    "delta": -70.59,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KGZ",
+    "año": "2009",
+    "pn_ant": -176.8,
+    "pn_act": -246.26,
+    "delta": -69.46,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNE",
+    "año": "2019",
+    "pn_ant": -221.07,
+    "pn_act": -290.03,
+    "delta": -68.96,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "VEN",
+    "año": "2012",
+    "pn_ant": -951.84,
+    "pn_act": -1020.8,
+    "delta": -68.96,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SYR",
+    "año": "2018",
+    "pn_ant": -153.01,
+    "pn_act": -221.13,
+    "delta": -68.12,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CZE",
+    "año": "2009",
+    "pn_ant": 29.77,
+    "pn_act": -38.29,
+    "delta": -68.06,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CHN",
+    "año": "2022",
+    "pn_ant": -262.28,
+    "pn_act": -329.53,
+    "delta": -67.26,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BHR",
+    "año": "2012",
+    "pn_ant": 66.05,
+    "pn_act": -0.81,
+    "delta": -66.87,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GBR",
+    "año": "2020",
+    "pn_ant": 62.34,
+    "pn_act": -4.39,
+    "delta": -66.73,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HUN",
+    "año": "2020",
+    "pn_ant": -53.29,
+    "pn_act": -119.4,
+    "delta": -66.11,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWE",
+    "año": "2012",
+    "pn_ant": -143.86,
+    "pn_act": -209.65,
+    "delta": -65.79,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NLD",
+    "año": "2012",
+    "pn_ant": -703.85,
+    "pn_act": -769.02,
+    "delta": -65.17,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "POL",
+    "año": "2020",
+    "pn_ant": 29.53,
+    "pn_act": -35.5,
+    "delta": -65.03,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FJI",
+    "año": "2024",
+    "pn_ant": -262.47,
+    "pn_act": -326.91,
+    "delta": -64.45,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "EGY",
+    "año": "2014",
+    "pn_ant": -111.06,
+    "pn_act": -174.87,
+    "delta": -63.82,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AZE",
+    "año": "2024",
+    "pn_ant": -584.41,
+    "pn_act": -648.06,
+    "delta": -63.64,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "ITA",
+    "año": "2020",
+    "pn_ant": 39.57,
+    "pn_act": -23.76,
+    "delta": -63.33,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DJI",
+    "año": "2023",
+    "pn_ant": -621.35,
+    "pn_act": -683.9,
+    "delta": -62.55,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SAU",
+    "año": "2024",
+    "pn_ant": -117.65,
+    "pn_act": -179.87,
+    "delta": -62.21,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "QAT",
+    "año": "2014",
+    "pn_ant": -904.46,
+    "pn_act": -966.11,
+    "delta": -61.66,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "RWA",
+    "año": "2020",
+    "pn_ant": -312.32,
+    "pn_act": -373.31,
+    "delta": -60.99,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "RWA",
+    "año": "2010",
+    "pn_ant": -25.33,
+    "pn_act": -85.88,
+    "delta": -60.55,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "VEN",
+    "año": "2011",
+    "pn_ant": -891.9,
+    "pn_act": -951.84,
+    "delta": -59.94,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HRV",
+    "año": "2023",
+    "pn_ant": -15.48,
+    "pn_act": -74.64,
+    "delta": -59.16,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ISL",
+    "año": "2020",
+    "pn_ant": 30.27,
+    "pn_act": -27.99,
+    "delta": -58.26,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GRC",
+    "año": "2024",
+    "pn_ant": -96.63,
+    "pn_act": -154.6,
+    "delta": -57.98,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "CHN",
+    "año": "2023",
+    "pn_ant": -329.53,
+    "pn_act": -387.44,
+    "delta": -57.91,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AUT",
+    "año": "2024",
+    "pn_ant": -78.9,
+    "pn_act": -135.91,
+    "delta": -57.01,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "AUT",
+    "año": "2009",
+    "pn_ant": -21.08,
+    "pn_act": -77.85,
+    "delta": -56.77,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TJK",
+    "año": "2011",
+    "pn_ant": -165.61,
+    "pn_act": -222.23,
+    "delta": -56.61,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GRC",
+    "año": "2012",
+    "pn_ant": -21.78,
+    "pn_act": -78.35,
+    "delta": -56.56,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MOZ",
+    "año": "2013",
+    "pn_ant": -71.32,
+    "pn_act": -127.88,
+    "delta": -56.56,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KWT",
+    "año": "2026",
+    "pn_ant": -945.65,
+    "pn_act": -1001.95,
+    "delta": -56.31,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "SVN",
+    "año": "2010",
+    "pn_ant": -21.09,
+    "pn_act": -76.75,
+    "delta": -55.66,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TJK",
+    "año": "2023",
+    "pn_ant": -108.54,
+    "pn_act": -164.11,
+    "delta": -55.58,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BTN",
+    "año": "2020",
+    "pn_ant": 34.47,
+    "pn_act": -21.02,
+    "delta": -55.49,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KWT",
+    "año": "2025",
+    "pn_ant": -890.65,
+    "pn_act": -945.65,
+    "delta": -54.99,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "SYR",
+    "año": "2016",
+    "pn_ant": -106.36,
+    "pn_act": -161.31,
+    "delta": -54.95,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TUN",
+    "año": "2020",
+    "pn_ant": -68.21,
+    "pn_act": -122.98,
+    "delta": -54.78,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARE",
+    "año": "2009",
+    "pn_ant": 51.33,
+    "pn_act": -3.1,
+    "delta": -54.43,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HRV",
+    "año": "2013",
+    "pn_ant": -36.4,
+    "pn_act": -90.8,
+    "delta": -54.4,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "PRT",
+    "año": "2009",
+    "pn_ant": 29.87,
+    "pn_act": -24.37,
+    "delta": -54.24,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CHN",
+    "año": "2016",
+    "pn_ant": -229.57,
+    "pn_act": -283.05,
+    "delta": -53.47,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MRT",
+    "año": "2021",
+    "pn_ant": -52.87,
+    "pn_act": -106.19,
+    "delta": -53.31,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MRT",
+    "año": "2023",
+    "pn_ant": -176.78,
+    "pn_act": -229.7,
+    "delta": -52.92,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LUX",
+    "año": "2010",
+    "pn_ant": -92.56,
+    "pn_act": -144.31,
+    "delta": -51.75,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ESP",
+    "año": "2009",
+    "pn_ant": 58.58,
+    "pn_act": 7.14,
+    "delta": -51.44,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "POL",
+    "año": "2010",
+    "pn_ant": -31.39,
+    "pn_act": -82.05,
+    "delta": -50.66,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FRA",
+    "año": "2018",
+    "pn_ant": -127.51,
+    "pn_act": -177.62,
+    "delta": -50.11,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWE",
+    "año": "2018",
+    "pn_ant": -157.52,
+    "pn_act": -206.41,
+    "delta": -48.88,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NLD",
+    "año": "2024",
+    "pn_ant": -210.34,
+    "pn_act": -259.05,
+    "delta": -48.71,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "SYC",
+    "año": "2020",
+    "pn_ant": 45.12,
+    "pn_act": -3.53,
+    "delta": -48.65,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LSO",
+    "año": "2013",
+    "pn_ant": -1879.2,
+    "pn_act": -1927.75,
+    "delta": -48.55,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AZE",
+    "año": "2018",
+    "pn_ant": -109.29,
+    "pn_act": -157.72,
+    "delta": -48.42,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "RUS",
+    "año": "2023",
+    "pn_ant": -177.67,
+    "pn_act": -226.06,
+    "delta": -48.39,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TTO",
+    "año": "2019",
+    "pn_ant": -42.89,
+    "pn_act": -91.22,
+    "delta": -48.33,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TUN",
+    "año": "2011",
+    "pn_ant": 29.17,
+    "pn_act": -18.51,
+    "delta": -47.67,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FIN",
+    "año": "2023",
+    "pn_ant": -136.49,
+    "pn_act": -184.1,
+    "delta": -47.61,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HUN",
+    "año": "2013",
+    "pn_ant": -24.29,
+    "pn_act": -71.88,
+    "delta": -47.59,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MWI",
+    "año": "2017",
+    "pn_ant": -47.3,
+    "pn_act": -94.45,
+    "delta": -47.15,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BWA",
+    "año": "2013",
+    "pn_ant": -53.15,
+    "pn_act": -100.17,
+    "delta": -47.02,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BLZ",
+    "año": "2023",
+    "pn_ant": -1077.37,
+    "pn_act": -1124.32,
+    "delta": -46.94,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MYS",
+    "año": "2013",
+    "pn_ant": -14.35,
+    "pn_act": -61.21,
+    "delta": -46.86,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GNB",
+    "año": "2018",
+    "pn_ant": -157.66,
+    "pn_act": -204.47,
+    "delta": -46.81,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AZE",
+    "año": "2019",
+    "pn_ant": -157.72,
+    "pn_act": -204.19,
+    "delta": -46.48,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GAB",
+    "año": "2012",
+    "pn_ant": -95.43,
+    "pn_act": -141.75,
+    "delta": -46.32,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BLZ",
+    "año": "2009",
+    "pn_ant": -96.93,
+    "pn_act": -142.94,
+    "delta": -46.02,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "UKR",
+    "año": "2009",
+    "pn_ant": -69.55,
+    "pn_act": -115.47,
+    "delta": -45.92,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BOL",
+    "año": "2024",
+    "pn_ant": -433.88,
+    "pn_act": -479.75,
+    "delta": -45.87,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "NZL",
+    "año": "2020",
+    "pn_ant": 61.8,
+    "pn_act": 15.99,
+    "delta": -45.82,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "YEM",
+    "año": "2015",
+    "pn_ant": -93.66,
+    "pn_act": -139.06,
+    "delta": -45.4,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "EST",
+    "año": "2023",
+    "pn_ant": 34.5,
+    "pn_act": -10.83,
+    "delta": -45.33,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BOL",
+    "año": "2009",
+    "pn_ant": -220.53,
+    "pn_act": -265.39,
+    "delta": -44.86,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TJK",
+    "año": "2014",
+    "pn_ant": -208.34,
+    "pn_act": -252.9,
+    "delta": -44.56,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TTO",
+    "año": "2017",
+    "pn_ant": -113.76,
+    "pn_act": -157.84,
+    "delta": -44.08,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWE",
+    "año": "2016",
+    "pn_ant": -146.88,
+    "pn_act": -190.47,
+    "delta": -43.59,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TUN",
+    "año": "2019",
+    "pn_ant": -24.71,
+    "pn_act": -68.21,
+    "delta": -43.5,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNG",
+    "año": "2020",
+    "pn_ant": 13.0,
+    "pn_act": -30.44,
+    "delta": -43.44,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "COM",
+    "año": "2018",
+    "pn_ant": -162.54,
+    "pn_act": -205.76,
+    "delta": -43.22,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRN",
+    "año": "2016",
+    "pn_ant": -194.73,
+    "pn_act": -237.88,
+    "delta": -43.15,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "POL",
+    "año": "2009",
+    "pn_ant": 11.55,
+    "pn_act": -31.39,
+    "delta": -42.95,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MLT",
+    "año": "2020",
+    "pn_ant": 50.29,
+    "pn_act": 7.81,
+    "delta": -42.48,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "RWA",
+    "año": "2013",
+    "pn_ant": -76.06,
+    "pn_act": -118.47,
+    "delta": -42.41,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FJI",
+    "año": "2016",
+    "pn_ant": -107.21,
+    "pn_act": -149.23,
+    "delta": -42.02,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LUX",
+    "año": "2022",
+    "pn_ant": -61.42,
+    "pn_act": -103.4,
+    "delta": -41.98,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NOR",
+    "año": "2018",
+    "pn_ant": -202.69,
+    "pn_act": -244.33,
+    "delta": -41.64,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NIC",
+    "año": "2019",
+    "pn_ant": -48.26,
+    "pn_act": -89.37,
+    "delta": -41.11,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MOZ",
+    "año": "2011",
+    "pn_ant": -197.78,
+    "pn_act": -238.31,
+    "delta": -40.52,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "EST",
+    "año": "2020",
+    "pn_ant": 34.35,
+    "pn_act": -6.09,
+    "delta": -40.43,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SOM",
+    "año": "2016",
+    "pn_ant": -285.43,
+    "pn_act": -325.7,
+    "delta": -40.27,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LAO",
+    "año": "2012",
+    "pn_ant": -161.61,
+    "pn_act": -201.68,
+    "delta": -40.06,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRN",
+    "año": "2015",
+    "pn_ant": -154.78,
+    "pn_act": -194.73,
+    "delta": -39.94,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SYR",
+    "año": "2009",
+    "pn_ant": -127.11,
+    "pn_act": -166.83,
+    "delta": -39.73,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "RUS",
+    "año": "2019",
+    "pn_ant": -69.74,
+    "pn_act": -108.63,
+    "delta": -38.89,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MWI",
+    "año": "2011",
+    "pn_ant": -31.2,
+    "pn_act": -70.0,
+    "delta": -38.8,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LVA",
+    "año": "2021",
+    "pn_ant": 0.84,
+    "pn_act": -37.8,
+    "delta": -38.64,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MDA",
+    "año": "2009",
+    "pn_ant": 38.64,
+    "pn_act": -0.0,
+    "delta": -38.64,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HRV",
+    "año": "2019",
+    "pn_ant": -25.21,
+    "pn_act": -63.85,
+    "delta": -38.63,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BOL",
+    "año": "2018",
+    "pn_ant": -309.42,
+    "pn_act": -347.77,
+    "delta": -38.34,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CAF",
+    "año": "2020",
+    "pn_ant": -157.08,
+    "pn_act": -195.42,
+    "delta": -38.34,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GNB",
+    "año": "2022",
+    "pn_ant": -180.01,
+    "pn_act": -218.15,
+    "delta": -38.14,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CPV",
+    "año": "2010",
+    "pn_ant": 51.91,
+    "pn_act": 14.22,
+    "delta": -37.69,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BWA",
+    "año": "2024",
+    "pn_ant": -99.44,
+    "pn_act": -137.0,
+    "delta": -37.56,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "RUS",
+    "año": "2022",
+    "pn_ant": -140.36,
+    "pn_act": -177.67,
+    "delta": -37.3,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRN",
+    "año": "2013",
+    "pn_ant": -127.83,
+    "pn_act": -165.01,
+    "delta": -37.19,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MKD",
+    "año": "2010",
+    "pn_ant": 33.04,
+    "pn_act": -3.96,
+    "delta": -37.01,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRQ",
+    "año": "2013",
+    "pn_ant": -1874.86,
+    "pn_act": -1911.58,
+    "delta": -36.72,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SUR",
+    "año": "2011",
+    "pn_ant": 20.74,
+    "pn_act": -15.9,
+    "delta": -36.64,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MRT",
+    "año": "2012",
+    "pn_ant": -3.98,
+    "pn_act": -40.52,
+    "delta": -36.54,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MDG",
+    "año": "2020",
+    "pn_ant": -31.78,
+    "pn_act": -68.14,
+    "delta": -36.36,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "COM",
+    "año": "2012",
+    "pn_ant": -438.4,
+    "pn_act": -474.65,
+    "delta": -36.26,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARE",
+    "año": "2015",
+    "pn_ant": -44.39,
+    "pn_act": -80.34,
+    "delta": -35.95,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MRT",
+    "año": "2015",
+    "pn_ant": -61.87,
+    "pn_act": -97.61,
+    "delta": -35.74,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BTN",
+    "año": "2012",
+    "pn_ant": -45.41,
+    "pn_act": -81.07,
+    "delta": -35.66,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SDN",
+    "año": "2023",
+    "pn_ant": -130.42,
+    "pn_act": -165.9,
+    "delta": -35.48,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "VEN",
+    "año": "2017",
+    "pn_ant": -823.03,
+    "pn_act": -858.48,
+    "delta": -35.45,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AUS",
+    "año": "2020",
+    "pn_ant": 60.74,
+    "pn_act": 25.4,
+    "delta": -35.34,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MWI",
+    "año": "2019",
+    "pn_ant": -36.04,
+    "pn_act": -71.3,
+    "delta": -35.26,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HUN",
+    "año": "2023",
+    "pn_ant": -11.56,
+    "pn_act": -46.31,
+    "delta": -34.74,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "VNM",
+    "año": "2024",
+    "pn_ant": -55.54,
+    "pn_act": -90.15,
+    "delta": -34.61,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "PNG",
+    "año": "2013",
+    "pn_ant": -40.28,
+    "pn_act": -74.52,
+    "delta": -34.24,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ZAF",
+    "año": "2020",
+    "pn_ant": -8.41,
+    "pn_act": -42.62,
+    "delta": -34.21,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNE",
+    "año": "2024",
+    "pn_ant": -286.17,
+    "pn_act": -320.35,
+    "delta": -34.18,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "PNG",
+    "año": "2014",
+    "pn_ant": -74.52,
+    "pn_act": -108.67,
+    "delta": -34.16,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HRV",
+    "año": "2014",
+    "pn_ant": -90.8,
+    "pn_act": -124.95,
+    "delta": -34.14,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NIC",
+    "año": "2020",
+    "pn_ant": -89.37,
+    "pn_act": -123.01,
+    "delta": -33.64,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KGZ",
+    "año": "2022",
+    "pn_ant": -161.52,
+    "pn_act": -195.05,
+    "delta": -33.53,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SRB",
+    "año": "2021",
+    "pn_ant": -101.36,
+    "pn_act": -134.68,
+    "delta": -33.32,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ETH",
+    "año": "2023",
+    "pn_ant": -6.82,
+    "pn_act": -40.13,
+    "delta": -33.31,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GBR",
+    "año": "2009",
+    "pn_ant": 58.65,
+    "pn_act": 25.36,
+    "delta": -33.29,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FJI",
+    "año": "2012",
+    "pn_ant": -280.14,
+    "pn_act": -313.41,
+    "delta": -33.27,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NOR",
+    "año": "2013",
+    "pn_ant": -93.18,
+    "pn_act": -125.52,
+    "delta": -32.34,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "COG",
+    "año": "2020",
+    "pn_ant": -23.94,
+    "pn_act": -55.93,
+    "delta": -31.99,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ZAF",
+    "año": "2009",
+    "pn_ant": 54.36,
+    "pn_act": 22.43,
+    "delta": -31.94,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AZE",
+    "año": "2026",
+    "pn_ant": -679.05,
+    "pn_act": -710.94,
+    "delta": -31.89,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "ARG",
+    "año": "2009",
+    "pn_ant": 4.52,
+    "pn_act": -27.32,
+    "delta": -31.84,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LTU",
+    "año": "2009",
+    "pn_ant": 43.2,
+    "pn_act": 11.91,
+    "delta": -31.29,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BDI",
+    "año": "2017",
+    "pn_ant": -132.04,
+    "pn_act": -163.05,
+    "delta": -31.0,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AZE",
+    "año": "2025",
+    "pn_ant": -648.06,
+    "pn_act": -679.05,
+    "delta": -30.99,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "BDI",
+    "año": "2022",
+    "pn_ant": -83.99,
+    "pn_act": -114.94,
+    "delta": -30.95,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BHR",
+    "año": "2014",
+    "pn_ant": 66.36,
+    "pn_act": 35.55,
+    "delta": -30.81,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AUT",
+    "año": "2018",
+    "pn_ant": 3.03,
+    "pn_act": -27.59,
+    "delta": -30.61,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "VNM",
+    "año": "2009",
+    "pn_ant": 28.66,
+    "pn_act": -1.47,
+    "delta": -30.13,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CAF",
+    "año": "2012",
+    "pn_ant": -179.98,
+    "pn_act": -210.05,
+    "delta": -30.07,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KGZ",
+    "año": "2018",
+    "pn_ant": -152.4,
+    "pn_act": -181.97,
+    "delta": -29.57,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TTO",
+    "año": "2020",
+    "pn_ant": -91.22,
+    "pn_act": -120.77,
+    "delta": -29.55,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BEL",
+    "año": "2011",
+    "pn_ant": -163.79,
+    "pn_act": -193.11,
+    "delta": -29.32,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BFA",
+    "año": "2018",
+    "pn_ant": -32.73,
+    "pn_act": -62.01,
+    "delta": -29.29,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MWI",
+    "año": "2012",
+    "pn_ant": -70.0,
+    "pn_act": -98.98,
+    "delta": -28.98,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MWI",
+    "año": "2015",
+    "pn_ant": -43.93,
+    "pn_act": -72.79,
+    "delta": -28.86,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BIH",
+    "año": "2014",
+    "pn_ant": -105.22,
+    "pn_act": -134.05,
+    "delta": -28.83,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWZ",
+    "año": "2023",
+    "pn_ant": -703.22,
+    "pn_act": -732.04,
+    "delta": -28.82,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "NIC",
+    "año": "2018",
+    "pn_ant": -19.46,
+    "pn_act": -48.26,
+    "delta": -28.8,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CYP",
+    "año": "2020",
+    "pn_ant": 60.23,
+    "pn_act": 31.48,
+    "delta": -28.75,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "COM",
+    "año": "2019",
+    "pn_ant": -205.76,
+    "pn_act": -234.47,
+    "delta": -28.71,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWE",
+    "año": "2013",
+    "pn_ant": -209.65,
+    "pn_act": -238.29,
+    "delta": -28.64,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LVA",
+    "año": "2020",
+    "pn_ant": 29.36,
+    "pn_act": 0.84,
+    "delta": -28.51,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ZWE",
+    "año": "2013",
+    "pn_ant": -213.3,
+    "pn_act": -241.69,
+    "delta": -28.38,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TUN",
+    "año": "2016",
+    "pn_ant": 21.6,
+    "pn_act": -6.72,
+    "delta": -28.32,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BHR",
+    "año": "2016",
+    "pn_ant": 62.11,
+    "pn_act": 33.94,
+    "delta": -28.17,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TUR",
+    "año": "2025",
+    "pn_ant": 71.25,
+    "pn_act": 43.14,
+    "delta": -28.11,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": true
+  },
+  {
+    "pais": "ISR",
+    "año": "2010",
+    "pn_ant": 40.91,
+    "pn_act": 12.81,
+    "delta": -28.1,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "FJI",
+    "año": "2009",
+    "pn_ant": -259.4,
+    "pn_act": -287.38,
+    "delta": -27.98,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CAF",
+    "año": "2023",
+    "pn_ant": -189.51,
+    "pn_act": -217.47,
+    "delta": -27.95,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TGO",
+    "año": "2010",
+    "pn_ant": -10.31,
+    "pn_act": -38.01,
+    "delta": -27.7,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HUN",
+    "año": "2017",
+    "pn_ant": -7.18,
+    "pn_act": -34.84,
+    "delta": -27.66,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CAN",
+    "año": "2009",
+    "pn_ant": 60.72,
+    "pn_act": 33.09,
+    "delta": -27.63,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRN",
+    "año": "2011",
+    "pn_ant": -115.64,
+    "pn_act": -143.2,
+    "delta": -27.56,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "USA",
+    "año": "2009",
+    "pn_ant": 74.03,
+    "pn_act": 46.51,
+    "delta": -27.52,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "AUS",
+    "año": "2021",
+    "pn_ant": 25.4,
+    "pn_act": -1.87,
+    "delta": -27.27,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "KEN",
+    "año": "2016",
+    "pn_ant": 40.77,
+    "pn_act": 13.53,
+    "delta": -27.23,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "COG",
+    "año": "2017",
+    "pn_ant": 7.67,
+    "pn_act": -19.39,
+    "delta": -27.06,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HUN",
+    "año": "2012",
+    "pn_ant": 2.41,
+    "pn_act": -24.29,
+    "delta": -26.71,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BHR",
+    "año": "2009",
+    "pn_ant": 48.78,
+    "pn_act": 22.09,
+    "delta": -26.69,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BFA",
+    "año": "2013",
+    "pn_ant": 14.73,
+    "pn_act": -11.9,
+    "delta": -26.64,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "GNB",
+    "año": "2013",
+    "pn_ant": -139.83,
+    "pn_act": -166.37,
+    "delta": -26.54,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SVN",
+    "año": "2014",
+    "pn_ant": -32.27,
+    "pn_act": -58.57,
+    "delta": -26.3,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SVK",
+    "año": "2011",
+    "pn_ant": 59.77,
+    "pn_act": 33.64,
+    "delta": -26.12,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "COM",
+    "año": "2021",
+    "pn_ant": -224.83,
+    "pn_act": -250.77,
+    "delta": -25.95,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ITA",
+    "año": "2009",
+    "pn_ant": 57.22,
+    "pn_act": 31.34,
+    "delta": -25.89,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "MLI",
+    "año": "2014",
+    "pn_ant": 15.15,
+    "pn_act": -10.69,
+    "delta": -25.84,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "DEU",
+    "año": "2009",
+    "pn_ant": 48.7,
+    "pn_act": 22.87,
+    "delta": -25.83,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "LUX",
+    "año": "2015",
+    "pn_ant": -2.05,
+    "pn_act": -27.7,
+    "delta": -25.65,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "CHN",
+    "año": "2017",
+    "pn_ant": -283.05,
+    "pn_act": -308.62,
+    "delta": -25.58,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "TUN",
+    "año": "2010",
+    "pn_ant": 54.67,
+    "pn_act": 29.17,
+    "delta": -25.5,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "BFA",
+    "año": "2017",
+    "pn_ant": -7.27,
+    "pn_act": -32.73,
+    "delta": -25.46,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "HUN",
+    "año": "2014",
+    "pn_ant": -71.88,
+    "pn_act": -97.11,
+    "delta": -25.23,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "ISR",
+    "año": "2023",
+    "pn_ant": -0.92,
+    "pn_act": -26.05,
+    "delta": -25.12,
+    "tipo": "DETERIORO_SEVERO",
+    "proyectado": false
+  },
+  {
+    "pais": "SGP",
+    "año": "2020",
+    "pn_ant": 71.23,
+    "pn_act": 46.25,
+    "delta": -24.99,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNG",
+    "año": "2014",
+    "pn_ant": 35.58,
+    "pn_act": 10.83,
+    "delta": -24.75,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBR",
+    "año": "2018",
+    "pn_ant": -39.7,
+    "pn_act": -64.33,
+    "delta": -24.64,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "RUS",
+    "año": "2014",
+    "pn_ant": -120.21,
+    "pn_act": -144.66,
+    "delta": -24.44,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MEX",
+    "año": "2019",
+    "pn_ant": 69.49,
+    "pn_act": 45.07,
+    "delta": -24.42,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LUX",
+    "año": "2018",
+    "pn_ant": -23.58,
+    "pn_act": -47.69,
+    "delta": -24.1,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BRA",
+    "año": "2020",
+    "pn_ant": 27.84,
+    "pn_act": 4.05,
+    "delta": -23.79,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SRB",
+    "año": "2024",
+    "pn_ant": -25.22,
+    "pn_act": -49.0,
+    "delta": -23.78,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "TUR",
+    "año": "2022",
+    "pn_ant": 69.18,
+    "pn_act": 45.42,
+    "delta": -23.76,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARG",
+    "año": "2012",
+    "pn_ant": -22.07,
+    "pn_act": -45.82,
+    "delta": -23.75,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SUR",
+    "año": "2013",
+    "pn_ant": -35.37,
+    "pn_act": -59.08,
+    "delta": -23.71,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LVA",
+    "año": "2011",
+    "pn_ant": 72.56,
+    "pn_act": 48.86,
+    "delta": -23.7,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "RWA",
+    "año": "2026",
+    "pn_ant": -555.5,
+    "pn_act": -579.11,
+    "delta": -23.61,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "DEU",
+    "año": "2024",
+    "pn_ant": -30.29,
+    "pn_act": -53.87,
+    "delta": -23.58,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "AZE",
+    "año": "2014",
+    "pn_ant": -207.87,
+    "pn_act": -231.33,
+    "delta": -23.46,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "THA",
+    "año": "2017",
+    "pn_ant": 67.46,
+    "pn_act": 44.04,
+    "delta": -23.43,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BOL",
+    "año": "2014",
+    "pn_ant": -214.55,
+    "pn_act": -237.89,
+    "delta": -23.34,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "HUN",
+    "año": "2018",
+    "pn_ant": -34.84,
+    "pn_act": -58.1,
+    "delta": -23.26,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "FJI",
+    "año": "2021",
+    "pn_ant": -412.61,
+    "pn_act": -435.85,
+    "delta": -23.24,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "RWA",
+    "año": "2025",
+    "pn_ant": -532.35,
+    "pn_act": -555.5,
+    "delta": -23.15,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "SWE",
+    "año": "2019",
+    "pn_ant": -206.41,
+    "pn_act": -229.54,
+    "delta": -23.14,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LTU",
+    "año": "2015",
+    "pn_ant": 76.63,
+    "pn_act": 53.52,
+    "delta": -23.11,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MMR",
+    "año": "2024",
+    "pn_ant": -170.66,
+    "pn_act": -193.64,
+    "delta": -22.99,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "NLD",
+    "año": "2023",
+    "pn_ant": -187.39,
+    "pn_act": -210.34,
+    "delta": -22.96,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MYS",
+    "año": "2022",
+    "pn_ant": 73.95,
+    "pn_act": 51.05,
+    "delta": -22.89,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "EST",
+    "año": "2015",
+    "pn_ant": 40.67,
+    "pn_act": 17.83,
+    "delta": -22.84,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NZL",
+    "año": "2009",
+    "pn_ant": 63.31,
+    "pn_act": 40.69,
+    "delta": -22.61,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARG",
+    "año": "2014",
+    "pn_ant": -56.07,
+    "pn_act": -78.58,
+    "delta": -22.5,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BWA",
+    "año": "2018",
+    "pn_ant": -206.14,
+    "pn_act": -228.62,
+    "delta": -22.48,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TGO",
+    "año": "2016",
+    "pn_ant": 9.09,
+    "pn_act": -13.23,
+    "delta": -22.32,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SOM",
+    "año": "2024",
+    "pn_ant": -229.03,
+    "pn_act": -251.22,
+    "delta": -22.19,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "BGR",
+    "año": "2015",
+    "pn_ant": 12.82,
+    "pn_act": -9.07,
+    "delta": -21.89,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MKD",
+    "año": "2020",
+    "pn_ant": 35.53,
+    "pn_act": 13.64,
+    "delta": -21.89,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBR",
+    "año": "2015",
+    "pn_ant": 6.26,
+    "pn_act": -15.62,
+    "delta": -21.88,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ISR",
+    "año": "2013",
+    "pn_ant": 25.19,
+    "pn_act": 3.48,
+    "delta": -21.71,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SUR",
+    "año": "2010",
+    "pn_ant": 41.96,
+    "pn_act": 20.74,
+    "delta": -21.22,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TUN",
+    "año": "2024",
+    "pn_ant": -87.29,
+    "pn_act": -108.44,
+    "delta": -21.16,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "LSO",
+    "año": "2023",
+    "pn_ant": -1552.19,
+    "pn_act": -1573.26,
+    "delta": -21.06,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SLV",
+    "año": "2023",
+    "pn_ant": 36.88,
+    "pn_act": 15.93,
+    "delta": -20.95,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NER",
+    "año": "2012",
+    "pn_ant": -5.01,
+    "pn_act": -25.95,
+    "delta": -20.94,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TTO",
+    "año": "2021",
+    "pn_ant": -120.77,
+    "pn_act": -141.68,
+    "delta": -20.9,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ECU",
+    "año": "2016",
+    "pn_ant": 4.08,
+    "pn_act": -16.78,
+    "delta": -20.86,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ETH",
+    "año": "2017",
+    "pn_ant": 3.98,
+    "pn_act": -16.77,
+    "delta": -20.75,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SYR",
+    "año": "2012",
+    "pn_ant": -96.85,
+    "pn_act": -117.58,
+    "delta": -20.73,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SVK",
+    "año": "2023",
+    "pn_ant": 63.99,
+    "pn_act": 43.5,
+    "delta": -20.49,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWZ",
+    "año": "2026",
+    "pn_ant": -980.21,
+    "pn_act": -1000.63,
+    "delta": -20.42,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "BTN",
+    "año": "2024",
+    "pn_ant": 15.77,
+    "pn_act": -4.57,
+    "delta": -20.34,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "NER",
+    "año": "2021",
+    "pn_ant": -12.78,
+    "pn_act": -33.08,
+    "delta": -20.3,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SVN",
+    "año": "2009",
+    "pn_ant": -0.81,
+    "pn_act": -21.09,
+    "delta": -20.28,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SVK",
+    "año": "2015",
+    "pn_ant": 40.99,
+    "pn_act": 20.79,
+    "delta": -20.2,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SWZ",
+    "año": "2025",
+    "pn_ant": -960.03,
+    "pn_act": -980.21,
+    "delta": -20.18,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "ZWE",
+    "año": "2020",
+    "pn_ant": -184.55,
+    "pn_act": -204.73,
+    "delta": -20.17,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TTO",
+    "año": "2024",
+    "pn_ant": -119.86,
+    "pn_act": -140.02,
+    "delta": -20.16,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "TCD",
+    "año": "2011",
+    "pn_ant": -79.25,
+    "pn_act": -99.42,
+    "delta": -20.16,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ZWE",
+    "año": "2024",
+    "pn_ant": -218.08,
+    "pn_act": -238.15,
+    "delta": -20.07,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "THA",
+    "año": "2010",
+    "pn_ant": 72.7,
+    "pn_act": 52.69,
+    "delta": -20.01,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ECU",
+    "año": "2009",
+    "pn_ant": 19.01,
+    "pn_act": -0.98,
+    "delta": -19.99,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NER",
+    "año": "2018",
+    "pn_ant": -9.44,
+    "pn_act": -29.39,
+    "delta": -19.95,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARE",
+    "año": "2019",
+    "pn_ant": -164.19,
+    "pn_act": -184.05,
+    "delta": -19.86,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "CHN",
+    "año": "2019",
+    "pn_ant": -299.91,
+    "pn_act": -319.77,
+    "delta": -19.86,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "UKR",
+    "año": "2018",
+    "pn_ant": -86.0,
+    "pn_act": -105.71,
+    "delta": -19.72,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRL",
+    "año": "2009",
+    "pn_ant": 32.28,
+    "pn_act": 12.57,
+    "delta": -19.7,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MUS",
+    "año": "2021",
+    "pn_ant": 73.62,
+    "pn_act": 53.94,
+    "delta": -19.67,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "HKG",
+    "año": "2022",
+    "pn_ant": 80.44,
+    "pn_act": 60.85,
+    "delta": -19.59,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "AZE",
+    "año": "2012",
+    "pn_ant": -212.94,
+    "pn_act": -232.5,
+    "delta": -19.57,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SLE",
+    "año": "2013",
+    "pn_ant": 32.21,
+    "pn_act": 12.64,
+    "delta": -19.57,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SUR",
+    "año": "2012",
+    "pn_ant": -15.9,
+    "pn_act": -35.37,
+    "delta": -19.47,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBN",
+    "año": "2012",
+    "pn_ant": 31.0,
+    "pn_act": 11.54,
+    "delta": -19.47,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "HUN",
+    "año": "2010",
+    "pn_ant": 36.02,
+    "pn_act": 16.6,
+    "delta": -19.41,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "FJI",
+    "año": "2014",
+    "pn_ant": -298.32,
+    "pn_act": -317.69,
+    "delta": -19.36,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ITA",
+    "año": "2024",
+    "pn_ant": 46.14,
+    "pn_act": 26.79,
+    "delta": -19.35,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "SRB",
+    "año": "2010",
+    "pn_ant": -17.92,
+    "pn_act": -37.24,
+    "delta": -19.32,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BLZ",
+    "año": "2026",
+    "pn_ant": -1560.77,
+    "pn_act": -1579.98,
+    "delta": -19.2,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "BLZ",
+    "año": "2025",
+    "pn_ant": -1541.71,
+    "pn_act": -1560.77,
+    "delta": -19.06,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "MNG",
+    "año": "2019",
+    "pn_ant": 31.99,
+    "pn_act": 13.0,
+    "delta": -18.99,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNE",
+    "año": "2023",
+    "pn_ant": -267.23,
+    "pn_act": -286.17,
+    "delta": -18.94,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MDG",
+    "año": "2010",
+    "pn_ant": 0.4,
+    "pn_act": -18.26,
+    "delta": -18.65,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SVK",
+    "año": "2020",
+    "pn_ant": 55.06,
+    "pn_act": 36.44,
+    "delta": -18.62,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "RWA",
+    "año": "2014",
+    "pn_ant": -118.47,
+    "pn_act": -137.07,
+    "delta": -18.6,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BGR",
+    "año": "2020",
+    "pn_ant": 34.77,
+    "pn_act": 16.19,
+    "delta": -18.58,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SYR",
+    "año": "2014",
+    "pn_ant": -94.53,
+    "pn_act": -113.07,
+    "delta": -18.55,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LTU",
+    "año": "2018",
+    "pn_ant": 78.94,
+    "pn_act": 60.46,
+    "delta": -18.48,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BIH",
+    "año": "2012",
+    "pn_ant": -77.7,
+    "pn_act": -96.12,
+    "delta": -18.42,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "PHL",
+    "año": "2018",
+    "pn_ant": 80.38,
+    "pn_act": 62.12,
+    "delta": -18.26,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "GAB",
+    "año": "2018",
+    "pn_ant": -29.74,
+    "pn_act": -47.98,
+    "delta": -18.24,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SOM",
+    "año": "2010",
+    "pn_ant": -414.28,
+    "pn_act": -432.46,
+    "delta": -18.18,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ETH",
+    "año": "2010",
+    "pn_ant": -20.24,
+    "pn_act": -38.38,
+    "delta": -18.14,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ZAF",
+    "año": "2016",
+    "pn_ant": -1.18,
+    "pn_act": -19.3,
+    "delta": -18.13,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "GUY",
+    "año": "2011",
+    "pn_ant": -1019.46,
+    "pn_act": -1037.59,
+    "delta": -18.12,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "AUT",
+    "año": "2019",
+    "pn_ant": -27.59,
+    "pn_act": -45.67,
+    "delta": -18.08,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBR",
+    "año": "2017",
+    "pn_ant": -21.63,
+    "pn_act": -39.7,
+    "delta": -18.06,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "PAN",
+    "año": "2021",
+    "pn_ant": 76.78,
+    "pn_act": 58.81,
+    "delta": -17.98,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARG",
+    "año": "2020",
+    "pn_ant": 5.02,
+    "pn_act": -12.83,
+    "delta": -17.85,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "VNM",
+    "año": "2016",
+    "pn_ant": -160.27,
+    "pn_act": -178.08,
+    "delta": -17.81,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TUN",
+    "año": "2017",
+    "pn_ant": -6.72,
+    "pn_act": -24.53,
+    "delta": -17.81,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BGR",
+    "año": "2023",
+    "pn_ant": 22.86,
+    "pn_act": 5.14,
+    "delta": -17.73,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "YEM",
+    "año": "2012",
+    "pn_ant": -93.88,
+    "pn_act": -111.59,
+    "delta": -17.71,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MMR",
+    "año": "2015",
+    "pn_ant": -81.34,
+    "pn_act": -98.89,
+    "delta": -17.55,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "HND",
+    "año": "2009",
+    "pn_ant": 54.29,
+    "pn_act": 36.79,
+    "delta": -17.5,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MWI",
+    "año": "2010",
+    "pn_ant": -13.78,
+    "pn_act": -31.2,
+    "delta": -17.42,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "CYP",
+    "año": "2022",
+    "pn_ant": 66.58,
+    "pn_act": 49.22,
+    "delta": -17.36,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARE",
+    "año": "2026",
+    "pn_ant": -194.94,
+    "pn_act": -212.17,
+    "delta": -17.22,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "TJK",
+    "año": "2017",
+    "pn_ant": -194.26,
+    "pn_act": -211.4,
+    "delta": -17.14,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MLT",
+    "año": "2014",
+    "pn_ant": 42.56,
+    "pn_act": 25.44,
+    "delta": -17.12,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BHS",
+    "año": "2024",
+    "pn_ant": -35.87,
+    "pn_act": -52.98,
+    "delta": -17.11,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "GEO",
+    "año": "2020",
+    "pn_ant": 60.41,
+    "pn_act": 43.3,
+    "delta": -17.1,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TTO",
+    "año": "2010",
+    "pn_ant": -238.18,
+    "pn_act": -255.18,
+    "delta": -17.0,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "EGY",
+    "año": "2015",
+    "pn_ant": -174.87,
+    "pn_act": -191.87,
+    "delta": -17.0,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "URY",
+    "año": "2016",
+    "pn_ant": 66.53,
+    "pn_act": 49.61,
+    "delta": -16.92,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "JPN",
+    "año": "2020",
+    "pn_ant": 56.2,
+    "pn_act": 39.33,
+    "delta": -16.87,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "AUS",
+    "año": "2024",
+    "pn_ant": 42.61,
+    "pn_act": 25.76,
+    "delta": -16.85,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "IRN",
+    "año": "2017",
+    "pn_ant": -237.88,
+    "pn_act": -254.7,
+    "delta": -16.82,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NLD",
+    "año": "2019",
+    "pn_ant": -162.96,
+    "pn_act": -179.78,
+    "delta": -16.81,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "CYP",
+    "año": "2017",
+    "pn_ant": 77.98,
+    "pn_act": 61.19,
+    "delta": -16.79,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARE",
+    "año": "2025",
+    "pn_ant": -178.36,
+    "pn_act": -194.94,
+    "delta": -16.58,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "BHR",
+    "año": "2010",
+    "pn_ant": 22.09,
+    "pn_act": 5.66,
+    "delta": -16.43,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SVN",
+    "año": "2024",
+    "pn_ant": -36.71,
+    "pn_act": -53.12,
+    "delta": -16.41,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "SDN",
+    "año": "2021",
+    "pn_ant": -110.61,
+    "pn_act": -127.0,
+    "delta": -16.39,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SYR",
+    "año": "2024",
+    "pn_ant": -105.41,
+    "pn_act": -121.79,
+    "delta": -16.38,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "ZAF",
+    "año": "2015",
+    "pn_ant": 15.18,
+    "pn_act": -1.18,
+    "delta": -16.36,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MDG",
+    "año": "2022",
+    "pn_ant": -32.09,
+    "pn_act": -48.3,
+    "delta": -16.21,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BFA",
+    "año": "2015",
+    "pn_ant": -5.97,
+    "pn_act": -21.94,
+    "delta": -15.97,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TCD",
+    "año": "2021",
+    "pn_ant": -52.09,
+    "pn_act": -68.05,
+    "delta": -15.96,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "THA",
+    "año": "2020",
+    "pn_ant": 47.91,
+    "pn_act": 31.96,
+    "delta": -15.95,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LVA",
+    "año": "2019",
+    "pn_ant": 45.28,
+    "pn_act": 29.36,
+    "delta": -15.92,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "UKR",
+    "año": "2017",
+    "pn_ant": -70.2,
+    "pn_act": -86.0,
+    "delta": -15.8,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARE",
+    "año": "2018",
+    "pn_ant": -148.43,
+    "pn_act": -164.19,
+    "delta": -15.76,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NIC",
+    "año": "2009",
+    "pn_ant": 1.83,
+    "pn_act": -13.93,
+    "delta": -15.76,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BTN",
+    "año": "2016",
+    "pn_ant": 27.64,
+    "pn_act": 12.13,
+    "delta": -15.51,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NAM",
+    "año": "2010",
+    "pn_ant": 40.31,
+    "pn_act": 24.8,
+    "delta": -15.51,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SYR",
+    "año": "2020",
+    "pn_ant": -144.3,
+    "pn_act": -159.76,
+    "delta": -15.46,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MKD",
+    "año": "2023",
+    "pn_ant": 32.7,
+    "pn_act": 17.32,
+    "delta": -15.37,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LAO",
+    "año": "2024",
+    "pn_ant": -96.55,
+    "pn_act": -111.89,
+    "delta": -15.34,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "SDN",
+    "año": "2016",
+    "pn_ant": -107.77,
+    "pn_act": -123.07,
+    "delta": -15.3,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SRB",
+    "año": "2019",
+    "pn_ant": 2.31,
+    "pn_act": -12.91,
+    "delta": -15.22,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "KOR",
+    "año": "2020",
+    "pn_ant": 53.99,
+    "pn_act": 38.83,
+    "delta": -15.16,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SRB",
+    "año": "2009",
+    "pn_ant": -2.86,
+    "pn_act": -17.92,
+    "delta": -15.06,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "YEM",
+    "año": "2014",
+    "pn_ant": -78.68,
+    "pn_act": -93.66,
+    "delta": -14.98,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BFA",
+    "año": "2012",
+    "pn_ant": 29.67,
+    "pn_act": 14.73,
+    "delta": -14.94,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "COL",
+    "año": "2013",
+    "pn_ant": 31.54,
+    "pn_act": 16.62,
+    "delta": -14.92,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BEN",
+    "año": "2012",
+    "pn_ant": 22.08,
+    "pn_act": 7.28,
+    "delta": -14.8,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SVK",
+    "año": "2014",
+    "pn_ant": 55.72,
+    "pn_act": 40.99,
+    "delta": -14.73,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NER",
+    "año": "2024",
+    "pn_ant": -7.18,
+    "pn_act": -21.91,
+    "delta": -14.73,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "IRN",
+    "año": "2023",
+    "pn_ant": -170.15,
+    "pn_act": -184.87,
+    "delta": -14.73,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ROU",
+    "año": "2020",
+    "pn_ant": 70.37,
+    "pn_act": 55.71,
+    "delta": -14.66,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "GIN",
+    "año": "2021",
+    "pn_ant": -295.39,
+    "pn_act": -309.93,
+    "delta": -14.54,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BEL",
+    "año": "2024",
+    "pn_ant": -228.3,
+    "pn_act": -242.74,
+    "delta": -14.44,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "PNG",
+    "año": "2020",
+    "pn_ant": -92.66,
+    "pn_act": -107.09,
+    "delta": -14.43,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NAM",
+    "año": "2020",
+    "pn_ant": 14.94,
+    "pn_act": 0.52,
+    "delta": -14.42,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "DEU",
+    "año": "2017",
+    "pn_ant": 33.4,
+    "pn_act": 19.01,
+    "delta": -14.39,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "URY",
+    "año": "2020",
+    "pn_ant": 49.53,
+    "pn_act": 35.15,
+    "delta": -14.38,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "HND",
+    "año": "2012",
+    "pn_ant": 42.6,
+    "pn_act": 28.23,
+    "delta": -14.37,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ROU",
+    "año": "2021",
+    "pn_ant": 55.71,
+    "pn_act": 41.42,
+    "delta": -14.29,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "KHM",
+    "año": "2009",
+    "pn_ant": 8.5,
+    "pn_act": -5.77,
+    "delta": -14.27,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BOL",
+    "año": "2023",
+    "pn_ant": -419.61,
+    "pn_act": -433.88,
+    "delta": -14.27,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "JOR",
+    "año": "2009",
+    "pn_ant": 47.93,
+    "pn_act": 33.68,
+    "delta": -14.26,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BRA",
+    "año": "2014",
+    "pn_ant": 36.81,
+    "pn_act": 22.6,
+    "delta": -14.21,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MDG",
+    "año": "2023",
+    "pn_ant": -48.3,
+    "pn_act": -62.51,
+    "delta": -14.21,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MUS",
+    "año": "2018",
+    "pn_ant": 80.94,
+    "pn_act": 66.75,
+    "delta": -14.19,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "PRT",
+    "año": "2020",
+    "pn_ant": 60.15,
+    "pn_act": 45.96,
+    "delta": -14.19,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "HUN",
+    "año": "2011",
+    "pn_ant": 16.6,
+    "pn_act": 2.41,
+    "delta": -14.19,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BEL",
+    "año": "2014",
+    "pn_ant": -180.46,
+    "pn_act": -194.61,
+    "delta": -14.15,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRL",
+    "año": "2020",
+    "pn_ant": 72.58,
+    "pn_act": 58.53,
+    "delta": -14.05,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "KGZ",
+    "año": "2016",
+    "pn_ant": -165.7,
+    "pn_act": -179.75,
+    "delta": -14.05,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "CZE",
+    "año": "2023",
+    "pn_ant": 12.64,
+    "pn_act": -1.36,
+    "delta": -14.0,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TCD",
+    "año": "2012",
+    "pn_ant": -99.42,
+    "pn_act": -113.42,
+    "delta": -14.0,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "POL",
+    "año": "2017",
+    "pn_ant": 53.52,
+    "pn_act": 39.55,
+    "delta": -13.97,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SVN",
+    "año": "2023",
+    "pn_ant": -22.78,
+    "pn_act": -36.71,
+    "delta": -13.94,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "HRV",
+    "año": "2018",
+    "pn_ant": -11.33,
+    "pn_act": -25.21,
+    "delta": -13.89,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MLI",
+    "año": "2013",
+    "pn_ant": 28.83,
+    "pn_act": 15.15,
+    "delta": -13.68,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "VEN",
+    "año": "2024",
+    "pn_ant": -658.36,
+    "pn_act": -672.02,
+    "delta": -13.67,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "MRT",
+    "año": "2014",
+    "pn_ant": -48.22,
+    "pn_act": -61.87,
+    "delta": -13.65,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ISR",
+    "año": "2015",
+    "pn_ant": 9.73,
+    "pn_act": -3.89,
+    "delta": -13.63,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BEL",
+    "año": "2023",
+    "pn_ant": -214.72,
+    "pn_act": -228.3,
+    "delta": -13.58,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MLT",
+    "año": "2023",
+    "pn_ant": 45.27,
+    "pn_act": 31.71,
+    "delta": -13.56,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "KWT",
+    "año": "2013",
+    "pn_ant": -158.93,
+    "pn_act": -172.42,
+    "delta": -13.49,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LVA",
+    "año": "2023",
+    "pn_ant": 37.04,
+    "pn_act": 23.73,
+    "delta": -13.31,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BOL",
+    "año": "2019",
+    "pn_ant": -347.77,
+    "pn_act": -361.02,
+    "delta": -13.25,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "DNK",
+    "año": "2014",
+    "pn_ant": -360.82,
+    "pn_act": -374.05,
+    "delta": -13.23,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "RWA",
+    "año": "2018",
+    "pn_ant": -191.44,
+    "pn_act": -204.67,
+    "delta": -13.23,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNE",
+    "año": "2013",
+    "pn_ant": -54.88,
+    "pn_act": -68.08,
+    "delta": -13.2,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "URY",
+    "año": "2009",
+    "pn_ant": 71.5,
+    "pn_act": 58.32,
+    "delta": -13.18,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "JPN",
+    "año": "2009",
+    "pn_ant": 69.3,
+    "pn_act": 56.14,
+    "delta": -13.17,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ZMB",
+    "año": "2024",
+    "pn_ant": 12.15,
+    "pn_act": -1.02,
+    "delta": -13.16,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "DNK",
+    "año": "2023",
+    "pn_ant": -5.84,
+    "pn_act": -18.96,
+    "delta": -13.12,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "POL",
+    "año": "2018",
+    "pn_ant": 39.55,
+    "pn_act": 26.5,
+    "delta": -13.05,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "RUS",
+    "año": "2015",
+    "pn_ant": -144.66,
+    "pn_act": -157.71,
+    "delta": -13.05,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LVA",
+    "año": "2009",
+    "pn_ant": 61.53,
+    "pn_act": 48.49,
+    "delta": -13.04,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NAM",
+    "año": "2024",
+    "pn_ant": 37.62,
+    "pn_act": 24.6,
+    "delta": -13.02,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "KGZ",
+    "año": "2024",
+    "pn_ant": -149.15,
+    "pn_act": -162.11,
+    "delta": -12.96,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "GAB",
+    "año": "2013",
+    "pn_ant": -141.75,
+    "pn_act": -154.63,
+    "delta": -12.88,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MKD",
+    "año": "2009",
+    "pn_ant": 45.91,
+    "pn_act": 33.04,
+    "delta": -12.86,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ECU",
+    "año": "2014",
+    "pn_ant": 5.92,
+    "pn_act": -6.94,
+    "delta": -12.86,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNG",
+    "año": "2015",
+    "pn_ant": 10.83,
+    "pn_act": -1.96,
+    "delta": -12.79,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SAU",
+    "año": "2023",
+    "pn_ant": -104.88,
+    "pn_act": -117.65,
+    "delta": -12.77,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "CAF",
+    "año": "2010",
+    "pn_ant": -178.49,
+    "pn_act": -191.12,
+    "delta": -12.64,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BGR",
+    "año": "2009",
+    "pn_ant": 35.18,
+    "pn_act": 22.56,
+    "delta": -12.62,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TGO",
+    "año": "2022",
+    "pn_ant": 24.86,
+    "pn_act": 12.32,
+    "delta": -12.54,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "COL",
+    "año": "2020",
+    "pn_ant": 31.43,
+    "pn_act": 18.92,
+    "delta": -12.51,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BIH",
+    "año": "2020",
+    "pn_ant": 5.5,
+    "pn_act": -7.0,
+    "delta": -12.5,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NOR",
+    "año": "2024",
+    "pn_ant": -314.11,
+    "pn_act": -326.58,
+    "delta": -12.47,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "BOL",
+    "año": "2026",
+    "pn_ant": -492.04,
+    "pn_act": -504.51,
+    "delta": -12.47,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "MLT",
+    "año": "2012",
+    "pn_ant": 43.75,
+    "pn_act": 31.3,
+    "delta": -12.44,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NAM",
+    "año": "2013",
+    "pn_ant": 20.5,
+    "pn_act": 8.08,
+    "delta": -12.42,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "GNB",
+    "año": "2009",
+    "pn_ant": -214.46,
+    "pn_act": -226.83,
+    "delta": -12.37,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BOL",
+    "año": "2025",
+    "pn_ant": -479.75,
+    "pn_act": -492.04,
+    "delta": -12.29,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "COG",
+    "año": "2024",
+    "pn_ant": -35.08,
+    "pn_act": -47.35,
+    "delta": -12.26,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "ZMB",
+    "año": "2019",
+    "pn_ant": 4.08,
+    "pn_act": -8.15,
+    "delta": -12.22,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MOZ",
+    "año": "2015",
+    "pn_ant": -284.78,
+    "pn_act": -296.91,
+    "delta": -12.13,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TUR",
+    "año": "2010",
+    "pn_ant": 61.31,
+    "pn_act": 49.19,
+    "delta": -12.12,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MNG",
+    "año": "2012",
+    "pn_ant": 39.27,
+    "pn_act": 27.17,
+    "delta": -12.1,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LUX",
+    "año": "2017",
+    "pn_ant": -11.53,
+    "pn_act": -23.58,
+    "delta": -12.06,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BHS",
+    "año": "2009",
+    "pn_ant": -5.1,
+    "pn_act": -17.13,
+    "delta": -12.03,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BTN",
+    "año": "2010",
+    "pn_ant": -37.23,
+    "pn_act": -49.23,
+    "delta": -12.0,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ECU",
+    "año": "2019",
+    "pn_ant": 12.05,
+    "pn_act": 0.06,
+    "delta": -11.99,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MOZ",
+    "año": "2009",
+    "pn_ant": -98.62,
+    "pn_act": -110.58,
+    "delta": -11.96,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "DZA",
+    "año": "2026",
+    "pn_ant": -978.29,
+    "pn_act": -990.17,
+    "delta": -11.88,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "DZA",
+    "año": "2025",
+    "pn_ant": -966.51,
+    "pn_act": -978.29,
+    "delta": -11.78,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "CPV",
+    "año": "2012",
+    "pn_ant": 19.93,
+    "pn_act": 8.18,
+    "delta": -11.75,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "DEU",
+    "año": "2021",
+    "pn_ant": -83.22,
+    "pn_act": -94.94,
+    "delta": -11.72,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NIC",
+    "año": "2015",
+    "pn_ant": -0.09,
+    "pn_act": -11.77,
+    "delta": -11.68,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SYC",
+    "año": "2012",
+    "pn_ant": -83.0,
+    "pn_act": -94.61,
+    "delta": -11.61,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "USA",
+    "año": "2020",
+    "pn_ant": 80.78,
+    "pn_act": 69.23,
+    "delta": -11.55,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SEN",
+    "año": "2023",
+    "pn_ant": 62.63,
+    "pn_act": 51.1,
+    "delta": -11.54,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LKA",
+    "año": "2009",
+    "pn_ant": 27.65,
+    "pn_act": 16.15,
+    "delta": -11.5,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "EST",
+    "año": "2012",
+    "pn_ant": 44.28,
+    "pn_act": 32.83,
+    "delta": -11.45,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TCD",
+    "año": "2009",
+    "pn_ant": -80.25,
+    "pn_act": -91.65,
+    "delta": -11.4,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ETH",
+    "año": "2009",
+    "pn_ant": -8.95,
+    "pn_act": -20.24,
+    "delta": -11.29,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BHS",
+    "año": "2019",
+    "pn_ant": -23.08,
+    "pn_act": -34.35,
+    "delta": -11.26,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "COD",
+    "año": "2017",
+    "pn_ant": -64.31,
+    "pn_act": -75.48,
+    "delta": -11.18,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ITA",
+    "año": "2013",
+    "pn_ant": 48.37,
+    "pn_act": 37.25,
+    "delta": -11.12,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "PNG",
+    "año": "2018",
+    "pn_ant": -82.68,
+    "pn_act": -93.8,
+    "delta": -11.12,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "VNM",
+    "año": "2019",
+    "pn_ant": -57.08,
+    "pn_act": -68.17,
+    "delta": -11.09,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ZAF",
+    "año": "2019",
+    "pn_ant": 2.61,
+    "pn_act": -8.41,
+    "delta": -11.02,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BHR",
+    "año": "2020",
+    "pn_ant": 36.73,
+    "pn_act": 25.78,
+    "delta": -10.95,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRN",
+    "año": "2021",
+    "pn_ant": -165.6,
+    "pn_act": -176.46,
+    "delta": -10.86,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "SLE",
+    "año": "2012",
+    "pn_ant": 43.05,
+    "pn_act": 32.21,
+    "delta": -10.84,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBN",
+    "año": "2023",
+    "pn_ant": 11.0,
+    "pn_act": 0.26,
+    "delta": -10.74,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LVA",
+    "año": "2018",
+    "pn_ant": 55.95,
+    "pn_act": 45.28,
+    "delta": -10.67,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TGO",
+    "año": "2009",
+    "pn_ant": 0.36,
+    "pn_act": -10.31,
+    "delta": -10.67,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "CIV",
+    "año": "2017",
+    "pn_ant": 43.77,
+    "pn_act": 33.13,
+    "delta": -10.64,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "KOR",
+    "año": "2019",
+    "pn_ant": 64.58,
+    "pn_act": 53.99,
+    "delta": -10.59,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LKA",
+    "año": "2023",
+    "pn_ant": 52.55,
+    "pn_act": 41.96,
+    "delta": -10.59,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TTO",
+    "año": "2022",
+    "pn_ant": -141.68,
+    "pn_act": -152.23,
+    "delta": -10.56,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "YEM",
+    "año": "2019",
+    "pn_ant": -130.77,
+    "pn_act": -141.28,
+    "delta": -10.51,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "IRN",
+    "año": "2009",
+    "pn_ant": -102.76,
+    "pn_act": -113.22,
+    "delta": -10.46,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "UKR",
+    "año": "2012",
+    "pn_ant": -77.68,
+    "pn_act": -88.13,
+    "delta": -10.45,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BGR",
+    "año": "2014",
+    "pn_ant": 23.25,
+    "pn_act": 12.82,
+    "delta": -10.43,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "TJK",
+    "año": "2020",
+    "pn_ant": -163.27,
+    "pn_act": -173.65,
+    "delta": -10.38,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARG",
+    "año": "2013",
+    "pn_ant": -45.82,
+    "pn_act": -56.07,
+    "delta": -10.25,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "MLI",
+    "año": "2009",
+    "pn_ant": 38.86,
+    "pn_act": 28.66,
+    "delta": -10.2,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "ARE",
+    "año": "2011",
+    "pn_ant": 53.71,
+    "pn_act": 43.55,
+    "delta": -10.16,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "THA",
+    "año": "2024",
+    "pn_ant": 50.02,
+    "pn_act": 39.89,
+    "delta": -10.13,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "MMR",
+    "año": "2018",
+    "pn_ant": -69.6,
+    "pn_act": -79.7,
+    "delta": -10.1,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "LBN",
+    "año": "2019",
+    "pn_ant": 14.15,
+    "pn_act": 4.1,
+    "delta": -10.05,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "NIC",
+    "año": "2024",
+    "pn_ant": -91.08,
+    "pn_act": -101.11,
+    "delta": -10.03,
+    "tipo": "DETERIORO",
+    "proyectado": true
+  },
+  {
+    "pais": "MRT",
+    "año": "2019",
+    "pn_ant": -55.87,
+    "pn_act": -65.88,
+    "delta": -10.02,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  },
+  {
+    "pais": "BRA",
+    "año": "2009",
+    "pn_ant": 35.31,
+    "pn_act": 25.3,
+    "delta": -10.01,
+    "tipo": "DETERIORO",
+    "proyectado": false
+  }
+]

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Outputs temporales (los JSON de matriz se versionan explícitamente)
+output_mps/*.json
+!output_mps/MPS_matriz_completa*.json
+!output_mps/MPS_alertas*.json
+!output_mps/MPS_rankings*.json
+!output_mps/MPS_interdependencia*.json
+!output_mps/MPS_resumen_ejecutivo*.json
+
+# Logs
+*.log

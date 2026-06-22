@@ -1,0 +1,6530 @@
+{
+  "2024": {
+    "HKG": {
+      "PN": 71.8376,
+      "TPL": 23.8664,
+      "ERI": 1.9118,
+      "PS": 86.0327,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SGP": {
+      "PN": 67.369,
+      "TPL": 27.6534,
+      "ERI": 2.2847,
+      "PS": 57.0119,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NZL": {
+      "PN": 32.9373,
+      "TPL": 56.8328,
+      "ERI": 2.925,
+      "PS": 35.3305,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CHE": {
+      "PN": 83.1574,
+      "TPL": 14.2734,
+      "ERI": 4.2712,
+      "PS": 77.1926,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "USA": {
+      "PN": 78.1376,
+      "TPL": 18.5275,
+      "ERI": 2.7139,
+      "PS": 82.7366,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IRL": {
+      "PN": 75.4146,
+      "TPL": 20.8351,
+      "ERI": 4.2915,
+      "PS": 62.4105,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AUS": {
+      "PN": 25.7572,
+      "TPL": 62.9176,
+      "ERI": 2.7173,
+      "PS": 21.274,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TWN": {
+      "PN": 85.0731,
+      "TPL": 12.6499,
+      "ERI": 0.4676,
+      "PS": null,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DNK": {
+      "PN": -26.298,
+      "TPL": 107.0322,
+      "ERI": 2.6137,
+      "PS": -27.4443,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NLD": {
+      "PN": -259.0486,
+      "TPL": 304.2785,
+      "ERI": 2.247,
+      "PS": -265.5564,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CAN": {
+      "PN": 43.1989,
+      "TPL": 48.1365,
+      "ERI": 2.3119,
+      "PS": 43.3453,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LUX": {
+      "PN": -136.8327,
+      "TPL": 200.7057,
+      "ERI": 2.0535,
+      "PS": -123.1414,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GBR": {
+      "PN": 41.8887,
+      "TPL": 49.2469,
+      "ERI": 1.8063,
+      "PS": 49.6103,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CRI": {
+      "PN": 74.9284,
+      "TPL": 21.2471,
+      "ERI": 0.7373,
+      "PS": 81.5137,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "FIN": {
+      "PN": -176.008,
+      "TPL": 233.9051,
+      "ERI": 3.0504,
+      "PS": -173.743,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DEU": {
+      "PN": -53.8672,
+      "TPL": 130.3959,
+      "ERI": 2.0676,
+      "PS": -58.4934,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "JPN": {
+      "PN": 34.916,
+      "TPL": 55.1559,
+      "ERI": 3.529,
+      "PS": 36.2383,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MLT": {
+      "PN": 39.4251,
+      "TPL": 51.3347,
+      "ERI": 1.6439,
+      "PS": 62.1569,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "EST": {
+      "PN": 16.1694,
+      "TPL": 71.0429,
+      "ERI": 2.5652,
+      "PS": 24.3082,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CYP": {
+      "PN": 71.323,
+      "TPL": 24.3025,
+      "ERI": 0.935,
+      "PS": 94.424,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MUS": {
+      "PN": 75.2337,
+      "TPL": 20.9884,
+      "ERI": 0.8645,
+      "PS": 107.423,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ESP": {
+      "PN": 10.3016,
+      "TPL": 76.0156,
+      "ERI": 1.4501,
+      "PS": 12.3237,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ISL": {
+      "PN": 12.4289,
+      "TPL": 74.2128,
+      "ERI": 2.3963,
+      "PS": 21.6559,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PRT": {
+      "PN": 55.0901,
+      "TPL": 38.0592,
+      "ERI": 1.3909,
+      "PS": 64.0806,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GEO": {
+      "PN": 51.4344,
+      "TPL": 41.1573,
+      "ERI": 0.6625,
+      "PS": 98.4314,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CHL": {
+      "PN": 71.5308,
+      "TPL": 24.1264,
+      "ERI": 1.7474,
+      "PS": 71.1878,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PAN": {
+      "PN": 59.3811,
+      "TPL": 34.4228,
+      "ERI": 1.3353,
+      "PS": 74.7234,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GTM": {
+      "PN": 75.5909,
+      "TPL": 20.6857,
+      "ERI": 0.6105,
+      "PS": 106.3323,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CZE": {
+      "PN": -4.1914,
+      "TPL": 88.2978,
+      "ERI": 1.9997,
+      "PS": -9.6319,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LVA": {
+      "PN": 17.2009,
+      "TPL": 70.1687,
+      "ERI": 1.1204,
+      "PS": 27.7491,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BEL": {
+      "PN": -242.7383,
+      "TPL": 290.4562,
+      "ERI": 2.1921,
+      "PS": -238.6645,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SYC": {
+      "PN": 47.0456,
+      "TPL": 44.8766,
+      "ERI": 0.4723,
+      "PS": 79.5078,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AUT": {
+      "PN": -135.9141,
+      "TPL": 199.9272,
+      "ERI": 2.5719,
+      "PS": -133.1301,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LTU": {
+      "PN": 56.637,
+      "TPL": 36.7483,
+      "ERI": 1.1066,
+      "PS": 63.654,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ALB": {
+      "PN": 38.088,
+      "TPL": 52.4678,
+      "ERI": 0.4364,
+      "PS": 67.2474,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MYS": {
+      "PN": 50.3902,
+      "TPL": 42.0422,
+      "ERI": 1.0671,
+      "PS": 39.7924,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SWE": {
+      "PN": -197.6182,
+      "TPL": 252.2188,
+      "ERI": 2.1359,
+      "PS": -196.4771,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KOR": {
+      "PN": 35.9391,
+      "TPL": 54.2889,
+      "ERI": 2.3617,
+      "PS": 34.8872,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ARM": {
+      "PN": 54.4474,
+      "TPL": 38.6039,
+      "ERI": 0.362,
+      "PS": 78.8853,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ISR": {
+      "PN": -26.3111,
+      "TPL": 107.0433,
+      "ERI": 1.4441,
+      "PS": -20.1765,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "JAM": {
+      "PN": 70.1494,
+      "TPL": 25.2971,
+      "ERI": 0.1863,
+      "PS": 114.2693,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "JOR": {
+      "PN": 64.3694,
+      "TPL": 30.1954,
+      "ERI": 0.6395,
+      "PS": 104.9381,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BHR": {
+      "PN": 34.5826,
+      "TPL": 55.4385,
+      "ERI": 1.3434,
+      "PS": 36.0069,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CPV": {
+      "PN": 55.4978,
+      "TPL": 37.7137,
+      "ERI": 0.4983,
+      "PS": 131.1404,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "FRA": {
+      "PN": -342.2937,
+      "TPL": 374.8252,
+      "ERI": 1.6599,
+      "PS": -336.2378,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ITA": {
+      "PN": 26.7906,
+      "TPL": 62.0419,
+      "ERI": 0.7295,
+      "PS": 24.4103,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DOM": {
+      "PN": 69.4041,
+      "TPL": 25.9287,
+      "ERI": 0.752,
+      "PS": 91.8073,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NOR": {
+      "PN": -326.5809,
+      "TPL": 361.5092,
+      "ERI": 2.3465,
+      "PS": -339.4394,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SVK": {
+      "PN": 51.8975,
+      "TPL": 40.7648,
+      "ERI": 0.8285,
+      "PS": 54.5175,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ROU": {
+      "PN": 63.9344,
+      "TPL": 30.5641,
+      "ERI": 0.8899,
+      "PS": 76.0985,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PER": {
+      "PN": 62.4896,
+      "TPL": 31.7885,
+      "ERI": 0.5506,
+      "PS": 62.6919,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ARE": {
+      "PN": -178.3635,
+      "TPL": 235.9013,
+      "ERI": 0.898,
+      "PS": -199.9939,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MNE": {
+      "PN": -320.3474,
+      "TPL": 356.2266,
+      "ERI": 0.6721,
+      "PS": -263.7675,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "URY": {
+      "PN": 44.0553,
+      "TPL": 47.4108,
+      "ERI": 0.6754,
+      "PS": 45.7841,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GRC": {
+      "PN": -154.6038,
+      "TPL": 215.7659,
+      "ERI": 0.2903,
+      "PS": -142.3784,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BGR": {
+      "PN": 14.5333,
+      "TPL": 72.4294,
+      "ERI": 0.3856,
+      "PS": 20.9589,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "THA": {
+      "PN": 39.8894,
+      "TPL": 50.9412,
+      "ERI": 1.1597,
+      "PS": 40.7735,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BRN": {
+      "PN": -29104.1559,
+      "TPL": 24749.2847,
+      "ERI": 0.5654,
+      "PS": -29115.0717,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "SLV": {
+      "PN": 30.2196,
+      "TPL": 59.1359,
+      "ERI": 0.3354,
+      "PS": 81.123,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PRY": {
+      "PN": 52.2259,
+      "TPL": 40.4865,
+      "ERI": 0.5003,
+      "PS": 63.7967,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "HUN": {
+      "PN": -33.1092,
+      "TPL": 112.8044,
+      "ERI": 0.7953,
+      "PS": -32.2289,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PHL": {
+      "PN": 77.0033,
+      "TPL": 19.4887,
+      "ERI": 0.9034,
+      "PS": 100.2093,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SVN": {
+      "PN": -53.1248,
+      "TPL": 129.7668,
+      "ERI": 0.6856,
+      "PS": -50.5472,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "HND": {
+      "PN": 45.2897,
+      "TPL": 46.3647,
+      "ERI": 0.4256,
+      "PS": 91.2037,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IDN": {
+      "PN": 65.2258,
+      "TPL": 29.4697,
+      "ERI": 0.7664,
+      "PS": 64.2827,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SAU": {
+      "PN": -179.8678,
+      "TPL": 237.1761,
+      "ERI": 1.0062,
+      "PS": -188.5343,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "HRV": {
+      "PN": -72.5088,
+      "TPL": 146.1939,
+      "ERI": 0.3952,
+      "PS": -44.6104,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GMB": {
+      "PN": 63.0286,
+      "TPL": 31.3317,
+      "ERI": 0.7391,
+      "PS": 157.9323,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BWA": {
+      "PN": -137.0034,
+      "TPL": 200.8503,
+      "ERI": 0.6329,
+      "PS": -132.8973,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MEX": {
+      "PN": 40.8298,
+      "TPL": 50.1442,
+      "ERI": 0.4036,
+      "PS": 45.1639,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BHS": {
+      "PN": -52.9778,
+      "TPL": 129.6422,
+      "ERI": 0.2375,
+      "PS": -30.2503,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "UGA": {
+      "PN": 42.2587,
+      "TPL": 48.9333,
+      "ERI": 0.439,
+      "PS": 61.5799,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BTN": {
+      "PN": -4.5724,
+      "TPL": 88.6207,
+      "ERI": 1.2209,
+      "PS": 34.2487,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KAZ": {
+      "PN": 48.9158,
+      "TPL": 43.2917,
+      "ERI": 0.5452,
+      "PS": 39.3297,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MNG": {
+      "PN": -39.0916,
+      "TPL": 117.8742,
+      "ERI": 0.3557,
+      "PS": -61.9844,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "POL": {
+      "PN": -12.5555,
+      "TPL": 95.386,
+      "ERI": 0.5794,
+      "PS": -12.1733,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KHM": {
+      "PN": 31.5128,
+      "TPL": 58.04,
+      "ERI": 0.4864,
+      "PS": 57.3967,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BRB": {
+      "PN": 70.4483,
+      "TPL": 25.0438,
+      "ERI": 0.6033,
+      "PS": 95.1076,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MKD": {
+      "PN": 26.8248,
+      "TPL": 62.0129,
+      "ERI": 0.6144,
+      "PS": 52.0738,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "QAT": {
+      "PN": -5031.1821,
+      "TPL": 4348.4594,
+      "ERI": 1.1827,
+      "PS": -5057.3139,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "KEN": {
+      "PN": 37.344,
+      "TPL": 53.0983,
+      "ERI": 0.4214,
+      "PS": 53.8242,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TTO": {
+      "PN": -140.023,
+      "TPL": 203.4093,
+      "ERI": 0.5469,
+      "PS": -140.6062,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "OMN": {
+      "PN": -4281.1066,
+      "TPL": 3712.8022,
+      "ERI": 0.6832,
+      "PS": -4296.1891,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "ZAF": {
+      "PN": -11.3842,
+      "TPL": 94.3934,
+      "ERI": 0.2512,
+      "PS": -14.5087,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MDA": {
+      "PN": 43.5862,
+      "TPL": 47.8083,
+      "ERI": 0.4612,
+      "PS": 90.0907,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IND": {
+      "PN": 65.7812,
+      "TPL": 28.999,
+      "ERI": 0.753,
+      "PS": 74.5498,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BRA": {
+      "PN": 35.4156,
+      "TPL": 54.7325,
+      "ERI": 0.4045,
+      "PS": 32.4467,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KGZ": {
+      "PN": -162.1106,
+      "TPL": 222.1276,
+      "ERI": 0.3893,
+      "PS": -84.5672,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SRB": {
+      "PN": -48.9962,
+      "TPL": 126.268,
+      "ERI": 0.4471,
+      "PS": -29.2552,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NPL": {
+      "PN": 62.5381,
+      "TPL": 31.7474,
+      "ERI": 0.7894,
+      "PS": 124.052,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KWT": {
+      "PN": -890.6504,
+      "TPL": 839.5342,
+      "ERI": 0.6359,
+      "PS": -909.4249,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "NIC": {
+      "PN": -101.1141,
+      "TPL": 170.4357,
+      "ERI": 0.1451,
+      "PS": -61.0306,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BIH": {
+      "PN": 2.8443,
+      "TPL": 82.3353,
+      "ERI": 0.3631,
+      "PS": 33.2256,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COL": {
+      "PN": 26.4521,
+      "TPL": 62.3287,
+      "ERI": 0.3646,
+      "PS": 35.1822,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MAR": {
+      "PN": 47.5364,
+      "TPL": 44.4607,
+      "ERI": 0.5888,
+      "PS": 72.3992,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NAM": {
+      "PN": 24.6041,
+      "TPL": 63.8948,
+      "ERI": 0.3034,
+      "PS": 44.1339,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "RWA": {
+      "PN": -532.3502,
+      "TPL": 535.89,
+      "ERI": 0.3907,
+      "PS": -497.0186,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "BEN": {
+      "PN": 40.5996,
+      "TPL": 50.3393,
+      "ERI": 0.5236,
+      "PS": 63.0789,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TJK": {
+      "PN": -138.7672,
+      "TPL": 202.3451,
+      "ERI": 0.293,
+      "PS": -72.4676,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ECU": {
+      "PN": 13.2345,
+      "TPL": 73.5301,
+      "ERI": 0.3167,
+      "PS": 16.1852,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SOM": {
+      "PN": -251.2215,
+      "TPL": 297.6453,
+      "ERI": 0.0835,
+      "PS": -230.3765,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BFA": {
+      "PN": 30.6954,
+      "TPL": 58.7327,
+      "ERI": 0.3567,
+      "PS": 43.891,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TZA": {
+      "PN": 15.6232,
+      "TPL": 71.5058,
+      "ERI": 0.5442,
+      "PS": 27.8837,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ZMB": {
+      "PN": -1.0154,
+      "TPL": 85.6063,
+      "ERI": 0.135,
+      "PS": -0.7097,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MOZ": {
+      "PN": -43.2027,
+      "TPL": 121.3582,
+      "ERI": 0.1671,
+      "PS": -5.7759,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "VNM": {
+      "PN": -90.1493,
+      "TPL": 161.1435,
+      "ERI": 0.4458,
+      "PS": -94.9011,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SEN": {
+      "PN": 55.9454,
+      "TPL": 37.3344,
+      "ERI": 0.8027,
+      "PS": 92.0429,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CHN": {
+      "PN": -363.5012,
+      "TPL": 392.7976,
+      "ERI": 0.5859,
+      "PS": -367.2328,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LBR": {
+      "PN": -33.0219,
+      "TPL": 112.7304,
+      "ERI": 0.1083,
+      "PS": 44.5845,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DJI": {
+      "PN": -690.8395,
+      "TPL": 670.203,
+      "ERI": 0.138,
+      "PS": -673.5939,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "MRT": {
+      "PN": -138.5975,
+      "TPL": 202.2013,
+      "ERI": 0.3396,
+      "PS": -120.1509,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PNG": {
+      "PN": -108.5401,
+      "TPL": 176.7289,
+      "ERI": 0.1452,
+      "PS": -128.1711,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CIV": {
+      "PN": 37.6795,
+      "TPL": 52.814,
+      "ERI": 0.437,
+      "PS": 41.4779,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "FJI": {
+      "PN": -326.9127,
+      "TPL": 361.7904,
+      "ERI": 0.12,
+      "PS": -283.2448,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TGO": {
+      "PN": 15.0831,
+      "TPL": 71.9635,
+      "ERI": 0.3388,
+      "PS": 43.5024,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BOL": {
+      "PN": -479.7489,
+      "TPL": 491.3126,
+      "ERI": 0.129,
+      "PS": -474.5465,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MDG": {
+      "PN": -46.2846,
+      "TPL": 123.97,
+      "ERI": 0.1421,
+      "PS": -28.2963,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BLZ": {
+      "PN": -1541.7113,
+      "TPL": 1391.2808,
+      "ERI": 0.1706,
+      "PS": -1500.6246,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "TLS": {
+      "PN": -7135.7936,
+      "TPL": 6132.0285,
+      "ERI": 0.0899,
+      "PS": -7107.7205,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "LSO": {
+      "PN": -1686.4088,
+      "TPL": 1513.9058,
+      "ERI": 0.2766,
+      "PS": -1620.6761,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "NGA": {
+      "PN": 1.5797,
+      "TPL": 83.407,
+      "ERI": 0.1744,
+      "PS": 7.8542,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TUN": {
+      "PN": -108.4426,
+      "TPL": 176.6463,
+      "ERI": 0.2884,
+      "PS": -85.0297,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GIN": {
+      "PN": -280.0411,
+      "TPL": 322.0687,
+      "ERI": 0.1187,
+      "PS": -268.9214,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NER": {
+      "PN": -21.9146,
+      "TPL": 103.3175,
+      "ERI": 0.2587,
+      "PS": 5.9662,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BGD": {
+      "PN": 7.6528,
+      "TPL": 78.2603,
+      "ERI": 0.3641,
+      "PS": 22.5085,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GHA": {
+      "PN": 58.2465,
+      "TPL": 35.3843,
+      "ERI": 0.4592,
+      "PS": 62.5452,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LKA": {
+      "PN": 52.453,
+      "TPL": 40.2941,
+      "ERI": 0.6489,
+      "PS": 67.232,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AZE": {
+      "PN": -648.0578,
+      "TPL": 633.9473,
+      "ERI": 0.1965,
+      "PS": -656.8066,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "MLI": {
+      "PN": 17.1216,
+      "TPL": 70.2359,
+      "ERI": 0.3184,
+      "PS": 34.9992,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LAO": {
+      "PN": -111.8895,
+      "TPL": 179.5674,
+      "ERI": 0.1372,
+      "PS": -110.7239,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CMR": {
+      "PN": 16.452,
+      "TPL": 70.8034,
+      "ERI": 0.2511,
+      "PS": 25.5272,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PAK": {
+      "PN": 29.4397,
+      "TPL": 59.7969,
+      "ERI": 0.2352,
+      "PS": 48.0125,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SLE": {
+      "PN": 23.9354,
+      "TPL": 64.4615,
+      "ERI": 0.2237,
+      "PS": 32.2074,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COM": {
+      "PN": -251.1733,
+      "TPL": 297.6045,
+      "ERI": 0.0813,
+      "PS": -199.8261,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SUR": {
+      "PN": 8.6026,
+      "TPL": 77.4554,
+      "ERI": 0.2999,
+      "PS": -7.5957,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GUY": {
+      "PN": -5487.6408,
+      "TPL": 4735.2888,
+      "ERI": 0.3759,
+      "PS": -5540.8523,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "TUR": {
+      "PN": 71.2493,
+      "TPL": 24.365,
+      "ERI": 0.9946,
+      "PS": 79.1038,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SWZ": {
+      "PN": -960.0312,
+      "TPL": 898.3315,
+      "ERI": 0.1097,
+      "PS": -959.0256,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "IRQ": {
+      "PN": -2015.3251,
+      "TPL": 1792.6484,
+      "ERI": 0.1139,
+      "PS": -2018.1011,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "GNB": {
+      "PN": -204.6197,
+      "TPL": 258.1523,
+      "ERI": 0.1112,
+      "PS": -189.5656,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GAB": {
+      "PN": -58.5292,
+      "TPL": 134.3468,
+      "ERI": 0.131,
+      "PS": -85.966,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LBN": {
+      "PN": 6.2824,
+      "TPL": 79.4217,
+      "ERI": 0.0457,
+      "PS": 70.3067,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "UKR": {
+      "PN": -188.8915,
+      "TPL": 244.8233,
+      "ERI": 0.1042,
+      "PS": -145.9313,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AGO": {
+      "PN": -69.5671,
+      "TPL": 143.7009,
+      "ERI": 0.1025,
+      "PS": -89.5453,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MWI": {
+      "PN": -30.3401,
+      "TPL": 110.4577,
+      "ERI": 0.193,
+      "PS": 1.6942,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "RUS": {
+      "PN": -184.3478,
+      "TPL": 240.9727,
+      "ERI": 0.2289,
+      "PS": -191.8906,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "EGY": {
+      "PN": -12.6175,
+      "TPL": 95.4386,
+      "ERI": 0.2976,
+      "PS": 6.3467,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "YEM": {
+      "PN": -141.4509,
+      "TPL": 204.6194,
+      "ERI": 0.0,
+      "PS": -102.7165,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COD": {
+      "PN": -69.0227,
+      "TPL": 143.2396,
+      "ERI": 0.2135,
+      "PS": -70.3865,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BDI": {
+      "PN": -99.5723,
+      "TPL": 169.1291,
+      "ERI": 0.1573,
+      "PS": -53.3591,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ETH": {
+      "PN": -12.4305,
+      "TPL": 95.2801,
+      "ERI": 0.2934,
+      "PS": 3.9785,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CAF": {
+      "PN": -199.8155,
+      "TPL": 254.0809,
+      "ERI": 0.1121,
+      "PS": -144.0465,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COG": {
+      "PN": -47.3485,
+      "TPL": 124.8716,
+      "ERI": 0.2312,
+      "PS": -63.1086,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TCD": {
+      "PN": -63.9576,
+      "TPL": 138.9471,
+      "ERI": 0.1454,
+      "PS": -57.2592,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LBY": {
+      "PN": -3149586.494,
+      "TPL": 2669225.8424,
+      "ERI": 0.0349,
+      "PS": -3149597.0518,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "SYR": {
+      "PN": -121.7894,
+      "TPL": 187.9571,
+      "ERI": 0.0,
+      "PS": 16129.0254,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ARG": {
+      "PN": -2.5545,
+      "TPL": 86.9106,
+      "ERI": 0.2431,
+      "PS": -2.5799,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MMR": {
+      "PN": -193.6424,
+      "TPL": 248.8495,
+      "ERI": 0.0013,
+      "PS": -183.5356,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IRN": {
+      "PN": -180.7578,
+      "TPL": 237.9303,
+      "ERI": 0.1748,
+      "PS": -182.8222,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DZA": {
+      "PN": -966.5141,
+      "TPL": 903.8255,
+      "ERI": 0.4501,
+      "PS": -940.4964,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "SDN": {
+      "PN": -139.9259,
+      "TPL": 203.327,
+      "ERI": 0.0059,
+      "PS": -106.5895,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ZWE": {
+      "PN": -238.1458,
+      "TPL": 286.5642,
+      "ERI": 0.0518,
+      "PS": -227.701,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "VEN": {
+      "PN": -672.0231,
+      "TPL": 654.2569,
+      "ERI": 0.0013,
+      "PS": null,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    }
+  },
+  "2025": {
+    "HKG": {
+      "PN": 71.4029,
+      "TPL": 24.2348,
+      "ERI": 1.8529,
+      "PS": 85.424,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SGP": {
+      "PN": 67.2099,
+      "TPL": 27.7882,
+      "ERI": 2.2325,
+      "PS": 56.9582,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NZL": {
+      "PN": 32.7645,
+      "TPL": 56.9792,
+      "ERI": 2.9587,
+      "PS": 35.2343,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CHE": {
+      "PN": 83.1341,
+      "TPL": 14.2931,
+      "ERI": 4.2588,
+      "PS": 76.9751,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "USA": {
+      "PN": 78.1654,
+      "TPL": 18.5039,
+      "ERI": 2.7401,
+      "PS": 82.7591,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IRL": {
+      "PN": 76.6004,
+      "TPL": 19.8302,
+      "ERI": 4.4133,
+      "PS": 63.8188,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AUS": {
+      "PN": 24.8193,
+      "TPL": 63.7125,
+      "ERI": 2.6726,
+      "PS": 20.072,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TWN": {
+      "PN": 85.0696,
+      "TPL": 12.6529,
+      "ERI": 0.4716,
+      "PS": null,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DNK": {
+      "PN": -24.22,
+      "TPL": 105.2712,
+      "ERI": 2.6475,
+      "PS": -25.2212,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NLD": {
+      "PN": -257.7954,
+      "TPL": 303.2164,
+      "ERI": 2.2581,
+      "PS": -264.3299,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CAN": {
+      "PN": 43.1417,
+      "TPL": 48.185,
+      "ERI": 2.3135,
+      "PS": 43.2993,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LUX": {
+      "PN": -140.999,
+      "TPL": 204.2364,
+      "ERI": 2.0423,
+      "PS": -127.4612,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GBR": {
+      "PN": 41.9812,
+      "TPL": 49.1685,
+      "ERI": 1.8205,
+      "PS": 49.7372,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CRI": {
+      "PN": 74.5736,
+      "TPL": 21.5478,
+      "ERI": 0.7211,
+      "PS": 80.823,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "FIN": {
+      "PN": -177.6597,
+      "TPL": 235.3048,
+      "ERI": 3.0684,
+      "PS": -175.2747,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DEU": {
+      "PN": -55.7594,
+      "TPL": 131.9995,
+      "ERI": 2.0875,
+      "PS": -60.2668,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "JPN": {
+      "PN": 34.4131,
+      "TPL": 55.5821,
+      "ERI": 3.5541,
+      "PS": 35.8418,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MLT": {
+      "PN": 39.8678,
+      "TPL": 50.9595,
+      "ERI": 1.655,
+      "PS": 62.5946,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "EST": {
+      "PN": 15.8502,
+      "TPL": 71.3134,
+      "ERI": 2.5807,
+      "PS": 23.9379,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CYP": {
+      "PN": 71.2407,
+      "TPL": 24.3723,
+      "ERI": 0.9293,
+      "PS": 94.054,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MUS": {
+      "PN": 74.6037,
+      "TPL": 21.5223,
+      "ERI": 0.8422,
+      "PS": 107.2874,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ESP": {
+      "PN": 10.2619,
+      "TPL": 76.0492,
+      "ERI": 1.4406,
+      "PS": 12.0911,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ISL": {
+      "PN": 12.2012,
+      "TPL": 74.4058,
+      "ERI": 2.4468,
+      "PS": 21.7452,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PRT": {
+      "PN": 55.4096,
+      "TPL": 37.7885,
+      "ERI": 1.3921,
+      "PS": 64.3513,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GEO": {
+      "PN": 52.1063,
+      "TPL": 40.5879,
+      "ERI": 0.6677,
+      "PS": 99.2122,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CHL": {
+      "PN": 71.3973,
+      "TPL": 24.2396,
+      "ERI": 1.73,
+      "PS": 71.1417,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PAN": {
+      "PN": 59.2639,
+      "TPL": 34.5221,
+      "ERI": 1.3224,
+      "PS": 74.3693,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GTM": {
+      "PN": 75.6106,
+      "TPL": 20.669,
+      "ERI": 0.6123,
+      "PS": 106.6118,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CZE": {
+      "PN": -4.2319,
+      "TPL": 88.3321,
+      "ERI": 2.0024,
+      "PS": -9.6904,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LVA": {
+      "PN": 16.8797,
+      "TPL": 70.4409,
+      "ERI": 1.1052,
+      "PS": 27.0402,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BEL": {
+      "PN": -242.4555,
+      "TPL": 290.2165,
+      "ERI": 2.2052,
+      "PS": -238.3132,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SYC": {
+      "PN": 46.2013,
+      "TPL": 45.5921,
+      "ERI": 0.4399,
+      "PS": 74.3292,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AUT": {
+      "PN": -136.5216,
+      "TPL": 200.442,
+      "ERI": 2.5978,
+      "PS": -133.6996,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LTU": {
+      "PN": 56.7849,
+      "TPL": 36.623,
+      "ERI": 1.1136,
+      "PS": 63.6003,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ALB": {
+      "PN": 37.5738,
+      "TPL": 52.9036,
+      "ERI": 0.4264,
+      "PS": 66.1832,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MYS": {
+      "PN": 50.5359,
+      "TPL": 41.9187,
+      "ERI": 1.0677,
+      "PS": 39.9488,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SWE": {
+      "PN": -198.5648,
+      "TPL": 253.021,
+      "ERI": 2.1584,
+      "PS": -197.2942,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KOR": {
+      "PN": 34.9667,
+      "TPL": 55.113,
+      "ERI": 2.3635,
+      "PS": 34.0026,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ARM": {
+      "PN": 53.3777,
+      "TPL": 39.5104,
+      "ERI": 0.3245,
+      "PS": 76.9542,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ISR": {
+      "PN": -26.4685,
+      "TPL": 107.1767,
+      "ERI": 1.4597,
+      "PS": -20.1526,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "JAM": {
+      "PN": 70.1838,
+      "TPL": 25.268,
+      "ERI": 0.1879,
+      "PS": 114.0724,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "JOR": {
+      "PN": 63.772,
+      "TPL": 30.7017,
+      "ERI": 0.6134,
+      "PS": 103.5634,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BHR": {
+      "PN": 34.2705,
+      "TPL": 55.703,
+      "ERI": 1.3523,
+      "PS": 35.5887,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CPV": {
+      "PN": 54.2062,
+      "TPL": 38.8083,
+      "ERI": 0.4573,
+      "PS": 131.949,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "FRA": {
+      "PN": -342.6482,
+      "TPL": 375.1256,
+      "ERI": 1.6678,
+      "PS": -336.4477,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ITA": {
+      "PN": 27.3929,
+      "TPL": 61.5314,
+      "ERI": 0.7338,
+      "PS": 24.8049,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DOM": {
+      "PN": 69.5136,
+      "TPL": 25.8359,
+      "ERI": 0.7575,
+      "PS": 91.8216,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NOR": {
+      "PN": -332.0268,
+      "TPL": 366.1244,
+      "ERI": 2.3491,
+      "PS": -344.9916,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SVK": {
+      "PN": 51.2779,
+      "TPL": 41.2899,
+      "ERI": 0.8186,
+      "PS": 54.0093,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ROU": {
+      "PN": 63.4044,
+      "TPL": 31.0132,
+      "ERI": 0.8801,
+      "PS": 75.7107,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PER": {
+      "PN": 62.2365,
+      "TPL": 32.003,
+      "ERI": 0.5423,
+      "PS": 62.3367,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ARE": {
+      "PN": -194.9439,
+      "TPL": 249.9525,
+      "ERI": 0.8914,
+      "PS": -217.1432,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MNE": {
+      "PN": -308.7164,
+      "TPL": 346.3698,
+      "ERI": 0.6753,
+      "PS": -252.3131,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "URY": {
+      "PN": 42.3519,
+      "TPL": 48.8543,
+      "ERI": 0.6581,
+      "PS": 43.9355,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GRC": {
+      "PN": -152.6143,
+      "TPL": 214.0799,
+      "ERI": 0.2857,
+      "PS": -140.5532,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BGR": {
+      "PN": 13.5058,
+      "TPL": 73.3002,
+      "ERI": 0.3735,
+      "PS": 19.5395,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "THA": {
+      "PN": 39.5891,
+      "TPL": 51.1957,
+      "ERI": 1.1577,
+      "PS": 40.4973,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BRN": {
+      "PN": -30028.5447,
+      "TPL": 25532.665,
+      "ERI": 0.5747,
+      "PS": -30036.6842,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "SLV": {
+      "PN": 30.3879,
+      "TPL": 58.9933,
+      "ERI": 0.3406,
+      "PS": 81.6703,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PRY": {
+      "PN": 52.1825,
+      "TPL": 40.5233,
+      "ERI": 0.5016,
+      "PS": 63.7457,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "HUN": {
+      "PN": -30.7343,
+      "TPL": 110.7918,
+      "ERI": 0.812,
+      "PS": -29.6171,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PHL": {
+      "PN": 77.2085,
+      "TPL": 19.3148,
+      "ERI": 0.916,
+      "PS": 100.7192,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SVN": {
+      "PN": -53.7069,
+      "TPL": 130.2601,
+      "ERI": 0.6781,
+      "PS": -51.1819,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "HND": {
+      "PN": 45.1503,
+      "TPL": 46.4828,
+      "ERI": 0.4215,
+      "PS": 91.2347,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IDN": {
+      "PN": 65.2249,
+      "TPL": 29.4704,
+      "ERI": 0.7661,
+      "PS": 64.2403,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SAU": {
+      "PN": -42.4589,
+      "TPL": 120.7279,
+      "ERI": 0.9969,
+      "PS": -50.4209,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "HRV": {
+      "PN": -72.3477,
+      "TPL": 146.0574,
+      "ERI": 0.3968,
+      "PS": -43.9788,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GMB": {
+      "PN": 63.9367,
+      "TPL": 30.5621,
+      "ERI": 0.7695,
+      "PS": 161.4568,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BWA": {
+      "PN": -138.2074,
+      "TPL": 201.8707,
+      "ERI": 0.6204,
+      "PS": -134.4636,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MEX": {
+      "PN": 40.7218,
+      "TPL": 50.2358,
+      "ERI": 0.4017,
+      "PS": 45.1602,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BHS": {
+      "PN": -54.5223,
+      "TPL": 130.9511,
+      "ERI": 0.2325,
+      "PS": -31.8774,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "UGA": {
+      "PN": 41.9875,
+      "TPL": 49.1631,
+      "ERI": 0.4352,
+      "PS": 61.1066,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BTN": {
+      "PN": -4.5971,
+      "TPL": 88.6416,
+      "ERI": 1.198,
+      "PS": 34.6653,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KAZ": {
+      "PN": 48.9048,
+      "TPL": 43.301,
+      "ERI": 0.5464,
+      "PS": 39.8442,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MNG": {
+      "PN": -40.3192,
+      "TPL": 118.9146,
+      "ERI": 0.3441,
+      "PS": -64.9724,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "POL": {
+      "PN": -12.8114,
+      "TPL": 95.6029,
+      "ERI": 0.5749,
+      "PS": -12.644,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KHM": {
+      "PN": 31.9324,
+      "TPL": 57.6844,
+      "ERI": 0.4965,
+      "PS": 58.0842,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BRB": {
+      "PN": 70.4902,
+      "TPL": 25.0083,
+      "ERI": 0.6049,
+      "PS": 95.1858,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MKD": {
+      "PN": 27.8838,
+      "TPL": 61.1154,
+      "ERI": 0.6232,
+      "PS": 52.8302,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "QAT": {
+      "PN": -5318.2676,
+      "TPL": 4591.7522,
+      "ERI": 1.1912,
+      "PS": -5343.369,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "KEN": {
+      "PN": 37.2823,
+      "TPL": 53.1506,
+      "ERI": 0.4172,
+      "PS": 53.5937,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TTO": {
+      "PN": -143.1594,
+      "TPL": 206.0673,
+      "ERI": 0.5345,
+      "PS": -142.5301,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "OMN": {
+      "PN": -4563.6334,
+      "TPL": 3952.2317,
+      "ERI": 0.6702,
+      "PS": -4578.3611,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "ZAF": {
+      "PN": -12.3163,
+      "TPL": 95.1833,
+      "ERI": 0.2435,
+      "PS": -15.8337,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MDA": {
+      "PN": 43.4441,
+      "TPL": 47.9287,
+      "ERI": 0.4553,
+      "PS": 88.9656,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IND": {
+      "PN": 65.3737,
+      "TPL": 29.3443,
+      "ERI": 0.7375,
+      "PS": 74.0524,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BRA": {
+      "PN": 34.9323,
+      "TPL": 55.1421,
+      "ERI": 0.3939,
+      "PS": 31.7099,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KGZ": {
+      "PN": -158.7534,
+      "TPL": 219.2825,
+      "ERI": 0.3922,
+      "PS": -81.2177,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SRB": {
+      "PN": -45.7237,
+      "TPL": 123.4947,
+      "ERI": 0.4551,
+      "PS": -26.2726,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NPL": {
+      "PN": 62.7617,
+      "TPL": 31.5579,
+      "ERI": 0.7969,
+      "PS": 124.4933,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KWT": {
+      "PN": -945.6452,
+      "TPL": 886.14,
+      "ERI": 0.6429,
+      "PS": -963.0018,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "NIC": {
+      "PN": -101.6993,
+      "TPL": 170.9316,
+      "ERI": 0.1409,
+      "PS": -61.2922,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BIH": {
+      "PN": 3.419,
+      "TPL": 81.8483,
+      "ERI": 0.3645,
+      "PS": 33.1897,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COL": {
+      "PN": 25.9122,
+      "TPL": 62.7863,
+      "ERI": 0.3582,
+      "PS": 35.0527,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MAR": {
+      "PN": 47.2988,
+      "TPL": 44.662,
+      "ERI": 0.5837,
+      "PS": 72.1118,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NAM": {
+      "PN": 24.0717,
+      "TPL": 64.346,
+      "ERI": 0.2927,
+      "PS": 44.1144,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "RWA": {
+      "PN": -555.496,
+      "TPL": 555.5051,
+      "ERI": 0.3953,
+      "PS": -520.3072,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "BEN": {
+      "PN": 41.4332,
+      "TPL": 49.6329,
+      "ERI": 0.5443,
+      "PS": 63.6777,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TJK": {
+      "PN": -136.2267,
+      "TPL": 200.1921,
+      "ERI": 0.299,
+      "PS": -70.51,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ECU": {
+      "PN": 12.9142,
+      "TPL": 73.8015,
+      "ERI": 0.3141,
+      "PS": 15.7192,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SOM": {
+      "PN": -251.0212,
+      "TPL": 297.4756,
+      "ERI": 0.0885,
+      "PS": -231.1035,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BFA": {
+      "PN": 30.0658,
+      "TPL": 59.2663,
+      "ERI": 0.3515,
+      "PS": 42.7768,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TZA": {
+      "PN": 16.802,
+      "TPL": 70.5068,
+      "ERI": 0.5499,
+      "PS": 28.6774,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ZMB": {
+      "PN": -1.7429,
+      "TPL": 86.2228,
+      "ERI": 0.1305,
+      "PS": -1.8037,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MOZ": {
+      "PN": -43.2612,
+      "TPL": 121.4078,
+      "ERI": 0.1678,
+      "PS": -5.9898,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "VNM": {
+      "PN": -92.9774,
+      "TPL": 163.5402,
+      "ERI": 0.4424,
+      "PS": -98.0116,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SEN": {
+      "PN": 56.9014,
+      "TPL": 36.5242,
+      "ERI": 0.8308,
+      "PS": 92.8611,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CHN": {
+      "PN": -372.6249,
+      "TPL": 400.5296,
+      "ERI": 0.5826,
+      "PS": -376.3723,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LBR": {
+      "PN": -33.2434,
+      "TPL": 112.9181,
+      "ERI": 0.1118,
+      "PS": 45.9357,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DJI": {
+      "PN": -694.1936,
+      "TPL": 673.0454,
+      "ERI": 0.1406,
+      "PS": -677.4559,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "MRT": {
+      "PN": -139.6757,
+      "TPL": 203.115,
+      "ERI": 0.3468,
+      "PS": -121.104,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PNG": {
+      "PN": -109.8228,
+      "TPL": 177.8159,
+      "ERI": 0.1483,
+      "PS": -130.8402,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CIV": {
+      "PN": 37.9396,
+      "TPL": 52.5936,
+      "ERI": 0.4453,
+      "PS": 41.859,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "FJI": {
+      "PN": -333.4829,
+      "TPL": 367.3584,
+      "ERI": 0.123,
+      "PS": -289.6755,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TGO": {
+      "PN": 15.2624,
+      "TPL": 71.8115,
+      "ERI": 0.3444,
+      "PS": 43.4288,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BOL": {
+      "PN": -492.0369,
+      "TPL": 501.7262,
+      "ERI": 0.1298,
+      "PS": -486.7331,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MDG": {
+      "PN": -46.8982,
+      "TPL": 124.49,
+      "ERI": 0.1381,
+      "PS": -29.4261,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BLZ": {
+      "PN": -1560.772,
+      "TPL": 1407.4339,
+      "ERI": 0.173,
+      "PS": -1519.1919,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "TLS": {
+      "PN": -3536.6861,
+      "TPL": 3081.9374,
+      "ERI": 0.0737,
+      "PS": -3509.842,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "LSO": {
+      "PN": -1655.9628,
+      "TPL": 1488.1041,
+      "ERI": 0.2729,
+      "PS": -1589.6708,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "NGA": {
+      "PN": 1.7563,
+      "TPL": 83.2574,
+      "ERI": 0.1788,
+      "PS": 8.6167,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TUN": {
+      "PN": -113.7594,
+      "TPL": 181.152,
+      "ERI": 0.2766,
+      "PS": -90.1045,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GIN": {
+      "PN": -288.9465,
+      "TPL": 329.6157,
+      "ERI": 0.1162,
+      "PS": -277.9501,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NER": {
+      "PN": -22.063,
+      "TPL": 103.4432,
+      "ERI": 0.2565,
+      "PS": 5.9089,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BGD": {
+      "PN": 7.9309,
+      "TPL": 78.0247,
+      "ERI": 0.3687,
+      "PS": 22.6283,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GHA": {
+      "PN": 58.214,
+      "TPL": 35.4119,
+      "ERI": 0.458,
+      "PS": 62.3622,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LKA": {
+      "PN": 52.8853,
+      "TPL": 39.9277,
+      "ERI": 0.6573,
+      "PS": 67.4165,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AZE": {
+      "PN": -679.0469,
+      "TPL": 660.2092,
+      "ERI": 0.1944,
+      "PS": -686.6138,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "MLI": {
+      "PN": 17.1685,
+      "TPL": 70.1962,
+      "ERI": 0.3187,
+      "PS": 34.7697,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LAO": {
+      "PN": -112.2117,
+      "TPL": 179.8404,
+      "ERI": 0.1337,
+      "PS": -111.5425,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CMR": {
+      "PN": 16.423,
+      "TPL": 70.828,
+      "ERI": 0.2509,
+      "PS": 25.4195,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PAK": {
+      "PN": 29.3168,
+      "TPL": 59.901,
+      "ERI": 0.2333,
+      "PS": 48.0416,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SLE": {
+      "PN": 23.4516,
+      "TPL": 64.8715,
+      "ERI": 0.2145,
+      "PS": 31.9297,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COM": {
+      "PN": -248.4043,
+      "TPL": 295.2579,
+      "ERI": 0.0783,
+      "PS": -196.6589,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SUR": {
+      "PN": 8.0105,
+      "TPL": 77.9572,
+      "ERI": 0.2857,
+      "PS": -9.1528,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GUY": {
+      "PN": -5805.8042,
+      "TPL": 5004.9188,
+      "ERI": 0.3901,
+      "PS": -5861.1216,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "TUR": {
+      "PN": 43.1379,
+      "TPL": 48.1882,
+      "ERI": 1.0089,
+      "PS": 50.9035,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SWZ": {
+      "PN": -980.2122,
+      "TPL": 915.4341,
+      "ERI": 0.1113,
+      "PS": -979.6664,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "IRQ": {
+      "PN": -1979.9812,
+      "TPL": 1762.6959,
+      "ERI": 0.1171,
+      "PS": -1980.7872,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "GNB": {
+      "PN": -205.2941,
+      "TPL": 258.7238,
+      "ERI": 0.1133,
+      "PS": -190.4332,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GAB": {
+      "PN": -58.8882,
+      "TPL": 134.651,
+      "ERI": 0.1244,
+      "PS": -86.198,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LBN": {
+      "PN": 5.442,
+      "TPL": 80.1339,
+      "ERI": 0.0222,
+      "PS": 70.2539,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "UKR": {
+      "PN": -189.9929,
+      "TPL": 245.7567,
+      "ERI": 0.0996,
+      "PS": -146.6563,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AGO": {
+      "PN": -69.7906,
+      "TPL": 143.8903,
+      "ERI": 0.0932,
+      "PS": -88.888,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MWI": {
+      "PN": -30.4869,
+      "TPL": 110.5821,
+      "ERI": 0.19,
+      "PS": 1.4699,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "RUS": {
+      "PN": -183.1654,
+      "TPL": 239.9707,
+      "ERI": 0.2297,
+      "PS": -190.5235,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "EGY": {
+      "PN": -7.5122,
+      "TPL": 91.112,
+      "ERI": 0.2977,
+      "PS": 11.3719,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "YEM": {
+      "PN": -141.2419,
+      "TPL": 204.4423,
+      "ERI": 0.0,
+      "PS": -103.4171,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COD": {
+      "PN": -68.5997,
+      "TPL": 142.8811,
+      "ERI": 0.2181,
+      "PS": -70.237,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BDI": {
+      "PN": -99.8731,
+      "TPL": 169.384,
+      "ERI": 0.1599,
+      "PS": -53.8626,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ETH": {
+      "PN": -12.4985,
+      "TPL": 95.3377,
+      "ERI": 0.2904,
+      "PS": 3.3778,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CAF": {
+      "PN": -199.1319,
+      "TPL": 253.5016,
+      "ERI": 0.1162,
+      "PS": -142.4953,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COG": {
+      "PN": -49.1636,
+      "TPL": 126.4098,
+      "ERI": 0.2133,
+      "PS": -64.9339,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TCD": {
+      "PN": -63.8765,
+      "TPL": 138.8784,
+      "ERI": 0.1443,
+      "PS": -57.2422,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LBY": {
+      "PN": -3516468.6469,
+      "TPL": 2980142.9211,
+      "ERI": 0.0328,
+      "PS": -3516476.8176,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "SYR": {
+      "PN": -120.6624,
+      "TPL": 187.002,
+      "ERI": 0.0,
+      "PS": null,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ARG": {
+      "PN": -2.7484,
+      "TPL": 87.0749,
+      "ERI": 0.2424,
+      "PS": -2.679,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MMR": {
+      "PN": -194.3305,
+      "TPL": 249.4326,
+      "ERI": 0.0001,
+      "PS": -183.9721,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IRN": {
+      "PN": -180.8362,
+      "TPL": 237.9968,
+      "ERI": 0.1759,
+      "PS": -182.1557,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DZA": {
+      "PN": -978.2912,
+      "TPL": 913.8061,
+      "ERI": 0.4488,
+      "PS": -949.9405,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "SDN": {
+      "PN": -140.4035,
+      "TPL": 203.7318,
+      "ERI": 0.0,
+      "PS": -104.3188,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ZWE": {
+      "PN": -236.9739,
+      "TPL": 285.5711,
+      "ERI": 0.0518,
+      "PS": -227.102,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "VEN": {
+      "PN": -661.9777,
+      "TPL": 645.7438,
+      "ERI": 0.0,
+      "PS": null,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    }
+  },
+  "2026": {
+    "HKG": {
+      "PN": 70.9682,
+      "TPL": 24.6032,
+      "ERI": 1.794,
+      "PS": 84.8249,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SGP": {
+      "PN": 67.0512,
+      "TPL": 27.9227,
+      "ERI": 2.1804,
+      "PS": 56.8976,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NZL": {
+      "PN": 32.5914,
+      "TPL": 57.1259,
+      "ERI": 2.9924,
+      "PS": 35.1333,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CHE": {
+      "PN": 83.111,
+      "TPL": 14.3127,
+      "ERI": 4.2463,
+      "PS": 76.7651,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "USA": {
+      "PN": 78.1937,
+      "TPL": 18.4799,
+      "ERI": 2.7663,
+      "PS": 82.7824,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IRL": {
+      "PN": 77.8346,
+      "TPL": 18.7842,
+      "ERI": 4.5351,
+      "PS": 65.2578,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AUS": {
+      "PN": 23.878,
+      "TPL": 64.5102,
+      "ERI": 2.6279,
+      "PS": 18.8763,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TWN": {
+      "PN": 85.0665,
+      "TPL": 12.6555,
+      "ERI": 0.4755,
+      "PS": null,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DNK": {
+      "PN": -22.155,
+      "TPL": 103.5212,
+      "ERI": 2.6813,
+      "PS": -23.0142,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NLD": {
+      "PN": -256.5443,
+      "TPL": 302.1562,
+      "ERI": 2.2693,
+      "PS": -263.1049,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CAN": {
+      "PN": 43.0851,
+      "TPL": 48.233,
+      "ERI": 2.3151,
+      "PS": 43.2536,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LUX": {
+      "PN": -145.1999,
+      "TPL": 207.7965,
+      "ERI": 2.0311,
+      "PS": -131.8088,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GBR": {
+      "PN": 42.074,
+      "TPL": 49.0898,
+      "ERI": 1.8347,
+      "PS": 49.8636,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CRI": {
+      "PN": 74.2182,
+      "TPL": 21.849,
+      "ERI": 0.705,
+      "PS": 80.1549,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "FIN": {
+      "PN": -179.3152,
+      "TPL": 236.7078,
+      "ERI": 3.0864,
+      "PS": -176.8114,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DEU": {
+      "PN": -57.6617,
+      "TPL": 133.6116,
+      "ERI": 2.1075,
+      "PS": -62.0531,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "JPN": {
+      "PN": 33.9097,
+      "TPL": 56.0087,
+      "ERI": 3.5793,
+      "PS": 35.4488,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MLT": {
+      "PN": 40.3097,
+      "TPL": 50.585,
+      "ERI": 1.6662,
+      "PS": 63.0319,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "EST": {
+      "PN": 15.5302,
+      "TPL": 71.5846,
+      "ERI": 2.5963,
+      "PS": 23.5699,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CYP": {
+      "PN": 71.1589,
+      "TPL": 24.4416,
+      "ERI": 0.9236,
+      "PS": 93.6909,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MUS": {
+      "PN": 73.9688,
+      "TPL": 22.0603,
+      "ERI": 0.8199,
+      "PS": 107.1315,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ESP": {
+      "PN": 10.2221,
+      "TPL": 76.083,
+      "ERI": 1.431,
+      "PS": 11.8578,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ISL": {
+      "PN": 11.9742,
+      "TPL": 74.5981,
+      "ERI": 2.4974,
+      "PS": 21.8138,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PRT": {
+      "PN": 55.729,
+      "TPL": 37.5178,
+      "ERI": 1.3934,
+      "PS": 64.6224,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GEO": {
+      "PN": 52.7722,
+      "TPL": 40.0236,
+      "ERI": 0.673,
+      "PS": 99.9803,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CHL": {
+      "PN": 71.2648,
+      "TPL": 24.3519,
+      "ERI": 1.7126,
+      "PS": 71.0926,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PAN": {
+      "PN": 59.1485,
+      "TPL": 34.6199,
+      "ERI": 1.3094,
+      "PS": 74.0357,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GTM": {
+      "PN": 75.6305,
+      "TPL": 20.6521,
+      "ERI": 0.614,
+      "PS": 106.8715,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CZE": {
+      "PN": -4.2716,
+      "TPL": 88.3658,
+      "ERI": 2.005,
+      "PS": -9.7473,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LVA": {
+      "PN": 16.5584,
+      "TPL": 70.7132,
+      "ERI": 1.09,
+      "PS": 26.3476,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BEL": {
+      "PN": -242.1722,
+      "TPL": 289.9764,
+      "ERI": 2.2183,
+      "PS": -237.963,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SYC": {
+      "PN": 45.3688,
+      "TPL": 46.2976,
+      "ERI": 0.4076,
+      "PS": 69.4521,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AUT": {
+      "PN": -137.1295,
+      "TPL": 200.9572,
+      "ERI": 2.6237,
+      "PS": -134.2703,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LTU": {
+      "PN": 56.9328,
+      "TPL": 36.4976,
+      "ERI": 1.1207,
+      "PS": 63.5586,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ALB": {
+      "PN": 37.0595,
+      "TPL": 53.3394,
+      "ERI": 0.4163,
+      "PS": 65.148,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MYS": {
+      "PN": 50.682,
+      "TPL": 41.7949,
+      "ERI": 1.0682,
+      "PS": 40.1052,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SWE": {
+      "PN": -199.5142,
+      "TPL": 253.8256,
+      "ERI": 2.1808,
+      "PS": -198.1164,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KOR": {
+      "PN": 33.9917,
+      "TPL": 55.9392,
+      "ERI": 2.3654,
+      "PS": 33.1106,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ARM": {
+      "PN": 52.3071,
+      "TPL": 40.4177,
+      "ERI": 0.287,
+      "PS": 75.0787,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ISR": {
+      "PN": -26.6256,
+      "TPL": 107.3098,
+      "ERI": 1.4754,
+      "PS": -20.1417,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "JAM": {
+      "PN": 70.2182,
+      "TPL": 25.2388,
+      "ERI": 0.1895,
+      "PS": 113.8849,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "JOR": {
+      "PN": 63.178,
+      "TPL": 31.2051,
+      "ERI": 0.5873,
+      "PS": 102.2416,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BHR": {
+      "PN": 33.96,
+      "TPL": 55.9661,
+      "ERI": 1.3612,
+      "PS": 35.1779,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CPV": {
+      "PN": 52.9112,
+      "TPL": 39.9058,
+      "ERI": 0.4162,
+      "PS": 132.7083,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "FRA": {
+      "PN": -342.9995,
+      "TPL": 375.4233,
+      "ERI": 1.6757,
+      "PS": -336.655,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ITA": {
+      "PN": 27.9922,
+      "TPL": 61.0236,
+      "ERI": 0.738,
+      "PS": 25.1942,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DOM": {
+      "PN": 69.6236,
+      "TPL": 25.7427,
+      "ERI": 0.7631,
+      "PS": 91.8433,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NOR": {
+      "PN": -337.5056,
+      "TPL": 370.7675,
+      "ERI": 2.3518,
+      "PS": -350.576,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SVK": {
+      "PN": 50.6544,
+      "TPL": 41.8183,
+      "ERI": 0.8086,
+      "PS": 53.4936,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ROU": {
+      "PN": 62.8706,
+      "TPL": 31.4656,
+      "ERI": 0.8704,
+      "PS": 75.3111,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PER": {
+      "PN": 61.9831,
+      "TPL": 32.2177,
+      "ERI": 0.5339,
+      "PS": 61.9869,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ARE": {
+      "PN": -212.1686,
+      "TPL": 264.5497,
+      "ERI": 0.8849,
+      "PS": -234.9111,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MNE": {
+      "PN": -297.2938,
+      "TPL": 336.6897,
+      "ERI": 0.6785,
+      "PS": -241.0584,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "URY": {
+      "PN": 40.6179,
+      "TPL": 50.3238,
+      "ERI": 0.6408,
+      "PS": 42.0643,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GRC": {
+      "PN": -150.6237,
+      "TPL": 212.393,
+      "ERI": 0.2811,
+      "PS": -138.701,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BGR": {
+      "PN": 12.4716,
+      "TPL": 74.1766,
+      "ERI": 0.3614,
+      "PS": 18.1366,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "THA": {
+      "PN": 39.2888,
+      "TPL": 51.4502,
+      "ERI": 1.1557,
+      "PS": 40.2198,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BRN": {
+      "PN": -30967.5036,
+      "TPL": 26328.3929,
+      "ERI": 0.584,
+      "PS": -30972.8157,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "SLV": {
+      "PN": 30.5569,
+      "TPL": 58.8501,
+      "ERI": 0.3459,
+      "PS": 82.197,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PRY": {
+      "PN": 52.14,
+      "TPL": 40.5593,
+      "ERI": 0.503,
+      "PS": 63.6959,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "HUN": {
+      "PN": -28.3751,
+      "TPL": 108.7925,
+      "ERI": 0.8286,
+      "PS": -27.0302,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PHL": {
+      "PN": 77.4159,
+      "TPL": 19.1391,
+      "ERI": 0.9287,
+      "PS": 101.2103,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SVN": {
+      "PN": -54.287,
+      "TPL": 130.7517,
+      "ERI": 0.6706,
+      "PS": -51.8131,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "HND": {
+      "PN": 45.0109,
+      "TPL": 46.6009,
+      "ERI": 0.4174,
+      "PS": 91.2541,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IDN": {
+      "PN": 65.2242,
+      "TPL": 29.471,
+      "ERI": 0.7658,
+      "PS": 64.2008,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SAU": {
+      "PN": -45.1813,
+      "TPL": 123.035,
+      "ERI": 0.9875,
+      "PS": -52.4867,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "HRV": {
+      "PN": -72.1869,
+      "TPL": 145.9211,
+      "ERI": 0.3984,
+      "PS": -43.3568,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GMB": {
+      "PN": 64.8443,
+      "TPL": 29.793,
+      "ERI": 0.7999,
+      "PS": 164.8542,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BWA": {
+      "PN": -139.3949,
+      "TPL": 202.877,
+      "ERI": 0.608,
+      "PS": -135.9948,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MEX": {
+      "PN": 40.6139,
+      "TPL": 50.3272,
+      "ERI": 0.3999,
+      "PS": 45.1532,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BHS": {
+      "PN": -56.0788,
+      "TPL": 132.2702,
+      "ERI": 0.2275,
+      "PS": -33.5136,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "UGA": {
+      "PN": 41.7198,
+      "TPL": 49.39,
+      "ERI": 0.4315,
+      "PS": 60.6499,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BTN": {
+      "PN": -4.6196,
+      "TPL": 88.6607,
+      "ERI": 1.175,
+      "PS": 35.0563,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KAZ": {
+      "PN": 48.8947,
+      "TPL": 43.3096,
+      "ERI": 0.5475,
+      "PS": 40.3395,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MNG": {
+      "PN": -41.5509,
+      "TPL": 119.9584,
+      "ERI": 0.3324,
+      "PS": -67.8314,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "POL": {
+      "PN": -13.0668,
+      "TPL": 95.8193,
+      "ERI": 0.5704,
+      "PS": -13.1044,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KHM": {
+      "PN": 32.3533,
+      "TPL": 57.3277,
+      "ERI": 0.5067,
+      "PS": 58.7494,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BRB": {
+      "PN": 70.5321,
+      "TPL": 24.9728,
+      "ERI": 0.6065,
+      "PS": 95.2629,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MKD": {
+      "PN": 28.9319,
+      "TPL": 60.2272,
+      "ERI": 0.632,
+      "PS": 53.59,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "QAT": {
+      "PN": -5615.7199,
+      "TPL": 4843.8304,
+      "ERI": 1.1998,
+      "PS": -5639.8377,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "KEN": {
+      "PN": 37.2226,
+      "TPL": 53.2012,
+      "ERI": 0.4131,
+      "PS": 53.379,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TTO": {
+      "PN": -146.3176,
+      "TPL": 208.7437,
+      "ERI": 0.5222,
+      "PS": -144.4743,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "OMN": {
+      "PN": -4858.9164,
+      "TPL": 4202.4715,
+      "ERI": 0.6573,
+      "PS": -4873.3037,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "ZAF": {
+      "PN": -13.2527,
+      "TPL": 95.9769,
+      "ERI": 0.2359,
+      "PS": -17.1611,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MDA": {
+      "PN": 43.3028,
+      "TPL": 48.0485,
+      "ERI": 0.4495,
+      "PS": 87.9142,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IND": {
+      "PN": 64.9666,
+      "TPL": 29.6893,
+      "ERI": 0.722,
+      "PS": 73.5622,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BRA": {
+      "PN": 34.4486,
+      "TPL": 55.552,
+      "ERI": 0.3833,
+      "PS": 30.9673,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KGZ": {
+      "PN": -155.4302,
+      "TPL": 216.4663,
+      "ERI": 0.3951,
+      "PS": -77.9015,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SRB": {
+      "PN": -42.5038,
+      "TPL": 120.7659,
+      "ERI": 0.463,
+      "PS": -23.3299,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NPL": {
+      "PN": 62.9856,
+      "TPL": 31.3681,
+      "ERI": 0.8045,
+      "PS": 124.9172,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "KWT": {
+      "PN": -1001.9515,
+      "TPL": 933.8572,
+      "ERI": 0.6499,
+      "PS": -1017.9097,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "NIC": {
+      "PN": -102.285,
+      "TPL": 171.428,
+      "ERI": 0.1367,
+      "PS": -61.5735,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BIH": {
+      "PN": 3.992,
+      "TPL": 81.3627,
+      "ERI": 0.366,
+      "PS": 33.1763,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COL": {
+      "PN": 25.3705,
+      "TPL": 63.2453,
+      "ERI": 0.3518,
+      "PS": 34.9136,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MAR": {
+      "PN": 47.0613,
+      "TPL": 44.8633,
+      "ERI": 0.5786,
+      "PS": 71.8262,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NAM": {
+      "PN": 23.5391,
+      "TPL": 64.7974,
+      "ERI": 0.2821,
+      "PS": 44.0831,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "RWA": {
+      "PN": -579.105,
+      "TPL": 575.5127,
+      "ERI": 0.3999,
+      "PS": -544.0487,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "BEN": {
+      "PN": 42.2666,
+      "TPL": 48.9266,
+      "ERI": 0.565,
+      "PS": 64.2908,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TJK": {
+      "PN": -133.7139,
+      "TPL": 198.0626,
+      "ERI": 0.305,
+      "PS": -68.546,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ECU": {
+      "PN": 12.5942,
+      "TPL": 74.0727,
+      "ERI": 0.3115,
+      "PS": 15.2613,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SOM": {
+      "PN": -250.8149,
+      "TPL": 297.3008,
+      "ERI": 0.0935,
+      "PS": -231.7456,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BFA": {
+      "PN": 29.4356,
+      "TPL": 59.8003,
+      "ERI": 0.3463,
+      "PS": 41.6932,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TZA": {
+      "PN": 17.9584,
+      "TPL": 69.5268,
+      "ERI": 0.5555,
+      "PS": 29.4786,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ZMB": {
+      "PN": -2.4724,
+      "TPL": 86.841,
+      "ERI": 0.126,
+      "PS": -2.8891,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MOZ": {
+      "PN": -43.3186,
+      "TPL": 121.4564,
+      "ERI": 0.1685,
+      "PS": -6.1972,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "VNM": {
+      "PN": -95.8416,
+      "TPL": 165.9675,
+      "ERI": 0.439,
+      "PS": -101.1332,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SEN": {
+      "PN": 57.8657,
+      "TPL": 35.707,
+      "ERI": 0.859,
+      "PS": 93.6957,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CHN": {
+      "PN": -381.8703,
+      "TPL": 408.3647,
+      "ERI": 0.5793,
+      "PS": -385.6321,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LBR": {
+      "PN": -33.4607,
+      "TPL": 113.1023,
+      "ERI": 0.1153,
+      "PS": 47.1918,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DJI": {
+      "PN": -697.5501,
+      "TPL": 675.8899,
+      "ERI": 0.1431,
+      "PS": -681.2746,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "MRT": {
+      "PN": -140.7484,
+      "TPL": 204.0241,
+      "ERI": 0.354,
+      "PS": -122.059,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PNG": {
+      "PN": -111.1124,
+      "TPL": 178.9088,
+      "ERI": 0.1513,
+      "PS": -133.4231,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CIV": {
+      "PN": 38.2013,
+      "TPL": 52.3718,
+      "ERI": 0.4535,
+      "PS": 42.2328,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "FJI": {
+      "PN": -340.1212,
+      "TPL": 372.9841,
+      "ERI": 0.1261,
+      "PS": -296.1808,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TGO": {
+      "PN": 15.443,
+      "TPL": 71.6585,
+      "ERI": 0.3501,
+      "PS": 43.3723,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BOL": {
+      "PN": -504.509,
+      "TPL": 512.2958,
+      "ERI": 0.1307,
+      "PS": -499.112,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "MDG": {
+      "PN": -47.5129,
+      "TPL": 125.0109,
+      "ERI": 0.1341,
+      "PS": -30.5347,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BLZ": {
+      "PN": -1579.9763,
+      "TPL": 1423.7087,
+      "ERI": 0.1754,
+      "PS": -1537.9271,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "TLS": {
+      "PN": -1397.5238,
+      "TPL": 1269.088,
+      "ERI": 0.0576,
+      "PS": -1371.7955,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "LSO": {
+      "PN": -1625.7362,
+      "TPL": 1462.4883,
+      "ERI": 0.2692,
+      "PS": -1558.8919,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "NGA": {
+      "PN": 1.9342,
+      "TPL": 83.1066,
+      "ERI": 0.1832,
+      "PS": 9.3506,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TUN": {
+      "PN": -119.1687,
+      "TPL": 185.7362,
+      "ERI": 0.2648,
+      "PS": -95.2707,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GIN": {
+      "PN": -298.0101,
+      "TPL": 337.2967,
+      "ERI": 0.1136,
+      "PS": -287.1259,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "NER": {
+      "PN": -22.2098,
+      "TPL": 103.5676,
+      "ERI": 0.2543,
+      "PS": 5.8471,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BGD": {
+      "PN": 8.2091,
+      "TPL": 77.7889,
+      "ERI": 0.3734,
+      "PS": 22.764,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GHA": {
+      "PN": 58.1814,
+      "TPL": 35.4395,
+      "ERI": 0.4568,
+      "PS": 62.1907,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LKA": {
+      "PN": 53.328,
+      "TPL": 39.5525,
+      "ERI": 0.6658,
+      "PS": 67.6241,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AZE": {
+      "PN": -710.9369,
+      "TPL": 687.2347,
+      "ERI": 0.1924,
+      "PS": -717.3341,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "MLI": {
+      "PN": 17.2156,
+      "TPL": 70.1563,
+      "ERI": 0.3191,
+      "PS": 34.5578,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LAO": {
+      "PN": -112.5336,
+      "TPL": 180.1132,
+      "ERI": 0.1302,
+      "PS": -112.3222,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CMR": {
+      "PN": 16.394,
+      "TPL": 70.8525,
+      "ERI": 0.2507,
+      "PS": 25.316,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "PAK": {
+      "PN": 29.1943,
+      "TPL": 60.0048,
+      "ERI": 0.2313,
+      "PS": 48.0624,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SLE": {
+      "PN": 22.9688,
+      "TPL": 65.2807,
+      "ERI": 0.2052,
+      "PS": 31.6442,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COM": {
+      "PN": -245.6534,
+      "TPL": 292.9266,
+      "ERI": 0.0754,
+      "PS": -193.5247,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SUR": {
+      "PN": 7.4224,
+      "TPL": 78.4556,
+      "ERI": 0.2716,
+      "PS": -10.7477,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GUY": {
+      "PN": -6133.742,
+      "TPL": 5282.8322,
+      "ERI": 0.4043,
+      "PS": -6190.9509,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "TUR": {
+      "PN": 43.1861,
+      "TPL": 48.1474,
+      "ERI": 1.0232,
+      "PS": 50.8646,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "SWZ": {
+      "PN": -1000.6287,
+      "TPL": 932.7362,
+      "ERI": 0.1129,
+      "PS": -1000.5326,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "IRQ": {
+      "PN": -1945.0802,
+      "TPL": 1733.1188,
+      "ERI": 0.1202,
+      "PS": -1944.0219,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "GNB": {
+      "PN": -205.9689,
+      "TPL": 259.2957,
+      "ERI": 0.1154,
+      "PS": -191.2875,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "GAB": {
+      "PN": -59.2454,
+      "TPL": 134.9537,
+      "ERI": 0.1178,
+      "PS": -86.4316,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LBN": {
+      "PN": 4.6942,
+      "TPL": 80.7676,
+      "ERI": 0.0,
+      "PS": 70.326,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "UKR": {
+      "PN": -191.0966,
+      "TPL": 246.692,
+      "ERI": 0.0949,
+      "PS": -147.3864,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "AGO": {
+      "PN": -69.9927,
+      "TPL": 144.0616,
+      "ERI": 0.0839,
+      "PS": -88.1798,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MWI": {
+      "PN": -30.6328,
+      "TPL": 110.7058,
+      "ERI": 0.187,
+      "PS": 1.2496,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "RUS": {
+      "PN": -181.9887,
+      "TPL": 238.9735,
+      "ERI": 0.2306,
+      "PS": -189.165,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "EGY": {
+      "PN": -2.6764,
+      "TPL": 87.0139,
+      "ERI": 0.2977,
+      "PS": 16.133,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "YEM": {
+      "PN": -141.0184,
+      "TPL": 204.2529,
+      "ERI": 0.0,
+      "PS": -104.0989,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COD": {
+      "PN": -68.1762,
+      "TPL": 142.5222,
+      "ERI": 0.2227,
+      "PS": -70.0637,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "BDI": {
+      "PN": -100.1708,
+      "TPL": 169.6363,
+      "ERI": 0.1625,
+      "PS": -54.3502,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ETH": {
+      "PN": -12.5643,
+      "TPL": 95.3935,
+      "ERI": 0.2875,
+      "PS": 2.8319,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "CAF": {
+      "PN": -198.4482,
+      "TPL": 252.9222,
+      "ERI": 0.1203,
+      "PS": -140.9618,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "COG": {
+      "PN": -50.9854,
+      "TPL": 127.9537,
+      "ERI": 0.1954,
+      "PS": -66.7658,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "TCD": {
+      "PN": -63.7941,
+      "TPL": 138.8086,
+      "ERI": 0.1432,
+      "PS": -57.2227,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "LBY": {
+      "PN": -3914304.4333,
+      "TPL": 3317291.8926,
+      "ERI": 0.0308,
+      "PS": -3914309.9544,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": true
+    },
+    "SYR": {
+      "PN": -119.4404,
+      "TPL": 185.9664,
+      "ERI": 0.0,
+      "PS": null,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ARG": {
+      "PN": -2.9425,
+      "TPL": 87.2394,
+      "ERI": 0.2417,
+      "PS": -2.7814,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "MMR": {
+      "PN": -194.8655,
+      "TPL": 249.886,
+      "ERI": 0.0,
+      "PS": -184.2679,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "IRN": {
+      "PN": -180.9103,
+      "TPL": 238.0596,
+      "ERI": 0.1771,
+      "PS": -181.4528,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "DZA": {
+      "PN": -990.1688,
+      "TPL": 923.8719,
+      "ERI": 0.4475,
+      "PS": -959.5181,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    },
+    "SDN": {
+      "PN": -140.0894,
+      "TPL": 203.4656,
+      "ERI": 0.0,
+      "PS": -102.3386,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "ZWE": {
+      "PN": -235.8033,
+      "TPL": 284.5791,
+      "ERI": 0.0519,
+      "PS": -226.4497,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": true
+    },
+    "VEN": {
+      "PN": -652.9538,
+      "TPL": 638.0964,
+      "ERI": 0.0,
+      "PS": null,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": true
+    }
+  },
+  "2023": {
+    "HKG": {
+      "PN": 68.0179,
+      "TPL": 27.1035,
+      "ERI": 1.7231,
+      "PS": 89.0742,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SGP": {
+      "PN": 72.0898,
+      "TPL": 23.6527,
+      "ERI": 2.3745,
+      "PS": 61.618,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "NZL": {
+      "PN": 27.9983,
+      "TPL": 61.0184,
+      "ERI": 2.7225,
+      "PS": 31.2644,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "CHE": {
+      "PN": 83.6715,
+      "TPL": 13.8377,
+      "ERI": 4.2654,
+      "PS": 77.9628,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "USA": {
+      "PN": 79.0726,
+      "TPL": 17.7351,
+      "ERI": 2.7059,
+      "PS": 83.3168,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "IRL": {
+      "PN": 72.8111,
+      "TPL": 23.0414,
+      "ERI": 3.1499,
+      "PS": 61.9387,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "AUS": {
+      "PN": 42.609,
+      "TPL": 48.6364,
+      "ERI": 2.9674,
+      "PS": 38.0102,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "TWN": {
+      "PN": 85.5845,
+      "TPL": 12.2165,
+      "ERI": 0.471,
+      "PS": null,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "DNK": {
+      "PN": -18.9571,
+      "TPL": 100.8111,
+      "ERI": 2.6129,
+      "PS": -20.6546,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "NLD": {
+      "PN": -210.3412,
+      "TPL": 263.001,
+      "ERI": 2.1422,
+      "PS": -216.1655,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "CAN": {
+      "PN": 46.1601,
+      "TPL": 45.627,
+      "ERI": 2.2861,
+      "PS": 45.7935,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "LUX": {
+      "PN": -275.51,
+      "TPL": 318.2288,
+      "ERI": 1.9034,
+      "PS": -261.7261,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "GBR": {
+      "PN": 45.5619,
+      "TPL": 46.134,
+      "ERI": 1.7244,
+      "PS": 53.5991,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "CRI": {
+      "PN": 75.5019,
+      "TPL": 20.7611,
+      "ERI": 0.7185,
+      "PS": 81.5285,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "FIN": {
+      "PN": -184.104,
+      "TPL": 240.7661,
+      "ERI": 2.7896,
+      "PS": -183.6721,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "DEU": {
+      "PN": -30.2904,
+      "TPL": 110.4156,
+      "ERI": 2.0302,
+      "PS": -35.0635,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "JPN": {
+      "PN": 35.7989,
+      "TPL": 54.4077,
+      "ERI": 3.4929,
+      "PS": 36.7131,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MLT": {
+      "PN": 31.7123,
+      "TPL": 57.8709,
+      "ERI": 1.4751,
+      "PS": 53.5601,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "EST": {
+      "PN": -10.8336,
+      "TPL": 93.9268,
+      "ERI": 2.3438,
+      "PS": -1.6306,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "CYP": {
+      "PN": 47.4395,
+      "TPL": 44.5428,
+      "ERI": 1.1391,
+      "PS": 75.2717,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MUS": {
+      "PN": 75.5888,
+      "TPL": 20.6875,
+      "ERI": 0.9735,
+      "PS": 109.9653,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ESP": {
+      "PN": 17.2839,
+      "TPL": 70.0984,
+      "ERI": 1.5539,
+      "PS": 20.6408,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ISL": {
+      "PN": 22.3988,
+      "TPL": 65.7637,
+      "ERI": 2.5597,
+      "PS": 31.5013,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "PRT": {
+      "PN": 53.827,
+      "TPL": 39.1297,
+      "ERI": 1.4502,
+      "PS": 64.7057,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "GEO": {
+      "PN": 49.1317,
+      "TPL": 43.1087,
+      "ERI": 0.6268,
+      "PS": 94.9125,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "CHL": {
+      "PN": 72.7596,
+      "TPL": 23.0851,
+      "ERI": 1.7642,
+      "PS": 70.4751,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "PAN": {
+      "PN": 60.8718,
+      "TPL": 33.1595,
+      "ERI": 1.4146,
+      "PS": 75.2849,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "GTM": {
+      "PN": 77.367,
+      "TPL": 19.1805,
+      "ERI": 0.6753,
+      "PS": 112.2864,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "CZE": {
+      "PN": -1.3638,
+      "TPL": 85.9015,
+      "ERI": 2.0785,
+      "PS": -7.2,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "LVA": {
+      "PN": 23.729,
+      "TPL": 64.6364,
+      "ERI": 1.2415,
+      "PS": 35.9806,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BEL": {
+      "PN": -228.3008,
+      "TPL": 278.221,
+      "ERI": 2.1469,
+      "PS": -225.1484,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SYC": {
+      "PN": 53.1359,
+      "TPL": 39.7153,
+      "ERI": 0.5871,
+      "PS": 95.7171,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "AUT": {
+      "PN": -78.9006,
+      "TPL": 151.6107,
+      "ERI": 2.4944,
+      "PS": -77.704,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "LTU": {
+      "PN": 52.9777,
+      "TPL": 39.8494,
+      "ERI": 1.0895,
+      "PS": 61.4616,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ALB": {
+      "PN": 38.9033,
+      "TPL": 51.7769,
+      "ERI": 0.4284,
+      "PS": 67.3857,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MYS": {
+      "PN": 51.4,
+      "TPL": 41.1864,
+      "ERI": 1.057,
+      "PS": 40.0844,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SWE": {
+      "PN": -264.6791,
+      "TPL": 309.0501,
+      "ERI": 2.025,
+      "PS": -264.7502,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "KOR": {
+      "PN": 34.021,
+      "TPL": 55.9144,
+      "ERI": 2.3625,
+      "PS": 34.9887,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ARM": {
+      "PN": 61.5449,
+      "TPL": 32.5891,
+      "ERI": 0.6083,
+      "PS": 85.1863,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ISR": {
+      "PN": -26.045,
+      "TPL": 106.8178,
+      "ERI": 1.39,
+      "PS": -19.4141,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "JAM": {
+      "PN": 70.5879,
+      "TPL": 24.9255,
+      "ERI": 0.2068,
+      "PS": 113.9025,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "JOR": {
+      "PN": 66.8569,
+      "TPL": 28.0874,
+      "ERI": 0.7715,
+      "PS": 106.6163,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BHR": {
+      "PN": 41.0845,
+      "TPL": 49.9284,
+      "ERI": 1.251,
+      "PS": 47.4653,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "CPV": {
+      "PN": 60.3675,
+      "TPL": 33.5869,
+      "ERI": 0.5796,
+      "PS": 136.0425,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "FRA": {
+      "PN": -371.5442,
+      "TPL": 399.6137,
+      "ERI": 1.619,
+      "PS": -365.6474,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ITA": {
+      "PN": 46.1357,
+      "TPL": 45.6477,
+      "ERI": 0.8414,
+      "PS": 45.0707,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "DOM": {
+      "PN": 67.2746,
+      "TPL": 27.7334,
+      "ERI": 0.7377,
+      "PS": 92.7542,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "NOR": {
+      "PN": -314.1091,
+      "TPL": 350.9399,
+      "ERI": 2.0382,
+      "PS": -330.5187,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SVK": {
+      "PN": 43.4989,
+      "TPL": 47.8823,
+      "ERI": 0.7597,
+      "PS": 44.1297,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ROU": {
+      "PN": 62.3378,
+      "TPL": 31.9171,
+      "ERI": 0.9622,
+      "PS": 74.2097,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "PER": {
+      "PN": 59.5196,
+      "TPL": 34.3054,
+      "ERI": 0.4964,
+      "PS": 56.8383,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ARE": {
+      "PN": -199.4523,
+      "TPL": 253.7731,
+      "ERI": 1.0517,
+      "PS": -218.1715,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MNE": {
+      "PN": -286.1707,
+      "TPL": 327.2633,
+      "ERI": 0.6451,
+      "PS": -230.04,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "URY": {
+      "PN": 50.2759,
+      "TPL": 42.1391,
+      "ERI": 0.7501,
+      "PS": 54.6713,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "GRC": {
+      "PN": -96.6251,
+      "TPL": 166.6314,
+      "ERI": 0.3699,
+      "PS": -82.5905,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BGR": {
+      "PN": 5.1354,
+      "TPL": 80.3937,
+      "ERI": 0.4366,
+      "PS": 12.8796,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "THA": {
+      "PN": 50.021,
+      "TPL": 42.3551,
+      "ERI": 1.0783,
+      "PS": 52.58,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BRN": {
+      "PN": -23761.0703,
+      "TPL": 20221.246,
+      "ERI": 0.458,
+      "PS": -23785.9536,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": false
+    },
+    "SLV": {
+      "PN": 15.9298,
+      "TPL": 71.2459,
+      "ERI": 0.2897,
+      "PS": 68.9102,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "PRY": {
+      "PN": 50.1548,
+      "TPL": 42.2417,
+      "ERI": 0.4418,
+      "PS": 62.7246,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "HUN": {
+      "PN": -46.3068,
+      "TPL": 123.9888,
+      "ERI": 0.672,
+      "PS": -47.6229,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "PHL": {
+      "PN": 76.8347,
+      "TPL": 19.6316,
+      "ERI": 0.8628,
+      "PS": 99.9855,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SVN": {
+      "PN": -36.7124,
+      "TPL": 115.858,
+      "ERI": 0.7695,
+      "PS": -32.2254,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "HND": {
+      "PN": 41.6549,
+      "TPL": 49.445,
+      "ERI": 0.3986,
+      "PS": 90.3469,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "IDN": {
+      "PN": 61.7027,
+      "TPL": 32.4553,
+      "ERI": 0.6883,
+      "PS": 60.1859,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SAU": {
+      "PN": -117.6542,
+      "TPL": 184.4527,
+      "ERI": 1.1495,
+      "PS": -126.9081,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "HRV": {
+      "PN": -74.6398,
+      "TPL": 147.9998,
+      "ERI": 0.4279,
+      "PS": -46.6591,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "GMB": {
+      "PN": 60.8484,
+      "TPL": 33.1793,
+      "ERI": 0.6513,
+      "PS": 196.1474,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BWA": {
+      "PN": -99.4423,
+      "TPL": 169.0189,
+      "ERI": 0.752,
+      "PS": -92.903,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MEX": {
+      "PN": 40.3237,
+      "TPL": 50.5731,
+      "ERI": 0.4231,
+      "PS": 44.5665,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BHS": {
+      "PN": -35.8716,
+      "TPL": 115.1454,
+      "ERI": 0.2415,
+      "PS": -12.6283,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "UGA": {
+      "PN": 41.2995,
+      "TPL": 49.7462,
+      "ERI": 0.4195,
+      "PS": 60.2572,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BTN": {
+      "PN": 15.7651,
+      "TPL": 71.3855,
+      "ERI": 1.2065,
+      "PS": 52.9062,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "KAZ": {
+      "PN": 53.5789,
+      "TPL": 39.3399,
+      "ERI": 0.5995,
+      "PS": 47.013,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MNG": {
+      "PN": -31.1643,
+      "TPL": 111.1562,
+      "ERI": 0.4072,
+      "PS": -56.83,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "POL": {
+      "PN": -63.5866,
+      "TPL": 138.6327,
+      "ERI": 0.5258,
+      "PS": -63.8318,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "KHM": {
+      "PN": 31.2717,
+      "TPL": 58.2443,
+      "ERI": 0.468,
+      "PS": 48.0341,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BRB": {
+      "PN": 70.201,
+      "TPL": 25.2534,
+      "ERI": 0.5872,
+      "PS": 93.276,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MKD": {
+      "PN": 17.3234,
+      "TPL": 70.0649,
+      "ERI": 0.5215,
+      "PS": 42.1384,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "QAT": {
+      "PN": -4574.7075,
+      "TPL": 3961.6165,
+      "ERI": 1.131,
+      "PS": -4604.5652,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": false
+    },
+    "KEN": {
+      "PN": 32.7709,
+      "TPL": 56.9738,
+      "ERI": 0.356,
+      "PS": 49.7659,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "TTO": {
+      "PN": -119.8593,
+      "TPL": 186.3214,
+      "ERI": 0.5723,
+      "PS": -113.8729,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "OMN": {
+      "PN": -2200.5732,
+      "TPL": 1949.6383,
+      "ERI": 0.688,
+      "PS": -2219.5948,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": false
+    },
+    "ZAF": {
+      "PN": -5.5418,
+      "TPL": 89.4422,
+      "ERI": 0.2821,
+      "PS": -5.8497,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MDA": {
+      "PN": 37.2732,
+      "TPL": 53.1583,
+      "ERI": 0.4013,
+      "PS": 83.2784,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "IND": {
+      "PN": 63.9888,
+      "TPL": 30.518,
+      "ERI": 0.7983,
+      "PS": 73.9553,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BRA": {
+      "PN": 41.7301,
+      "TPL": 49.3813,
+      "ERI": 0.4371,
+      "PS": 37.9945,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "KGZ": {
+      "PN": -149.1524,
+      "TPL": 211.1461,
+      "ERI": 0.3931,
+      "PS": -86.0992,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SRB": {
+      "PN": -25.2182,
+      "TPL": 106.1171,
+      "ERI": 0.449,
+      "PS": -6.4787,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "NPL": {
+      "PN": 56.2291,
+      "TPL": 37.094,
+      "ERI": 0.6517,
+      "PS": 85.3112,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "KWT": {
+      "PN": -702.8139,
+      "TPL": 680.3508,
+      "ERI": 0.5438,
+      "PS": -730.9114,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": false
+    },
+    "NIC": {
+      "PN": -91.0809,
+      "TPL": 161.933,
+      "ERI": 0.144,
+      "PS": -41.7854,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BIH": {
+      "PN": 3.704,
+      "TPL": 81.6068,
+      "ERI": 0.3946,
+      "PS": 37.235,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "COL": {
+      "PN": 29.1292,
+      "TPL": 60.06,
+      "ERI": 0.3287,
+      "PS": 35.7235,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MAR": {
+      "PN": 49.7478,
+      "TPL": 42.5866,
+      "ERI": 0.6024,
+      "PS": 77.62,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "NAM": {
+      "PN": 37.6194,
+      "TPL": 52.8649,
+      "ERI": 0.4955,
+      "PS": 54.783,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "RWA": {
+      "PN": -418.8963,
+      "TPL": 439.7426,
+      "ERI": 0.3513,
+      "PS": -405.6014,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BEN": {
+      "PN": 45.6891,
+      "TPL": 46.0262,
+      "ERI": 0.5802,
+      "PS": 67.1708,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "TJK": {
+      "PN": -164.1134,
+      "TPL": 223.8249,
+      "ERI": 0.2366,
+      "PS": -97.5201,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ECU": {
+      "PN": 16.0788,
+      "TPL": 71.1197,
+      "ERI": 0.3089,
+      "PS": 20.8469,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SOM": {
+      "PN": -229.0304,
+      "TPL": 278.8393,
+      "ERI": 0.0839,
+      "PS": -208.2137,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BFA": {
+      "PN": 27.9608,
+      "TPL": 61.0502,
+      "ERI": 0.3764,
+      "PS": 45.076,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "TZA": {
+      "PN": 6.8845,
+      "TPL": 78.9114,
+      "ERI": 0.5543,
+      "PS": 22.2429,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ZMB": {
+      "PN": 12.1459,
+      "TPL": 74.4526,
+      "ERI": 0.1354,
+      "PS": 17.0843,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MOZ": {
+      "PN": -40.6696,
+      "TPL": 119.2115,
+      "ERI": 0.1663,
+      "PS": -16.7803,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "VNM": {
+      "PN": -55.5425,
+      "TPL": 131.8157,
+      "ERI": 0.4638,
+      "PS": -61.7202,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SEN": {
+      "PN": 51.0951,
+      "TPL": 41.4448,
+      "ERI": 0.7395,
+      "PS": 89.1754,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "CHN": {
+      "PN": -387.4399,
+      "TPL": 413.0847,
+      "ERI": 0.5699,
+      "PS": -391.7845,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "LBR": {
+      "PN": -33.8722,
+      "TPL": 113.451,
+      "ERI": 0.1034,
+      "PS": 46.3694,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "DJI": {
+      "PN": -683.8996,
+      "TPL": 664.3217,
+      "ERI": 0.1296,
+      "PS": -663.6046,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": false
+    },
+    "MRT": {
+      "PN": -229.6983,
+      "TPL": 279.4053,
+      "ERI": 0.3149,
+      "PS": -217.2091,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "PNG": {
+      "PN": -108.3307,
+      "TPL": 176.5514,
+      "ERI": 0.1469,
+      "PS": -118.2454,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "CIV": {
+      "PN": 36.1575,
+      "TPL": 54.1038,
+      "ERI": 0.4106,
+      "PS": 41.3313,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "FJI": {
+      "PN": -262.4664,
+      "TPL": 307.1749,
+      "ERI": 0.1251,
+      "PS": -213.1243,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "TGO": {
+      "PN": 10.4115,
+      "TPL": 75.9225,
+      "ERI": 0.3274,
+      "PS": 32.9135,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BOL": {
+      "PN": -433.8753,
+      "TPL": 452.4367,
+      "ERI": 0.1164,
+      "PS": -428.5569,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MDG": {
+      "PN": -62.5102,
+      "TPL": 137.7205,
+      "ERI": 0.1759,
+      "PS": -42.9843,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BLZ": {
+      "PN": -1124.3181,
+      "TPL": 1037.5577,
+      "ERI": 0.1677,
+      "PS": -1082.7619,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": false
+    },
+    "TLS": {
+      "PN": -183609.944,
+      "TPL": 155686.3932,
+      "ERI": 0.1309,
+      "PS": -183552.3108,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": false
+    },
+    "LSO": {
+      "PN": -1573.2573,
+      "TPL": 1418.0147,
+      "ERI": 0.2875,
+      "PS": -1500.3673,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": false
+    },
+    "NGA": {
+      "PN": 3.6742,
+      "TPL": 81.632,
+      "ERI": 0.1721,
+      "PS": 8.4065,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "TUN": {
+      "PN": -87.2862,
+      "TPL": 158.7171,
+      "ERI": 0.2828,
+      "PS": -66.5647,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "GIN": {
+      "PN": -156.2169,
+      "TPL": 217.133,
+      "ERI": 0.1092,
+      "PS": -151.6265,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "NER": {
+      "PN": -7.1813,
+      "TPL": 90.8316,
+      "ERI": 0.2268,
+      "PS": 20.2962,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BGD": {
+      "PN": 15.5227,
+      "TPL": 71.5909,
+      "ERI": 0.3722,
+      "PS": 21.8677,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "GHA": {
+      "PN": 50.4061,
+      "TPL": 42.0287,
+      "ERI": 0.2408,
+      "PS": 54.8085,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "LKA": {
+      "PN": 41.9563,
+      "TPL": 49.1896,
+      "ERI": 0.4372,
+      "PS": 55.3152,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "AZE": {
+      "PN": -584.4135,
+      "TPL": 580.0114,
+      "ERI": 0.1817,
+      "PS": -604.5496,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": false
+    },
+    "MLI": {
+      "PN": 10.4011,
+      "TPL": 75.9313,
+      "ERI": 0.2693,
+      "PS": 29.5355,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "LAO": {
+      "PN": -96.5476,
+      "TPL": 166.5658,
+      "ERI": 0.1375,
+      "PS": -84.9668,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "CMR": {
+      "PN": 16.403,
+      "TPL": 70.8449,
+      "ERI": 0.2465,
+      "PS": 26.761,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "PAK": {
+      "PN": 28.0601,
+      "TPL": 60.966,
+      "ERI": 0.2205,
+      "PS": 43.4408,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SLE": {
+      "PN": 25.3329,
+      "TPL": 63.2772,
+      "ERI": 0.2951,
+      "PS": 37.6587,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "COM": {
+      "PN": -241.9301,
+      "TPL": 289.7713,
+      "ERI": 0.0897,
+      "PS": -187.9266,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SUR": {
+      "PN": 10.8345,
+      "TPL": 75.564,
+      "ERI": 0.344,
+      "PS": -1.3556,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "GUY": {
+      "PN": -5074.1455,
+      "TPL": 4384.8691,
+      "ERI": 0.4486,
+      "PS": -5103.0861,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": false
+    },
+    "TUR": {
+      "PN": 71.001,
+      "TPL": 24.5754,
+      "ERI": 0.9788,
+      "PS": 80.5449,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "SWZ": {
+      "PN": -732.0378,
+      "TPL": 705.1168,
+      "ERI": 0.1119,
+      "PS": -729.153,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": false
+    },
+    "IRQ": {
+      "PN": -2238.5714,
+      "TPL": 1981.8402,
+      "ERI": 0.1119,
+      "PS": -2237.3927,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": false
+    },
+    "GNB": {
+      "PN": -207.2806,
+      "TPL": 260.4073,
+      "ERI": 0.1127,
+      "PS": -188.796,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "GAB": {
+      "PN": -57.7516,
+      "TPL": 133.6878,
+      "ERI": 0.1378,
+      "PS": -101.2042,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "LBN": {
+      "PN": 0.2609,
+      "TPL": 84.5247,
+      "ERI": 0.0231,
+      "PS": 109.8551,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "UKR": {
+      "PN": -366.2108,
+      "TPL": 395.0939,
+      "ERI": 0.1221,
+      "PS": -321.3604,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "AGO": {
+      "PN": -63.5021,
+      "TPL": 138.5611,
+      "ERI": 0.0897,
+      "PS": -85.5709,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MWI": {
+      "PN": -24.1129,
+      "TPL": 105.1804,
+      "ERI": 0.1716,
+      "PS": 6.4739,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "RUS": {
+      "PN": -226.06,
+      "TPL": 276.322,
+      "ERI": 0.237,
+      "PS": -225.9337,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "EGY": {
+      "PN": -10.0578,
+      "TPL": 93.2693,
+      "ERI": 0.278,
+      "PS": 5.52,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "YEM": {
+      "PN": -140.6216,
+      "TPL": 203.9166,
+      "ERI": 0.005,
+      "PS": null,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "COD": {
+      "PN": -62.6157,
+      "TPL": 137.8099,
+      "ERI": 0.2274,
+      "PS": -54.8156,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "BDI": {
+      "PN": -94.3947,
+      "TPL": 164.7413,
+      "ERI": 0.154,
+      "PS": -42.4508,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ETH": {
+      "PN": -40.1296,
+      "TPL": 118.7539,
+      "ERI": 0.1805,
+      "PS": -25.313,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "CAF": {
+      "PN": -217.4651,
+      "TPL": 269.0382,
+      "ERI": 0.0871,
+      "PS": -163.9819,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "COG": {
+      "PN": -35.0847,
+      "TPL": 114.4786,
+      "ERI": 0.246,
+      "PS": -63.7346,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "TCD": {
+      "PN": -64.6732,
+      "TPL": 139.5536,
+      "ERI": 0.1364,
+      "PS": -58.4685,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "LBY": {
+      "PN": -1304714.108,
+      "TPL": 1105774.6678,
+      "ERI": 0.053,
+      "PS": -1304713.2911,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "C",
+      "proy": false
+    },
+    "SYR": {
+      "PN": -105.4079,
+      "TPL": 174.0745,
+      "ERI": 0.007,
+      "PS": null,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ARG": {
+      "PN": 2.6098,
+      "TPL": 82.5341,
+      "ERI": 0.2853,
+      "PS": 3.8713,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "MMR": {
+      "PN": -170.6568,
+      "TPL": 229.3702,
+      "ERI": 0.0024,
+      "PS": -166.4203,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "IRN": {
+      "PN": -184.8739,
+      "TPL": 241.4186,
+      "ERI": 0.1794,
+      "PS": -184.8213,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "DZA": {
+      "PN": -892.1217,
+      "TPL": 840.7811,
+      "ERI": 0.3982,
+      "PS": -891.2868,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": false
+    },
+    "SDN": {
+      "PN": -165.8992,
+      "TPL": 225.3383,
+      "ERI": 0.01,
+      "PS": -162.4152,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "ZWE": {
+      "PN": -218.0754,
+      "TPL": 269.5554,
+      "ERI": 0.0442,
+      "PS": -201.1573,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "A",
+      "proy": false
+    },
+    "VEN": {
+      "PN": -658.3563,
+      "TPL": 642.6748,
+      "ERI": 0.009,
+      "PS": -657.9604,
+      "PSA": null,
+      "VNA": null,
+      "grupo": "B",
+      "proy": false
+    }
+  }
+}
