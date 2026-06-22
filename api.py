@@ -170,22 +170,10 @@ def get_ranking(anio: str):
         d=MATRIZ[p][anio]; pn=d.get("PN")
         if pn is None: continue
         filas.append({"iso":p,"nombre":nom(p),"pn":round(pn,2),
-            "tpl":round(d.get("TPL",0),2) if d.get("TPL") is not None else 0,
-            "grupo":d.get("grupo"),"proy":d.get("proyectado",False)})
-    
+            "tpl":round(d.get("TPL",0),2),"grupo":d.get("grupo"),
+            "proy":d.get("proyectado",False)})
     filas.sort(key=lambda x:x["pn"],reverse=True)
-    
-    # Ranking TPL (menor es mejor, filtramos valores extremos)
-    tpl_filas = [f for f in filas if f["tpl"] < 500]
-    tpl_filas.sort(key=lambda x:x["tpl"])
-    
-    return resp({
-        "ano":int(anio),
-        "top":filas[:20],
-        "bottom":filas[-20:][::-1], # Invertido para que el peor salga abajo en la gráfica
-        "tpl_top": tpl_filas[:30],
-        "total":len(filas)
-    })
+    return resp({"ano":int(anio),"top":filas[:20],"bottom":filas[-20:][::-1],"total":len(filas)})
 
 @app.get("/api/tabla/{anio}")
 def get_tabla(anio: str):
@@ -203,3 +191,35 @@ def get_tabla(anio: str):
             "grupo":d.get("grupo"),"proy":d.get("proyectado",False)})
     filas.sort(key=lambda x:(x["pn"] or -9999),reverse=True)
     return resp({"ano":int(anio),"paises":filas})
+
+@app.get("/api/alertas")
+def get_alertas():
+    try:
+        alertas = json.load(open(find("alertas"), encoding="utf-8"))
+    except:
+        return resp({"total":0,"alertas":[]})
+    proy = [a for a in alertas if a.get("proyectado")]
+    grupo_a = [a for a in proy
+               if MATRIZ.get(a.get("pais",""),{}).get(str(a.get("ano",a.get("año",""))),{}).get("grupo")=="A"]
+    return resp({"total":len(alertas),"proyectadas":len(proy),"grupo_a":len(grupo_a),
+                 "alertas":sorted(grupo_a, key=lambda x:x.get("delta",0))[:30]})
+
+@app.get("/api/grupos/{anio}")
+def get_grupos(anio: str):
+    grupos = {"A":[],"B":[],"C":[]}
+    for p in PAISES:
+        if anio not in MATRIZ[p]: continue
+        d = MATRIZ[p][anio]
+        g = d.get("grupo","A")
+        if g in grupos:
+            grupos[g].append({
+                "iso":p,"nombre":nom(p),"region":reg(p),
+                "pn":round(d.get("PN",0),2) if d.get("PN") is not None else None,
+                "tpl":round(d.get("TPL",0),2) if d.get("TPL") is not None else None,
+                "eri":round(d.get("ERI",0),3) if d.get("ERI") is not None else None,
+                "ch":round(d.get("C_H",0),2) if d.get("C_H") is not None else None,
+            })
+    for g in grupos:
+        grupos[g].sort(key=lambda x:(x["pn"] or -9999),reverse=True)
+    return resp({"anio":int(anio),"grupos":grupos,
+                 "counts":{"A":len(grupos["A"]),"B":len(grupos["B"]),"C":len(grupos["C"])}})
