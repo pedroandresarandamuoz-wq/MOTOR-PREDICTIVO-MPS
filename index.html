@@ -141,6 +141,7 @@ tr:hover td{background:rgba(88,166,255,.04)}
 
 <div id="page-ranking" class="page">
   <div class="nota">Ranking PN por año, grupo A. Mayor PN = mayor prosperidad privada real.</div>
+  
   <div class="gc" style="margin-bottom:1rem">
     <label style="font-size:13px;color:var(--muted)">Año:</label>
     <select id="selRankAno" onchange="loadRanking()" style="padding:.3rem .7rem">
@@ -156,31 +157,32 @@ tr:hover td{background:rgba(88,166,255,.04)}
   </div>
   
   <div class="rank-grid">
-    <div class="rank-panel"><h3>🟢 Top 20 · Mayor Prosperidad Neta</h3><div id="rTop"><div class="loading">cargando…</div></div></div>
-    <div class="rank-panel"><h3>🔴 Bottom 20 · Autofagia Estructural</h3><div id="rBot"><div class="loading">cargando…</div></div></div>
+    <div class="rank-panel">
+      <h3>🟢 Top 20 · Mayor Prosperidad Neta</h3>
+      <div id="rTop"><div class="loading">cargando…</div></div>
+    </div>
+    <div class="rank-panel">
+      <h3>🔴 Bottom 20 · Autofagia Estructural</h3>
+      <div id="rBot"><div class="loading">cargando…</div></div>
+    </div>
   </div>
   
   <div class="sec">Visualización Gráfica de los Rankings</div>
+  
   <div class="chart-row">
     <div class="chart-box">
       <div class="chart-title">Top 20 (Barras)</div>
-      <div class="ch tall"><canvas id="cRankTop"></canvas></div>
+      <div class="ch tall"><canvas id="cRankTop20"></canvas></div>
     </div>
     <div class="chart-box">
       <div class="chart-title">Bottom 20 (Barras)</div>
-      <div class="ch tall"><canvas id="cRankBot"></canvas></div>
+      <div class="ch tall"><canvas id="cRankBot20"></canvas></div>
     </div>
   </div>
   
   <div class="chart-box" style="margin-bottom:1rem">
     <div class="chart-title">Ranking de Carga Parasitaria Total (TPL) — menor es mejor</div>
-    <div class="ch"><canvas id="cRankTpl"></canvas></div>
-  </div>
-</div>
-  
-  <div class="sec">Ranking de Carga Parasitaria Total (TPL) — menor es mejor</div>
-  <div class="chart-box" style="margin-bottom:1rem">
-    <div class="ch"><canvas id="cRankTpl"></canvas></div>
+    <div class="ch"><canvas id="cRankTpl30"></canvas></div>
   </div>
 </div>
 
@@ -360,42 +362,63 @@ async function updateScatter(ano){
 // ── RANKING ───────────────────────────────────────────────────────────────
 async function loadRanking(){
   try {
-    const ano=document.getElementById('selRankAno')?.value||'2026';
-    if(!RANK_CACHE[ano]) RANK_CACHE[ano]=await api(`/api/ranking/${ano}`);
-    const data=RANK_CACHE[ano];
+    const ano = document.getElementById('selRankAno')?.value || '2026';
+    
+    // Forzamos a vaciar la caché para que coja los datos nuevos del servidor
+    delete RANK_CACHE[ano]; 
+    if(!RANK_CACHE[ano]) RANK_CACHE[ano] = await api(`/api/ranking/${ano}`);
+    
+    const data = RANK_CACHE[ano];
+    
+    // Protecciones por si el servidor tarda en tener los datos listos
+    const topData = data.top || [];
+    const botData = data.bottom || [];
+    const tplData = data.tpl_top || [];
 
-    // 1. RECUPERAR TUS LISTAS DE TEXTO
-    const ri=(d,i,cls)=>`<div class="ri">
+    // 1. DIBUJAR LISTAS DE TEXTO
+    const ri = (d,i,cls) => `<div class="ri">
       <span class="rn">${i+1}</span>
       <span style="flex:1">${d.nombre}</span>
       <span style="font-size:10px;color:var(--muted);margin-right:.4rem">${d.grupo||''}</span>
       <span class="rv ${cls}">${f1(d.pn)}</span>
     </div>`;
-    document.getElementById('rTop').innerHTML=data.top.map((d,i)=>ri(d,i,'pos')).join('');
-    document.getElementById('rBot').innerHTML=data.bottom.map((d,i)=>ri(d,i,'neg')).join('');
+    
+    document.getElementById('rTop').innerHTML = topData.length ? topData.map((d,i)=>ri(d,i,'pos')).join('') : '<div class="nota">Sin datos</div>';
+    document.getElementById('rBot').innerHTML = botData.length ? botData.map((d,i)=>ri(d,i,'neg')).join('') : '<div class="nota">Sin datos</div>';
 
-    // 2. DIBUJAR LAS GRÁFICAS DE BARRAS
-    mkC('cRankTop',{type:'bar',data:{
-      labels:data.top.map(d=>d.nombre),
-      datasets:[{label:`PN ${ano}`,data:data.top.map(d=>d.pn),
-        backgroundColor:'rgba(63,185,80,.8)',borderRadius:3}]
-    },options:{...DARK,indexAxis:'y',plugins:{...DARK.plugins,legend:{display:false}},scales:{x:{...DARK.scales.x},y:{...DARK.scales.y,ticks:{font:{size:10}}}}}});
+    // 2. DIBUJAR GRÁFICA TOP 20
+    mkC('cRankTop20', {
+      type: 'bar',
+      data: {
+        labels: topData.map(d=>d.nombre),
+        datasets: [{ label:`PN ${ano}`, data:topData.map(d=>d.pn), backgroundColor:'rgba(63,185,80,.8)', borderRadius:3 }]
+      },
+      options: { ...DARK, indexAxis:'y', plugins:{ ...DARK.plugins, legend:{display:false} }, scales:{ x:{...DARK.scales.x}, y:{...DARK.scales.y, ticks:{font:{size:10}}} } }
+    });
 
-    mkC('cRankBot',{type:'bar',data:{
-      labels:data.bottom.map(d=>d.nombre),
-      datasets:[{label:`PN ${ano}`,data:data.bottom.map(d=>d.pn),
-        backgroundColor:'rgba(248,81,73,.8)',borderRadius:3}]
-    },options:{...DARK,indexAxis:'y',plugins:{...DARK.plugins,legend:{display:false}},scales:{x:{...DARK.scales.x},y:{...DARK.scales.y,ticks:{font:{size:10}}}}}});
+    // 3. DIBUJAR GRÁFICA BOTTOM 20
+    mkC('cRankBot20', {
+      type: 'bar',
+      data: {
+        labels: botData.map(d=>d.nombre),
+        datasets: [{ label:`PN ${ano}`, data:botData.map(d=>d.pn), backgroundColor:'rgba(248,81,73,.8)', borderRadius:3 }]
+      },
+      options: { ...DARK, indexAxis:'y', plugins:{ ...DARK.plugins, legend:{display:false} }, scales:{ x:{...DARK.scales.x}, y:{...DARK.scales.y, ticks:{font:{size:10}}} } }
+    });
 
-    // 3. DIBUJAR TPL (Con escudo anti-cuelgues por si la API va con retraso)
-    const tplData = data.tpl_top || []; 
-    mkC('cRankTpl',{type:'bar',data:{
-      labels:tplData.map(d=>d.nombre),
-      datasets:[{label:`TPL ${ano}`,data:tplData.map(d=>d.tpl),
-        backgroundColor:'rgba(210,153,34,.8)',borderRadius:3}]
-    },options:{...DARK,plugins:{...DARK.plugins,legend:{display:false}}}});
+    // 4. DIBUJAR GRÁFICA TPL
+    mkC('cRankTpl30', {
+      type: 'bar',
+      data: {
+        labels: tplData.map(d=>d.nombre),
+        datasets: [{ label:`TPL ${ano}`, data:tplData.map(d=>d.tpl), backgroundColor:'rgba(210,153,34,.8)', borderRadius:3 }]
+      },
+      options: { ...DARK, plugins:{ ...DARK.plugins, legend:{display:false} } }
+    });
 
-  } catch(e){ showErr(e); }
+  } catch(e) { 
+    showErr(e); 
+  }
 }
 
 // ── PAÍS ──────────────────────────────────────────────────────────────────
