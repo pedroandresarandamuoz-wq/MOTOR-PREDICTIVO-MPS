@@ -118,6 +118,19 @@ tr:hover td{background:rgba(88,166,255,.04)}
     <div class="kpi amber"><div class="kpi-val">0.61</div><div class="kpi-lbl">R² validación</div></div>
     <div class="kpi red"><div class="kpi-val" id="kpi-drain">$0</div><div class="kpi-lbl">Gasto global hoy</div></div>
   </div>
+  <div class="gc" style="margin-bottom:1rem">
+    <label style="font-size:13px;color:var(--muted)">Año scatter:</label>
+    <input type="range" id="sliderAno" min="2008" max="2026" value="2023"
+      style="width:180px;accent-color:var(--bright)" oninput="onSlider(this.value)">
+    <span id="sliderVal" style="font-family:var(--mono);font-size:13px;color:var(--bright);min-width:36px">2023</span>
+    <label style="font-size:13px;color:var(--muted);margin-left:1rem">Grupo:</label>
+    <select id="selGrupo" onchange="onGrupo()" style="padding:.3rem .7rem">
+      <option value="all">Todos</option>
+      <option value="A">A — Comparables</option>
+      <option value="B">B — Drenaje severo</option>
+      <option value="C">C — Colapso</option>
+    </select>
+  </div>
   <div class="sec">Tendencia PN global (mediana grupo A, 2008-2026)</div>
   <div class="chart-box" style="margin-bottom:1rem"><div class="ch"><canvas id="cTend"></canvas></div></div>
   <div class="chart-row">
@@ -127,13 +140,35 @@ tr:hover td{background:rgba(88,166,255,.04)}
 </div>
 
 <div id="page-ranking" class="page">
-  <div class="nota">Ranking <strong>PN proyectada 2026</strong>, grupo A. Mayor PN = mayor prosperidad privada real.</div>
+  <div class="nota">Ranking PN por año, grupo A. Mayor PN = mayor prosperidad privada real.</div>
+  <div class="gc" style="margin-bottom:1rem">
+    <label style="font-size:13px;color:var(--muted)">Año:</label>
+    <select id="selRankAno" onchange="loadRanking()" style="padding:.3rem .7rem">
+      <option value="2026" selected>2026 (proyección)</option>
+      <option value="2025">2025 (proyección)</option>
+      <option value="2024">2024 (proyección)</option>
+      <option value="2023">2023</option>
+      <option value="2020">2020</option>
+      <option value="2015">2015</option>
+      <option value="2010">2010</option>
+      <option value="2008">2008</option>
+    </select>
+    <label style="font-size:13px;color:var(--muted);margin-left:1rem">Vista:</label>
+    <select id="selRankVista" onchange="switchRankView()" style="padding:.3rem .7rem">
+      <option value="bars">Barras</option>
+      <option value="scatter">Dispersión TPL vs PN</option>
+    </select>
+  </div>
   <div class="rank-grid">
     <div class="rank-panel"><h3>🟢 Top 20 · Mayor Prosperidad Neta</h3><div id="rTop"><div class="loading">cargando…</div></div></div>
     <div class="rank-panel"><h3>🔴 Bottom 20 · Autofagia Estructural</h3><div id="rBot"><div class="loading">cargando…</div></div></div>
   </div>
-  <div class="sec">Distribución PN 2026</div>
-  <div class="chart-box"><div class="ch tall"><canvas id="cRank"></canvas></div></div>
+  <div class="sec">Distribución PN</div>
+  <div id="rankBars" class="chart-box"><div class="ch tall"><canvas id="cRank"></canvas></div></div>
+  <div id="rankScatter" class="chart-box" style="display:none">
+    <div class="chart-title">Dispersión TPL vs PN</div>
+    <div class="ch scatter"><canvas id="cRankScatter"></canvas></div>
+  </div>
 </div>
 
 <div id="page-pais" class="page">
@@ -182,8 +217,10 @@ tr:hover td{background:rgba(88,166,255,.04)}
 const API = 'https://motor-predictivo-mps.onrender.com';
 let CHARTS = {};
 let TABLA_DATA = [];
+let TEND_DATA = null;
+let SCATTER_CACHE = {};
+let RANK_CACHE = {};
 
-// ── Utilidades ───────────────────────────────────────────────────────────
 const f1 = v => v!=null ? (v>=0?'+':'')+v.toFixed(1) : '—';
 const f3 = v => v!=null ? v.toFixed(3) : '—';
 const fx = v => v!=null ? v.toFixed(1) : '—';
@@ -210,13 +247,10 @@ async function api(path){
   return r.json();
 }
 
-function showErr(msg){
-  console.error(msg);
-}
+function showErr(msg){ console.error(msg); }
 
-// ── Drain counter ────────────────────────────────────────────────────────
-const t0=Date.now();
-const GPS=1330963;
+// Drain counter
+const t0=Date.now(), GPS=1330963;
 (function tick(){
   const v=(Date.now()-t0)/1000*GPS;
   const s=v>=1e12?'$'+(v/1e12).toFixed(3)+'T':v>=1e9?'$'+(v/1e9).toFixed(2)+'B':'$'+(v/1e6).toFixed(1)+'M';
@@ -224,7 +258,7 @@ const GPS=1330963;
   requestAnimationFrame(tick);
 })();
 
-// ── Navegación ───────────────────────────────────────────────────────────
+// Navegación
 const LOADED={};
 function nav(id,el){
   document.querySelectorAll('.page').forEach(p=>p.classList.remove('active'));
@@ -239,14 +273,14 @@ function nav(id,el){
   }
 }
 
-// ── GLOBAL ───────────────────────────────────────────────────────────────
+// ── GLOBAL ────────────────────────────────────────────────────────────────
 async function loadGlobal(){
   try {
-    const [tend,sc,g23] = await Promise.all([
+    const [tend, g23] = await Promise.all([
       api('/api/tendencia'),
-      api('/api/scatter/2023'),
       api('/api/global/2023'),
     ]);
+    TEND_DATA = tend;
 
     document.getElementById('navStatus').textContent=`${g23.n_paises} países · OK`;
     document.getElementById('kpi-paises').textContent=g23.n_paises;
@@ -257,59 +291,118 @@ async function loadGlobal(){
     mkC('cTend',{type:'line',data:{
       labels:tend.map(t=>t.ano),
       datasets:[{
-        label:'Mediana PN',
-        data:tend.map(t=>t.mediana),
+        label:'Mediana PN',data:tend.map(t=>t.mediana),
         borderColor:'#58A6FF',backgroundColor:'rgba(88,166,255,.06)',
         borderWidth:2.5,pointRadius:4,fill:true,
         segment:{borderDash:ctx=>tend[ctx.p1DataIndex]?.proyectado?[5,4]:undefined}
-      },{label:'Cero',data:tend.map(()=>0),borderColor:'rgba(248,81,73,.3)',
-        borderWidth:1,borderDash:[4,4],pointRadius:0}]
+      },{label:'Cero',data:tend.map(()=>0),
+        borderColor:'rgba(248,81,73,.3)',borderWidth:1,borderDash:[4,4],pointRadius:0}]
     },options:DARK});
 
-    // Scatter
-    const pts=sc.puntos;
-    mkC('cScatter',{type:'scatter',data:{datasets:[{
-      label:'Países 2023',
-      data:pts.map(d=>({x:d.tpl,y:d.pn,n:d.nombre})),
-      backgroundColor:pts.map(d=>d.pn>50?'rgba(63,185,80,.7)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
-      borderColor:'rgba(33,38,45,.8)',borderWidth:1,pointRadius:5
-    }]},options:{...DARK,plugins:{...DARK.plugins,
-      tooltip:{...DARK.plugins.tooltip,callbacks:{label:c=>`${c.raw.n}: PN=${c.raw.y.toFixed(1)} TPL=${c.raw.x.toFixed(1)}`}}},
-      scales:{x:{...DARK.scales.x,title:{display:true,text:'TPL',color:'#8B949E'}},
-              y:{...DARK.scales.y,title:{display:true,text:'PN',color:'#8B949E'}}}
-    }});
-
-    // Pct positivos
     mkC('cPct',{type:'bar',data:{
       labels:tend.map(t=>t.ano),
       datasets:[{label:'% PN positiva',data:tend.map(t=>t.pct_pos),
         backgroundColor:tend.map(t=>t.proyectado?'rgba(88,166,255,.3)':'rgba(63,185,80,.5)'),borderRadius:3}]
     },options:DARK});
 
+    await updateScatter('2023');
   } catch(e){ showErr(e); document.getElementById('navStatus').textContent='error API'; }
 }
 
-// ── RANKING ──────────────────────────────────────────────────────────────
+async function onSlider(val){
+  document.getElementById('sliderVal').textContent=val;
+  await updateScatter(val);
+}
+
+async function onGrupo(){
+  const val=document.getElementById('sliderAno').value;
+  await updateScatter(val);
+}
+
+async function updateScatter(ano){
+  try {
+    if(!SCATTER_CACHE[ano]) SCATTER_CACHE[ano]=await api(`/api/scatter/${ano}`);
+    const sc=SCATTER_CACHE[ano];
+    const grupo=document.getElementById('selGrupo')?.value||'all';
+    let pts=sc.puntos;
+    if(grupo!=='all') pts=pts.filter(d=>d.grupo===grupo);
+
+    mkC('cScatter',{type:'scatter',data:{datasets:[{
+      label:`Países ${ano}`,
+      data:pts.map(d=>({x:d.tpl,y:d.pn,n:d.nombre,g:d.grupo})),
+      backgroundColor:pts.map(d=>d.pn>50?'rgba(63,185,80,.7)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
+      borderColor:'rgba(33,38,45,.8)',borderWidth:1,pointRadius:6
+    }]},options:{...DARK,
+      plugins:{...DARK.plugins,tooltip:{...DARK.plugins.tooltip,callbacks:{
+        label:c=>`${c.raw.n} [${c.raw.g||'?'}]: PN=${c.raw.y.toFixed(1)} TPL=${c.raw.x.toFixed(1)}`
+      }}},
+      scales:{
+        x:{...DARK.scales.x,title:{display:true,text:'TPL',color:'#8B949E'}},
+        y:{...DARK.scales.y,title:{display:true,text:'PN',color:'#8B949E'}}
+      }
+    }});
+  } catch(e){ showErr(e); }
+}
+
+// ── RANKING ───────────────────────────────────────────────────────────────
 async function loadRanking(){
   try {
-    const data=await api('/api/ranking/2026');
-    const ri=(d,i,cls)=>`<div class="ri"><span class="rn">${i+1}</span><span style="flex:1">${d.nombre}</span><span class="rv ${cls}">${f1(d.pn)}</span></div>`;
+    const ano=document.getElementById('selRankAno')?.value||'2026';
+    if(!RANK_CACHE[ano]) RANK_CACHE[ano]=await api(`/api/ranking/${ano}`);
+    const data=RANK_CACHE[ano];
+
+    const ri=(d,i,cls)=>`<div class="ri">
+      <span class="rn">${i+1}</span>
+      <span style="flex:1">${d.nombre}</span>
+      <span style="font-size:10px;color:var(--muted);margin-right:.4rem">${d.grupo||''}</span>
+      <span class="rv ${cls}">${f1(d.pn)}</span>
+    </div>`;
     document.getElementById('rTop').innerHTML=data.top.map((d,i)=>ri(d,i,'pos')).join('');
     document.getElementById('rBot').innerHTML=data.bottom.map((d,i)=>ri(d,i,'neg')).join('');
+    renderRankView(data,ano);
+  } catch(e){ showErr(e); }
+}
 
+function switchRankView(){
+  const ano=document.getElementById('selRankAno')?.value||'2026';
+  if(RANK_CACHE[ano]) renderRankView(RANK_CACHE[ano],ano);
+}
+
+function renderRankView(data,ano){
+  const vista=document.getElementById('selRankVista')?.value||'bars';
+  document.getElementById('rankBars').style.display=vista==='bars'?'':'none';
+  document.getElementById('rankScatter').style.display=vista==='scatter'?'':'none';
+
+  if(vista==='bars'){
     const disp=[...data.top,...data.bottom];
     mkC('cRank',{type:'bar',data:{
       labels:disp.map(d=>d.nombre),
-      datasets:[{label:'PN 2026',data:disp.map(d=>d.pn),
+      datasets:[{label:`PN ${ano}`,data:disp.map(d=>d.pn),
         backgroundColor:disp.map(d=>d.pn>50?'rgba(63,185,80,.8)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
         borderRadius:3}]
     },options:{...DARK,indexAxis:'y',
       scales:{x:{...DARK.scales.x},y:{...DARK.scales.y,ticks:{...DARK.scales.y.ticks,font:{size:10}}}}}
     });
-  } catch(e){ showErr(e); }
+  } else {
+    const todos=[...data.top,...data.bottom];
+    mkC('cRankScatter',{type:'scatter',data:{datasets:[{
+      label:`TPL vs PN ${ano}`,
+      data:todos.map(d=>({x:d.tpl,y:d.pn,n:d.nombre})),
+      backgroundColor:todos.map(d=>d.pn>50?'rgba(63,185,80,.7)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
+      borderColor:'rgba(33,38,45,.8)',borderWidth:1,pointRadius:7
+    }]},options:{...DARK,
+      plugins:{...DARK.plugins,tooltip:{...DARK.plugins.tooltip,callbacks:{
+        label:c=>`${c.raw.n}: PN=${c.raw.y.toFixed(1)} TPL=${c.raw.x.toFixed(1)}`
+      }}},
+      scales:{
+        x:{...DARK.scales.x,title:{display:true,text:'TPL',color:'#8B949E'}},
+        y:{...DARK.scales.y,title:{display:true,text:'PN',color:'#8B949E'}}
+      }
+    }});
+  }
 }
 
-// ── PAÍS ─────────────────────────────────────────────────────────────────
+// ── PAÍS ──────────────────────────────────────────────────────────────────
 const NOTAS={
   ARG:'Quiebre estructural 2024: las reformas Milei rompen la inercia histórica. El modelo proyecta deterioro por extrapolación, pero el shock fiscal real detiene la autofagia.',
   UKR:'Contracción de G_cons por destrucción institucional de guerra. Proyección con cautela.',
@@ -331,7 +424,7 @@ async function initPais(){
 async function loadPais(iso){
   try {
     const d=await api(`/api/pais/${iso}`);
-    const años=Object.keys(d.serie).sort();
+    const anos=Object.keys(d.serie).sort();
     const d23=d.serie['2023']||{};
     const d26=d.serie['2026']||{};
     const grupo=d23.grupo||'A';
@@ -352,7 +445,7 @@ async function loadPais(iso){
 
     document.getElementById('pNota').innerHTML=NOTAS[iso]?`<div class="nota">⚠️ <strong>Nota:</strong> ${NOTAS[iso]}</div>`:'';
 
-    const af=años.filter(a=>d.serie[a].pn!=null);
+    const af=anos.filter(a=>d.serie[a].pn!=null);
     const lbs=af.map(Number);
     const get=k=>af.map(a=>d.serie[a][k]);
     const isProy=af.map(a=>d.serie[a].proy);
@@ -378,7 +471,7 @@ async function loadPais(iso){
       {label:'C_H (÷10)',data:get('ch').map(v=>v!=null?v/10:null),borderColor:'#F85149',borderWidth:2,pointRadius:3},
     ]},options:DARK});
 
-    document.getElementById('tPais').innerHTML=[...años].reverse().map(a=>{
+    document.getElementById('tPais').innerHTML=[...anos].reverse().map(a=>{
       const s=d.serie[a];
       const p=s.proy?'<span class="pb">PROY</span>':'';
       return `<tr><td>${a}${p}</td>
@@ -391,7 +484,7 @@ async function loadPais(iso){
   } catch(e){ showErr(e); }
 }
 
-// ── TABLA GLOBAL ─────────────────────────────────────────────────────────
+// ── TABLA GLOBAL ──────────────────────────────────────────────────────────
 async function initTabla(){
   const sy=document.getElementById('sYear');
   for(let a=2026;a>=2008;a--){
@@ -403,18 +496,18 @@ async function initTabla(){
   await loadTabla(2023);
 }
 
-async function loadTabla(año){
+async function loadTabla(ano){
   try {
-    const data=await api(`/api/tabla/${año}`);
+    const data=await api(`/api/tabla/${ano}`);
     TABLA_DATA=data.paises;
     renderTabla();
   } catch(e){ showErr(e); }
 }
 
 function filterT(){
-  const año=document.getElementById('sYear').value;
-  if(!TABLA_DATA.length||TABLA_DATA[0].año!==parseInt(año)){
-    loadTabla(año); return;
+  const ano=document.getElementById('sYear').value;
+  if(!TABLA_DATA.length||TABLA_DATA[0]?.ano!==parseInt(ano)){
+    loadTabla(ano); return;
   }
   renderTabla();
 }
@@ -439,7 +532,7 @@ function renderTabla(){
   </tr>`).join('');
 }
 
-// ── INIT ─────────────────────────────────────────────────────────────────
+// ── INIT ──────────────────────────────────────────────────────────────────
 loadGlobal();
 </script>
 </body>
