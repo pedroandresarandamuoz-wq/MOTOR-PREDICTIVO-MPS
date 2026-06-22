@@ -104,6 +104,7 @@ tr:hover td{background:rgba(88,166,255,.04)}
     <div class="nav-tab" onclick="nav('ranking',this)">🏆 Ranking</div>
     <div class="nav-tab" onclick="nav('pais',this)">🗺️ País</div>
     <div class="nav-tab" onclick="nav('tabla',this)">📋 Tabla</div>
+    <div class="nav-tab" onclick="nav('grupos',this)">🧬 Grupos</div>
     <div class="nav-tab" onclick="nav('metodo',this)">📖 Método</div>
   </div>
   <div class="nav-right" id="navStatus">conectando…</div>
@@ -141,7 +142,6 @@ tr:hover td{background:rgba(88,166,255,.04)}
 
 <div id="page-ranking" class="page">
   <div class="nota">Ranking PN por año, grupo A. Mayor PN = mayor prosperidad privada real.</div>
-  
   <div class="gc" style="margin-bottom:1rem">
     <label style="font-size:13px;color:var(--muted)">Año:</label>
     <select id="selRankAno" onchange="loadRanking()" style="padding:.3rem .7rem">
@@ -154,58 +154,21 @@ tr:hover td{background:rgba(88,166,255,.04)}
       <option value="2010">2010</option>
       <option value="2008">2008</option>
     </select>
+    <label style="font-size:13px;color:var(--muted);margin-left:1rem">Vista:</label>
+    <select id="selRankVista" onchange="switchRankView()" style="padding:.3rem .7rem">
+      <option value="bars">Barras</option>
+      <option value="scatter">Dispersión TPL vs PN</option>
+    </select>
   </div>
-  
   <div class="rank-grid">
-    <div class="rank-panel">
-      <h3>🟢 Top 20 · Mayor Prosperidad Neta</h3>
-      <div id="rTop"><div class="loading">cargando…</div></div>
-    </div>
-    <div class="rank-panel">
-      <h3>🔴 Bottom 20 · Autofagia Estructural</h3>
-      <div id="rBot"><div class="loading">cargando…</div></div>
-    </div>
+    <div class="rank-panel"><h3>🟢 Top 20 · Mayor Prosperidad Neta</h3><div id="rTop"><div class="loading">cargando…</div></div></div>
+    <div class="rank-panel"><h3>🔴 Bottom 20 · Autofagia Estructural</h3><div id="rBot"><div class="loading">cargando…</div></div></div>
   </div>
-  
-  <div class="sec">Visualización Gráfica de los Rankings</div>
-  
-  <div class="chart-row">
-    <div class="chart-box">
-      <div class="chart-title">Top 20 (Barras)</div>
-      <div class="ch tall"><canvas id="cRankTop20"></canvas></div>
-    </div>
-    <div class="chart-box">
-      <div class="chart-title">Bottom 20 (Barras)</div>
-      <div class="ch tall"><canvas id="cRankBot20"></canvas></div>
-    </div>
-  </div>
-  
-  <div class="chart-box" style="margin-bottom:1rem">
-    <div class="chart-title">Ranking de Carga Parasitaria Total (TPL) — menor es mejor</div>
-    <div class="ch"><canvas id="cRankTpl30"></canvas></div>
-  </div>
-  <div class="sec">🚨 Alertas de Deterioro Estructural (Evolución vs 2023)</div>
-  
-  <div class="chart-row">
-    <div class="chart-box">
-      <div class="chart-title">Países con mayor deterioro proyectado (Grupo A)</div>
-      <div class="ch tall"><canvas id="cRankEvol"></canvas></div>
-    </div>
-    
-    <div class="tw" style="margin-bottom: 0;">
-      <table>
-        <thead>
-          <tr>
-            <th>País</th>
-            <th>ISO</th>
-            <th>PN 2023</th>
-            <th>PN Seleccionado</th>
-            <th>Δ Evolución</th>
-          </tr>
-        </thead>
-        <tbody id="tEvolucion"></tbody>
-      </table>
-    </div>
+  <div class="sec">Distribución PN</div>
+  <div id="rankBars" class="chart-box"><div class="ch tall"><canvas id="cRank"></canvas></div></div>
+  <div id="rankScatter" class="chart-box" style="display:none">
+    <div class="chart-title">Dispersión TPL vs PN</div>
+    <div class="ch scatter"><canvas id="cRankScatter"></canvas></div>
   </div>
 </div>
 
@@ -236,6 +199,57 @@ tr:hover td{background:rgba(88,166,255,.04)}
     <span style="font-size:13px;color:var(--muted)" id="tCount"></span>
   </div>
   <div class="tw"><table><thead><tr><th>País</th><th>ISO</th><th>PN</th><th>TPL</th><th>ERI</th><th>C_H</th><th>G.Cons%</th><th>G.Trans%</th><th>Grupo</th><th>Proy.</th></tr></thead><tbody id="tGlobal"></tbody></table></div>
+</div>
+
+
+<div id="page-grupos" class="page">
+  <div class="gc" style="margin-bottom:1rem">
+    <label style="font-size:13px;color:var(--muted)">Año:</label>
+    <select id="selGruposAno" onchange="loadGrupos()" style="padding:.3rem .7rem">
+      <option value="2026">2026 (proy.)</option>
+      <option value="2025">2025 (proy.)</option>
+      <option value="2024">2024 (proy.)</option>
+      <option value="2023" selected>2023</option>
+      <option value="2020">2020</option>
+      <option value="2015">2015</option>
+      <option value="2010">2010</option>
+      <option value="2008">2008</option>
+    </select>
+    <label style="font-size:13px;color:var(--muted);margin-left:1rem">Grupo detalle:</label>
+    <select id="selGrupoDetalle" onchange="renderGrupoTabla()" style="padding:.3rem .7rem">
+      <option value="A">A — Comparables</option>
+      <option value="B">B — Drenaje severo</option>
+      <option value="C">C — Colapso institucional</option>
+    </select>
+  </div>
+
+  <div class="kpi-grid" id="kpiGrupos" style="margin-bottom:1rem"></div>
+
+  <div class="chart-row">
+    <div class="chart-box">
+      <div class="chart-title">Distribución por grupo</div>
+      <div class="ch"><canvas id="cGrupoPie"></canvas></div>
+    </div>
+    <div class="chart-box">
+      <div class="chart-title">ERI vs C_H — eficiencia vs fricción institucional</div>
+      <div class="ch"><canvas id="cGrupoERI"></canvas></div>
+    </div>
+  </div>
+
+  <div class="sec">🚨 Alertas de deterioro proyectado (Grupo A)</div>
+  <div class="nota" id="alertasResumen"></div>
+  <div class="tw" style="max-height:280px;margin-bottom:1rem">
+    <table><thead><tr>
+      <th>País</th><th>ISO</th><th>Año</th><th>PN anterior</th><th>PN proyectada</th><th>Δ</th><th>Tipo</th>
+    </tr></thead><tbody id="tAlertas"></tbody></table>
+  </div>
+
+  <div class="sec" id="secGrupoDetalle">Países Grupo A</div>
+  <div class="tw">
+    <table><thead><tr>
+      <th>País</th><th>Región</th><th>PN</th><th>TPL</th><th>ERI</th><th>C_H</th>
+    </tr></thead><tbody id="tGrupoDetalle"></tbody></table>
+  </div>
 </div>
 
 <div id="page-metodo" class="page">
@@ -308,6 +322,7 @@ function nav(id,el){
     if(id==='ranking') loadRanking();
     if(id==='pais') initPais();
     if(id==='tabla') initTabla();
+    if(id==='grupos') loadGrupos();
   }
 }
 
@@ -385,111 +400,58 @@ async function updateScatter(ano){
 // ── RANKING ───────────────────────────────────────────────────────────────
 async function loadRanking(){
   try {
-    const ano = document.getElementById('selRankAno')?.value || '2026';
-    
-    // Forzamos a vaciar la caché para que coja los datos nuevos del servidor
-    delete RANK_CACHE[ano]; 
-    if(!RANK_CACHE[ano]) RANK_CACHE[ano] = await api(`/api/ranking/${ano}`);
-    
-    const data = RANK_CACHE[ano];
-    
-    // Protecciones por si el servidor tarda en tener los datos listos
-    const topData = data.top || [];
-    const botData = data.bottom || [];
-    const tplData = data.tpl_top || [];
+    const ano=document.getElementById('selRankAno')?.value||'2026';
+    if(!RANK_CACHE[ano]) RANK_CACHE[ano]=await api(`/api/ranking/${ano}`);
+    const data=RANK_CACHE[ano];
 
-    // 1. DIBUJAR LISTAS DE TEXTO
-    const ri = (d,i,cls) => `<div class="ri">
+    const ri=(d,i,cls)=>`<div class="ri">
       <span class="rn">${i+1}</span>
       <span style="flex:1">${d.nombre}</span>
       <span style="font-size:10px;color:var(--muted);margin-right:.4rem">${d.grupo||''}</span>
       <span class="rv ${cls}">${f1(d.pn)}</span>
     </div>`;
-    
-    document.getElementById('rTop').innerHTML = topData.length ? topData.map((d,i)=>ri(d,i,'pos')).join('') : '<div class="nota">Sin datos</div>';
-    document.getElementById('rBot').innerHTML = botData.length ? botData.map((d,i)=>ri(d,i,'neg')).join('') : '<div class="nota">Sin datos</div>';
+    document.getElementById('rTop').innerHTML=data.top.map((d,i)=>ri(d,i,'pos')).join('');
+    document.getElementById('rBot').innerHTML=data.bottom.map((d,i)=>ri(d,i,'neg')).join('');
+    renderRankView(data,ano);
+  } catch(e){ showErr(e); }
+}
 
-    // 2. DIBUJAR GRÁFICA TOP 20
-    mkC('cRankTop20', {
-      type: 'bar',
-      data: {
-        labels: topData.map(d=>d.nombre),
-        datasets: [{ label:`PN ${ano}`, data:topData.map(d=>d.pn), backgroundColor:'rgba(63,185,80,.8)', borderRadius:3 }]
-      },
-      options: { ...DARK, indexAxis:'y', plugins:{ ...DARK.plugins, legend:{display:false} }, scales:{ x:{...DARK.scales.x}, y:{...DARK.scales.y, ticks:{font:{size:10}}} } }
-    });
+function switchRankView(){
+  const ano=document.getElementById('selRankAno')?.value||'2026';
+  if(RANK_CACHE[ano]) renderRankView(RANK_CACHE[ano],ano);
+}
 
-    // 3. DIBUJAR GRÁFICA BOTTOM 20
-    mkC('cRankBot20', {
-      type: 'bar',
-      data: {
-        labels: botData.map(d=>d.nombre),
-        datasets: [{ label:`PN ${ano}`, data:botData.map(d=>d.pn), backgroundColor:'rgba(248,81,73,.8)', borderRadius:3 }]
-      },
-      options: { ...DARK, indexAxis:'y', plugins:{ ...DARK.plugins, legend:{display:false} }, scales:{ x:{...DARK.scales.x}, y:{...DARK.scales.y, ticks:{font:{size:10}}} } }
-    });
+function renderRankView(data,ano){
+  const vista=document.getElementById('selRankVista')?.value||'bars';
+  document.getElementById('rankBars').style.display=vista==='bars'?'':'none';
+  document.getElementById('rankScatter').style.display=vista==='scatter'?'':'none';
 
-    // 4. DIBUJAR GRÁFICA TPL
-    mkC('cRankTpl30', {
-      type: 'bar',
-      data: {
-        labels: tplData.map(d=>d.nombre),
-        datasets: [{ label:`TPL ${ano}`, data:tplData.map(d=>d.tpl), backgroundColor:'rgba(210,153,34,.8)', borderRadius:3 }]
-      },
-      options: { ...DARK, plugins:{ ...DARK.plugins, legend:{display:false} } }
+  if(vista==='bars'){
+    const disp=[...data.top,...data.bottom];
+    mkC('cRank',{type:'bar',data:{
+      labels:disp.map(d=>d.nombre),
+      datasets:[{label:`PN ${ano}`,data:disp.map(d=>d.pn),
+        backgroundColor:disp.map(d=>d.pn>50?'rgba(63,185,80,.8)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
+        borderRadius:3}]
+    },options:{...DARK,indexAxis:'y',
+      scales:{x:{...DARK.scales.x},y:{...DARK.scales.y,ticks:{...DARK.scales.y.ticks,font:{size:10}}}}}
     });
-    
-    // 5. CÁLCULO DE EVOLUCIÓN Y DETERIORO EN TIEMPO REAL
-    try {
-      const base23 = await api('/api/tabla/2023');
-      const actual = await api(`/api/tabla/${ano}`);
-      
-      let alertas = [];
-      for(let p_act of actual.paises) {
-        if(p_act.grupo !== 'A') continue; // Filtramos solo el Grupo A (comparables)
-        
-        let p_base = base23.paises.find(x => x.iso === p_act.iso);
-        
-        // Calculamos el delta de los que tienen datos en ambos años
-        if(p_base && p_base.pn != null && p_act.pn != null) {
-          let delta = p_act.pn - p_base.pn;
-          if(delta < -2) { // Aislamos a los que empeoran
-            alertas.push({ iso: p_act.iso, nombre: p_act.nombre, pn_ant: p_base.pn, pn_act: p_act.pn, delta: delta });
-          }
-        }
+  } else {
+    const todos=[...data.top,...data.bottom];
+    mkC('cRankScatter',{type:'scatter',data:{datasets:[{
+      label:`TPL vs PN ${ano}`,
+      data:todos.map(d=>({x:d.tpl,y:d.pn,n:d.nombre})),
+      backgroundColor:todos.map(d=>d.pn>50?'rgba(63,185,80,.7)':d.pn>0?'rgba(88,166,255,.7)':d.pn>-100?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
+      borderColor:'rgba(33,38,45,.8)',borderWidth:1,pointRadius:7
+    }]},options:{...DARK,
+      plugins:{...DARK.plugins,tooltip:{...DARK.plugins.tooltip,callbacks:{
+        label:c=>`${c.raw.n}: PN=${c.raw.y.toFixed(1)} TPL=${c.raw.x.toFixed(1)}`
+      }}},
+      scales:{
+        x:{...DARK.scales.x,title:{display:true,text:'TPL',color:'#8B949E'}},
+        y:{...DARK.scales.y,title:{display:true,text:'PN',color:'#8B949E'}}
       }
-      
-      // Ordenamos exponiendo primero a los que tienen la mayor caída
-      alertas.sort((a,b) => a.delta - b.delta);
-      const topAlertas = alertas.slice(0, 30);
-
-      // Dibujamos la gráfica de barras de deterioro
-      mkC('cRankEvol', {
-        type: 'bar',
-        data: {
-          labels: topAlertas.map(d=>d.nombre),
-          datasets: [{ label:`Deterioro (Δ)`, data:topAlertas.map(d=>d.delta), backgroundColor:'rgba(248,81,73,.8)', borderRadius:3 }]
-        },
-        options: { ...DARK, indexAxis:'y', plugins:{ ...DARK.plugins, legend:{display:false} } }
-      });
-
-      // Rellenamos la tabla con los números exactos
-      document.getElementById('tEvolucion').innerHTML = topAlertas.length ? topAlertas.map(d=>`
-        <tr>
-          <td>${d.nombre}</td>
-          <td class="vm">${d.iso}</td>
-          <td class="vm">${f1(d.pn_ant)}</td>
-          <td class="vm">${f1(d.pn_act)}</td>
-          <td class="vn" style="color:var(--red); font-weight:bold;">${f1(d.delta)}</td>
-        </tr>
-      `).join('') : '<tr><td colspan="5" class="vm" style="text-align:center;">Sin deterioro relevante</td></tr>';
-
-    } catch(errEvol) {
-      console.log("Omitiendo tabla de evolución por falta de datos base: ", errEvol);
-    }
-
-  } catch(e) { 
-    showErr(e); 
+    }});
   }
 }
 
@@ -620,6 +582,131 @@ function renderTabla(){
     <td class="vm">${fx(r.gt)}</td>
     <td><span class="badge badge-${r.grupo||'A'}">${r.grupo||'A'}</span></td>
     <td style="font-size:11px;color:${r.proy?'var(--bright)':'var(--muted)'}">${r.proy?'Sí':'—'}</td>
+  </tr>`).join('');
+}
+
+// ── GRUPOS Y ALERTAS ─────────────────────────────────────────────────────
+let GRUPOS_CACHE = {};
+let ALERTAS_DATA = null;
+
+async function loadGrupos(){
+  try {
+    const anio = document.getElementById('selGruposAno')?.value || '2023';
+    if(!GRUPOS_CACHE[anio]) GRUPOS_CACHE[anio] = await api(`/api/grupos/${anio}`);
+    const data = GRUPOS_CACHE[anio];
+
+    // KPIs
+    const {A,B,C} = data.counts;
+    document.getElementById('kpiGrupos').innerHTML = [
+      ['Grupo A','Comparables',A,'green'],
+      ['Grupo B','Drenaje severo',B,'amber'],
+      ['Grupo C','Colapso',C,'red'],
+      ['Total','Países',A+B+C,'blue'],
+    ].map(([t,l,v,c])=>`<div class="kpi ${c}"><div class="kpi-val">${v}</div><div class="kpi-lbl">${t} — ${l}</div></div>`).join('');
+
+    // Pie chart
+    mkC('cGrupoPie',{type:'doughnut',data:{
+      labels:['Grupo A','Grupo B','Grupo C'],
+      datasets:[{data:[A,B,C],
+        backgroundColor:['rgba(63,185,80,.7)','rgba(210,153,34,.7)','rgba(248,81,73,.7)'],
+        borderColor:'#21262D',borderWidth:2}]
+    },options:{...DARK,
+      plugins:{...DARK.plugins,legend:{...DARK.plugins.legend,position:'bottom'}},
+      scales:{x:{display:false},y:{display:false}}
+    }});
+
+    // ERI vs C_H scatter
+    const todos = [...data.grupos.A,...data.grupos.B,...data.grupos.C]
+      .filter(d=>d.eri!=null&&d.ch!=null&&d.ch<200&&d.eri<5);
+    mkC('cGrupoERI',{type:'scatter',data:{datasets:[{
+      label:'Países',
+      data:todos.map(d=>({x:d.ch,y:d.eri,n:d.nombre,g:d.grupo||'A',pn:d.pn})),
+      backgroundColor:todos.map(d=>
+        d.grupo==='A'?'rgba(63,185,80,.7)':d.grupo==='B'?'rgba(210,153,34,.7)':'rgba(248,81,73,.7)'),
+      borderColor:'rgba(33,38,45,.8)',borderWidth:1,pointRadius:5
+    }]},options:{...DARK,
+      plugins:{...DARK.plugins,tooltip:{...DARK.plugins.tooltip,callbacks:{
+        label:c=>`${c.raw.n} [${c.raw.g}]: ERI=${c.raw.y.toFixed(2)} C_H=${c.raw.x.toFixed(1)} PN=${(c.raw.pn||0).toFixed(1)}`
+      }}},
+      scales:{
+        x:{...DARK.scales.x,title:{display:true,text:'C_H (Carga oculta)',color:'#8B949E'}},
+        y:{...DARK.scales.y,title:{display:true,text:'ERI (Eficiencia inversión)',color:'#8B949E'}}
+      }
+    }});
+
+    // Alertas
+    if(!ALERTAS_DATA) {
+      try { ALERTAS_DATA = await api('/api/alertas'); } catch(e){ ALERTAS_DATA={alertas:[]}; }
+    }
+    const al = ALERTAS_DATA.alertas || [];
+    document.getElementById('alertasResumen').innerHTML =
+      `<strong>Total alertas proyectadas Grupo A:</strong> ${ALERTAS_DATA.grupo_a||0} países con caída >10pts de PN`;
+    document.getElementById('tAlertas').innerHTML = al.slice(0,20).map(a=>{
+      const pais = a.pais || a.iso || '';
+      const delta = a.delta || 0;
+      return `<tr>
+        <td>${nom(pais)}</td>
+        <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${pais}</td>
+        <td>${a.ano||a.año||''}</td>
+        <td class="vm">${(a.pn_ant||0).toFixed(1)}</td>
+        <td class="vn">${(a.pn_act||0).toFixed(1)}</td>
+        <td class="vn">${delta.toFixed(1)}</td>
+        <td style="font-size:11px;color:${delta<-25?'var(--red)':'var(--amber)'}">${a.tipo||'DETERIORO'}</td>
+      </tr>`;
+    }).join('');
+
+    renderGrupoTabla();
+  } catch(e){ showErr(e); }
+}
+
+function nom(iso){ 
+  const N={"AFG":"Afganistan","AGO":"Angola","ALB":"Albania","ARE":"Emiratos","ARG":"Argentina",
+    "ARM":"Armenia","AUS":"Australia","AUT":"Austria","AZE":"Azerbaiyan","BDI":"Burundi",
+    "BEL":"Belgica","BFA":"Burkina Faso","BGD":"Bangla","BGR":"Bulgaria","BHR":"Barein",
+    "BIH":"Bosnia","BLR":"Bielorrusia","BOL":"Bolivia","BRA":"Brasil","BRB":"Barbados",
+    "BRN":"Brunei","BTN":"Butan","BWA":"Botsuana","CAF":"R.Centroafricana","CAN":"Canada",
+    "CHE":"Suiza","CHL":"Chile","CHN":"China","CMR":"Camerun","COD":"R.D.Congo",
+    "COG":"Congo","COL":"Colombia","CRI":"Costa Rica","CUB":"Cuba","CYP":"Chipre",
+    "CZE":"Rep.Checa","DEU":"Alemania","DJI":"Yibuti","DNK":"Dinamarca","DOM":"R.Dominicana",
+    "DZA":"Argelia","ECU":"Ecuador","EGY":"Egipto","ESP":"Espana","EST":"Estonia",
+    "ETH":"Etiopia","FIN":"Finlandia","FJI":"Fiyi","FRA":"Francia","GAB":"Gabon",
+    "GBR":"Reino Unido","GEO":"Georgia","GHA":"Ghana","GIN":"Guinea","GMB":"Gambia",
+    "GRC":"Grecia","GTM":"Guatemala","HKG":"Hong Kong","HND":"Honduras","HRV":"Croacia",
+    "HTI":"Haiti","HUN":"Hungria","IDN":"Indonesia","IND":"India","IRL":"Irlanda",
+    "IRN":"Iran","IRQ":"Irak","ISL":"Islandia","ISR":"Israel","ITA":"Italia",
+    "JAM":"Jamaica","JOR":"Jordania","JPN":"Japon","KAZ":"Kazajistan","KEN":"Kenia",
+    "KOR":"Corea del Sur","KWT":"Kuwait","LAO":"Laos","LBN":"Libano","LBR":"Liberia",
+    "LBY":"Libia","LSO":"Lesoto","LTU":"Lituania","LUX":"Luxemburgo","LVA":"Letonia",
+    "MAR":"Marruecos","MDA":"Moldavia","MDG":"Madagascar","MEX":"Mexico","MLI":"Mali",
+    "MMR":"Myanmar","MNE":"Montenegro","MNG":"Mongolia","MOZ":"Mozambique","MRT":"Mauritania",
+    "MUS":"Mauricio","MYS":"Malasia","NAM":"Namibia","NER":"Niger","NGA":"Nigeria",
+    "NIC":"Nicaragua","NLD":"Paises Bajos","NOR":"Noruega","NPL":"Nepal","NZL":"Nueva Zelanda",
+    "OMN":"Oman","PAK":"Pakistan","PAN":"Panama","PER":"Peru","PHL":"Filipinas",
+    "POL":"Polonia","PRY":"Paraguay","QAT":"Qatar","ROU":"Rumania","RUS":"Rusia",
+    "RWA":"Ruanda","SAU":"Arabia Saudi","SDN":"Sudan","SEN":"Senegal","SGP":"Singapur",
+    "SLE":"Sierra Leona","SLV":"El Salvador","SOM":"Somalia","SRB":"Serbia",
+    "SSD":"Sudan del Sur","SVK":"Eslovaquia","SVN":"Eslovenia","SWE":"Suecia",
+    "SYR":"Siria","TCD":"Chad","TGO":"Togo","THA":"Tailandia","TJK":"Tayikistan",
+    "TLS":"Timor Oriental","TTO":"Trinidad","TUN":"Tunez","TUR":"Turquia","TWN":"Taiwan",
+    "TZA":"Tanzania","UGA":"Uganda","UKR":"Ucrania","URY":"Uruguay","USA":"EE.UU.",
+    "UZB":"Uzbekistan","VEN":"Venezuela","VNM":"Vietnam","YEM":"Yemen",
+    "ZAF":"Sudafrica","ZMB":"Zambia","ZWE":"Zimbabue"};
+  return N[iso]||iso;
+}
+
+function renderGrupoTabla(){
+  const g = document.getElementById('selGrupoDetalle')?.value || 'A';
+  const anio = document.getElementById('selGruposAno')?.value || '2023';
+  if(!GRUPOS_CACHE[anio]) return;
+  const data = GRUPOS_CACHE[anio].grupos[g] || [];
+  document.getElementById('secGrupoDetalle').textContent = `Países Grupo ${g} — ${data.length} países`;
+  document.getElementById('tGrupoDetalle').innerHTML = data.map(r=>`<tr>
+    <td>${r.nombre}</td>
+    <td style="font-size:11px;color:var(--muted)">${r.region||''}</td>
+    <td class="${r.pn>0?'vp':r.pn<0?'vn':'vm'}">${r.pn!=null?(r.pn>=0?'+':'')+r.pn.toFixed(1):'—'}</td>
+    <td class="vm">${r.tpl!=null?r.tpl.toFixed(1):'—'}</td>
+    <td class="vm">${r.eri!=null?r.eri.toFixed(3):'—'}</td>
+    <td class="vm">${r.ch!=null?r.ch.toFixed(1):'—'}</td>
   </tr>`).join('');
 }
 
