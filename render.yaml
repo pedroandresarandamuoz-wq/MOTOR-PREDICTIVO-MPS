@@ -2,7 +2,7 @@ services:
   - type: web
     name: motor-mps
     runtime: python
-    buildCommand: pip install -r requirements_api.txt
+    buildCommand: pip install fastapi uvicorn
     startCommand: uvicorn api:app --host 0.0.0.0 --port $PORT
     envVars:
       - key: PYTHON_VERSION
