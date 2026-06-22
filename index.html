@@ -155,16 +155,28 @@ tr:hover td{background:rgba(88,166,255,.04)}
     </select>
   </div>
   
+  <div class="rank-grid">
+    <div class="rank-panel"><h3>🟢 Top 20 · Mayor Prosperidad Neta</h3><div id="rTop"><div class="loading">cargando…</div></div></div>
+    <div class="rank-panel"><h3>🔴 Bottom 20 · Autofagia Estructural</h3><div id="rBot"><div class="loading">cargando…</div></div></div>
+  </div>
+  
+  <div class="sec">Visualización Gráfica de los Rankings</div>
   <div class="chart-row">
     <div class="chart-box">
-      <div class="chart-title">🟢 Top 20 · Mayor Prosperidad Neta</div>
+      <div class="chart-title">Top 20 (Barras)</div>
       <div class="ch tall"><canvas id="cRankTop"></canvas></div>
     </div>
     <div class="chart-box">
-      <div class="chart-title">🔴 Bottom 20 · Autofagia Estructural</div>
+      <div class="chart-title">Bottom 20 (Barras)</div>
       <div class="ch tall"><canvas id="cRankBot"></canvas></div>
     </div>
   </div>
+  
+  <div class="chart-box" style="margin-bottom:1rem">
+    <div class="chart-title">Ranking de Carga Parasitaria Total (TPL) — menor es mejor</div>
+    <div class="ch"><canvas id="cRankTpl"></canvas></div>
+  </div>
+</div>
   
   <div class="sec">Ranking de Carga Parasitaria Total (TPL) — menor es mejor</div>
   <div class="chart-box" style="margin-bottom:1rem">
