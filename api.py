@@ -4,8 +4,9 @@ MPS API — Backend FastAPI
 Lee los JSON de output_mps/ y sirve endpoints para el dashboard
 """
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 import json, os, glob, statistics, math
 
 app = FastAPI(title="MPS API", version="1.0")
@@ -13,9 +14,18 @@ app = FastAPI(title="MPS API", version="1.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_methods=["GET"],
+    allow_credentials=False,
+    allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.middleware("http")
+async def add_cors_headers(request: Request, call_next):
+    response = await call_next(request)
+    response.headers["Access-Control-Allow-Origin"] = "*"
+    response.headers["Access-Control-Allow-Methods"] = "GET, OPTIONS"
+    response.headers["Access-Control-Allow-Headers"] = "*"
+    return response
 
 # ─── Carga de datos ────────────────────────────────────────────────────────
 def find_json(patron):
