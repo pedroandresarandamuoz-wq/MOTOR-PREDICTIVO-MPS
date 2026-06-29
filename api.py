@@ -33,12 +33,13 @@ def find(pat):
 
 def find_direct(filename):
     for d in [BASE, os.path.join(BASE,"output_mps"),
-              "/opt/render/project/src"]:
+              "/opt/render/project/src",
+              "/opt/render/project/src/output_mps"]:
         p = os.path.join(d, filename)
         if os.path.exists(p): return p
     raise FileNotFoundError(filename)
 
-# Carga principal
+# ── Carga principal ───────────────────────────────────────────────────────────
 try:
     MATRIZ = json.load(open(find("matriz_completa"), encoding="utf-8"))
     PAISES = sorted(MATRIZ.keys())
@@ -48,7 +49,7 @@ except Exception as e:
     print(f"ERROR matriz: {e}")
     MATRIZ, PAISES, ANOS = {}, [], []
 
-# Datos institucionales para componentes CH
+# ── Datos institucionales (componentes CH) ────────────────────────────────────
 try:
     INST = json.load(open(find_direct("almacen_datos_maestro.json"), encoding="utf-8"))
     print(f"OK institucional: {len(INST)} paises")
@@ -56,15 +57,70 @@ except Exception as e:
     print(f"WARN institucional: {e}")
     INST = {}
 
-# Interdependencia
+# ── Detección de anomalías en tech_exports_pct ───────────────────────────────
+# TX.VAL.TECH.MF.ZS (% de exportaciones manufacturadas) puede dispararse
+# artificialmente en economías commodity cuando el BM reclasifica sectores.
+# Criterio: si el valor > 10% Y la mediana histórica del país < 2% Y
+# el valor es > 10× esa mediana, se considera ruido estadístico → None.
+
+def _tech_exp_anomalo(v, vals_previos):
+    """True si tech_exp_pct parece un artefacto del BM, no un valor real."""
+    if v is None or v > 100:
+        return True                          # imposible físicamente
+    if v <= 5:
+        return False                         # valores pequeños siempre válidos
+    if not vals_previos:
+        return False                         # sin historia, conservar
+    mediana = statistics.median(vals_previos)
+    return (mediana < 2.0 and v > 10 and v > 10 * mediana)
+
+def _sanitizar_inter(inter):
+    """Limpia tech_exports_pct anómalos en todo el diccionario INTER."""
+    for iso in inter:
+        hist = []
+        for ano in sorted(inter[iso].keys()):
+            bloque = inter[iso][ano]
+            sec = bloque.get("sectorial") if isinstance(bloque, dict) else None
+            if not sec:
+                continue
+            v = sec.get("tech_exports_pct")
+            if _tech_exp_anomalo(v, hist):
+                sec["tech_exports_pct"] = None
+            elif v is not None and 0 < v <= 100:
+                hist.append(v)
+    return inter
+
+# ── Interdependencia ──────────────────────────────────────────────────────────
 try:
     INTER = json.load(open(find_direct("interdependencia.json"), encoding="utf-8"))
+    INTER = _sanitizar_inter(INTER)
     print(f"OK interdependencia: {len(INTER)} paises")
 except Exception as e:
     print(f"WARN interdependencia: {e}")
+    # Fallback: construir desde balanza_sectorial + datos_financieros si existen
     INTER = {}
+    try:
+        bs_path  = find_direct("balanza_sectorial.json")
+        fin_path = find_direct("datos_financieros_mps.json")
+        bs  = json.load(open(bs_path,  encoding="utf-8")).get("paises", {})
+        fin = json.load(open(fin_path, encoding="utf-8")).get("paises", {})
+        all_isos = set(bs) | set(fin)
+        for iso in all_isos:
+            INTER[iso] = {}
+            anos_bs  = set(bs.get(iso,  {}).keys())
+            anos_fin = set(fin.get(iso, {}).keys())
+            for ano in anos_bs | anos_fin:
+                INTER[iso][ano] = {
+                    "sectorial":  bs.get(iso,  {}).get(ano, {}),
+                    "financiero": fin.get(iso, {}).get(ano, {}),
+                    "comercio":   {},
+                }
+        INTER = _sanitizar_inter(INTER)
+        print(f"OK inter (fallback): {len(INTER)} paises")
+    except Exception as e2:
+        print(f"WARN inter fallback: {e2}")
 
-# Alertas
+# ── Alertas ───────────────────────────────────────────────────────────────────
 try:
     ALERTAS = json.load(open(find("alertas"), encoding="utf-8"))
     print(f"OK alertas: {len(ALERTAS)}")
@@ -72,6 +128,7 @@ except Exception as e:
     print(f"WARN alertas: {e}")
     ALERTAS = []
 
+# ── Nombres y regiones ────────────────────────────────────────────────────────
 NOMBRES = {
     "AFG":"Afganistan","AGO":"Angola","ALB":"Albania","ARE":"Emiratos Arabes",
     "ARG":"Argentina","ARM":"Armenia","AUS":"Australia","AUT":"Austria",
@@ -139,6 +196,7 @@ REGIONES = {
 
 def nom(iso): return NOMBRES.get(iso, iso)
 def reg(iso):  return REGIONES.get(iso, "Otras")
+
 def rnd(v, d=2):
     if v is None: return None
     try: return round(float(v), d)
@@ -212,11 +270,11 @@ def get_pais(iso: str):
     iso = iso.upper()
     if iso not in MATRIZ:
         return resp({"error": "no encontrado"})
-
     serie = {}
     for a in ANOS:
         if a not in MATRIZ[iso]: continue
         d = MATRIZ[iso][a]
+
         # Componentes CH desde almacen institucional
         ch_comp = {}
         if iso in INST and a in INST[iso]:
@@ -234,20 +292,20 @@ def get_pais(iso: str):
                 "fiscal":      rnd((10-ffis)*10),
             }
 
-        # Interdependencia
+        # Interdependencia (tech_exp_pct ya saneado en startup)
         inter = {}
         if iso in INTER and a in INTER[iso]:
-            it = INTER[iso][a]
+            it  = INTER[iso][a]
             fin = it.get("financiero", {}) or {}
-            sec = it.get("sectorial", {}) or {}
-            com = it.get("comercio", {}) or {}
+            sec = it.get("sectorial",  {}) or {}
+            com = it.get("comercio",   {}) or {}
             pib = d.get("PIB_nominal") or 1
             inter = {
-                "oda_pct":        rnd((fin.get("oda_recibida_usd") or 0)/pib*100, 3),
+                "oda_pct":        rnd((fin.get("oda_recibida_usd")     or 0)/pib*100, 3),
                 "remesas_pct":    rnd((fin.get("remesas_recibidas_usd") or 0)/pib*100, 3),
-                "tech_exp_pct":   rnd(sec.get("tech_exports_pct"), 2),
+                "tech_exp_pct":   rnd(sec.get("tech_exports_pct"),  2),
                 "energy_imp_pct": rnd(sec.get("energy_imports_pct"), 2),
-                "bal_comercial":  rnd((com.get("balance") or 0)/pib*100, 2),
+                "bal_comercial":  rnd((com.get("balance")       or 0)/pib*100, 2),
                 "exportaciones":  rnd((com.get("exportaciones") or 0)/1e9, 1),
                 "importaciones":  rnd((com.get("importaciones") or 0)/1e9, 1),
             }
